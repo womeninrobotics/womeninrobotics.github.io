@@ -1,5 +1,5 @@
 # womeninrobotics.github.io
-Website for women working in robotics, and women who want to work in robotics.
+Community for women working in robotics, and women who want to work in robotics.
 
 Join a community of more than a thousand women working in robotics, in academia and industry, all over the world. We support local networking events, and raising the profile of women working in robotics globally. You can join our slack community by signing up here: https://forms.gle/RKRNpKYWA2smGW2c9
 
