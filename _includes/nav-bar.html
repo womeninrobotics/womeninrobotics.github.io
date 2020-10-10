@@ -1,0 +1,33 @@
+<!-- navbar -->
+<nav class="navbar navbar-toggleable-sm navbar-light bg-default">
+  <div class="container">
+    <a class="navbar-brand" href="{{ site.url }}"><img src="/assets/images/logo.png" alt="logo"></a>
+    <h1>Women in Robotics</h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbar1">
+      <ul class="navbar-nav">
+          {% comment %} This section adds links for pages that are added to the site. {% endcomment %}
+          {%- for node in site.pages %}
+          {%- if node.title != null %}
+            {%- if group == null or group == node.group %}
+              {%- if page.url == node.url %}
+              <li class="nav-item active"><a class="nav-link" href="{{node.url}}">{{node.title}}</a></li>
+              {%- else %}
+              <li class="nav-item"><a class="nav-link" href="{{node.url}}">{{node.title}}</a></li>
+              {%- endif %}
+            {%- endif %}
+          {%- endif %}
+          {%- endfor %}
+      </ul>
+    </div>
+    <div class="right hidden-sm-down social">                          
+      {% if site.facebook %}<a href="{{ site.facebook }}"><i class="fa fa-facebook fa-lg"></i></a>{% endif %}
+      {% if site.twitter %}<a href="{{ site.twitter }}"><i class="fa fa-twitter fa-lg"></i></a>{% endif %}
+      {% if site.linkedin %}<a href="{{ site.linkedin }}"><i class="fa fa-linkedin fa-lg"></i></a>{% endif %}
+      {% if site.instagram %}<a href="{{ site.instagram }}"><i class="fa fa-instagram fa-lg"></i></a>{% endif %}                            
+    </div>
+  </div>
+
+</nav>

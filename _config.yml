@@ -1,1 +1,42 @@
-theme: jekyll-theme-cayman
+# Default format for permalinks
+# see: http://jekyllrb.com/docs/permalinks/
+permalink: /:categories/:year/:month/:day/:title
+
+# Files to exclude from jekyll build
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+# Markdown providor
+markdown: kramdown
+# URL of website
+# TODO (athackst) change to womeninrobotics.org when site approved
+url: https://womeninrobotics.github.io
+
+# Number of posts to show on the main screen
+post_limit: 5
+
+# Title of the site
+title: Womin in Robotics
+# Tagline for the site
+tagline: Community for women working in robotics, and women who want to work in robotics.
+
+# TODO (athackst)
+# ein_id: TODO
+
+# TODO (athackst) Social media info
+facebook: https://www.facebook.com/womeninrobotics
+# twitter: TODO https://twitter.com/WomenInRobotics
+linkedin: https://www.linkedin.com/groups/7072127/
+# instagram: TODO
+
+# TODO (athackst) rss and atom feeds
+# atom_path: TODO
+# rss_path: TODO
+
+# TODO (athackst) google settings
+# google:
+#   ad_client: TODO
+#   tracking_id: TODO
+
+# TODO (athackst) comment settings
+# comments:
+#   disqus:
+#     short_name:
