@@ -7,39 +7,9 @@ order: 2
 
 <section id="events">
     <div class="container">
-        <div class="sub-title text-center">
-            <span>We offer career development meetings and events.</span>
-        </div>
-        <div>
-            {% for event in site.data.events_all %}
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="image">
-                        <img src="{{ event.image }}" alt="{{ event.name }}">
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="card-block">
-                        <h3>{{ event.name }}</h3>
-                        <h5> {{event.date }}</h5>
-                        <p>{{ event.description }}</p>
-                        <a href="{{ event.url }}" class="page-scroll btn btn-lg btn-common">Join</a>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-        <div class="massage-box alert-info">
-            <strong>
-                <i class="fa fa-info"></i>
-                Want more events?
-            </strong>
-            <p>We would love for you to sponsor our next event! </p>
-            <p>Some of the companies who’ve hosted events include X, the moonshot factory, Fetch Robotics, Cruise
-                Automation, BossaNova Robotics, Auris Technology, Embark Trucking, Farmwise, Cooper Perkins, Apex.AI,
-                OhmniLabs, Vecna, UC Berkeley and Circuit Launch</p>
-            <a href="mailto:info@womeninrobotics.org"
-                class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Contact us</a>
-        </div>
+        <h1 class="page-header-title animated fadeInDown">
+            <span class="text-primary">Women in Robotics upcoming events</span>
+        </h1>
+        {% include events.html event_limit="1000" %}
     </div>
-
+</section>
