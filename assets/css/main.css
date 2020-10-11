@@ -2713,7 +2713,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 #carousel-area .carousel-item img {
-    width: auto;
+    max-width: 500px;
     max-height: 500px;
     margin: auto;
 }
@@ -3499,6 +3499,10 @@ address i {
     width: 100% 
 }
 
+#signup .btn {
+    margin: 15px;
+}
+
 #news {
     background-image: url("/assets/images/triangles-1430105_1280-1024x574_flipped.png");
     background-size: cover;
@@ -3507,14 +3511,13 @@ address i {
     width: 100%
 }
 
+#news .sub-title {
+    color: #fff;
+}
 
 #portfolio .mix {
     padding: 0;
     display: none
-}
-
-#portfolio .sub-title {
-    color: #fff;
 }
 
 #portfolio .portfolio.block {
@@ -4317,9 +4320,6 @@ ul.nav-tabs li a {
     .count-one {
         margin-top: 40px;
         margin-bottom: 40px
-    }
-    .carousel-inner {
-        height: 175px
     }
     #carousel-area .carousel-item .carousel-caption {
         top: 2%
