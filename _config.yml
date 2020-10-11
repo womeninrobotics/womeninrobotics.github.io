@@ -1,3 +1,4 @@
+github: [metadata]
 # Default format for permalinks
 # see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title
@@ -15,8 +16,7 @@ post_limit: 5
 
 # Title of the site
 title: Womin in Robotics
-# Tagline for the site
-tagline: Community for women working in robotics, and women who want to work in robotics.
+description: Community for women working in robotics, and women who want to work in robotics.
 
 # TODO (athackst)
 # ein_id: TODO
