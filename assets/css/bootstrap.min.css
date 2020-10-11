@@ -3875,7 +3875,9 @@ tbody.collapse.show {
     }
     .navbar-toggleable-sm>.container {
         padding-right: 0;
-        padding-left: 0
+        padding-left: 0;
+        flex-direction: row;
+        display: flex;
     }
 }
 
