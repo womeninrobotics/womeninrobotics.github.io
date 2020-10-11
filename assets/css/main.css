@@ -172,7 +172,7 @@ strong {
 
 .bg-info {
     color: #fff;
-    background: #4da5e2;
+    background: #2e3192;
     padding: 3px 4px
 }
 
@@ -855,21 +855,21 @@ footer .menu li a:hover {
 }
 
 .btn-info, .btn-info:active, .btn-info:focus {
-    color: #4da5e2;
-    border: 2px solid #4da5e2;
+    color: #2e3192;
+    border: 2px solid #2e3192;
     background: transparent
 }
 
 .btn-info:hover {
     color: #fff;
-    background: #4da5e2;
-    border: 2px solid #4da5e2
+    background: #2e3192;
+    border: 2px solid #2e3192
 }
 
 .btn-info-filled, .btn-info-filled:active, .btn-info-filled:focus {
     color: #fff;
-    background: #4da5e2;
-    border: 2px solid #4da5e2
+    background: #2e3192;
+    border: 2px solid #2e3192
 }
 
 .btn-info-filled:hover {
@@ -2519,7 +2519,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .progress-bar-info {
-    background-color: #4da5e2
+    background-color: #2e3192
 }
 
 .progress-bar-warning {
@@ -3204,15 +3204,15 @@ address i {
 }
 
 .label-info {
-    color: #4da5e2;
+    color: #2e3192;
     background-color: transparent;
-    border: 2px solid #4da5e2
+    border: 2px solid #2e3192
 }
 
 .label-info-filled {
     color: #fff;
-    background-color: #4da5e2;
-    border: 2px solid #4da5e2
+    background-color: #2e3192;
+    border: 2px solid #2e3192
 }
 
 .label-warning {
@@ -3315,7 +3315,7 @@ address i {
 
 .alert-info {
     color: #fff;
-    background-color: #4da5e2;
+    background-color: #2e3192;
     border-color: #428fc4
 }
 

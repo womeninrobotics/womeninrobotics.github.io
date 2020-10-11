@@ -7,15 +7,19 @@ layout: default
         <div class="header-caption">
             <div class="row">
                 <div class="col-md-12 header-content text-center">
-                    <h1 class="page-header-title animated fadeInDown"><span class="text-primary">Women in Robotics </span>
+                    <h1 class="page-header-title animated fadeInDown"><span class="text-primary">Women in Robotics
+                        </span>
                     </h1>
                     <div class="navbar-brand">
                         <img src="/assets/images/logo.png" alt="logo">
                     </div>
-                    <h5 class="sub-title animated fadeIn">The professional network for women who work in robotics - or who
+                    <h5 class="sub-title animated fadeIn">The professional network for women who work in robotics - or
+                        who
                         aspire to.</h5>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScbQPmdjz9v5PyF50e0m1nWNUKyNhFfw9JQ_SvlUF25guwPNg/viewform?embedded=true" class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Join the community</a>
-                    <a href="mailto:info@womeninrobotics.org" class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Be an ally</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScbQPmdjz9v5PyF50e0m1nWNUKyNhFfw9JQ_SvlUF25guwPNg/viewform?embedded=true"
+                        class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Join the community</a>
+                    <a href="mailto:info@womeninrobotics.org"
+                        class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Be an ally</a>
                 </div>
             </div>
         </div>
@@ -29,23 +33,23 @@ layout: default
             <span>We promote the visibility of women in robotics.</span>
         </div>
         <div id="portfolio">
-        <ul class="row portfolio list-unstyled" id="grid">
-            {% for post in site.posts limit:4%}
-            <li class="col-md-3 col-sm-6 project">
-                <figure>
-                    <div class="hovereffect">
-                        <img src="{{ post.image }}" alt="{{ post.title }}">
-                        <div class="overlay">
-                            <div class="iocns">
-                                <a class="left-link" href="{{ post.link }}"><i class="fa fa-link"></i></a>
+            <ul class="row portfolio list-unstyled" id="grid">
+                {% for post in site.posts limit:4%}
+                <li class="col-md-3 col-sm-6 project">
+                    <figure>
+                        <div class="hovereffect">
+                            <img src="{{ post.image }}" alt="{{ post.title }}">
+                            <div class="overlay">
+                                <div class="iocns">
+                                    <a class="left-link" href="{{ post.link }}"><i class="fa fa-link"></i></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </figure>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
+                    </figure>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
 </section>
 <!-- End portfolio section 4col -->
@@ -59,26 +63,27 @@ layout: default
         {% for region in site.data.chapters %}
         <div class="panel-group">
             <div class="panel" data-toggle="collapse" data-target="#{{ region[0] }}">
-              <div class="panel-heading">
-                <a class="panel-title collapsed" href="#{{ region[0] }}">{{ region[0] }}</a>
-              </div>
-              <div id="{{ region[0] }}" class="panel-collapse collapse">
-                <div class="panel-body text-gray">
-                    <ul>
-                        {% assign local_chapters = region[1] %}
-                        {% for chapter in local_chapters %}
-                        {% if chapter.url %}<li><a href="{{ chapter.url }}">{{ chapter.name }}</a></li>
-                        {% else %}<li>{{ chapter.name }}</li>
-                        {% endif %}
-                        {% endfor %}
-                    </ul>
+                <div class="panel-heading">
+                    <a class="panel-title collapsed" href="#{{ region[0] }}">{{ region[0] }}</a>
                 </div>
-              </div>
+                <div id="{{ region[0] }}" class="panel-collapse collapse">
+                    <div class="panel-body text-gray">
+                        <ul>
+                            {% assign local_chapters = region[1] %}
+                            {% for chapter in local_chapters %}
+                            {% if chapter.url %}<li><a href="{{ chapter.url }}">{{ chapter.name }}</a></li>
+                            {% else %}<li>{{ chapter.name }}</li>
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
         {% endfor %}
         <div class="text-center">
-        <a href="mailto:info@womeninrobotics.org" class="page-scroll btn btn-lg btn-common animated fadeInUp">Start a chapter</a>
+            <a href="mailto:info@womeninrobotics.org" class="page-scroll btn btn-lg btn-common animated fadeInUp">Start
+                a chapter</a>
         </div>
     </div>
 </section>
@@ -91,7 +96,8 @@ layout: default
             <span>We are a global community for women in robotics.</span>
         </div>
         <div class="text-center">
-        <a href="mailto:info@womeninrobotics.org" class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Be a sponsor</a>
+            <a href="mailto:info@womeninrobotics.org"
+                class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Be a sponsor</a>
         </div>
     </div>
 </section>
@@ -104,42 +110,45 @@ layout: default
             <span>Support Women in Robotics.</span>
         </div>
         <div id="sliders">
-                  <!-- light slider -->
-                  <div id="light-slider" class="carousel slide">
-                    <div id="carousel-area">
-                      <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+            <!-- light slider -->
+            <div id="light-slider" class="carousel slide">
+                <div id="carousel-area">
+                    <div id="carousel-slider" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
-                          {% for item in site.data.shop %}
-                          {% if forloop.first == true %}<li data-target="#carousel-slider" data-slide-to="{{ forloop.index0 }}" class="active"></li>
-                          {% else %}<li data-target="#carousel-slider" data-slide-to="{{ forloop.index0 }}"></li>
-                          {% endif %}
-                          {% endfor %}
+                            {% for item in site.data.shop %}
+                            {% if forloop.first == true %}<li data-target="#carousel-slider"
+                                data-slide-to="{{ forloop.index0 }}" class="active"></li>
+                            {% else %}<li data-target="#carousel-slider" data-slide-to="{{ forloop.index0 }}"></li>
+                            {% endif %}
+                            {% endfor %}
                         </ol>
                         <div class="carousel-inner" role="listbox">
-                          {% for item in site.data.shop %}
-                          {% if forloop.first == true %}<div class="carousel-item active">
-                          {% else %}<div class="carousel-item">
-                          {% endif %}
-                            <img src="{{ item.image }}" alt="item">
-                          </div>
-                          {% endfor %}
+                            {% for item in site.data.shop %}
+                            {% if forloop.first == true %}<div class="carousel-item active">
+                                {% else %}<div class="carousel-item">
+                                    {% endif %}
+                                    <img src="{{ item.image }}" alt="item">
+                                </div>
+                                {% endfor %}
+                            </div>
+                            <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
+                                <span class="carousel-control carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel-slider" role="button" data-slide="next">
+                                <span class="carousel-control carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
                         </div>
-                        <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
-                          <span class="carousel-control carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carousel-slider" role="button" data-slide="next">
-                          <span class="carousel-control carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
-                        </a>
-                      </div>
                     </div>
-                  </div>
                 </div>
-        <div class="text-center">
-        <a href="https://svrobo.org/shop/" class="page-scroll btn btn-lg btn-common animated fadeInUp">Shop</a>
+            </div>
+            <div class="text-center">
+                <a href="https://svrobo.org/shop/" class="page-scroll btn btn-lg btn-common animated fadeInUp">Shop</a>
+                <a href="https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=7QBGVMNX4QMS8"
+                    class="page-scroll btn btn-lg btn-info-filled animated fadeInUp">Donate</a>
+            </div>
         </div>
-    </div>
 </section>
 <!-- End event highlight section -->
 
@@ -148,8 +157,10 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScbQPmdjz9v5PyF50e0m1nWNUKyNhFfw9JQ_SvlUF25guwPNg/viewform?embedded=true" class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Join the community</a>
-                <a href="http://eepurl.com/ggPl6z" class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Get the newsletter</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScbQPmdjz9v5PyF50e0m1nWNUKyNhFfw9JQ_SvlUF25guwPNg/viewform?embedded=true"
+                    class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Join the community</a>
+                <a href="http://eepurl.com/ggPl6z"
+                    class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Get the newsletter</a>
             </div>
         </div>
     </div>
