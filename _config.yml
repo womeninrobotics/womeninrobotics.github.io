@@ -32,9 +32,9 @@ linkedin: https://www.linkedin.com/groups/7072127/
 # rss_path: TODO
 
 # TODO (athackst) google settings
-# google:
+google:
+  tracking_id: G-2V4NNSWC1S
 #   ad_client: TODO
-#   tracking_id: TODO
 
 # TODO (athackst) comment settings
 # comments:
