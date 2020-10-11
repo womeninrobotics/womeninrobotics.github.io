@@ -34,7 +34,7 @@ layout: default
         </div>
         <div id="portfolio">
             <ul class="row portfolio list-unstyled" id="grid">
-                {% for post in site.posts limit:4%}
+                {% for post in site.posts limit:4 %}
                 <li class="col-md-3 col-sm-6 project">
                     <figure>
                         <div class="hovereffect">
@@ -58,7 +58,7 @@ layout: default
 <section id="chapters">
     <div class="container">
         <div class="sub-title text-center">
-            <span>We have local chapters and events.</span>
+            <span>We support each other through a global community and local chapters.</span>
         </div>
         {% for region in site.data.chapters %}
         <div class="panel-group">
@@ -93,11 +93,38 @@ layout: default
 <section id="events">
     <div class="container">
         <div class="sub-title text-center">
-            <span>We are a global community for women in robotics.</span>
+            <span>We offer career development meetings and events.</span>
         </div>
-        <div class="text-center">
+        <div>
+            {% for event in site.data.events limit:5 %}
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="image">
+                        <img src="{{ event.image }}" alt="{{ event.name }}">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-block">
+                        <h3>{{ event.name }}</h3>
+                        <h5> {{event.date }}</h5>
+                        <p>{{ event.description }}</p>
+                        <a href="{{ event.url }}" class="page-scroll btn btn-lg btn-common">Join</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="massage-box alert-info">
+            <strong>
+                <i class="fa fa-info"></i>
+                Want more events?
+            </strong>
+            <p>We would love for you to sponsor our next event! </p>
+            <p>Some of the companies who’ve hosted events include X, the moonshot factory, Fetch Robotics, Cruise
+                Automation, BossaNova Robotics, Auris Technology, Embark Trucking, Farmwise, Cooper Perkins, Apex.AI,
+                OhmniLabs, Vecna, UC Berkeley and Circuit Launch</p>
             <a href="mailto:info@womeninrobotics.org"
-                class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Be a sponsor</a>
+                class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Contact us</a>
         </div>
     </div>
 </section>
