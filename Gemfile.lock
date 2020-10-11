@@ -270,6 +270,7 @@ DEPENDENCIES
   html-proofer
   jekyll
   jekyll-feed
+  jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
 
