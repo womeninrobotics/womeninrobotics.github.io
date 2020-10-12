@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
     <link rel="icon" type="image/png" href="/assets/images/WIR_spanner_transparent.png" />
     {% if page.tagline %}<meta name="description" content="{{ page.tagline }}">{% endif %} 
     {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
