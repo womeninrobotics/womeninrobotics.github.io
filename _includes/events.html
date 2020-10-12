@@ -10,7 +10,7 @@
             <div class="card-block">
                 <h3>{{ event.name }}</h3>
                 <h5> {{event.date }}</h5>
-                <p>{{ event.description }}</p>
+                <p>{{ event.description | newline_to_br }}</p>
                 <a href="{{ event.url }}" class="page-scroll btn btn-lg btn-common">More info</a>
             </div>
         </div>
