@@ -1746,6 +1746,14 @@ nav#menu span.fa.fa-bars:hover {
     color: #fb3958
 }
 
+.social .fa-linkedin:hover {
+    color: #2867B2
+}
+
+.social .fa-pinterest:hover {
+    color: 	#E60023
+}
+
 .info {
     background: #F6F6F6;
     padding: 15px 0 10px;
