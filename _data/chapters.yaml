@@ -12,12 +12,13 @@ Americas:
     url: https://meetingplace.io/women-in-robotics-Boston
   - name: Washington, USA
   - name: Toronto, Canada
-Asia:
+Oceania:
   - name: Brisbane, Australia
     url: https://www.meetup.com/Women-in-Robotics-Brisbane-Meetup
   - name: Melborne, Australia
     url: https://meetingplace.io/womeninroboticsmelbourne
   - name: Sydney, Austrialia
+Asia:
   - name: Singapore
 Europe:
   - name: London, UK
