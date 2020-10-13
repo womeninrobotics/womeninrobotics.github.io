@@ -4,12 +4,15 @@ title: Events
 permalink: /events/
 order: 2
 ---
-
-<section id="events">
-    <div class="container">
-        <h1 class="page-header-title animated fadeInDown">
-            <span class="text-primary">Women in Robotics upcoming events</span>
-        </h1>
-        {% include events.html event_limit="1000" %}
+<div class="header-caption">
+    <div class="row">
+        <div class="col-md-12 header-content text-center">
+            <h1 class="page-header-title animated fadeInDown"><span class="text-primary">Upcoming events
+                </span>
+            </h1>
+        </div>
     </div>
-</section>
+</div>
+<div class="container">
+    {% include events.html event_limit="1000" %}
+</div>
