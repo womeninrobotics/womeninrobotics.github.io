@@ -100,8 +100,45 @@ order: 1
         <div class="sub-title text-center">
             <span>We offer career development meetings and events.</span>
         </div>
-        {% include events.html event_limit="3" %}
-
+        <div>
+            {% assign sorted_events = site.data.events | sort:"date" %}
+            {% for event in sorted_events limit: include.event_limit %}
+            <div class="row" future-date="{{ event.date | date: '%Y%m%d' }}">
+                <div class="col-md-4">
+                    <div class="image">
+                        <img src="{{ event.image }}" alt="{{ event.name }}">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-block">
+                        <h3>{{ event.name }}</h3>
+                        <h5> {{event.date }}</h5>
+                        <p>{{ event.description | newline_to_br }}</p>
+                        <a href="{{ event.url }}" class="page-scroll btn btn-lg btn-common">More info</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="text-center col-md-6 mb-60" future-date="{{ sorted_events.first.date | date: '%Y%m%d' }}">
+            <a href="/events/">All events <i class="fa fa-arrow-right"></i></a>
+        </div>
+        <div class="text-center mb-60" past-date="{{ sorted_events.first.date | date: '%Y%m%d' }}">
+            <a href="/past-events/" class="btn btn-lg btn-common">Past events <i class="fa fa-arrow-right"></i></a>
+        </div>
+        <div class="massage-box alert-info">
+            <strong>
+                <i class="fa fa-info"></i>
+                Want more events?
+            </strong>
+            <p>We would love for you to sponsor our next event! </p>
+            <p>Some of the companies who’ve hosted events include X, the moonshot factory, Fetch Robotics, Cruise
+                Automation, BossaNova Robotics, Auris Technology, Embark Trucking, Farmwise, Cooper Perkins, Apex.AI,
+                OhmniLabs, Vecna, UC Berkeley and Circuit Launch</p>
+            <a href="mailto:info@womeninrobotics.org"
+                class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Contact us</a>
+        </div>
+    </div>
 </section>
 <!-- End event highlight section -->
 
