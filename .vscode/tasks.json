@@ -13,7 +13,11 @@
             "label": "b: build website",
             "type": "shell",
             "command": "bundle exec jekyll build",
-            "problemMatcher": []
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         },
         {
             "label": "u: update",
@@ -25,7 +29,9 @@
             "label": "t: test",
             "type": "shell",
             "command": "bundle exec htmlproofer ./_site",
-            "dependsOn":["b: build website"],
+            "dependsOn": [
+                "b: build website"
+            ],
             "problemMatcher": []
         }
     ]
