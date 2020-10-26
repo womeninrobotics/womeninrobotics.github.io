@@ -30,7 +30,7 @@
 
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:description" content="{{ page.tagline }}">
-    <meta property="og:image" content="{{ site.url }}/assets/img/big/{{ page.img }}">
+    <meta property="og:image" content="{{ page.image }}">
     <meta property="og:url" content="{{ site.url }}">
     <meta name="twitter:card" content="summary_large_image">
 
@@ -84,6 +84,7 @@
   <script src="/assets/js/scrolling-nav.js"></script>
   <script src="/assets/js/tether.min.js"></script>
   <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="/assets/js/events-script.js"></script>
 
 	<!--Custom script loaded by children page-->
 	{% if page.js %}<script src="/assets/js/{{ page.js }}"></script>{% endif %}

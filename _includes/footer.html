@@ -1,15 +1,54 @@
 <!-- Footer -->
 <footer class="default-footer text-center">
     <div class="container">
-        <img class="mb-40 footer-logo" src="/assets/images/WIR_spanner_white.png" alt="logo"> 
-        <span class="copy-right dis-blk">Women in Robotics is a 501(c)(3) not-for-profit organization</span>
-        {% if site.ein_id %}<span class="dis-blk">{{ site.ein_id }}</span>{% endif %}
-        <span class="social">
-            {% if site.facebook %}<a href="{{ site.facebook }}"><i class="fa fa-2x fa-facebook"></i></a>{% endif %}
-            {% if site.twitter %}<a href="{{ site.twitter }}"><i class="fa fa-2x fa-twitter"></i></a>{% endif %}
-            {% if site.linkedin %}<a href="{{ site.linkedin }}"><i class="fa fa-2x fa-linkedin"></i></a>{% endif %}
-            {% if site.instagram %}<a href="{{ site.instagram }}"><i class="fa fa-2x fa-instagram"></i></a>{% endif %}
-            {% if site.pinterest %}<a href="{{ site.pinterest }}"><i class="fa fa-2x fa-pinterest"></i></a>{% endif %}
-        </span>
-    </div>
+        <div class="row section">
+            <div class="footer-widget col-md-3 col-xs-12 wow fadeIn" data-wow-delay=".8s">
+                <img class="footer-logo" src="/assets/images/WIR_spanner_white.png" alt="logo">
+                <span class="copy-right dis-blk">
+                    Women in Robotics is a 501(c)(3) not-for-profit organization.
+                </span>
+                <span class="copy-right dis-blk">
+                    Copyright &copy; {{ 'now' | date: '%Y' }}
+                </span>
+                {% if site.ein_id %}<span class="dis-blk">{{ site.ein_id }}</span>{% endif %}
+            </div>
+            <div class="footer-widget col-md-3 col-xs-12 wow fadeIn" data-wow-delay=".8s">
+                <h3 class="small-title text-uppercase">
+                    Follow
+                </h3>
+                <span class="social">
+                    {%- if site.facebook %}
+                    <a href="{{ site.facebook }}"><i class="fa fa-2x fa-facebook"></i></a>
+                    {%- endif %}
+                    {%- if site.twitter %}
+                    <a href="{{ site.twitter }}"><i class="fa fa-2x fa-twitter"></i></a>
+                    {%- endif %}
+                    {%- if site.linkedin %}
+                    <a href="{{ site.linkedin }}"><i class="fa fa-2x fa-linkedin"></i></a>
+                    {%- endif %}
+                    {%- if site.instagram %}
+                    <a href="{{ site.instagram }}"><i class="fa fa-2x fa-instagram"></i></a>
+                    {%- endif %}
+                    {%- if site.pinterest %}
+                    <a href="{{ site.pinterest }}"><i class="fa fa-2x fa-pinterest"></i></a>
+                    {%- endif %}
+                </span>
+            </div>
+            <div class="footer-widget col-md-3 col-xs-12 wow fadeIn" data-wow-delay=".8s">
+                <h3 class="small-title text-uppercase">
+                    Join
+                </h3>
+                <a class="btn btn-lg btn-default-filled mb-1" href="{{ site.signup_url }}">Join the community</a>
+                <a class="btn btn-lg btn-default-filled mb-1" href="{{ site.newsletter_url }}">Get the
+                    newsletter</a>
+            </div>
+            <div class="footer-widget col-md-3 col-xs-12 wow fadeIn" data-wow-delay=".8s">
+                <h3 class="small-title text-uppercase">
+                    Support
+                </h3>
+                <a class="btn btn-lg btn-info-filled mb-1" href="{{ site.donation_url }}">Donate</a>
+                <a class="btn btn-lg btn-info-filled mb-1" href="{{ site.sponsor_url }}">Sponsor</a>
+                <a class="btn btn-lg btn-info-filled mb-1" href="{{ site.sponsor_url }}">Shop</a>
+            </div>
+        </div>
 </footer>

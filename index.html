@@ -19,8 +19,9 @@ order: 1
                         who aspire to.</h5>
                        <h5 class="sub-title animated fadeIn">Non-binary people welcome.</h5>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLScbQPmdjz9v5PyF50e0m1nWNUKyNhFfw9JQ_SvlUF25guwPNg/viewform?embedded=true"
+
                         class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Join the community</a>
-                    <a href="mailto:info@womeninrobotics.org"
+                    <a href="/signup/"
                         class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Be an ally</a>
                 </div>
             </div>
@@ -52,6 +53,9 @@ order: 1
                 {% endfor %}
             </ul>
         </div>
+    </div>
+    <div class="text-center">
+        <a href="/news/" class="page-scroll btn btn-lg btn-info-filled animated fadeInUp">Read more</a>
     </div>
 </section>
 <!-- End portfolio section 4col -->
@@ -98,8 +102,9 @@ order: 1
             <span>We offer career development meetings and events.</span>
         </div>
         <div>
-            {% for event in site.data.events limit:5 %}
-            <div class="row">
+            {% assign sorted_events = site.data.events | sort:"date" %}
+            {% for event in sorted_events limit: include.event_limit %}
+            <div class="row" future-date="{{ event.date | date: '%Y%m%d' }}">
                 <div class="col-md-4">
                     <div class="image">
                         <img src="{{ event.image }}" alt="{{ event.name }}">
@@ -109,12 +114,18 @@ order: 1
                     <div class="card-block">
                         <h3>{{ event.name }}</h3>
                         <h5> {{event.date }}</h5>
-                        <p>{{ event.description }}</p>
-                        <a href="{{ event.url }}" class="page-scroll btn btn-lg btn-common">Join</a>
+                        <p>{{ event.description | newline_to_br }}</p>
+                        <a href="{{ event.url }}" class="page-scroll btn btn-lg btn-common">More info</a>
                     </div>
                 </div>
             </div>
             {% endfor %}
+        </div>
+        <div class="text-center col-md-6 mb-60" future-date="{{ sorted_events.first.date | date: '%Y%m%d' }}">
+            <a href="/events/">All events <i class="fa fa-arrow-right"></i></a>
+        </div>
+        <div class="text-center mb-60" past-date="{{ sorted_events.first.date | date: '%Y%m%d' }}">
+            <a href="/past-events/" class="btn btn-lg btn-common">Past events <i class="fa fa-arrow-right"></i></a>
         </div>
         <div class="massage-box alert-info">
             <strong>
@@ -180,18 +191,3 @@ order: 1
         </div>
 </section>
 <!-- End event highlight section -->
-
-<!-- Begin signup section -->
-<section id="signup">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScbQPmdjz9v5PyF50e0m1nWNUKyNhFfw9JQ_SvlUF25guwPNg/viewform?embedded=true"
-                    class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Join the community</a>
-                <a href="http://eepurl.com/ggPl6z"
-                    class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Get the newsletter</a>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End signup section-->

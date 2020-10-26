@@ -1,0 +1,44 @@
+---
+layout: default
+title: News
+permalink: /news/
+order: 3
+---
+<div class="header-caption">
+    <div class="row">
+        <div class="col-md-12 header-content text-center">
+            <h1 class="page-header-title animated fadeInDown"><span class="text-primary">News
+                </span>
+            </h1>
+        </div>
+    </div>
+</div>
+<section class="blog">
+    <div class="container">
+      <div class="row">
+        {% for post in site.posts %}
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item mb-60">
+          <!-- Blog Item Starts -->
+          <div class="blog-item-wrapper">
+            <div class="blog-item-img">
+              <a href="{{ post.link }}"><img src="{{ post.image }}" alt="{{ post.title }}"></a>
+            </div>
+            <div class="blog-item-text">
+              <h3>
+                <a href="{{ post.link }}">{{ post.title }}</a>
+              </h3>
+              <div class="meta-tags">
+                <span class="date"><i class="lnr lnr-calendar-full"></i>{{ post.date | date: "%B %d, %Y" }}</span>
+                <!-- <span class="comments"><a href="#"><i class="lnr lnr-bubble"></i> 24 Comments</a></span> -->
+              </div>
+              <p>{{ post.tagline }}
+              </p>
+              <a href="{{ post.link }}" class="btn btn-common btn-rm">Read More</a>
+            </div>
+          </div>
+          <!-- Blog Item Wrapper Ends-->
+        </div>
+        {% endfor %}
+        </div>
+    </div>
+</section>
