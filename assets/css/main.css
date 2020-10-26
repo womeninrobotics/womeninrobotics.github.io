@@ -3523,6 +3523,24 @@ address i {
     color: #fff;
 }
 
+#sponsors {
+    /* background-color: #eb155b; */
+    /* color: #fff; */
+    padding: 60px 0;
+}
+
+#sponsors .logo {
+    /* background-color: #fff; */
+    margin: 20px;
+    text-align: center;
+}
+
+#sponsors img {
+    width:200px;
+    height:200px;
+    object-fit:contain;
+}
+
 #portfolio .mix {
     padding: 0;
     display: none

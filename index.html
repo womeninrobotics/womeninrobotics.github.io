@@ -9,11 +9,11 @@ order: 1
         <div class="header-caption">
             <div class="row">
                 <div class="col-md-12 header-content text-center">
-                    <h1 class="page-header-title animated fadeInDown"><span class="text-primary">Women in Robotics
-                        </span>
+                    <h1 class="page-header-title animated fadeInDown">
+                        <span class="text-primary">Women in Robotics</span>
                     </h1>
                     <div class="navbar-brand">
-                        <img src="/assets/images/logo.png" alt="logo">
+                        <img alt="logo" src="/assets/images/logo.png">
                     </div>
                     <h5 class="sub-title animated fadeIn">The professional network for women who work in robotics - or
                         who aspire to.</h5>
@@ -44,7 +44,9 @@ order: 1
                             <img src="{{ post.image }}" alt="{{ post.title }}">
                             <div class="overlay">
                                 <div class="iocns">
-                                    <a class="left-link" href="{{ post.link }}"><i class="fa fa-link"></i></a>
+                                    <a class="left-link" href="{{ post.link }}">
+                                        <i class="fa fa-link"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -55,7 +57,7 @@ order: 1
         </div>
     </div>
     <div class="text-center">
-        <a href="/news/" class="page-scroll btn btn-lg btn-info-filled animated fadeInUp">Read more</a>
+        <a class="page-scroll btn btn-lg btn-info-filled animated fadeInUp" href="/news/">Read more</a>
     </div>
 </section>
 <!-- End portfolio section 4col -->
@@ -68,7 +70,7 @@ order: 1
         </div>
         {% for region in site.data.chapters %}
         <div class="panel-group">
-            <div class="panel" data-toggle="collapse" data-target="#{{ region[0] }}">
+            <div class="panel" data-target="#{{ region[0] }}" data-toggle="collapse">
                 <div class="panel-heading">
                     <a class="panel-title collapsed" href="#{{ region[0] }}">{{ region[0] }}</a>
                 </div>
@@ -151,32 +153,28 @@ order: 1
         </div>
         <div id="sliders">
             <!-- light slider -->
-            <div id="light-slider" class="carousel slide">
+            <div class="carousel slide" id="light-slider">
                 <div id="carousel-area">
-                    <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+                    <div class="carousel slide" data-ride="carousel" id="carousel-slider">
                         <ol class="carousel-indicators">
                             {% for item in site.data.shop %}
-                            {% if forloop.first == true %}<li data-target="#carousel-slider"
-                                data-slide-to="{{ forloop.index0 }}" class="active"></li>
-                            {% else %}<li data-target="#carousel-slider" data-slide-to="{{ forloop.index0 }}"></li>
-                            {% endif %}
+                            <li data-target="#carousel-slider" data-slide-to="{{ forloop.index0 }}"
+                                {% if forloop.first %}class="active" {% endif %}></li>
                             {% endfor %}
                         </ol>
                         <div class="carousel-inner" role="listbox">
                             {% for item in site.data.shop %}
-                            {% if forloop.first == true %}<div class="carousel-item active">
-                                {% else %}<div class="carousel-item">
-                                    {% endif %}
-                                    <img src="{{ item.image }}" alt="item">
-                                </div>
-                                {% endfor %}
+                            <div {% if forloop.first %}class="carousel-item active" {% else %}class="carousel-item"
+                                {% endif %}>
+                                <img src="{{ item.image }}" alt="item">
                             </div>
-                            <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
-                                <span class="carousel-control carousel-control-prev-icon" aria-hidden="true"></span>
+                            {% endfor %}
+                            <a class="carousel-control-prev" data-slide="prev" href="#carousel-slider" role="button">
+                                <span aria-hidden="true" class="carousel-control carousel-control-prev-icon"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next" href="#carousel-slider" role="button" data-slide="next">
-                                <span class="carousel-control carousel-control-next-icon" aria-hidden="true"></span>
+                            <a class="carousel-control-next" data-slide="next" href="#carousel-slider" role="button">
+                                <span aria-hidden="true" class="carousel-control carousel-control-next-icon"></span>
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
@@ -189,5 +187,24 @@ order: 1
                     class="page-scroll btn btn-lg btn-info-filled animated fadeInUp">Donate</a>
             </div>
         </div>
+    <div id="sponsors">
+        <div class="container">
+            <div class="text-center">
+                Join the following companies and become a sponsor for Women in Robotics.
+            </div>
+            <div class="row">
+                {%- for sponsor in site.data.sponsors %}
+                <div class="col logo">
+                    <a href="{{ sponsor.link }}"><img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}"></a>
+                </div>
+                {%- endfor %}
+            </div>
+            <div class="text-center">
+                <a class="page-scroll btn btn-lg btn-info-filled animated fadeInUp"
+                    href="{{ site.sponsor_url }}">Sponsor</a>
+            </div>
+        </div>
+    </div>
 </section>
-<!-- End event highlight section -->
+
+<!-- End support section -->
