@@ -4,6 +4,7 @@ title: Home
 order: 1
 ---
 
+<!-- begin intro section -->
 <section id="intro">
     <div class="container">
         <div class="header-caption">
@@ -15,8 +16,9 @@ order: 1
                     <div class="navbar-brand">
                         <img alt="logo" src="/assets/images/logo.png">
                     </div>
-                    <h5 class="sub-title animated fadeIn">The professional network for women who work in robotics - or
-                        who aspire to.</h5>
+                    <h5 class="sub-title animated fadeIn">
+                        The professional network for women who work in robotics -
+                        or who aspire to.</h5>
                     <h5 class="sub-title animated fadeIn">Non-binary people welcome.</h5>
                     <a href="{{ site.join_url }}"
                         class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Join the community</a>
@@ -27,9 +29,10 @@ order: 1
         </div>
     </div>
 </section>
+<!-- end intro section -->
+
 <!-- portfolio section 4col -->
 <section id="news">
-
     <div class="container">
         <div class="sub-title text-center">
             <span>We promote the visibility of women in robotics.</span>
@@ -186,25 +189,24 @@ order: 1
                     class="page-scroll btn btn-lg btn-info-filled animated fadeInUp">Donate</a>
             </div>
         </div>
-    <div id="sponsors">
-        <div class="container">
-            <div class="text-center">
-                Join the following companies and become a sponsor for Women in Robotics.
-            </div>
-            <div class="row">
-                {%- for sponsor in site.data.sponsors %}
-                <div class="col logo">
-                    <a href="{{ sponsor.link }}"><img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}"></a>
+        <div id="sponsors">
+            <div class="container">
+                <div class="text-center">
+                    Join the following companies and become a sponsor for Women in Robotics.
                 </div>
-                {%- endfor %}
-            </div>
-            <div class="text-center">
-                <a class="page-scroll btn btn-lg btn-info-filled animated fadeInUp"
-                    href="{{ site.sponsor_url }}">Sponsor</a>
+                <div class="row">
+                    {%- for sponsor in site.data.sponsors %}
+                    <div class="col logo">
+                        <a href="{{ sponsor.link }}"><img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}"></a>
+                    </div>
+                    {%- endfor %}
+                </div>
+                <div class="text-center">
+                    <a class="page-scroll btn btn-lg btn-info-filled animated fadeInUp"
+                        href="{{ site.sponsor_url }}">Sponsor</a>
+                </div>
             </div>
         </div>
     </div>
 </section>
-<!-- End event highlight section -->
-
 <!-- End support section -->
