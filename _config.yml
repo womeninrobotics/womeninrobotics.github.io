@@ -8,8 +8,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 # Markdown providor
 markdown: kramdown
 # URL of website
-# TODO (athackst) change to womeninrobotics.org when site approved
-url: https://womeninrobotics.github.io
+url: https://womeninrobotics.org
 
 # Title of the site
 title: Women in Robotics
