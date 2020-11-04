@@ -10,5 +10,8 @@
         "translatey",
         "unstyled",
         "womeninrobotics"
-    ]
+    ],
+    "editor.formatOnSave": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true
 }
