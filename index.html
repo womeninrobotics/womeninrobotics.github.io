@@ -72,8 +72,8 @@ order: 1
         </div>
         {% for region in site.data.chapters %}
         <div class="panel-group">
-            <div class="panel" data-target="#{{ region[0] }}" data-toggle="collapse">
-                <div class="panel-heading">
+            <div class="panel">
+                <div class="panel-heading" data-target="#{{ region[0] }}" data-toggle="collapse">
                     <a class="panel-title collapsed" href="#{{ region[0] }}">{{ region[0] }}</a>
                 </div>
                 <div id="{{ region[0] }}" class="panel-collapse collapse">
