@@ -17,7 +17,7 @@ description: Community for women working in robotics, and women who want to work
 donation_url: https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=7QBGVMNX4QMS8
 store_url: https://svrobo.org/shop/
 sponsor_url: mailto:info@womeninrobotics.org
-newsletter_url: http://eepurl.com/ggPl6z
+newsletter_url: https://sendfox.com/womeninrobotics
 join_url: /signup/
 
 # TODO (athackst)
@@ -43,5 +43,3 @@ google:
 # comments:
 #   disqus:
 #     short_name:
-
-
