@@ -1751,7 +1751,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .social .fa-pinterest:hover {
-    color: 	#E60023
+    color: #E60023
 }
 
 .info {
@@ -3499,12 +3499,12 @@ address i {
 
 #support {
     padding: 60px 0;
-    width: 100%   
+    width: 100%
 }
 
 #signup {
     padding: 60px 0;
-    width: 100% 
+    width: 100%
 }
 
 #signup .btn {
@@ -3536,9 +3536,9 @@ address i {
 }
 
 #sponsors img {
-    width:200px;
-    height:200px;
-    object-fit:contain;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
 }
 
 #portfolio .mix {
