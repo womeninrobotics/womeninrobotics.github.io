@@ -3,15 +3,15 @@
     <div class="container">
         <div class="logo">
             <a class="navbar-brand" href="{{ site.url }}">
-              <img alt="logo" src="/assets/images/WIR_spanner_transparent.png">
+                <img alt="logo" src="/assets/images/WIR_spanner_transparent.png">
             </a>
         </div>
         <div class="title">
             <h1>Women in Robotics</h1>
         </div>
         <div class="nav-toggle">
-            <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" 
-                    data-target="#navbar1" data-toggle="collapse" type="button">
+            <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbar1"
+                data-toggle="collapse" type="button">
                 <i class="fa fa-bars"></i>
             </button>
         </div>
@@ -20,45 +20,45 @@
                 {% assign pages_list = (site.pages | sort: 'order') %}
                 {% comment %} This section adds links for pages that are added to the site. {% endcomment %}
                 {%- for node in pages_list %}
-                    {%- if node.title != null and node.order != null %}
-                        {%- if page.url == node.url %}
-                            <li class="nav-item active">
-                                <a class="nav-link" href="{{node.url}}">{{node.title}}</a>
-                            </li>
-                        {%- else %}
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{node.url}}">{{node.title}}</a>
-                            </li>
-                        {%- endif %}
-                    {%- endif %}
+                {%- if node.title != null and node.order != null %}
+                {%- if page.url == node.url %}
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{node.url}}">{{node.title}}</a>
+                </li>
+                {%- else %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{node.url}}">{{node.title}}</a>
+                </li>
+                {%- endif %}
+                {%- endif %}
                 {%- endfor %}
             </ul>
         </div>
         <div class="right hidden-sm-down social">
             {% if site.facebook %}
-                <a style="margin-left: 5px" href="{{ site.facebook }}">
-                    <i class="fa fa-facebook fa-lg"></i>
-                </a>
+            <a style="margin-left: 5px" href="{{ site.facebook }}">
+                <i class="fa fa-facebook fa-lg"></i>
+            </a>
             {% endif %}
             {% if site.twitter %}
-                <a style="margin-left: 5px" href="{{ site.twitter }}">
-                    <i class="fa fa-twitter fa-lg"></i>
-                </a>
+            <a style="margin-left: 5px" href="{{ site.twitter }}">
+                <i class="fa fa-twitter fa-lg"></i>
+            </a>
             {% endif %}
             {% if site.linkedin %}
-                <a style="margin-left: 5px" href="{{ site.linkedin }}">
-                    <i class="fa fa-linkedin fa-lg"></i>
-                </a>
+            <a style="margin-left: 5px" href="{{ site.linkedin }}">
+                <i class="fa fa-linkedin fa-lg"></i>
+            </a>
             {% endif %}
             {% if site.instagram %}
-                <a style="margin-left: 5px" href="{{ site.instagram }}">
-                    <i class="fa fa-instagram fa-lg"></i>
-                </a>
+            <a style="margin-left: 5px" href="{{ site.instagram }}">
+                <i class="fa fa-instagram fa-lg"></i>
+            </a>
             {% endif %}
             {% if site.pinterest %}
-                <a style="margin-left: 5px" href="{{ site.pinterest }}">
-                    <i class="fa fa-pinterest fa-lg"></i>
-                </a>
+            <a style="margin-left: 5px" href="{{ site.pinterest }}">
+                <i class="fa fa-pinterest fa-lg"></i>
+            </a>
             {% endif %}
         </div>
     </div>
