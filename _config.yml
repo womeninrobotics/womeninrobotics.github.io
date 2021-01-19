@@ -14,27 +14,25 @@ url: https://womeninrobotics.org
 title: Women in Robotics
 description: Community for women working in robotics, and women who want to work in robotics.
 
-donation_url: https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=7QBGVMNX4QMS8
+donation_url: https://www.paypal.com/donate/?hosted_button_id=EHKJVECS8F46S
 store_url: https://svrobo.org/shop/
 sponsor_url: mailto:info@womeninrobotics.org
 newsletter_url: https://sendfox.com/womeninrobotics
 join_url: /signup/
-
-# TODO (athackst)
-# ein_id: TODO
 
 # Social media info
 facebook: https://www.facebook.com/womeninrobotics
 twitter: https://twitter.com/womeninroboticz/
 instagram: https://www.instagram.com/womeninroboticz/
 pinterest: https://www.pinterest.com/womeninrobotics
-linkedin: https://www.linkedin.com/groups/7072127/
+linkedin: https://www.linkedin.com/company/women-in-robotics/
+email: info@womeninrobotics.org
 
 # TODO (athackst) rss and atom feeds
 # atom_path: TODO
 # rss_path: TODO
 
-# TODO google settings
+# google settings
 google:
   tracking_id: G-2V4NNSWC1S
 #   ad_client: TODO

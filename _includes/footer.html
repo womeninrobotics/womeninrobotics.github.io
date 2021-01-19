@@ -4,13 +4,20 @@
         <div class="row section">
             <div class="footer-widget col-md-3 col-xs-12 wow fadeIn" data-wow-delay=".8s">
                 <img class="footer-logo" src="/assets/images/WIR_spanner_white.png" alt="logo">
-                <span class="copy-right dis-blk">
+                <span class="dis-blk">
                     Women in Robotics is a 501(c)(3) not-for-profit organization.
                 </span>
+                <span class="dis-blk">
+                    8000 Edgewater Dr, Oakland, CA
+                </span>
+                {%- if site.email %}
+                <span class="dis-blk">
+                    <a href="mailto:{{ site.email }}">{{site.email}}</a>
+                </span>
+                {%- endif %}
                 <span class="copy-right dis-blk">
                     Copyright &copy; {{ 'now' | date: '%Y' }}
                 </span>
-                {% if site.ein_id %}<span class="dis-blk">{{ site.ein_id }}</span>{% endif %}
             </div>
             <div class="footer-widget col-md-3 col-xs-12 wow fadeIn" data-wow-delay=".8s">
                 <h3 class="small-title text-uppercase">
