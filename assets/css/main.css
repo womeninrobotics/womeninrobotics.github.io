@@ -3568,6 +3568,10 @@ address i {
     width: 100%
 }
 
+#events .hide {
+    display: none;
+}
+
 #support {
     padding: 60px 0;
     width: 100%
