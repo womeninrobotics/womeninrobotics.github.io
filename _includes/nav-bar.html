@@ -17,7 +17,7 @@
         </div>
         <div class="collapse navbar-collapse justify-content-end" id="navbar1">
             <ul class="navbar-nav">
-                {% assign pages_list = (site.pages | sort: 'order') %}
+                {%- assign pages_list = (site.pages | sort: 'order') %}
                 {% comment %} This section adds links for pages that are added to the site. {% endcomment %}
                 {%- for node in pages_list %}
                 {%- if node.title != null and node.order != null %}
@@ -35,31 +35,31 @@
             </ul>
         </div>
         <div class="right hidden-sm-down social">
-            {% if site.facebook %}
+            {%- if site.facebook %}
             <a style="margin-left: 5px" href="{{ site.facebook }}">
                 <i class="fa fa-facebook fa-lg"></i>
             </a>
-            {% endif %}
-            {% if site.twitter %}
+            {%- endif %}
+            {%- if site.twitter %}
             <a style="margin-left: 5px" href="{{ site.twitter }}">
                 <i class="fa fa-twitter fa-lg"></i>
             </a>
-            {% endif %}
-            {% if site.linkedin %}
+            {%- endif %}
+            {%- if site.linkedin %}
             <a style="margin-left: 5px" href="{{ site.linkedin }}">
                 <i class="fa fa-linkedin fa-lg"></i>
             </a>
-            {% endif %}
-            {% if site.instagram %}
+            {%- endif %}
+            {%- if site.instagram %}
             <a style="margin-left: 5px" href="{{ site.instagram }}">
                 <i class="fa fa-instagram fa-lg"></i>
             </a>
-            {% endif %}
-            {% if site.pinterest %}
+            {%- endif %}
+            {%- if site.pinterest %}
             <a style="margin-left: 5px" href="{{ site.pinterest }}">
                 <i class="fa fa-pinterest fa-lg"></i>
             </a>
-            {% endif %}
+            {%- endif %}
         </div>
     </div>
 

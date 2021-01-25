@@ -1,0 +1,259 @@
+---
+layout: default
+title: About
+permalink: /about/
+order: 2
+js: about.js
+---
+
+<!-- begin header section -->
+<div class="container">
+    <div class="header-caption">
+        <div class="row">
+            <div class="col-md-12 header-content text-center">
+                <h1 class="page-header-title animated fadeInDown">
+                    <span class="text-primary">{{ page.title }}</span>
+                </h1>
+            </div>
+        </div>
+
+        <div class="header-caption">
+            <p class="sub-title">Women in Robotics is a global community supporting women who work in robotics and women
+                who are interested in working in robotics, as entrepreneurs, industry and academia. Our activities
+                include local networking events, outreach, education, mentoring and the promotion of positive role
+                models in robotics, both in research, industry, entrepreneurship and just plain fun.
+            </p>
+            <p class="sub-title">
+                We started as a grassroots community to support women in robotics across the globe.
+                In 2020 we formed an official 501c3 non-profit organization.
+            </p>
+            <p class="sub-title">
+                We are committed to championing the women within the robotics community. We are
+                focusing on three projects in 2021 to help women both newly in the field and career veterans. These are
+                Project Inspire, Project Connect, and Project Advance.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- end header section -->
+
+<!-- Projects -->
+<div class="container">
+    <div class="row">
+        <!-- Start Image Service Box 1 -->
+        <div class="col-md-4 mtb-50">
+            <div class="image-service-box">
+                <img src="/assets/images/project-inspire.jpg" alt="project inspire" />
+                <div class="service-text">
+                    <h3><a href="mailto:{{ site.email }}">Project Inspire</a></h3>
+                    <p>Our annual 30 women in robotics you need to know about list, plus regular updates, spotlights,
+                        and wikipedia pages for women in robotics.</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Image Service Box 1 -->
+
+        <!-- Start Image Service Box 2 -->
+        <div class="col-md-4 mtb-50">
+            <div class="image-service-box">
+                <img src="/assets/images/project-connect.jpg" alt="project connect" />
+                <div class="service-text">
+                    <h3><a href="mailto:{{ site.email }}">Project Connect</a></h3>
+                    <p>Forming new chapters, promoting our online community, and enjoying regular member led activities
+                        and events, under a Code of Conduct.</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Image Service Box 2 -->
+
+        <!-- Start Image Service Box 3 -->
+        <div class="col-md-4 mtb-50">
+            <div class="image-service-box">
+                <img src="/assets/images/project-advance.jpg" alt="project advance" />
+                <div class="service-text">
+                    <h3><a href="mailto:{{ site.email }}">Project Advance</a></h3>
+                    <p>Piloting a mentoring program, providing educational resources for women in robotics, and
+                        improving accountability metrics in our workplaces.</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Image Service Box 3 -->
+    </div>
+</div>
+
+<!-- begin stats section -->
+<div id="counter">
+    <div class="container">
+        <div class="row count-to-sec">
+            <div class="col-md-4 col-sm-6 count-one">
+                <span class="icon"><i class="fa fa-users"> </i></span>
+                <h3 class="timer count-value" data-to="{{site.data.stats.members}}" data-speed="1000">
+                    {{site.data.stats.members}}</h3>
+                <hr class="width25-divider">
+                <small class="count-title">Members</small>
+            </div>
+
+            <div class="col-md-4 col-sm-6 count-one">
+                <span class="icon"><i class="fa fa-newspaper-o"> </i></span>
+                <h3 class="timer count-value" data-to="{{site.data.stats.subscribers}}" data-speed="1000">
+                    {{site.data.stats.subscribers}}</h3>
+                <hr class="width25-divider">
+                <small class="count-title">Subscribers</small>
+            </div>
+
+            <div class="col-md-4 col-sm-6 count-one">
+                <span class="icon"><i class="fa fa-bookmark"> </i></span>
+                <h3 class="timer count-value" data-to="{{site.data.stats.chapters}}" data-speed="1000">
+                    {{site.data.stats.chapters}}</h3>
+                <hr class="width25-divider">
+                <small class="count-title">Chapters</small>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end stats section -->
+
+<!-- begin Board of Directors -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-header-title">
+                <h2 class="heading-title text-center">Board of Directors</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="team-members mtb-50">
+        <div class="row">
+            {%- for member in site.data.board %}
+            {%- unless member.advisory %}
+            <div class="col-sm-6 col-md-3">
+                <!-- Team Item Starts -->
+                <div class="team-item">
+                    <figure class="team-profile">
+                        {%- if member.image %}
+                        <img src="{{member.image}}" alt="{{member.name}}">
+                        {%- else %}
+                        <img src="/assets/images/RosieUpdated.jpeg" alt="{{member.name}}">
+                        {%- endif %}
+                        <figcaption class="our-team">
+                            <div class="details">
+                                <div>
+                                    <p class="content-white">{{member.location}}</p>
+                                    <p class="content-white">Joined {{member.joined}}</p>
+                                </div>
+                                <hr class="small-divider border-white">
+                                <div class="social">
+                                    {%- if member.email %}
+                                    <a class="email" href="mailto:{{member.email}}"><i class="fa fa-at"></i></a>
+                                    {%- endif %}
+                                    {%- if member.facebook %}
+                                    <a class="facebook" href="https://www.facebook.com/{{member.facebook}}"><i
+                                            class="fa fa-facebook"></i></a>
+                                    {%- endif %}
+                                    {%- if member.twitter %}
+                                    <a class="twitter" href="https://twitter.com/{{member.twitter}}"><i
+                                            class="fa fa-twitter"></i></a>
+                                    {%- endif %}
+                                    {%- if member.instagram %}
+                                    <a class="instagram" href="https://www.instagram.com/{{member.instagram}}"><i
+                                            class="fa fa-instagram"></i></a>
+                                    {%- endif %}
+                                    {%- if member.linkedin %}
+                                    <a class="linkedin" href="https://www.linkedin.com/in/{{member.linkedin}}"><i
+                                            class="fa fa-linkedin"></i></a>
+                                    {%- endif %}
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <div class="info">
+                        <h2>
+                            {{member.name}}
+                        </h2>
+                        <p>
+                            {{member.office}}
+                        </p>
+                    </div>
+                </div>
+                <!-- Team Item Ends -->
+            </div>
+            {%- endunless %}
+            {%- endfor %}
+        </div>
+    </div>
+</div>
+<!-- end board of directors -->
+
+<!-- begin Advisory Board -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-header-title">
+                <h2 class="heading-title text-center">Advisory Board</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="team-members mtb-50">
+        <div class="row">
+            {%- for member in site.data.board %}
+            {%- if member.advisory %}
+            <div class="col-sm-6 col-md-3">
+                <!-- Team Item Starts -->
+                <div class="team-item">
+                    <figure class="team-profile">
+                        {%- if member.image %}
+                        <img src="{{member.image}}" alt="{{member.name}}">
+                        {%- else %}
+                        <img src="/assets/images/RosieUpdated.jpeg" alt="{{member.name}}">
+                        {%- endif %}
+                        <figcaption class="our-team">
+                            <div class="details">
+                                <div>
+                                    <p class="content-white">{{member.location}}</p>
+                                    <p class="content-white">Joined {{member.joined}}</p>
+                                    <p class="content-white">Advisory {{member.advisory}}</p>
+                                </div>
+                                <hr class="small-divider border-white">
+                                <div class="social">
+                                    {%- if member.email %}
+                                    <a class="email" href="mailto:{{member.email}}"><i class="fa fa-at"></i></a>
+                                    {%- endif %}
+                                    {%- if member.facebook %}
+                                    <a class="facebook" href="https://www.facebook.com/{{member.facebook}}"><i
+                                            class="fa fa-facebook"></i></a>
+                                    {%- endif %}
+                                    {%- if member.twitter %}
+                                    <a class="twitter" href="https://twitter.com/{{member.twitter}}"><i
+                                            class="fa fa-twitter"></i></a>
+                                    {%- endif %}
+                                    {%- if member.instagram %}
+                                    <a class="instagram" href="https://www.instagram.com/{{member.instagram}}"><i
+                                            class="fa fa-instagram"></i></a>
+                                    {%- endif %}
+                                    {%- if member.linkedin %}
+                                    <a class="linkedin" href="https://www.linkedin.com/in/{{member.linkedin}}"><i
+                                            class="fa fa-linkedin"></i></a>
+                                    {%- endif %}
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <div class="info">
+                        <h2>
+                            {{member.name}}
+                        </h2>
+                        <p>
+                            {{member.office}}
+                        </p>
+                    </div>
+                </div>
+                <!-- Team Item Ends -->
+            </div>
+            {%- endif %}
+            {%- endfor %}
+        </div>
+    </div>
+</div>
+<!-- end Advisory Board -->

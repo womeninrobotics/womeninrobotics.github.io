@@ -477,13 +477,19 @@ footer #copyright .copyright-text, footer #copyright .nav-inline {
     border-color: #55acee
 }
 
+.social-footer .fa-instagram:hover {
+    color: #fb3958;
+    color: #fff;
+    color: #fb3958;
+}
+
 .social-footer .fa-linkedin:hover {
     background: #007bb6;
     color: #fff;
     border-color: #007bb6
 }
 
-.social-footer .fa-google-plus:hover {
+.social-footer .fa-email:hover {
     background: #dd4b39;
     color: #fff;
     border-color: #dd4b39
@@ -680,7 +686,7 @@ footer .menu li a:hover {
     border-color: #CC181E
 }
 
-.social-icon .google-plus:hover {
+.social-icon .email:hover {
     background-color: #dd4b39;
     border-color: #dd4b39
 }
@@ -1617,6 +1623,12 @@ nav#menu span.fa.fa-bars:hover {
     border: 1px solid #e3e3e3
 }
 
+.image-service-box img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
 .team-item figure {
     position: relative;
     overflow: hidden;
@@ -1644,7 +1656,9 @@ nav#menu span.fa.fa-bars:hover {
 
 .team-item figure figcaption .details {
     position: absolute;
-    top: 30%
+    top: 30%;
+    margin: auto;
+    width: inherit;
 }
 
 .team-item figure figcaption .content-white {
@@ -1692,10 +1706,11 @@ nav#menu span.fa.fa-bars:hover {
 
 .team-item .social {
     text-align: center;
-    margin-top: 15px
+    margin: auto;
+    margin-top: 15px;
 }
 
-.team-item .social .facebook, .team-item .social .twitter, .team-item .social .google-plus {
+.team-item .social .facebook, .team-item .social .twitter, .team-item .social .email, .team-item .social .linkedin, .team-item .social .instagram {
     font-size: 24px;
     line-height: normal;
     outline: none;
@@ -1721,9 +1736,19 @@ nav#menu span.fa.fa-bars:hover {
     transition: all 500ms ease
 }
 
-.team-item .social .google-plus {
+.team-item .social .email {
     -webkit-transition: all 600ms ease;
     transition: all 600ms ease
+}
+
+.team-item .social .linkedin {
+    -webkit-transition: all 600ms ease;
+    transition: all 700ms ease
+}
+
+.team-item .social .instagram {
+    -webkit-transition: all 600ms ease;
+    transition: all 700ms ease
 }
 
 .team-item .social a:hover {
@@ -1888,6 +1913,10 @@ nav#menu span.fa.fa-bars:hover {
 
 .team-members-tow .social-icons .fa-instagram:hover {
     color: #fb3958
+}
+
+.team-members-tow .social-icons .fa-linkedin:hover {
+    color: #2867B2
 }
 
 #about {
@@ -2543,7 +2572,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 #counter {
-    background-image: url(/assets/images/about/testimonial-bg.jpg);
+    background-image: url(/assets/images/purple-bg.jpg);
     background-size: cover;
     padding: 60px 0
 }
