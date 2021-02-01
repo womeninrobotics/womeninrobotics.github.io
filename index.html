@@ -13,8 +13,8 @@ order: 1
                     <h1 class="page-header-title animated fadeInDown">
                         <span class="text-primary">Women in Robotics</span>
                     </h1>
-                    <div class="navbar-brand">
-                        <img alt="logo" src="/assets/images/logo.png">
+                    <div class="w-50 mx-auto mb-60">
+                        <img alt="logo" src="/assets/images/logo/WiRLogo-325x325w.png">
                     </div>
                     <h5 class="sub-title animated fadeIn">
                         The professional network for women who work in robotics -
@@ -159,18 +159,21 @@ order: 1
                 <div id="carousel-area">
                     <div class="carousel slide" data-ride="carousel" id="carousel-slider">
                         <ol class="carousel-indicators">
-                            {% for item in site.data.shop %}
+                            {%- for item in site.data.shop %}
+                            {%- assign item-active = "" %}
+                            {%- if forloop.first %}{% assign item-active = "active" %}{% endif %}
                             <li data-target="#carousel-slider" data-slide-to="{{ forloop.index0 }}"
-                                {% if forloop.first %}class="active" {% endif %}></li>
-                            {% endfor %}
+                                class="{{ item-active }}"></li>
+                            {%- endfor %}
                         </ol>
                         <div class="carousel-inner" role="listbox">
-                            {% for item in site.data.shop %}
-                            <div {% if forloop.first %}class="carousel-item active" {% else %}class="carousel-item"
-                                {% endif %}>
-                                <img src="{{ item.image }}" alt="item">
+                            {%- for item in site.data.shop %}
+                            {%- assign item-active = "" %}
+                            {%- if forloop.first %}{% assign item-active = "active" %}{% endif %}
+                            <div class="carousel-item {{ item-active }}">
+                                <img src=" {{ item.image }}" alt="item">
                             </div>
-                            {% endfor %}
+                            {%- endfor %}
                             <a class="carousel-control-prev" data-slide="prev" href="#carousel-slider" role="button">
                                 <span aria-hidden="true" class="carousel-control carousel-control-prev-icon"></span>
                                 <span class="sr-only">Previous</span>
