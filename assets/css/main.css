@@ -300,6 +300,10 @@ strong {
     margin: 15px
 }
 
+.header-content img {
+    max-width: 250px;
+}
+
 #header-style-1 {
     background-image: url(/assets/images/bg/hero-1-bg.jpg);
     -webkit-background-size: cover;
@@ -4168,9 +4172,6 @@ ul.nav-tabs li a {
     .list-style li i {
         margin-right: 5px
     }
-    .sub-title {
-        font-size: 14px
-    }
     .bs-example {
         margin-bottom: 30px
     }
@@ -4204,6 +4205,12 @@ ul.nav-tabs li a {
     }
     .label {
         padding: 0
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-brand img {
+        width: 50px;
     }
 }
 
@@ -4297,9 +4304,6 @@ ul.nav-tabs li a {
 }
 
 @media (max-width: 480px) {
-    .navbar-brand img {
-        max-width: 120px
-    }
     .sub-title {
         font-size: 20px
     }
