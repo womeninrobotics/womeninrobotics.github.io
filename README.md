@@ -40,17 +40,18 @@ Region: # This is the chapter region heading
 
 #### How to add an event
 
-Update `_data/events.yaml` to add an event.
+Events are updated from [meetingplace.io](https://meetingplace.io/) in the [meetingplace workflow action](.github/workflows/meetinplace.yaml).
 
-Format:
+To add another group, add an additional line like:
 
 ```yaml
-- name: # The name of the event
-  date: # The date of the event
-  url: # External URL of the event for more information
-  image: # A representative image url.  Images should be uploaded to `assets/images/events/`
-  description: | # A multi-line description of the event.
+      - name: Get bay area events
+        run: curl -s 'https://meetingplace.io/api/v1/group/women-in-robotics-bay-area/events' | jq '.' > _data/wir_events_bay_area.json
 ```
+
+where `women-in-robotics-bay-area` is replaced by the new group name and it's saved in a file named for the area like `_data/wir_events_bay_area.json`.
+
+It is important that the file begins with `wir_events`, since that prefix is used to determine which events to combine.
 
 #### How to change shop items shown
 
