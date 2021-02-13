@@ -1,0 +1,33 @@
+name: meetingplace
+
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    # Run at the end of every day
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  meetingplace:
+    runs-on: ubuntu-latest
+    name: Update events from meetinplace.io
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.ACTION_TOKEN}}
+      - name: Get bay area events
+        run: curl -s 'https://meetingplace.io/api/v1/group/women-in-robotics-bay-area/events' | jq '.' > _data/wir_events_bay_area.json
+      - name: Get boston events
+        run: curl -s 'https://meetingplace.io/api/v1/group/women-in-robotics-Boston/events' | jq '.' > _data/wir_events_boston.json
+      - name: Get melbourne events
+        run: curl -s 'https://meetingplace.io/api/v1/group/womeninroboticsmelbourne/events' | jq '.' > _data/wir_events_melbourne.json
+      - name: Combine
+        run: jq -s '[.[][]]' wir_*.json > _data/events.json
+      - name: Commit
+        run: |
+          git config user.name "WiR Bot"
+          git config user.email website@womeninrobotics.org
+          git add _data/events.json
+          git commit -m "Updating events"
+          git push origin main
