@@ -23,7 +23,7 @@ jobs:
       - name: Get melbourne events
         run: curl -s 'https://meetingplace.io/api/v1/group/womeninroboticsmelbourne/events' | jq '.' > _data/wir_events_melbourne.json
       - name: Combine
-        run: jq -s '[.[][]]' wir_*.json > _data/events.json
+        run: jq -s '[.[][]]' _data/wir_*.json > _data/events.json
       - name: Commit
         run: |
           git config user.name "WiR Bot"
