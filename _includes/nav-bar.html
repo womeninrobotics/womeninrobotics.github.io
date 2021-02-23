@@ -16,17 +16,17 @@
             </button>
         </div>
         <div class="collapse navbar-collapse justify-content-end" id="navbar1">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav list-unstyled">
                 {%- assign pages_list = (site.pages | sort: 'order') %}
                 {% comment %} This section adds links for pages that are added to the site. {% endcomment %}
                 {%- for node in pages_list %}
                 {%- if node.title != null and node.order != null %}
                 {%- if page.url == node.url %}
-                <li class="nav-item active">
+                <li class="nav-item active list-unstyled">
                     <a class="nav-link" href="{{node.url}}">{{node.title}}</a>
                 </li>
                 {%- else %}
-                <li class="nav-item">
+                <li class="nav-item list-unstyled">
                     <a class="nav-link" href="{{node.url}}">{{node.title}}</a>
                 </li>
                 {%- endif %}
