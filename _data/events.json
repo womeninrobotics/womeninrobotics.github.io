@@ -1,15 +1,5 @@
 [
   {
-    "id": 4613,
-    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/4613",
-    "name": "Weekly Book Club",
-    "description": "<div>Join us for a weekly discussion about women in robotics and the books we're reading - January's book is Brotopia by Emily Chang and February's book will be Invisible Women by Caroline Criado-Perez. <br>Our timezone is California PST !</div>",
-    "location": "Online Event",
-    "location_info": "[Shown to members only]",
-    "start_time": "2021-02-27T14:00:00-08:00",
-    "end_time": "2021-02-27T15:00:00-08:00"
-  },
-  {
     "id": 4614,
     "url": "https://meetingplace.io/women-in-robotics-bay-area/events/4614",
     "name": "Weekly Book Club",
@@ -408,5 +398,15 @@
     "location_info": "[Shown to members only]",
     "start_time": "2021-12-04T14:00:00-08:00",
     "end_time": "2021-12-04T15:00:00-08:00"
+  },
+  {
+    "id": 4654,
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/4654",
+    "name": "Weekly Book Club",
+    "description": "<div>Join us for a weekly discussion about women in robotics and the books we're reading - January's book is Brotopia by Emily Chang and February's book will be Invisible Women by Caroline Criado-Perez. <br>Our timezone is California PST !</div>",
+    "location": "Online Event",
+    "location_info": "[Shown to members only]",
+    "start_time": "2021-12-11T14:00:00-08:00",
+    "end_time": "2021-12-11T15:00:00-08:00"
   }
 ]
