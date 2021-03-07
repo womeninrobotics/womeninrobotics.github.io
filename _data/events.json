@@ -1,15 +1,5 @@
 [
   {
-    "id": 4614,
-    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/4614",
-    "name": "Weekly Book Club",
-    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjkyNz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3847fa2d9cfcfffb5e6f5060bf43f68a254c266b\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbThMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2e197ce5d3e0982aa5b92474a306b2225d781d4e/otherminds.jpg\" filename=\"otherminds.jpg\" filesize=\"10452\" width=\"144\" height=\"218\" presentation=\"gallery\"></action-text-attachment>Join us for a weekly discussion about women in robotics and the books we're reading - March we're reading Other Minds by Peter Godfrey-Smith. January's book was Brotopia by Emily Chang and February's book was Invisible Women by Caroline Criado-Perez.</div>",
-    "location": "Online Event",
-    "location_info": "[Shown to members only]",
-    "start_time": "2021-03-06T14:00:00-08:00",
-    "end_time": "2021-03-06T15:00:00-08:00"
-  },
-  {
     "id": 4615,
     "url": "https://meetingplace.io/women-in-robotics-bay-area/events/4615",
     "name": "Weekly Book Club",
@@ -408,6 +398,16 @@
     "location_info": "[Shown to members only]",
     "start_time": "2021-12-11T14:00:00-08:00",
     "end_time": "2021-12-11T15:00:00-08:00"
+  },
+  {
+    "id": 4655,
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/4655",
+    "name": "Weekly Book Club",
+    "description": "<div>Join us for a weekly discussion about women in robotics and the books we're reading - January's book is Brotopia by Emily Chang and February's book will be Invisible Women by Caroline Criado-Perez. <br>Our timezone is California PST !</div>",
+    "location": "Online Event",
+    "location_info": "[Shown to members only]",
+    "start_time": "2021-12-18T14:00:00-08:00",
+    "end_time": "2021-12-18T15:00:00-08:00"
   },
   {
     "id": 5129,
