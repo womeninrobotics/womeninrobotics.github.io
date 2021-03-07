@@ -1,6 +1,5 @@
 ---
-layout: default
 title: Store
-permalink: /store/
+permalink: /store/index.html
 redirect_to: https://svrobo.org/product-category/wir/
 ---

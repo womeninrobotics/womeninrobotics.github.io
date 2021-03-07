@@ -1,6 +1,5 @@
 ---
-layout: default
 title: Newsletter
-permalink: /newsletter/
+permalink: /newsletter/index.html
 redirect_to: https://sendfox.com/womeninrobotics
 ---
