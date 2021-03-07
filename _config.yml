@@ -14,10 +14,10 @@ url: https://womeninrobotics.org
 title: Women in Robotics
 description: Community for women working in robotics, and women who want to work in robotics.
 
-donation_url: https://www.paypal.com/donate/?hosted_button_id=EHKJVECS8F46S
-store_url: https://svrobo.org/shop/
+donation_url: /donate/
+store_url: /store/
 sponsor_url: mailto:info@womeninrobotics.org
-newsletter_url: https://sendfox.com/womeninrobotics
+newsletter_url: /newsletter/
 join_url: /signup/
 
 # Social media info
