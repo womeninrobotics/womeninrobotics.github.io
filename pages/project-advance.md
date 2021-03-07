@@ -6,12 +6,12 @@ permalink: /project-advance/
 
 ![Project Advance](/assets/images/project-advance.jpg)
 
-## Why We Started Fast Track
+## Why We Started Project Advance
 
-Behind every successful entrepreneur are brilliant mentors who coached, opened doors and paved the way, often before anyone else believed. But it’s not easy to find a good mentor and build an impactful relationship, especially in the fast-moving startup world. Fast Track was designed to connect accomplished leaders looking to work side-by-side and share their hard-won wisdom with the next generation. Since launching in 2016, we’ve helped over 1,500 pairs forge impactful bonds through structured 1:1 discussions and a larger community experience.
+Robotics is a fast-growing field touching many different industries. Although there are several prominent women leaders in the space, more can be done to pave a smoother path for the next generation. Project Advance aims to connect up-and-coming women in robotics with those a few years ahead in their careers to provide actionable advice on how to accelerate their advancement. We will be launching the first beta of this program this summer, drawing inspiration from some of the best mentorship programs in the country to create a high-trust, intimate environment with structured accountability and a sense of community.
 
 ## How it works
 
-At its core, Fast Track is a 90-day mentorship experience that pairs hundreds of tech leaders to mentor founders and high-potential operators (those at First Round-backed companies, and Black and Latinx folks at non-First Round backed startups). Mentees go through our powerful matching process to maximize the Mentor’s impact. Once matched, mentorship pairs meet virtually every two weeks with Mentors guiding their Mentees through the challenges of startup life, how to bolster their leadership skills, and grow their companies. In addition to these 1:1 meetings, we host virtual professional development workshops, curated learning sessions, and more personalized community experiences.
+Over the course of 90 days, Project Advance will pair a small number of high-potential women with mentors who are just a few steps ahead. We believe that pairing mentees with those who are at the next stage in their career will maximize the relevancy and effectiveness of the program. Mentors and mentees will virtually meet every two weeks to discuss how to meaningfully increase their personal and professional impact. As this is the first beta of Project Advance, we will also be experimenting with other programming such as fire-side chats and skills-based workshops to help refine the experience for future cohorts.
 
 [Submit an application](/project-advance-application/){: .btn .btn-lg .btn-default-filled}
