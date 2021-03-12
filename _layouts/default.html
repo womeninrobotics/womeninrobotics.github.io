@@ -39,7 +39,11 @@
 
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:description" content="{{ page.tagline }}">
+  {%- if page.image %}
   <meta property="og:image" content="{{ page.image }}">
+  {%- else %}
+  <meta property="og:image" content="{{ site.image }}">
+  {%- endif %}
   <meta property="og:url" content="{{ site.url }}">
   <meta name="twitter:card" content="summary_large_image">
 
