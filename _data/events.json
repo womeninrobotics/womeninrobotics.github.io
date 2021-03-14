@@ -1,15 +1,5 @@
 [
   {
-    "id": 4615,
-    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/4615",
-    "name": "Weekly Book Club",
-    "description": "<div>Join us for a weekly discussion about women in robotics and the books we're reading - January's book is Brotopia by Emily Chang and February's book will be Invisible Women by Caroline Criado-Perez. <br>Our timezone is California PST !</div>",
-    "location": "Online Event",
-    "location_info": "[Shown to members only]",
-    "start_time": "2021-03-13T14:00:00-08:00",
-    "end_time": "2021-03-13T15:00:00-08:00"
-  },
-  {
     "id": 4616,
     "url": "https://meetingplace.io/women-in-robotics-bay-area/events/4616",
     "name": "Weekly Book Club",
@@ -410,11 +400,21 @@
     "end_time": "2021-12-18T15:00:00-08:00"
   },
   {
+    "id": 4656,
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/4656",
+    "name": "Weekly Book Club",
+    "description": "<div>Join us for a weekly discussion about women in robotics and the books we're reading - January's book is Brotopia by Emily Chang and February's book will be Invisible Women by Caroline Criado-Perez. <br>Our timezone is California PST !</div>",
+    "location": "Online Event",
+    "location_info": "[Shown to members only]",
+    "start_time": "2021-12-25T14:00:00-08:00",
+    "end_time": "2021-12-25T15:00:00-08:00"
+  },
+  {
     "id": 5147,
     "url": "https://meetingplace.io/women-in-robotics-Boston/events/5147",
     "name": "Finding a Job in Robotics: Recruiters' Perspective",
-    "description": "<div>From ‘what projects are relevant for a job profile’ to ‘why haven’t I received a response from the company yet’, each robotics graduate goes through this ordeal every year! In an attempt to make the job search process seem a little less daunting, we have invited a panel of recruiters and hiring managers to answer frequently asked questions, share tips, tricks, and break some myths.<br>Join us to hear these experienced professionals share their views about the interview process, candidate pool, skills in demand, and much more.</div><div><br></div><div>The topics of conversation would be but not limited to:</div><ul><li>Dos and don’ts in resume writing</li><li>Yearly hiring cycles and identifying the market </li><li>Nature of different rounds of interviews </li><li>Prepping for live coding &amp; whiteboard design questions</li><li>Networking and follow-up emails</li></ul><div> Lastly, the participants would get a chance to ask any specific questions they may have.<br>If you have any questions you would like to be covered in the event, please enter them here: <a href=\"https://forms.gle/1Ek5JnivxMXod2u87\">https://forms.gle/1Ek5JnivxMXod2u87</a> </div><div><br></div><div>Note: The information shared in the event is solely based on the speakers' experience and not an absolute guideline on what to do.</div><div><br></div><div>This event is open to all members of the Women in Robotics Boston group, sign up on the meetingplace group, and RSVP to this event to get the zoom seminar link! </div><div>(Maximum 100 participants)</div><div><br></div><div>See you soon!</div><div><br>Speakers (TBD)<br><br></div>",
-    "location": "Massachusetts, USA",
+    "description": "<div>From ‘what projects are relevant for a job profile’ to ‘why haven’t I received a response from the company yet’, each robotics graduate goes through this ordeal every year! In an attempt to make the job search process seem a little less daunting, we have invited a panel of recruiters and hiring managers to answer frequently asked questions, share tips, tricks, and break some myths.<br>Join us to hear these experienced professionals share their views about the interview process, candidate pool, skills in demand, and much more.</div><div><br></div><div>The topics of conversation would be but not limited to:</div><ul><li>Dos and don’ts in resume writing</li><li>Yearly hiring cycles and identifying the market </li><li>Nature of different rounds of interviews </li><li>Prepping for live coding &amp; whiteboard design questions</li><li>Networking and follow-up emails</li></ul><div> Lastly, the participants would get a chance to ask any specific questions they may have.<br>If you have any questions you would like to be covered in the event, please enter them here: <a href=\"https://forms.gle/1Ek5JnivxMXod2u87\">https://forms.gle/1Ek5JnivxMXod2u87</a> </div><div><br></div><div>Note: The information shared in the event is solely based on the speakers' experience and not an absolute guideline on what to do.</div><div><br></div><div>This event is open to all members of the Women in Robotics Boston group, sign up on the meetingplace group, and RSVP to this event to get the zoom seminar link! </div><div>(Maximum 100 participants)</div><div><br></div><div>See you soon!</div><div><br>Speakers:</div><ol><li><a href=\"https://www.linkedin.com/in/laurie-mccloskey-6rs/\">Laurie McCloskey, 6 River Systems</a></li><li>(TBD)</li></ol><div><br></div>",
+    "location": "Online Event",
     "location_info": "[Shown to members only]",
     "start_time": "2021-03-29T19:00:00-04:00",
     "end_time": "2021-03-29T20:00:00-04:00"
