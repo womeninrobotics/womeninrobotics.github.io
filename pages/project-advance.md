@@ -12,6 +12,6 @@ Robotics is a fast-growing field touching many different industries. Although th
 
 ## How it works
 
-Over the course of 90 days, Project Advance will pair a small number of high-potential women and nonbinary people with mentors who are just a few steps ahead. We believe that pairing mentees with those who are at the next stage in their career will maximize the relevancy and effectiveness of the program. Mentors and mentees will virtually meet every two weeks to discuss how to meaningfully increase their personal and professional impact. As this is the first beta of Project Advance, we will also be experimenting with other programming such as fire-side chats and skills-based workshops to help refine the experience for future cohorts.
+Over the course of 90 days, Project Advance will pair a small number of high-potential women and nonbinary people with mentors who are just a few steps ahead. Mentors and mentees will virtually meet every two weeks to discuss how to meaningfully increase their personal and professional impact. As this is the first beta of Project Advance, we will also be experimenting with other programming such as fire-side chats and skills-based workshops to help refine the experience for future cohorts.
 
 [Submit an application](/project-advance-application/){: .btn .btn-lg .btn-default-filled}
