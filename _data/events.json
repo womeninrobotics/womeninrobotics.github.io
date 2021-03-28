@@ -1,15 +1,5 @@
 [
   {
-    "id": 4617,
-    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/4617",
-    "name": "Weekly Book Club",
-    "description": "<div>Join us for a weekly discussion about women in robotics and the books we're reading - January's book is Brotopia by Emily Chang and February's book will be Invisible Women by Caroline Criado-Perez. <br>Our timezone is California PST !</div>",
-    "location": "Online Event",
-    "location_info": "[Shown to members only]",
-    "start_time": "2021-03-27T14:00:00-07:00",
-    "end_time": "2021-03-27T15:00:00-07:00"
-  },
-  {
     "id": 4618,
     "url": "https://meetingplace.io/women-in-robotics-bay-area/events/4618",
     "name": "Weekly Book Club",
@@ -18,6 +8,16 @@
     "location_info": "[Shown to members only]",
     "start_time": "2021-04-03T14:00:00-07:00",
     "end_time": "2021-04-03T15:00:00-07:00"
+  },
+  {
+    "id": 5264,
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/5264",
+    "name": "Bots & Beverages (all ages!) online",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjk5Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--a65498ba644e7e14b2b47afb9d7f21043a98fd62\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBckVMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--cdbae9dff68e44e6f18818b0d831a1c3ba6cfd84/Bots%26Beer%20Graphics%20NRWtop.jpg\" filename=\"Bots&amp;Beer Graphics NRWtop.jpg\" filesize=\"87484\" width=\"960\" height=\"540\" presentation=\"gallery\"></action-text-attachment><br><br>It's National Robotics Week so let's celebrate!!<br>Special guests this month include:</div><ul><li>Circuit Launch CoLab students demoing Reachy, humanoid robot (<a href=\"https://blog.circuitlaunch.com/\">https://blog.circuitlaunch.com</a>)</li><li>Fergs from Robot and Chisel (with UBR 2.0) <a href=\"https://www.robotandchisel.com/\">https://www.robotandchisel.com/</a></li><li>And many more showcases coming!</li></ul><div><br>Do you have a robot to showcase? Let me know: andra@svrobo.org<br><br></div>",
+    "location": "Online Event",
+    "location_info": "[Shown to members only]",
+    "start_time": "2021-04-07T19:00:00-07:00",
+    "end_time": "2021-04-07T21:00:00-07:00"
   },
   {
     "id": 4619,
