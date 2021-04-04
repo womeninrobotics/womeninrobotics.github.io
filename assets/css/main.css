@@ -4428,6 +4428,23 @@ img {
     width: 100%
 }
 
+img[src*='#left'] {
+    float: left;
+    padding-right: 1vw;
+    max-width: 300px;
+}
+
+img[src*='#right'] {
+    float: right;
+    padding-left: 1vw;
+    max-width: 300px;
+}
+
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+}
+
 .page-header {
     font-size: 30px;
     font-weight: 700;
