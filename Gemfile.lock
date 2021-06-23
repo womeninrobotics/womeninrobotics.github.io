@@ -281,7 +281,7 @@ GEM
 PLATFORMS
   ruby
   x86_64-linux
-  x86_64-linux
+  x86_64-linux-musl
 
 DEPENDENCIES
   github-pages
