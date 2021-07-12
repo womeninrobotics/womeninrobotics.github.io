@@ -17,7 +17,7 @@ jobs:
         with:
           token: ${{ secrets.ACTION_TOKEN}}
       - name: Get global events
-        run: curl -s 'https://meetingplace.io/api/v1/group/women-in-robotics/events' | jq '.' > _data/wir_events_online.json
+        run: curl -s 'https://meetingplace.io/api/v1/group/womeninrobotics/events' | jq '.' > _data/wir_events_online.json
       - name: Get bay area events
         run: curl -s 'https://meetingplace.io/api/v1/group/women-in-robotics-bay-area/events' | jq '.' > _data/wir_events_bay_area.json
       - name: Get boston events
