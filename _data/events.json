@@ -1,5 +1,25 @@
 [
   {
+    "id": 6480,
+    "url": "https://meetingplace.io/women-in-robotics-Boston/events/6480",
+    "name": "Bring Your Own Bots",
+    "description": "<div>Women in Robotics Boston presents a Robotics Open Mic . . .</div><div>Bring your thesis, ideas, projects, and more with our new event series, Bring Your Own Bots! </div><div>This event is a platform to demo a robot or share your personal project or practice your thesis presentation or course projects, anything related to robotics. Get exposure, recognition, and feedback from our supportive robotics community. </div><div>All projects big or small are welcome, this is your stage to shine! Please reply to this email to let us know you’ll be presenting.</div><div><br></div><div>If you don’t have anything to showcase, do attend to learn from and meet fellow roboticists, show your support and share feedback! Please RSVP on the meetingplace group to get joining information for the Zoom meeting.</div><div><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzU4Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--f9cf611dd6ade3b32576f66b3d42be3b9260a18b\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdjhOIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c8a4ff833e0699dd0ac6d4452885ae762c408d0c/BYOB%20Graphic.png\" filename=\"BYOB Graphic.png\" filesize=\"74692\" width=\"528\" height=\"408\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "Online Event",
+    "location_info": "[Shown to members only]",
+    "start_time": "2021-08-10T19:00:00-04:00",
+    "end_time": "2021-08-10T20:00:00-04:00"
+  },
+  {
+    "id": 6481,
+    "url": "https://meetingplace.io/women-in-robotics-Boston/events/6481",
+    "name": "Social Robotics Research @ Yale with Dr. Marynel Vázquez",
+    "description": "<div>Women in Robotics Boston partnered with the Interactive Machines Group at Yale University led by Dr. Marynel Vázquez to learn more about the fundamental problems in social interactions between robots and multiple people. Join us for a technical talk on fundamental principles and algorithms to enable autonomous perception of human behavior, group social phenomena, and the social context of human-robot interactions.</div><div><br><strong>Dr. Marynel Vázquez</strong> is an Assistant Professor in Yale’s Computer Science Department, where she leads the Interactive Machines Group. Her research focuses on advancing multi-party human-robot interaction, both by studying social group phenomena and developing perception and decision making algorithms that enable autonomous robot behavior. Marynel received her bachelor's degree in Computer Engineering from Universidad Simón Bolívar in 2008, and obtained her M.S. and Ph.D. in Robotics from Carnegie Mellon University in 2013 and 2017, respectively. Before joining Yale, Marynel was a collaborator of Disney Research and a Postdoctoral Scholar at the Stanford Vision &amp; Learning Lab.</div><div><br></div><div>Interactive Machines Group: <a href=\"https://interactive-machines.com/research.html\">https://interactive-machines.com/research.html</a></div><div><br><br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzU4ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--14cde106a3661332cb51a70bde0a02c4345103d2\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ0FPIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e7163d9c7ba566538f6b993ff5084e29023cfc73/HRI%20Event%20(1).png\" filename=\"HRI Event (1).png\" filesize=\"408825\" width=\"2160\" height=\"1080\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "Online Event",
+    "location_info": "[Shown to members only]",
+    "start_time": "2021-08-25T19:30:00-04:00",
+    "end_time": "2021-08-25T20:30:00-04:00"
+  },
+  {
     "id": 5137,
     "url": "https://meetingplace.io/womeninrobotics/events/5137",
     "name": "WiR Organizers & Volunteers Get Together",
