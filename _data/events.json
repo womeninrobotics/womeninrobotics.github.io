@@ -3,7 +3,7 @@
     "id": 6480,
     "url": "https://meetingplace.io/women-in-robotics-Boston/events/6480",
     "name": "Bring Your Own Bots",
-    "description": "<div>Women in Robotics Boston presents a Robotics Open Mic . . .</div><div>Bring your thesis, ideas, projects, and more with our new event series, Bring Your Own Bots! </div><div>This event is a platform to demo a robot or share your personal project or practice your thesis presentation or course projects, anything related to robotics. Get exposure, recognition, and feedback from our supportive robotics community. </div><div>All projects big or small are welcome, this is your stage to shine! Please reply to this email to let us know you’ll be presenting.</div><div><br></div><div>If you don’t have anything to showcase, do attend to learn from and meet fellow roboticists, show your support and share feedback! Please RSVP on the meetingplace group to get joining information for the Zoom meeting.</div><div><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzU4Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--f9cf611dd6ade3b32576f66b3d42be3b9260a18b\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdjhOIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c8a4ff833e0699dd0ac6d4452885ae762c408d0c/BYOB%20Graphic.png\" filename=\"BYOB Graphic.png\" filesize=\"74692\" width=\"528\" height=\"408\" presentation=\"gallery\"></action-text-attachment></div>",
+    "description": "<div>Women in Robotics Boston presents a Robotics Open Mic . . .</div><div>Bring your thesis, ideas, projects, and more with our new event series, Bring Your Own Bots! </div><div>This event is a platform to demo a robot or share your personal project or practice your thesis presentation or course projects, anything related to robotics. Get exposure, recognition, and feedback from our supportive robotics community. </div><div>All projects big or small are welcome, this is your stage to shine! Please email us on womeninroboticsboston@gmail.com to let us know you’ll be presenting.</div><div><br></div><div>If you don’t have anything to showcase, do attend to learn from and meet fellow roboticists, show your support and share feedback! Please RSVP on the meetingplace group to get joining information for the Zoom meeting.</div><div><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzU4Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--f9cf611dd6ade3b32576f66b3d42be3b9260a18b\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdjhOIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c8a4ff833e0699dd0ac6d4452885ae762c408d0c/BYOB%20Graphic.png\" filename=\"BYOB Graphic.png\" filesize=\"74692\" width=\"528\" height=\"408\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment></div>",
     "location": "Online Event",
     "location_info": "[Shown to members only]",
     "start_time": "2021-08-10T19:00:00-04:00",
@@ -18,6 +18,26 @@
     "location_info": "[Shown to members only]",
     "start_time": "2021-08-25T19:30:00-04:00",
     "end_time": "2021-08-25T20:30:00-04:00"
+  },
+  {
+    "id": 6483,
+    "url": "https://meetingplace.io/women-in-robotics-Boston/events/6483",
+    "name": "Designing Emotionally Intelligent Robots",
+    "description": "<div>The quality of interaction between humans and robots depends on the mental model of what robots can and cannot do. Measuring the impact of robot design on ideal user experience has become important as more robotic systems enter our daily lives. Women in Robotics Boston partnered with women in iRobot, featuring Lauren Stern Shipra Arora to provide practical information on tools and frameworks for evaluating user perception. In this webinar, learn more about:</div><ul><li>User feedback on robot behavior and its impact on design</li><li>Broadening scope for an inclusive user experience</li><li>Evolution in design</li><li>Design motivation and lessons learned</li></ul>",
+    "location": "Online Event",
+    "location_info": "[Shown to members only]",
+    "start_time": "2021-09-15T19:00:00-04:00",
+    "end_time": "2021-09-15T20:00:00-04:00"
+  },
+  {
+    "id": 6482,
+    "url": "https://meetingplace.io/womeninrobotics/events/6482",
+    "name": "WiR Speaker Series - Dr Ariel Anders, black feminist roboticist",
+    "description": "<div>Join us for the Women in Robotics Project Advance speaker series, where we interview women and non-binary people about their journey in the field of robotics. Our next event will be with <a href=\"https://www.linkedin.com/in/ariel-anders/\">Dr Ariel Anders</a>, the first technical hire at Robust.AI.<br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzU4OD9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--01705e3c8cf2d90747ac7c811a3dd04d3957946d\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ1FPIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--6b64a600bd78954753631a2254fd6985642fc63f/eb0blwbh_400x400.jpeg\" filename=\"eb0blwbh_400x400.jpeg\" filesize=\"22807\" width=\"400\" height=\"400\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment><br><br>Ariel Anders is a black feminist roboticist who enjoys spending time with her family and artistic self-expression. Anders is the first roboticist hired at Robust.AI, an early stage robotics startup building the world’s first industrial grade cognitive engine. Anders received a BS in Computer Engineering from UC Santa Cruz and her Doctorate in Computer Science from MIT, where she taught project-based collaborative robotics courses, developed an iOS app for people with vision impairment, and received a grant to install therapy lamps across campus. Her research focused on reliable robotic manipulation with the vision of enabling household helpers.<br><br>Our first speaker series event was with Dr. Vivian Chu, co-founder and CTO of <a href=\"https://www.diligentrobots.com/\">Diligent Robotics</a> and is now online.<br><br><br></div><div><br></div>",
+    "location": "Online Event",
+    "location_info": "[Shown to members only]",
+    "start_time": "2021-07-30T12:00:00-07:00",
+    "end_time": "2021-07-30T13:00:00-07:00"
   },
   {
     "id": 5137,
