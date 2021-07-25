@@ -1,66 +1,63 @@
 <!-- navbar -->
-<nav class="navbar navbar-toggleable-sm navbar-light bg-default">
-    <div class="container">
-        <div class="logo">
-            <a class="navbar-brand" href="{{ site.url }}">
-                <img alt="logo" src="/assets/images/logo/WiRLogo-200x200t.png">
-            </a>
-        </div>
-        <div class="title">
-            <h1>Women in Robotics</h1>
-        </div>
-        <div class="nav-toggle">
-            <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbar1"
-                data-toggle="collapse" type="button">
-                <i class="fa fa-bars"></i>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse justify-content-end" id="navbar1">
-            <ul class="navbar-nav list-unstyled">
-                {%- assign pages_list = (site.pages | sort: 'order') %}
-                {% comment %} This section adds links for pages that are added to the site. {% endcomment %}
-                {%- for node in pages_list %}
-                {%- if node.title != null and node.order != null %}
-                {%- if page.url == node.url %}
-                <li class="nav-item active list-unstyled">
-                    <a class="nav-link" href="{{node.url}}">{{node.title}}</a>
-                </li>
-                {%- else %}
-                <li class="nav-item list-unstyled">
-                    <a class="nav-link" href="{{node.url}}">{{node.title}}</a>
-                </li>
-                {%- endif %}
-                {%- endif %}
-                {%- endfor %}
-            </ul>
-        </div>
-        <div class="right hidden-sm-down social">
-            {%- if site.facebook %}
-            <a style="margin-left: 5px" href="{{ site.facebook }}">
-                <i class="fa fa-facebook fa-lg"></i>
-            </a>
-            {%- endif %}
-            {%- if site.twitter %}
-            <a style="margin-left: 5px" href="{{ site.twitter }}">
-                <i class="fa fa-twitter fa-lg"></i>
-            </a>
-            {%- endif %}
-            {%- if site.linkedin %}
-            <a style="margin-left: 5px" href="{{ site.linkedin }}">
-                <i class="fa fa-linkedin fa-lg"></i>
-            </a>
-            {%- endif %}
-            {%- if site.instagram %}
-            <a style="margin-left: 5px" href="{{ site.instagram }}">
-                <i class="fa fa-instagram fa-lg"></i>
-            </a>
-            {%- endif %}
-            {%- if site.pinterest %}
-            <a style="margin-left: 5px" href="{{ site.pinterest }}">
-                <i class="fa fa-pinterest fa-lg"></i>
-            </a>
-            {%- endif %}
-        </div>
-    </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">
+        <img alt="logo" src="/assets/images/logo/WiRLogo-200x200t.png" width="30" height="30"
+            class="d-inline-block align-middle">
+        Women in Robotics
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+            {%- for node in site.data.nav-bar %}
+            <li
+                class="nav-item{% if page.url == node.url %} active{% endif %}{% if node.subpages %} dropdown{% endif %}">
+                {%- if node.subpages %}
+                <a class="nav-link dropdown-toggle" href="{{node.url}}" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    {{node.title}}
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="{{node.url}}">{{node.title}}</a>
+                    {%- for sub in node.subpages %}
+                    <a class="dropdown-item" href="{{sub.url}}">{{sub.title}}</a>
+                    {%- endfor %}
+                </div>
+                {%- else %}
+                <a class="nav-link" href="{{node.url}}">{{node.title}}<span class="sr-only">(current)</span></a>
+                {%- endif %}
+            </li>
+            {%- endfor %}
+        </ul>
+    </div>
+    <div class="right d-none d-lg-block social px-3">
+        {%- if site.facebook %}
+        <a class="social-icon" href="{{ site.facebook }}">
+            <i class="fa fa-facebook fa-lg"></i>
+        </a>
+        {%- endif %}
+        {%- if site.twitter %}
+        <a class="social-icon" href="{{ site.twitter }}">
+            <i class="fa fa-twitter fa-lg"></i>
+        </a>
+        {%- endif %}
+        {%- if site.linkedin %}
+        <a class="social-icon" href="{{ site.linkedin }}">
+            <i class="fa fa-linkedin fa-lg"></i>
+        </a>
+        {%- endif %}
+        {%- if site.instagram %}
+        <a class="social-icon" href="{{ site.instagram }}">
+            <i class="fa fa-instagram fa-lg"></i>
+        </a>
+        {%- endif %}
+        {%- if site.pinterest %}
+        <a class="social-icon" href="{{ site.pinterest }}">
+            <i class="fa fa-pinterest fa-lg"></i>
+        </a>
+        {%- endif %}
+    </div>
 </nav>

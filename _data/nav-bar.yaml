@@ -1,0 +1,13 @@
+- title: About
+  url: /about/
+  subpages:
+    - title: Project Advance
+      url: /project-advance/
+    - title: Other Resources
+      url: /other-resources/
+- title: Events
+  url: /events/
+- title: News
+  url: /news/
+- title: Join Us
+  url: /signup/

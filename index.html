@@ -3,8 +3,6 @@ layout: default
 title: Home
 order: 1
 ---
-
-
 <!-- begin intro section -->
 <section id="intro">
     <div class="container">
@@ -71,27 +69,33 @@ order: 1
         <div class="sub-title text-center">
             <span>We support each other through a global community and local chapters.</span>
         </div>
-        {% for region in site.data.chapters %}
-        <div class="panel-group">
-            <div class="panel">
-                <div class="panel-heading" data-target="#{{ region[0] }}" data-toggle="collapse">
-                    <a class="panel-title collapsed" href="#{{ region[0] }}">{{ region[0] }}</a>
-                </div>
-                <div id="{{ region[0] }}" class="panel-collapse collapse">
-                    <div class="panel-body text-gray">
+        <div class="accordion col-md-6 offset-md-3 mb-5" id="chapter-regions">
+            {%- for region in site.data.chapters %}
+            <div class="accordion-item mb-2">
+                <h2 class="accordion-header" id="{{ region[0] }}-heading">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#{{ region[0] }}" aria-expanded="false" aria-controls="{{ region[0] }}">
+                        {{ region[0] }}
+                    </button>
+                </h2>
+                <div id="{{ region[0] }}" class="accordion-collapse collapse" aria-labelledby="{{ region[0] }}-heading"
+                    data-bs-parent="#chapter-regions">
+                    <div class="accordion-body">
                         <ul>
-                            {% assign local_chapters = region[1] %}
-                            {% for chapter in local_chapters %}
-                            {% if chapter.url %}<li><a href="{{ chapter.url }}">{{ chapter.name }}</a></li>
-                            {% else %}<li>{{ chapter.name }}</li>
-                            {% endif %}
-                            {% endfor %}
+                            {%- assign local_chapters = region[1] %}
+                            {%- for chapter in local_chapters %}
+                            {%- if chapter.url %}
+                            <li><a href="{{ chapter.url }}">{{ chapter.name }}</a></li>
+                            {%- else %}
+                            <li>{{ chapter.name }}</li>
+                            {%- endif %}
+                            {%- endfor %}
                         </ul>
                     </div>
                 </div>
             </div>
+            {%- endfor %}
         </div>
-        {% endfor %}
         <div class="text-center">
             <a href="/start-a-chapter/" class="page-scroll btn btn-lg btn-common animated fadeInUp">Start
                 a chapter</a>
@@ -176,7 +180,7 @@ order: 1
                             {%- assign item-active = "" %}
                             {%- if forloop.first %}{% assign item-active = "active" %}{% endif %}
                             <div class="carousel-item {{ item-active }}">
-                                <img src=" {{ item.image }}" alt="item">
+                                <img src=" {{ item.image }}" alt="item" class="mx-auto d-block">
                             </div>
                             {%- endfor %}
                             <a class="carousel-control-prev" data-slide="prev" href="#carousel-slider" role="button">
