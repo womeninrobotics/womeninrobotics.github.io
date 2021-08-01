@@ -15,7 +15,7 @@ permalink: /other-resources/
 - Black in AI - [https://blackinai.github.io/](https://blackinai.github.io/#/)
 - Black ComputeHer - [https://blackcomputeher.org/](https://blackcomputeher.org/)
 - Women in Machine Learning - [https://wimlworkshop.org/](https://wimlworkshop.org/faq/)
-- Women in Machine Learning & Data Science - [http://wimlds.org/](http://wimlds.org/)
+- Women in Machine Learning & Data Science - [https://wimlds.org/](https://wimlds.org/)
 - Women in AI - [https://www.womeninai.co/](https://www.womeninai.co/)
 - Women Who Code - [https://www.womenwhocode.com/](https://www.womenwhocode.com/about)
 - IEEE Women in Engineering - [https://www.ieee.org/membership/women/](https://www.ieee.org/membership/women/index.html)

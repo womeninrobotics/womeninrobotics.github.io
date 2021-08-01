@@ -33,30 +33,6 @@
         </ul>
     </div>
     <div class="right d-none d-lg-block social px-3">
-        {%- if site.facebook %}
-        <a class="social-icon" href="{{ site.facebook }}">
-            <i class="fa fa-facebook fa-lg"></i>
-        </a>
-        {%- endif %}
-        {%- if site.twitter %}
-        <a class="social-icon" href="{{ site.twitter }}">
-            <i class="fa fa-twitter fa-lg"></i>
-        </a>
-        {%- endif %}
-        {%- if site.linkedin %}
-        <a class="social-icon" href="{{ site.linkedin }}">
-            <i class="fa fa-linkedin fa-lg"></i>
-        </a>
-        {%- endif %}
-        {%- if site.instagram %}
-        <a class="social-icon" href="{{ site.instagram }}">
-            <i class="fa fa-instagram fa-lg"></i>
-        </a>
-        {%- endif %}
-        {%- if site.pinterest %}
-        <a class="social-icon" href="{{ site.pinterest }}">
-            <i class="fa fa-pinterest fa-lg"></i>
-        </a>
-        {%- endif %}
+        {% include social.html fa_size="fa-lg" %}
     </div>
 </nav>

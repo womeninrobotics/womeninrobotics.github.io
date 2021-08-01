@@ -26,9 +26,15 @@
             "problemMatcher": []
         },
         {
+            "label": "i: install",
+            "type": "shell",
+            "command": "bundle install",
+            "problemMatcher": []
+        },
+        {
             "label": "t: test",
             "type": "shell",
-            "command": ".github/htmlproofer.sh",
+            "command": ".github/htmlproofer.rb",
             "dependsOn": [
                 "b: build website"
             ],

@@ -1,0 +1,35 @@
+{% comment %}
+This file adds the social links
+
+Example:
+```
+{% include social.html fa_size='fa-2x' %}
+```
+
+Where fa_size is: [fa-2x, fa-lg,'']
+{% endcomment %}
+{%- if site.facebook %}
+<a class="social-icon" href="{{ site.facebook }}">
+    <i class="fa fa-facebook {{ include.fa_size }}"></i>
+</a>
+{%- endif %}
+{%- if site.twitter %}
+<a class="social-icon" href="{{ site.twitter }}">
+    <i class="fa fa-twitter {{ include.fa_size }}"></i>
+</a>
+{%- endif %}
+{%- if site.linkedin %}
+<a class="social-icon" href="{{ site.linkedin }}" data-proofer-ignore>
+    <i class="fa fa-linkedin {{ include.fa_size }}"></i>
+</a>
+{%- endif %}
+{%- if site.instagram %}
+<a class="social-icon" href="{{ site.instagram }}">
+    <i class="fa fa-instagram {{ include.fa_size }}"></i>
+</a>
+{%- endif %}
+{%- if site.pinterest %}
+<a class="social-icon" href="{{ site.pinterest }}">
+    <i class="fa fa-pinterest {{ include.fa_size }}"></i>
+</a>
+{%- endif %}
