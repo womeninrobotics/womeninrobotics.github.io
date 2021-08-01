@@ -1158,12 +1158,29 @@ footer .menu li a:hover {
 .dropdown-item {
     padding: 10px 22px;
     font-size: 14px;
-    width: 170px
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
     background: #eb155b;
     color: #fff
+}
+
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+    padding: 0;
+}
+
+.dropdown-menu.show {
+    max-height: 300px;
+    opacity: 1;
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
@@ -1173,7 +1190,6 @@ footer .menu li a:hover {
 .navbar-nav .nav-link {
     color: #fff;
     font-size: 14px;
-    margin-right: 18px;
     font-weight: 400;
     padding: 18px 0px
 }
@@ -4229,7 +4245,11 @@ ul.nav-tabs li a {
     }
 }
 
-@media (max-width: 767px) {}
+@media (max-width: 991px) {
+    .dropdown-item {
+        text-align: center;
+    }
+}
 
 @media (max-width: 640px) {
     .page-header-title .heading-title {
