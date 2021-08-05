@@ -125,63 +125,7 @@ js: about.js
     </div>
 
     <div class="team-members mtb-50">
-        <div class="row">
-            {%- for member in site.data.board %}
-            {%- unless member.advisory %}
-            <div class="col-sm-6 col-md-3">
-                <!-- Team Item Starts -->
-                <div class="team-item">
-                    <figure class="team-profile">
-                        {%- if member.image %}
-                        <img src="{{member.image}}" alt="{{member.name}}">
-                        {%- else %}
-                        <img src="/assets/images/RosieUpdated.jpeg" alt="{{member.name}}">
-                        {%- endif %}
-                        <figcaption class="our-team">
-                            <div class="details">
-                                <div>
-                                    <p class="content-white">{{member.location}}</p>
-                                    <p class="content-white">Joined {{member.joined}}</p>
-                                </div>
-                                <hr class="small-divider border-white">
-                                <div class="social">
-                                    {%- if member.email %}
-                                    <a class="email" href="mailto:{{member.email}}"><i class="fa fa-at"></i></a>
-                                    {%- endif %}
-                                    {%- if member.facebook %}
-                                    <a class="facebook" href="https://www.facebook.com/{{member.facebook}}"><i
-                                            class="fa fa-facebook"></i></a>
-                                    {%- endif %}
-                                    {%- if member.twitter %}
-                                    <a class="twitter" href="https://twitter.com/{{member.twitter}}"><i
-                                            class="fa fa-twitter"></i></a>
-                                    {%- endif %}
-                                    {%- if member.instagram %}
-                                    <a class="instagram" href="https://www.instagram.com/{{member.instagram}}"><i
-                                            class="fa fa-instagram"></i></a>
-                                    {%- endif %}
-                                    {%- if member.linkedin %}
-                                    <a class="linkedin" href="https://www.linkedin.com/in/{{member.linkedin}}"><i
-                                            class="fa fa-linkedin"></i></a>
-                                    {%- endif %}
-                                </div>
-                            </div>
-                        </figcaption>
-                    </figure>
-                    <div class="info">
-                        <h2>
-                            {{member.name}}
-                        </h2>
-                        <p>
-                            {{member.office}}
-                        </p>
-                    </div>
-                </div>
-                <!-- Team Item Ends -->
-            </div>
-            {%- endunless %}
-            {%- endfor %}
-        </div>
+        {% include people.html members=site.data.people.board %}
     </div>
 </div>
 <!-- end board of directors -->
@@ -197,64 +141,7 @@ js: about.js
     </div>
 
     <div class="team-members mtb-50">
-        <div class="row">
-            {%- for member in site.data.board %}
-            {%- if member.advisory %}
-            <div class="col-sm-6 col-md-3">
-                <!-- Team Item Starts -->
-                <div class="team-item">
-                    <figure class="team-profile">
-                        {%- if member.image %}
-                        <img src="{{member.image}}" alt="{{member.name}}">
-                        {%- else %}
-                        <img src="/assets/images/RosieUpdated.jpeg" alt="{{member.name}}">
-                        {%- endif %}
-                        <figcaption class="our-team">
-                            <div class="details">
-                                <div>
-                                    <p class="content-white">{{member.location}}</p>
-                                    <p class="content-white">Joined {{member.joined}}</p>
-                                    <p class="content-white">Advisory {{member.advisory}}</p>
-                                </div>
-                                <hr class="small-divider border-white">
-                                <div class="social">
-                                    {%- if member.email %}
-                                    <a class="email" href="mailto:{{member.email}}"><i class="fa fa-at"></i></a>
-                                    {%- endif %}
-                                    {%- if member.facebook %}
-                                    <a class="facebook" href="https://www.facebook.com/{{member.facebook}}"><i
-                                            class="fa fa-facebook"></i></a>
-                                    {%- endif %}
-                                    {%- if member.twitter %}
-                                    <a class="twitter" href="https://twitter.com/{{member.twitter}}"><i
-                                            class="fa fa-twitter"></i></a>
-                                    {%- endif %}
-                                    {%- if member.instagram %}
-                                    <a class="instagram" href="https://www.instagram.com/{{member.instagram}}"><i
-                                            class="fa fa-instagram"></i></a>
-                                    {%- endif %}
-                                    {%- if member.linkedin %}
-                                    <a class="linkedin" href="https://www.linkedin.com/in/{{member.linkedin}}"><i
-                                            class="fa fa-linkedin"></i></a>
-                                    {%- endif %}
-                                </div>
-                            </div>
-                        </figcaption>
-                    </figure>
-                    <div class="info">
-                        <h2>
-                            {{member.name}}
-                        </h2>
-                        <p>
-                            {{member.office}}
-                        </p>
-                    </div>
-                </div>
-                <!-- Team Item Ends -->
-            </div>
-            {%- endif %}
-            {%- endfor %}
-        </div>
+        {% include people.html members=site.data.people.advisors %}
     </div>
 </div>
 <!-- end Advisory Board -->
