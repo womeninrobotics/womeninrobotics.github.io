@@ -10,16 +10,6 @@
     "end_time": "2021-09-15T20:00:00-04:00"
   },
   {
-    "id": 6719,
-    "url": "https://meetingplace.io/womeninrobotics/events/6719",
-    "name": "Book Club (new time!)",
-    "description": "<div>Welcome back to Book Club! Our new time for weekly book club will be Friday 5-6pm PDT <br><br>Our next readings will look at the impact of technology on gender and race. The first readings are available as free downloads and we hope to invite authors to the discussion as well.<br><br>8/27/21 | 17:00 PDT | <a href=\"https://huntersocfamilies.files.wordpress.com/2016/07/ruth-schwartz-cowan-more-work-for-mother.pdf\">More Work for Mother</a> | Ruth Schwartz Cowan<br>9/3/21 | 17:00 PDT |  | <br>9/10/21 | 17:00 PDT |  | <br>2 week gap |  |  | <br>10/1/21 | 17:00 PDT | Data Feminism | Catherine D'Ignazio &amp; Lauren Klein <br>10/8/21 | 17:00 PDT |  | <br>10/15/21 | 17:00 PDT |  | <br>10/22/21 | 17:00 PDT | UNESCO Report on Voice Assistants \"I'd Blush If I Could\" | <br>10/29/21 | 17:00 PDT |  | <br>11/5/21 | 17:00 PDT | The New Breed | Kate Darling<br>11/12/21 | 17:00 PDT |  | <br>11/19/21 | 17:00 PDT |  | <br>11/26/21 | 17:00 PDT | Race After Technology | Ruha Benjamin<br>12/3/21 | 17:00 PDT | or Race, Gender &amp; Robots | Ayanna Howard<br>12/10/21 | 17:00 PDT |  | </div>",
-    "location": "Online Event",
-    "location_info": "[Shown to members only]",
-    "start_time": "2021-08-27T17:00:00-07:00",
-    "end_time": "2021-08-27T18:00:00-07:00"
-  },
-  {
     "id": 6720,
     "url": "https://meetingplace.io/womeninrobotics/events/6720",
     "name": "Book Club (new time!)",
@@ -418,5 +408,15 @@
     "location_info": "[Shown to members only]",
     "start_time": "2022-04-15T17:00:00-07:00",
     "end_time": "2022-04-15T18:00:00-07:00"
+  },
+  {
+    "id": 6753,
+    "url": "https://meetingplace.io/womeninrobotics/events/6753",
+    "name": "Book Club (new time!)",
+    "description": "<div>Welcome back to Book Club! Our new time for weekly book club will be Friday 5-6pm PDT <br><br>Our next readings will look at the impact of technology on gender and race. The first readings are available as free downloads and we hope to invite authors to the discussion as well.<br><br>8/27/21 | 17:00 PDT | <a href=\"https://huntersocfamilies.files.wordpress.com/2016/07/ruth-schwartz-cowan-more-work-for-mother.pdf\">More Work for Mother</a> | Ruth Schwartz Cowan<br>9/3/21 | 17:00 PDT |  | <br>9/10/21 | 17:00 PDT |  | <br>2 week gap |  |  | <br>10/1/21 | 17:00 PDT | Data Feminism | Catherine D'Ignazio &amp; Lauren Klein <br>10/8/21 | 17:00 PDT |  | <br>10/15/21 | 17:00 PDT |  | <br>10/22/21 | 17:00 PDT | UNESCO Report on Voice Assistants \"I'd Blush If I Could\" | <br>10/29/21 | 17:00 PDT |  | <br>11/5/21 | 17:00 PDT | The New Breed | Kate Darling<br>11/12/21 | 17:00 PDT |  | <br>11/19/21 | 17:00 PDT |  | <br>11/26/21 | 17:00 PDT | Race After Technology | Ruha Benjamin<br>12/3/21 | 17:00 PDT | or Race, Gender &amp; Robots | Ayanna Howard<br>12/10/21 | 17:00 PDT |  | </div>",
+    "location": "Online Event",
+    "location_info": "[Shown to members only]",
+    "start_time": "2022-04-22T17:00:00-07:00",
+    "end_time": "2022-04-22T18:00:00-07:00"
   }
 ]
