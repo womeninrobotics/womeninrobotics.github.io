@@ -20,16 +20,6 @@
     "end_time": "2021-09-15T20:00:00-04:00"
   },
   {
-    "id": 6721,
-    "url": "https://meetingplace.io/womeninrobotics/events/6721",
-    "name": "Book Club (new time!)",
-    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzg1Nj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3e228fd6fab0f32121997adffcb28bb84b117022\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaEFQIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--858b9b1b5008c1cbf364a1729c9b4490ade62107/best-book-club-main-image-1800x1200.jpeg\" filename=\"best-book-club-main-image-1800x1200.jpeg\" filesize=\"409384\" width=\"1800\" height=\"1200\" presentation=\"gallery\"></action-text-attachment></div>",
-    "location": "Online Event",
-    "location_info": "[Shown to members only]",
-    "start_time": "2021-09-10T17:00:00-07:00",
-    "end_time": "2021-09-10T18:00:00-07:00"
-  },
-  {
     "id": 6722,
     "url": "https://meetingplace.io/womeninrobotics/events/6722",
     "name": "Book Club (new time!)",
@@ -428,5 +418,15 @@
     "location_info": "[Shown to members only]",
     "start_time": "2022-05-06T17:00:00-07:00",
     "end_time": "2022-05-06T18:00:00-07:00"
+  },
+  {
+    "id": 6756,
+    "url": "https://meetingplace.io/womeninrobotics/events/6756",
+    "name": "Book Club (new time!)",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzg1Nz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3b8e3fb27e4ee62a2fc9308e38cbd2dcfd5bb025\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaEVQIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--24954fdefe8806532d6c498748da311d8e5e3a77/best-book-club-main-image-1800x1200.jpeg\" filename=\"best-book-club-main-image-1800x1200.jpeg\" filesize=\"409384\" width=\"1800\" height=\"1200\" presentation=\"gallery\"></action-text-attachment>Welcome back to Book Club! Our new time for weekly book club will be Friday 5-6pm PDT <br><br>Our next readings will look at the impact of technology on gender and race. The first readings are available as free downloads and we hope to invite authors to the discussion as well.<br><br>8/27/21 | 17:00 PDT | <a href=\"https://huntersocfamilies.files.wordpress.com/2016/07/ruth-schwartz-cowan-more-work-for-mother.pdf\">More Work for Mother</a> | Ruth Schwartz Cowan<br>9/3/21 | 17:00 PDT |  | <br>9/10/21 | 17:00 PDT |  | <br>2 week gap |  |  | <br>10/1/21 | 17:00 PDT | Data Feminism | Catherine D'Ignazio &amp; Lauren Klein <br>10/8/21 | 17:00 PDT |  | <br>10/15/21 | 17:00 PDT |  | <br>10/22/21 | 17:00 PDT | UNESCO Report on Voice Assistants \"I'd Blush If I Could\" | <br>10/29/21 | 17:00 PDT |  | <br>11/5/21 | 17:00 PDT | The New Breed | Kate Darling<br>11/12/21 | 17:00 PDT |  | <br>11/19/21 | 17:00 PDT |  | <br>11/26/21 | 17:00 PDT | Race After Technology | Ruha Benjamin<br>12/3/21 | 17:00 PDT | or Race, Gender &amp; Robots | Ayanna Howard<br>12/10/21 | 17:00 PDT |  | </div>",
+    "location": "Online Event",
+    "location_info": "[Shown to members only]",
+    "start_time": "2022-05-13T17:00:00-07:00",
+    "end_time": "2022-05-13T18:00:00-07:00"
   }
 ]
