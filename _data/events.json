@@ -1,5 +1,25 @@
 [
   {
+    "id": 7112,
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/7112",
+    "name": "ROSCon '21 Viewing Party",
+    "description": "<div>Join us at Silicon Valley Robotics, MechLabs and Circuit Launch in Oakland for a week full of exciting robot activities!<br><br>On Wednesday Oct 20th and Thursday Oct 21st we're hosting a Viewing Party &amp; Screening for ROSWorld 21 : https://roscon21-viewing-party.eventbrite.com<br><br>* register for ROSCon '21 here : https://roscon.ros.org/world/2021/<br><br>On Friday Oct 22nd we're hosting robot developers workshop day, with Foxglove Robotics, Haddington Dynamics, PickNik Robotics, Merklebot and Spot from Boston Dynamics (more TBC) : https://robot-developer-day.eventbrite.com<br><br>* full schedule coming soon<br><br>And on Saturday Oct 23rd we're hosting the Robot Block Party, with demos, speakers, job fair, robots, robots, more robots, fun, food trucks and fiesta! https://robot-block-party.eventbrite.com<br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzg5ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--d165f3cc48ba4d379f1ab92b0a4fec5029bda30c\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBallQIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--44b31e3e6baf0af2b09ab4cb6d57e4e3eecfffb5/join%20us%20for%20a%20ROSCon%20viewing%20party!.jpg\" filename=\"join us for a ROSCon viewing party!.jpg\" filesize=\"1059229\" width=\"6912\" height=\"3456\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "San Francisco, CA, USA",
+    "location_info": "[Shown to members only]",
+    "start_time": "2021-10-20T08:30:00-07:00",
+    "end_time": "2021-10-21T17:30:00-07:00"
+  },
+  {
+    "id": 7113,
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/7113",
+    "name": "Robot Developer Workshops",
+    "description": "<div>Join us at Silicon Valley Robotics, MechLabs and Circuit Launch in Oakland for a week full of exciting robot activities!<br><br>On Wednesday Oct 20th and Thursday Oct 21st we're hosting a Viewing Party &amp; Screening for ROSWorld 21 : https://roscon21-viewing-party.eventbrite.com<br><br>* register for ROSCon '21 here : https://roscon.ros.org/world/2021/<br><br>On Friday Oct 22nd we're hosting robot developers workshop day, with Foxglove Robotics, Haddington Dynamics, PickNik Robotics, Merklebot and Spot from Boston Dynamics (more TBC) : https://robot-developer-day.eventbrite.com<br><br>* full schedule coming soon<br><br>And on Saturday Oct 23rd we're hosting the Robot Block Party, with demos, speakers, job fair, robots, robots, more robots, fun, food trucks and fiesta! https://robot-block-party.eventbrite.com<br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzg5NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--58eed7e90b412f418b4b0e16ff8ef1c5258f9210\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamNQIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5b93d7c2d082679af5b38f546c35c5d9b5515682/Robot%20Block%20Party%20Developer%20Day.png\" filename=\"Robot Block Party Developer Day.png\" filesize=\"362867\" width=\"2160\" height=\"1080\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "San Francisco, CA, USA",
+    "location_info": "[Shown to members only]",
+    "start_time": "2021-10-22T09:00:00-07:00",
+    "end_time": "2021-10-22T17:00:00-07:00"
+  },
+  {
     "id": 6961,
     "url": "https://meetingplace.io/women-in-robotics-bay-area/events/6961",
     "name": "Robot Block Party",
