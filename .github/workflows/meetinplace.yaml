@@ -13,7 +13,7 @@ jobs:
     name: Update events from meetinplace.io
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@v2.3.5
         with:
           token: ${{ secrets.ACTION_TOKEN}}
       - name: Get global events
