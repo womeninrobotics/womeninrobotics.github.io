@@ -4,7 +4,15 @@ github: [metadata]
 permalink: /:categories/:year/:month/:day/:title
 
 # Files to exclude from jekyll build
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude:
+  [
+    ".rvmrc",
+    ".rbenv-version",
+    "README.md",
+    "Rakefile",
+    "changelog.md",
+    "vendor",
+  ]
 # Markdown providor
 markdown: kramdown
 # URL of website

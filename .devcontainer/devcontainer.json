@@ -1,11 +1,12 @@
 // For format details, see https://aka.ms/vscode-remote/devcontainer.json or the definition README at
 // https://github.com/microsoft/vscode-dev-containers/tree/master/containers/ubuntu-18.04-git
 {
-	"name": "Github Pages",
-	"image": "athackst/github:pages-dev",
+	"name": "Women in Robotics website",
+	"dockerFile": "Dockerfile",
 	"remoteUser": "jekyll",
+	"containerUser": "jekyll",
 	"settings": {
-		"terminal.integrated.shell.linux": "/bin/bash"
+		"terminal.integrated.defaultProfile.linux": "bash",
 	},
 	"appPort": [
 		4000
@@ -14,7 +15,7 @@
 		80,
 		443
 	],
-	"postCreateCommand": "bundle install",
+	"postCreateCommand": "bundle config set --local path vendor/bundle && bundle install",
 	// Add the IDs of extensions you want installed when the container is created in the array below.
 	"extensions": [
 		// yaml for data files
