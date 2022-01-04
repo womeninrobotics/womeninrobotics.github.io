@@ -21,7 +21,6 @@
                     {{node.title}}
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="{{node.url}}">{{node.title}}</a>
                     {%- for sub in node.subpages %}
                     <a class="dropdown-item" href="{{sub.url}}">{{sub.title}}</a>
                     {%- endfor %}
