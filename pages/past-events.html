@@ -15,8 +15,8 @@ group: events
 </div>
 <div class="container">
     <div>
-        {% if site.data.events %}
-        {% assign reverse_sorted_events = site.data.events | sort:"start_time" | reverse %}
+        {% if site.data.past_events %}
+        {% assign reverse_sorted_events = site.data.past_events | sort:"start_time" | reverse %}
         {% for event in reverse_sorted_events limit: 5%}
         <div class="row" past-date="{{ event.start_time | date: '%Y%m%d' }}">
             <div class="col-md-4">

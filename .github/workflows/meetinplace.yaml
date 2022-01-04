@@ -36,3 +36,13 @@ jobs:
             git commit -m "Updating events"
             git push origin main
           fi
+      - name: Get past events
+        run: curl -s 'https://meetingplace.io/api/v1/group/womeninrobotics/past_events' | jq '.' > _data/past_events.json
+      - name: Commit past events
+        run: |
+          event_file=_data/past_events.json
+          if ! git diff --exit-code --quiet ${event_file}; then
+            git add _data/events.json
+            git commit -m "Updating past events"
+            git push origin main
+          fi
