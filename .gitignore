@@ -1,4 +1,8 @@
 _site/
+vendor/
+.jekyll-metadata
+.jekyll-cache
+.env
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -43,4 +47,3 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-
