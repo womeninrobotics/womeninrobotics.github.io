@@ -1152,7 +1152,7 @@ footer .menu li a:hover {
     padding: 10px 0px;
     border: 0;
     border-radius: 0;
-    background-color: rgba(0, 0, 0, .05)
+    background-color: rgba(200, 200, 200, 1);
 }
 
 .dropdown-item {
