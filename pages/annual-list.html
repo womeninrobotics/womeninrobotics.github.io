@@ -1,0 +1,78 @@
+---
+layout: default
+title: Annual List
+permalink: /annual-list/
+---
+<div class="header-caption">
+    <div class="row">
+        <div class="col-md-12 header-content text-center">
+            <h1 class="page-header-title animated fadeInDown"><span class="text-primary">Annual List
+                </span>
+            </h1>
+        </div>
+    </div>
+</div>
+<section class="blog">
+    <div class="container">
+        <div class="row mb-60">
+            <p>
+                In celebration of Ada Lovelace Day, we compile a short list every year of some women in robotics that
+                everyone should know about.
+            </p>
+            <p>
+                From Hypatia to Grace Hopper, there have been amazing women who have fought against massive prejudice to
+                carve themselves out a name in the fields of science, engineering, mathematics and technology. These
+                comparatively few women however can easily be lost from the pages of history and to create a more equal
+                ongoing presence of women in technology, we need to show strong female role models.
+            </p>
+            <p>
+                Ada Lovelace was the world’s first computer programmer and in spite of her undoubted mathematical
+                brilliance, she was reluctant to publish herself and made do with publishing ‘commentaries’ on the works
+                of
+                others. Her commentaries were far longer and more original than the originals and in the process she
+                demonstrated the future applications for the universal computing machine that Charles Babbage proposed
+                but
+                never built.
+            </p>
+            <p>
+                Now in its fourth year, Ada Lovelace Day is about sharing stories of women in science, technology,
+                engineering and math who have inspired you to become who you are today. The aim is to create new role
+                models
+                for girls and women in these male-dominated fields by raising the profile of other women in STEM.
+            </p>
+            <p>
+                Professionally, the women on our list are all field leaders with a huge impact on robotics, regardless
+                of
+                their gender. Check back every year for even more inspiration!
+            </p>
+        </div>
+        <div class="row">
+            {% for post in site.posts %}
+            {% if post.tags contains "annual-list" %}
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item mb-60">
+                <!-- Blog Item Starts -->
+                <div class="blog-item-wrapper">
+                    <div class="blog-item-img">
+                        <a href="{{ post.link }}"><img src="{{ post.image }}" alt="{{ post.title }}"></a>
+                    </div>
+                    <div class="blog-item-text">
+                        <h3>
+                            <a href="{{ post.link }}">{{ post.title }}</a>
+                        </h3>
+                        <div class="meta-tags">
+                            <span class="date"><i class="lnr lnr-calendar-full"></i>{{ post.date | date: "%B %d, %Y"
+                                }}</span>
+                            <!-- <span class="comments"><a href="#"><i class="lnr lnr-bubble"></i> 24 Comments</a></span> -->
+                        </div>
+                        <p>{{ post.tagline }}
+                        </p>
+                        <a href="{{ post.link }}" class="btn btn-common btn-rm">Read More</a>
+                    </div>
+                </div>
+                <!-- Blog Item Wrapper Ends-->
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
