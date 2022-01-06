@@ -32,7 +32,7 @@ jobs:
           git config user.email website@womeninrobotics.org
           event_file=_data/events.json
           if ! git diff --exit-code --quiet ${event_file}; then
-            git add _data/events.json
+            git add ${event_file}
             git commit -m "Updating events"
             git push origin main
           fi
@@ -42,7 +42,7 @@ jobs:
         run: |
           event_file=_data/past_events.json
           if ! git diff --exit-code --quiet ${event_file}; then
-            git add _data/events.json
+            git add ${event_file}
             git commit -m "Updating past events"
             git push origin main
           fi
