@@ -1,7 +1,28 @@
+{% comment %}
+This file adds a matrix of people to your page.
+
+Example:
+```
+{% include people.html members=site.data.people.board %}
+```
+members is an array of records:
+
+```
+name:
+office:
+location:
+joined:
+image:
+twitter: (optional)
+instagram: (optional)
+linkedin: (optional)
+facebook: (optional)
+```
+{% endcomment %}
 <div class="row">
     {%- for member in include.members %}
     <div class="col-sm-6 col-md-3">
-        <!-- Team Item Starts -->
+        <!-- Person card starts -->
         <div class="team-item">
             <figure class="team-profile">
                 {%- if member.image %}
@@ -49,7 +70,7 @@
                 </p>
             </div>
         </div>
-        <!-- Team Item Ends -->
+        <!-- Person card ends -->
     </div>
     {%- endfor %}
 </div>
