@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik:400,700|Montserrat:700");
+
 body {
     color: #444;
     background: #fff;
@@ -4173,73 +4174,96 @@ ul.nav-tabs li a {
     .fact-title {
         font-size: 14px
     }
+
     #single-testimonial-item .owl-controls .owl-buttons div.owl-prev {
         margin-left: 0px
     }
+
     #single-testimonial-item .owl-controls .owl-buttons div.owl-next {
         margin-right: 0px
     }
+
     .blog-item-wrapper .blog-item-text h3 a {
         font-size: 14px
     }
+
     .blog-post-small img {
         max-width: 100%
     }
+
     .contact-info-title {
         font-size: 18px
     }
+
     .featured-box .featured-content h4 {
         font-size: 13px
     }
+
     footer #copyright .copyright-text, footer #copyright .nav-inline {
         line-height: 24px
     }
+
     .nav-link {
         padding: 8px 3px
     }
+
     .social-footer a .fa {
         margin: 0px
     }
+
     .hero-content-v2 {
         margin-top: 0
     }
+
     .list-title {
         font-size: 20px
     }
+
     .list-style li i {
         margin-right: 5px
     }
+
     .bs-example {
         margin-bottom: 30px
     }
+
     .bs-example .nav>li>a {
         padding: 10px 19px
     }
+
     .pricing-table-block .plan-list li {
         font-size: 12px
     }
+
     .pricing-table .table-header h3 {
         font-size: 15px
     }
+
     .button-area .btn {
         padding: 11px 12px
     }
+
     .service-box .service-content h4 {
         font-size: 14px
     }
+
     #carousel-area .carousel-item .carousel-caption h3 {
         font-size: 26px
     }
+
     #carousel-area .carousel-item .carousel-caption h5 {
         margin-bottom: 3px
     }
+
     #carousel-area .carousel-item .btn-lg {
         padding: 7px 10px;
         min-width: 150px
     }
+
     .sup-desc-wrap .sup-meta-wrap .sup-description {
         display: none
     }
+
     .label {
         padding: 0
     }
@@ -4255,86 +4279,112 @@ ul.nav-tabs li a {
     .page-header-title .heading-title {
         font-size: 24px
     }
+
     .navbar-light .navbar-toggler {
         margin: 24px;
         border: 0
     }
+
     .blog-item-wrapper {
         margin-bottom: 30px
     }
+
     .blog-item-wrapper .blog-item-text h3 a {
         font-size: 12px
     }
+
     .contact-form {
         margin-bottom: 30px
     }
+
     .contact-info {
         margin-bottom: 30px
     }
+
     .featured-box .featured-content h4 {
         font-size: 14px
     }
+
     .footer-info .pull-right {
         float: left !important
     }
+
     .footer-widget {
         margin-bottom: 30px
     }
+
     .nav-link {
         padding: 8px 3px
     }
+
     .hero-content-v2 {
         margin-top: 0
     }
+
     .hero-content-v2 h3 {
         font-size: 22px
     }
+
     .hero-content-v2 h3 strong {
         font-size: 32px;
         line-height: 38px
     }
+
     .store-btn-wrap li {
         margin-bottom: 20px
     }
+
     .team-members-tow figure {
         margin-bottom: 30px
     }
+
     .bs-example {
         margin-bottom: 30px
     }
+
     .bs-example .nav>li>a {
         padding: 10px 19px
     }
+
     .tab-content .tabbing-content {
         width: 100%;
         padding-left: 0
     }
+
     .pricing-table {
         margin-bottom: 30px
     }
+
     .pricing-table-block {
         margin-bottom: 30px
     }
+
     .service-box .service-content h4 {
         font-size: 14px
     }
+
     #carousel-area .carousel-item .carousel-caption {
         top: 5%
     }
+
     #carousel-area .carousel-item .carousel-caption h3 {
         font-size: 26px
     }
+
     #carousel-area .carousel-item .carousel-caption h5 {
         margin-bottom: 0px
     }
+
     #carousel-area .carousel-item .btn-lg {
         padding: 7px 10px;
         min-width: 150px
     }
+
     .controls .btn {
         padding: 7px 14px;
         margin: 5px 0
     }
+
     .list-group {
         margin-bottom: 30px
     }
@@ -4344,102 +4394,132 @@ ul.nav-tabs li a {
     .sub-title {
         font-size: 20px
     }
+
     .top-menu {
         height: 70px
     }
+
     .top-menu .right {
         float: left
     }
+
     .page-header-title .heading-title {
         font-size: 16px
     }
+
     .title-head {
         font-size: 20px
     }
+
     .about {
         margin-bottom: 30px
     }
+
     #single-testimonial-item .owl-controls .owl-buttons {
         display: none
     }
+
     .blog-item-wrapper {
         margin-bottom: 30px
     }
+
     .contact-form {
         margin-bottom: 30px
     }
+
     .contact-info {
         margin-bottom: 30px
     }
+
     .contact-info-title {
         font-size: 18px
     }
+
     footer ul li a {
         font-size: 12px
     }
+
     header h3 {
         font-size: 18px
     }
+
     .hero-content-v2 {
         margin-top: 0
     }
+
     .hero-content-v2 h3 {
         font-size: 22px
     }
+
     .hero-content-v2 h3 strong {
         font-size: 32px;
         line-height: 38px
     }
+
     .store-btn-wrap li {
         margin-bottom: 20px
     }
+
     .team-members-tow figure {
         margin-bottom: 30px
     }
+
     .bs-example {
         margin-bottom: 30px
     }
+
     .tab-content .tabbing-content {
         width: 100%;
         margin-top: 10px;
         padding-left: 0
     }
+
     .pricing-table {
         margin-bottom: 30px
     }
+
     .pricing-table-block {
         margin-bottom: 30px
     }
+
     .service-box .service-content h4 {
         font-size: 14px
     }
+
     .count-one {
         margin-top: 40px;
         margin-bottom: 40px
     }
+
     #carousel-area .carousel-item .carousel-caption {
         top: 2%
     }
+
     #carousel-area .carousel-item .carousel-caption h3 {
         font-size: 14px
     }
+
     #carousel-area .carousel-item .carousel-caption h5 {
         margin-bottom: 3px;
         font-size: 12px;
         line-height: 15px
     }
+
     #carousel-area .carousel-item .btn-lg {
         padding: 7px 10px;
         min-width: 150px
     }
+
     .carousel-indicators {
         display: none
     }
+
     .controls .btn {
         font-size: 13px;
         padding: 7px 8px;
         margin: 5px 0
     }
+
     .list-group {
         margin-bottom: 30px
     }
