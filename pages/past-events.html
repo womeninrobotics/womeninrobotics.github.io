@@ -15,26 +15,9 @@ group: events
 </div>
 <div class="container">
     <div>
-        {% if site.data.past_events %}
         {% assign reverse_sorted_events = site.data.past_events | sort:"start_time" | reverse %}
         {% for event in reverse_sorted_events limit: 5%}
-        <div class="row" past-date="{{ event.start_time | date: '%Y%m%d' }}">
-            <div class="col-md-4">
-                <div class="card-block text-right">
-                    <h5>{{ event.start_time | date: '%A' }}</h5>
-                    <h4>{{ event.start_time | date: '%b %d,' }}</h4>
-                    <h5>{{ event.start_time | date: '%Y' }}</h5>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <div class="card-block">
-                    <h3>{{ event.name }}</h3>
-                    <h5> {{event.location }}</h5>
-                    <p>{{ event.description | newline_to_br }}</p>
-                </div>
-            </div>
-        </div>
+        {% include event-card.html event=event %}
         {% endfor %}
-        {% endif %}
     </div>
 </div>
