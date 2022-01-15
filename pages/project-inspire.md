@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: post
 title: Project Inspire
 permalink: /project-inspire/
 ---
@@ -20,8 +20,6 @@ You can't be what you can't see.  Project Inspire is our initiative to promote t
 
 ## Subscribe
 
-<script src="https://apis.google.com/js/platform.js"></script>
+Get inspiring women in robotics sent directly to you by signing up for our newsletter!
 
-<div class="g-ytsubscribe" data-channelid="UCZR9DA9ntEVY29xvGPBybJQ" data-layout="full" data-count="hidden"></div>
-
-[Get the newsletter](/newsletter/){: .btn .btn-lg .btn-default-filled}
+[Get the newsletter](/newsletter/){: .btn .btn-lg .btn-default-filled .my-2}

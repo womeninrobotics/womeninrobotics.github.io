@@ -1,47 +1,45 @@
 ---
-layout: default
+layout: page
 title: Chapters
 permalink: /chapters/
 ---
-<div class="header-caption">
-    <div class="row">
-        <div class="col-md-12 header-content text-center">
-            <h1 class="page-header-title animated fadeInDown"><span class="text-primary">Chapters
-                </span>
-            </h1>
-        </div>
-    </div>
-</div>
-
-<div class="text-center">
+<div class="d-flex flex-column flex-grow">
     <img src="/assets/images/wir-map.png" alt="chapter map" />
 </div>
 <div id="counter">
     <div class="container">
-        <div class="sub-title text-white">
-            Women in Robotics is a growing community of {{ site.data.stats.members }} members in
-            {{ site.data.stats.chapters }} chapters worldwide.
-        </div>
-        <div class="text-white">
-            <p class="text-white">Our chapters are led by an amazing team of volunteers. Join one near you!</p>
+        <div class="row justify-content-center">
+            <div class="col-md-8 my-5">
+                <h4 class="text-white">
+                    Women in Robotics is a growing community of {{ site.data.stats.members }} members in
+                    {{ site.data.stats.chapters }} chapters worldwide.
+                </h4>
+                <h5 class="text-white">
+                    <p class="text-white">Our chapters are led by an amazing team of volunteers. Join one near you!</p>
+                </h5>
+            </div>
         </div>
     </div>
 </div>
 </div>
-<div class="container my-5">
-    {%- for region in site.data.chapters %}
-    <div>
-        <h2>{{ region[0] }}</h2>
-        <ul>
-            {%- assign local_chapters = region[1] %}
-            {%- for chapter in local_chapters %}
-            {%- if chapter.url %}
-            <li><a href="{{ chapter.url }}">{{ chapter.name }}</a></li>
-            {%- else %}
-            <li>{{ chapter.name }}</li>
-            {%- endif %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8 my-5">
+            {%- for region in site.data.chapters %}
+            <div>
+                <h2>{{ region[0] }}</h2>
+                <ul>
+                    {%- assign local_chapters = region[1] %}
+                    {%- for chapter in local_chapters %}
+                    {%- if chapter.url %}
+                    <li><a href="{{ chapter.url }}">{{ chapter.name }}</a></li>
+                    {%- else %}
+                    <li>{{ chapter.name }}</li>
+                    {%- endif %}
+                    {%- endfor %}
+                </ul>
+            </div>
             {%- endfor %}
-        </ul>
+        </div>
     </div>
-    {%- endfor %}
 </div>

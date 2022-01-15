@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: post
 title: Project Advance
 permalink: /project-advance/
 ---
@@ -16,4 +16,4 @@ Over the course of 90 days, Project Advance will pair a small number of high-pot
 
 Submit an application to mentor or be a mentee (you can be both)!
 
-[Submit an application](/project-advance-application/){: .btn .btn-lg .btn-default-filled}
+[Submit an application](/project-advance-application/){: .btn .btn-lg .btn-default-filled .my-5}
