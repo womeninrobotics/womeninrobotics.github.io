@@ -1,29 +1,24 @@
 ---
 layout: default
 title: Home
-order: 1
+js: main.js
 ---
 <!-- begin intro section -->
 <section id="intro">
-    <div class="container">
-        <div class="header-caption">
-            <div class="row">
-                <div class="col-md-12 header-content text-center">
-                    <h1 class="page-header-title animated fadeInDown">
-                        <span class="text-primary">Women in Robotics</span>
-                    </h1>
-                    <div class="w-50 mx-auto mb-60">
-                        <img alt="logo" src="/assets/images/logo/WiRLogo-325x325w.png">
-                    </div>
-                    <h5 class="sub-title animated fadeIn">
-                        The professional network for women who work in robotics -
-                        or who aspire to.</h5>
-                    <h5 class="sub-title animated fadeIn">Non-binary people welcome.</h5>
-                    <a href="{{ site.join_url }}"
-                        class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Join the community</a>
-                    <a href="{{ site.newsletter_url }}"
-                        class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Get the newsletter</a>
+    <div class="header-caption">
+        <div class="row">
+            <div class="col-md-12 header-content text-center">
+                <div class="header-img mx-auto">
+                    <img alt="logo" class="img-fluid" src="/assets/images/logo/WiRLogo wText-05.png">
                 </div>
+                <h5 class="sub-title animated fadeIn">
+                    The professional network for women who work in robotics -
+                    or who aspire to.</h5>
+                <h6 class="sub-title animated fadeIn">Non-binary people welcome.</h6>
+                <a href="{{ site.join_url }}" class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Join
+                    the community</a>
+                <a href="{{ site.newsletter_url }}"
+                    class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Get the newsletter</a>
             </div>
         </div>
     </div>
@@ -32,30 +27,26 @@ order: 1
 
 <!-- portfolio section 4col -->
 <section id="news">
-    <div class="container">
-        <div class="sub-title text-center">
-            <span>We promote the visibility of women in robotics.</span>
-        </div>
-        <div id="portfolio">
-            <ul class="row portfolio list-unstyled" id="grid">
-                {% for post in site.posts limit:4 %}
-                <li class="col-md-3 col-sm-6 m-auto project">
-                    <figure>
-                        <div class="hovereffect">
-                            <img src="{{ post.image }}" alt="{{ post.title }}">
-                            <div class="overlay">
-                                <div class="iocns">
-                                    <a class="left-link" href="{{ post.link }}">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
+    <h5 class="text-white text-center">We promote the visibility of women in robotics.</h5>
+    <div id="portfolio">
+        <ul class="row list-unstyled" id="grid">
+            {% for post in site.posts limit:4 %}
+            <li class="col-md-3 col-sm-6 m-auto project">
+                <figure>
+                    <div class="hovereffect">
+                        <img src="{{ post.image }}" alt="{{ post.title }}">
+                        <div class="overlay">
+                            <div class="iocns">
+                                <a class="left-link" href="{{ post.link }}">
+                                    <i class="fa fa-link"></i>
+                                </a>
                             </div>
                         </div>
-                    </figure>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
+                    </div>
+                </figure>
+            </li>
+            {% endfor %}
+        </ul>
     </div>
     <div class="text-center">
         <a class="page-scroll btn btn-lg btn-info-filled animated fadeInUp" href="/news/">Read more</a>
@@ -65,19 +56,19 @@ order: 1
 
 <!-- Begin chapters section -->
 <section id="chapters">
-    <div class="container">
-        <div class="sub-title text-center">
-            <span>We support each other through a global community and local chapters.</span>
-        </div>
+    <h5 class="sub-title text-center p-5">
+        <span>We support each other through a global community and local chapters.</span>
+    </h5>
+    <div class="container pb-5">
         <div class="accordion col-md-6 offset-md-3 mb-5" id="chapter-regions">
             {%- for region in site.data.chapters %}
             <div class="accordion-item mb-2">
-                <h2 class="accordion-header" id="{{ region[0] }}-heading">
+                <div class="accordion-header" id="{{ region[0] }}-heading">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#{{ region[0] }}" aria-expanded="false" aria-controls="{{ region[0] }}">
                         {{ region[0] }}
                     </button>
-                </h2>
+                </div>
                 <div id="{{ region[0] }}" class="accordion-collapse collapse" aria-labelledby="{{ region[0] }}-heading"
                     data-bs-parent="#chapter-regions">
                     <div class="accordion-body">
@@ -106,22 +97,20 @@ order: 1
 
 <!-- Begin event highlight section -->
 <section id="events">
-    <div class="container">
-        <div class="sub-title text-center">
-            <span>We offer career development meetings and events.</span>
-        </div>
-        <div>
-            {% if site.data.events %}
-            {% assign sorted_events = site.data.events | sort:"start_time" %}
-            {% for event in sorted_events limit: 5 %}
-            {% include event-card.html event=event %}
-            {% endfor %}
-            {% endif %}
-        </div>
-        <div class="text-center col-md-6 mb-60" future-date="{{ sorted_events.first.start_time | date: '%Y%m%d' }}">
+    <h5 class="sub-title text-center p-5">
+        <span>We offer career development meetings and events.</span>
+    </h5>
+    <div class="container pb-5">
+        {% if site.data.events %}
+        {% assign sorted_events = site.data.events | sort:"start_time" %}
+        {% for event in sorted_events limit: 5 %}
+        {% include event-card.html event=event %}
+        {% endfor %}
+        {% endif %}
+        <div class="offset-md-4 col-md-6 mb-5" future-date="{{ sorted_events.first.start_time | date: '%Y%m%d' }}">
             <a href="/events/">All events <i class="fa fa-arrow-right"></i></a>
         </div>
-        <div class="text-center mb-60" past-date="{{ sorted_events.first.start_time | date: '%Y%m%d' }}">
+        <div class="toffset-md-6 mb-5" past-date="{{ sorted_events.first.start_time | date: '%Y%m%d' }}">
             <a href="/past-events/" class="btn btn-lg btn-common">Past events <i class="fa fa-arrow-right"></i></a>
         </div>
         <div class="massage-box alert-info">
@@ -142,65 +131,43 @@ order: 1
 
 <!-- Begin support section -->
 <section id="support">
-    <div class="container">
-        <div class="sub-title text-center">
-            <span>Support Women in Robotics.</span>
+    <h5 class="sub-title text-center p-5">
+        <span>Support Women in Robotics.</span>
+    </h5>
+    <div class="container pb-5">
+        <div class="text-center">
+            <a href="{{ site.donation_url }}" class="page-scroll btn btn-lg btn-info-filled animated fadeInUp">Donate
+            </a>
         </div>
-        <div id="sliders">
-            <!-- light slider -->
-            <div class="carousel slide" id="light-slider">
-                <div id="carousel-area">
-                    <div class="carousel slide" data-ride="carousel" id="carousel-slider">
-                        <ol class="carousel-indicators">
-                            {%- for item in site.data.shop %}
-                            {%- assign item-active = "" %}
-                            {%- if forloop.first %}{% assign item-active = "active" %}{% endif %}
-                            <li data-target="#carousel-slider" data-slide-to="{{ forloop.index0 }}"
-                                class="{{ item-active }}"></li>
-                            {%- endfor %}
-                        </ol>
-                        <div class="carousel-inner" role="listbox">
-                            {%- for item in site.data.shop %}
-                            {%- assign item-active = "" %}
-                            {%- if forloop.first %}{% assign item-active = "active" %}{% endif %}
-                            <div class="carousel-item {{ item-active }}">
-                                <img src=" {{ item.image }}" alt="item" class="mx-auto d-block">
-                            </div>
-                            {%- endfor %}
-                            <a class="carousel-control-prev" data-slide="prev" href="#carousel-slider" role="button">
-                                <span aria-hidden="true" class="carousel-control carousel-control-prev-icon"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" data-slide="next" href="#carousel-slider" role="button">
-                                <span aria-hidden="true" class="carousel-control carousel-control-next-icon"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
+        <div class="slider-container">
+            <div class="shop-slider">
+                {%- for item in site.data.shop %}
+                <div class="slider-item">
+                    <div class="card">
+                        <img src=" {{ item.image }}" alt="item">
                     </div>
                 </div>
+                {%- endfor %}
             </div>
-            <div class="text-center">
-                <a href="{{ site.store_url }}" class="page-scroll btn btn-lg btn-common animated fadeInUp">Shop</a>
-                <a href="{{ site.donation_url }}"
-                    class="page-scroll btn btn-lg btn-info-filled animated fadeInUp">Donate</a>
-            </div>
+        </div>
+        <div class="text-center">
+            <a href="{{ site.store_url }}" class="page-scroll btn btn-lg btn-common animated fadeInUp">Shop</a>
         </div>
         <div id="sponsors">
-            <div class="container">
-                <div class="text-center">
+            <div class="massage-box alert-info">
+                <strong>
+                    <i class="fa fa-info"></i>
                     Join the following companies and become a sponsor for Women in Robotics.
+                </strong>
+                <a class="page-scroll btn btn-lg btn-default-filled animated fadeInUp"
+                    href="{{ site.sponsor_url }}">Sponsor</a>
+            </div>
+            <div class="row">
+                {%- for sponsor in site.data.sponsors %}
+                <div class="col text-center mb-2">
+                    <a href="{{ sponsor.link }}"><img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}"></a>
                 </div>
-                <div class="row">
-                    {%- for sponsor in site.data.sponsors %}
-                    <div class="col logo">
-                        <a href="{{ sponsor.link }}"><img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}"></a>
-                    </div>
-                    {%- endfor %}
-                </div>
-                <div class="text-center">
-                    <a class="page-scroll btn btn-lg btn-info-filled animated fadeInUp"
-                        href="{{ site.sponsor_url }}">Sponsor</a>
-                </div>
+                {%- endfor %}
             </div>
         </div>
     </div>
