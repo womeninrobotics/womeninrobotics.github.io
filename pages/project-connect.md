@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: post
 title: Project Connect
 permalink: /project-connect/
 ---
@@ -16,7 +16,7 @@ All Women in Robotics activities are conducted under a strict [Code of Conduct](
 
 The easiest way to get started is to join the community!  You'll be connected with {{site.data.stats.members}} other members.
 
-[Join now](/signup/){: .btn .btn-lg .btn-default-filled}
+[Join now](/signup/){: .btn .btn-lg .btn-default-filled .my-2}
 
 ### Local chapters
 

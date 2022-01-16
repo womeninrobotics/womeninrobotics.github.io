@@ -268,23 +268,8 @@ strong {
 }
 
 .page-header-title {
-    padding-top: 60px;
-    padding-bottom: 60px
-}
-
-.page-header-title .heading-title {
-    color: #444;
-    font-size: 36px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-weight: 400
-}
-
-#headers .navbar {
-    margin-bottom: 0
-}
-
-#headers .header-caption {
+    color: #eb155b;
+    margin: 2.6rem 0 2.0rem 0;
     text-align: center;
     height: auto;
     text-shadow: none !important;

@@ -1,39 +1,28 @@
 ---
-layout: default
+layout: page
 title: About
 permalink: /about/
-order: 2
 js: about.js
 ---
 
 <!-- begin header section -->
 <div class="container">
-    <div class="header-caption">
-        <div class="row">
-            <div class="col-md-12 header-content text-center">
-                <h1 class="page-header-title animated fadeInDown">
-                    <span class="text-primary">{{ page.title }}</span>
-                </h1>
-            </div>
-        </div>
-
-        <div class="header-caption">
-            <p class="sub-title">Women in Robotics is a global community supporting women who work in robotics and women
-                who are interested in working in robotics, as entrepreneurs, industry and academia. Our activities
-                include local networking events, outreach, education, mentoring and the promotion of positive role
-                models in robotics, both in research, industry, entrepreneurship and just plain fun.
-            </p>
-            <p class="sub-title">
-                We started as a grassroots community to support women in robotics across the globe, who wanted to see
-                more women thrive.
-                In 2020 we formed an official 501c3 non-profit organization.
-            </p>
-            <p class="sub-title">
-                We are committed to championing the women within the robotics community. We are
-                focusing on three projects in 2021 to help women both newly in the field and career veterans. These are
-                Project Inspire, Project Connect, and Project Advance.
-            </p>
-        </div>
+    <div class="sub-title mb-5">
+        <p>Women in Robotics is a global community supporting women who work in robotics and women
+            who are interested in working in robotics, as entrepreneurs, industry and academia. Our activities
+            include local networking events, outreach, education, mentoring and the promotion of positive role
+            models in robotics, both in research, industry, entrepreneurship and just plain fun.
+        </p>
+        <p>
+            We started as a grassroots community to support women in robotics across the globe, who wanted to see
+            more women thrive.
+            In 2020 we formed an official 501c3 non-profit organization.
+        </p>
+        <p>
+            We are committed to championing the women within the robotics community. We are
+            focusing on three projects in 2021 to help women both newly in the field and career veterans. These are
+            Project Inspire, Project Connect, and Project Advance.
+        </p>
     </div>
 </div>
 <!-- end header section -->
@@ -42,7 +31,7 @@ js: about.js
 <div class="container">
     <div class="row">
         <!-- Start Image Service Box 1 -->
-        <div class="col-md-4 mtb-50">
+        <div class="col-md-4 mb-5">
             <div class="image-service-box">
                 <img src="/assets/images/project-inspire.jpg" alt="project inspire" />
                 <div class="service-text">
@@ -55,7 +44,7 @@ js: about.js
         <!-- End Image Service Box 1 -->
 
         <!-- Start Image Service Box 2 -->
-        <div class="col-md-4 mtb-50">
+        <div class="col-md-4 mb-5">
             <div class="image-service-box">
                 <img src="/assets/images/project-connect.jpg" alt="project connect" />
                 <div class="service-text">
@@ -68,7 +57,7 @@ js: about.js
         <!-- End Image Service Box 2 -->
 
         <!-- Start Image Service Box 3 -->
-        <div class="col-md-4 mtb-50">
+        <div class="col-md-4 mb-5">
             <div class="image-service-box">
                 <img src="/assets/images/project-advance.jpg" alt="project advance" />
                 <div class="service-text">
@@ -124,7 +113,7 @@ js: about.js
         </div>
     </div>
 
-    <div class="team-members mtb-50">
+    <div class="team-members my-5">
         {% include people.html members=site.data.people.board %}
     </div>
 </div>
@@ -140,7 +129,7 @@ js: about.js
         </div>
     </div>
 
-    <div class="team-members mtb-50">
+    <div class="team-members my-5">
         {% include people.html members=site.data.people.advisors %}
     </div>
 </div>

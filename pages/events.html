@@ -1,20 +1,10 @@
 ---
-layout: default
+layout: page
 title: Events
 permalink: /events/
-order: 2
 ---
-<div class="header-caption">
-    <div class="row">
-        <div class="col-md-12 header-content text-center">
-            <h1 class="page-header-title animated fadeInDown">
-                <span class="text-primary">{{page.title}}</span>
-            </h1>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div>
+<div class="container pb-5">
+    <div class="pb-5">
         {% assign sorted_events = site.data.events | sort:"date" %}
         {% for event in sorted_events %}
         {% include event-card.html event=event %}
@@ -23,8 +13,6 @@ order: 2
     <div class="text-center col-md-6 mb-60" future-date="{{ sorted_events.first.date | date: '%Y%m%d' }}">
         <a href="/past-events/">Past events <i class="fa fa-arrow-right"></i></a>
     </div>
-</div>
-<div class="container">
     <div class="massage-box alert-info">
         <strong>
             <i class="fa fa-info"></i>

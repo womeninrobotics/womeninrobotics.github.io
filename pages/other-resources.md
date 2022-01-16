@@ -1,9 +1,7 @@
 ---
-layout: pages
+layout: post
 title: Other Resources
 permalink: /other-resources/
-order: 4
-group: About
 ---
 <!-- markdownlint-disable blanks-around-headings -->
 

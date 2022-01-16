@@ -1,20 +1,11 @@
 ---
-layout: default
+layout: page
 title: Annual List
 permalink: /annual-list/
 ---
-<div class="header-caption">
-    <div class="row">
-        <div class="col-md-12 header-content text-center">
-            <h1 class="page-header-title animated fadeInDown"><span class="text-primary">Annual List
-                </span>
-            </h1>
-        </div>
-    </div>
-</div>
 <section class="blog">
     <div class="container">
-        <div class="row mb-60">
+        <div class="row mb-5">
             <p>
                 In celebration of Ada Lovelace Day, we compile a short list every year of some women in robotics that
                 everyone should know about.
@@ -49,7 +40,7 @@ permalink: /annual-list/
         <div class="row">
             {% for post in site.posts %}
             {% if post.tags contains "annual-list" %}
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item mb-60">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item mb-5">
                 <!-- Blog Item Starts -->
                 <div class="blog-item-wrapper">
                     <div class="blog-item-img">
