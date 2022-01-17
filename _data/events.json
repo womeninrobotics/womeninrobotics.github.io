@@ -1,5 +1,15 @@
 [
   {
+    "id": 8530,
+    "url": "https://meetingplace.io/womeninrobotics/events/8530",
+    "name": "Intro to MoveIt & Open Source Robotics with the Women of PickNik",
+    "description": "<div>The Boulder/Denver chapter of Women in Robotics invites us all to join them and connect with the Women of PickNik to learn more about open source robotics! <br><br>There will be a brief presentation on the applications of robotic arms, MoveIt (the open source motion planning library maintained by PickNik), and some tips and tricks on how to get started contributing to an open source project. There will be a live remote robot demo, along with some time afterwards to work on contributing to MoveIt, for those interested.<br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvNDM4MD9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3e1fc09007381910f4fa994c81d729b6d12dfaa1\" content-type=\"image/webp\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaHdSIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--76bf3ba62a2cb80643d00630ef3ec3ff8a6b0cfa/Picknik%20Sign%20676x380.webp\" filename=\"Picknik Sign 676x380.webp\" filesize=\"10342\"></action-text-attachment></div>",
+    "location": "Online Event",
+    "location_info": "[Shown to members only]",
+    "start_time": "2022-02-01T16:00:00-08:00",
+    "end_time": "2022-02-01T17:30:00-08:00"
+  },
+  {
     "id": 5143,
     "url": "https://meetingplace.io/womeninrobotics/events/5143",
     "name": "WiR Organizers & Volunteers Get Together",
