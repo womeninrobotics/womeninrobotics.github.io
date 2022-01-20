@@ -271,8 +271,7 @@ figure {
 }
 
 .hovereffect .iocns {
-    position: absolute;
-    top: 40%;
+    top: 20%;
     left: 0;
     right: 0
 }
