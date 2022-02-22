@@ -1,0 +1,29 @@
+name: meetingplace
+
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    # Run at the end of every day
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  meetingplace:
+    runs-on: ubuntu-latest
+    name: Update events from meetinplace.io
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.4.0
+        with:
+          token: ${{ secrets.ACTION_TOKEN}}
+      - name: Get chapter events from meetingplace
+        run: .github/meetingplace.sh
+      - name: Set up git
+        run: |
+          git config user.name "WiR Bot"
+          git config user.email website@womeninrobotics.org
+          git add .
+          if ! git diff --exit-code --cached; then
+            git commit -m "Updating meetingplace events"
+            git push
+          fi
