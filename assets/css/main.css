@@ -242,6 +242,8 @@ figure {
 .page-header-img {
     width: 100%;
     height: auto;
+    max-width: max-content;
+    align-self: center;
 }
 
 .hovereffect {

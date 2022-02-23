@@ -1,10 +1,14 @@
 #!/bin/bash
 declare -a Chapters=(
     "womeninrobotics"
+    "women-in-robotics-Boston"
     "women-in-robotics-bay-area"
-    "womeninroboticsmelbourne"
     "women-in-robotics-boulder-denver"
+    "women-in-robotics-bristol"
+    "women-in-robotics-mumbai"
     "women-in-robotics-new-york"
+    "womeninroboticsmelbourne"
+    "women-in-robotics-brisbane"
 )
 
 # Get all chapter events

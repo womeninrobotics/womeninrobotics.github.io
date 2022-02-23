@@ -6,23 +6,20 @@ Global:
 Americas:
   - name: SF Bay Area, CA, USA
     url: https://meetingplace.io/women-in-robotics-bay-area
-  - name: Denver, CO, USA
-    url: https://www.meetup.com/Women-in-Robotics-Boulder-Denver
+  - name: Boulder/Denver, CO, USA
+    url: https://meetingplace.io/women-in-robotics-boulder-denver
   - name: Boston, MA, USA
     url: https://meetingplace.io/women-in-robotics-Boston
-  - name: Washington, USA
-  - name: Toronto, Canada
+  - name: New York, USA
+    url: https://meetingplace.io/women-in-robotics-new-york
 Oceania:
   - name: Brisbane, Australia
-    url: https://www.meetup.com/Women-in-Robotics-Brisbane-Meetup
+  # url: https://meetingplace.io/women-in-robotics-brisbane
   - name: Melborne, Australia
     url: https://meetingplace.io/womeninroboticsmelbourne
-  - name: Sydney, Austrialia
 Asia:
-  - name: Singapore
+  - name: Mumbai, India
+    # url: https://meetingplace.io/women-in-robotics-mumbai
 Europe:
-  - name: London, UK
   - name: Bristol, UK
-  - name: Lyons, France
-Africa:
-  - name: Lagos, Nigeria
+  # url: https://meetingplace.io/women-in-robotics-bristol
