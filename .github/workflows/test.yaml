@@ -1,5 +1,10 @@
 name: Test site
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    branches:
+      - main # Run test on every push to main
+  pull_request: # Run tests on all pull requests
+  workflow_dispatch: # Run tests from manual triggers from any branch
 jobs:
   test:
     runs-on: ubuntu-latest
