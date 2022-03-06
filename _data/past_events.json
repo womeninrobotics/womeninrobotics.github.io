@@ -1,5 +1,65 @@
 [
   {
+    "id": 4055,
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/4055",
+    "name": "Ada Lovelace Day 2020 celebration of Women in Robotics",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSJAZ2lkOi8vcmVhY3Qtc2NyZWVuY2FzdHMvQWN0aXZlU3RvcmFnZTo6QmxvYi8yMzA4P2V4cGlyZXNfaW4GOwBUSSIMcHVycG9zZQY7AFRJIg9hdHRhY2hhYmxlBjsAVEkiD2V4cGlyZXNfYXQGOwBUMA==--ecc13e2c9f68e61db6172939d4386f89eb1f2e8c\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ1FKIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--cb94b3ac4e11abc65293149175dd9a1e65a4984f/ALD2020-Event.jpg\" filename=\"ALD2020-Event.jpg\" filesize=\"358910\" width=\"1920\" height=\"1080\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "Online Event",
+    "location_info": "[Shown to members only]",
+    "start_time": "2020-10-13T18:00:00-07:00",
+    "end_time": "2020-10-13T19:15:00-07:00"
+  },
+  {
+    "id": 5264,
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/5264",
+    "name": "Bots & Beverages (all ages!) online",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjk5Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--a65498ba644e7e14b2b47afb9d7f21043a98fd62\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBckVMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--cdbae9dff68e44e6f18818b0d831a1c3ba6cfd84/Bots%26Beer%20Graphics%20NRWtop.jpg\" filename=\"Bots&amp;Beer Graphics NRWtop.jpg\" filesize=\"87484\" width=\"960\" height=\"540\" presentation=\"gallery\"></action-text-attachment><br><br>It's National Robotics Week so let's celebrate!!<br>Special guests this month include:</div><ul><li>Circuit Launch CoLab students demoing Reachy, humanoid robot (<a href=\"https://blog.circuitlaunch.com/\">https://blog.circuitlaunch.com</a>)</li><li>Fergs from Robot and Chisel (with UBR 2.0) <a href=\"https://www.robotandchisel.com/\">https://www.robotandchisel.com/</a></li><li>And many more showcases coming!</li></ul><div><br>Do you have a robot to showcase? Let me know: andra@svrobo.org<br><br></div>",
+    "location": "Online Event",
+    "location_info": "[Shown to members only]",
+    "start_time": "2021-04-07T19:00:00-07:00",
+    "end_time": "2021-04-07T21:00:00-07:00"
+  },
+  {
+    "id": 7112,
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/7112",
+    "name": "ROSCon '21 Viewing Party",
+    "description": "<div>Join us at Silicon Valley Robotics, MechLabs and Circuit Launch in Oakland for a week full of exciting robot activities!<br><br>On Wednesday Oct 20th and Thursday Oct 21st we're hosting a Viewing Party &amp; Screening for ROSWorld 21 : https://roscon21-viewing-party.eventbrite.com<br><br>* register for ROSCon '21 here : https://roscon.ros.org/world/2021/<br><br>On Friday Oct 22nd we're hosting robot developers workshop day, with Foxglove Robotics, Haddington Dynamics, PickNik Robotics, Merklebot and Spot from Boston Dynamics (more TBC) : https://robot-developer-day.eventbrite.com<br><br>* full schedule coming soon<br><br>And on Saturday Oct 23rd we're hosting the Robot Block Party, with demos, speakers, job fair, robots, robots, more robots, fun, food trucks and fiesta! https://robot-block-party.eventbrite.com<br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzg5ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--d165f3cc48ba4d379f1ab92b0a4fec5029bda30c\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBallQIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--44b31e3e6baf0af2b09ab4cb6d57e4e3eecfffb5/join%20us%20for%20a%20ROSCon%20viewing%20party!.jpg\" filename=\"join us for a ROSCon viewing party!.jpg\" filesize=\"1059229\" width=\"6912\" height=\"3456\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "San Francisco, CA, USA",
+    "location_info": "[Shown to members only]",
+    "start_time": "2021-10-20T08:30:00-07:00",
+    "end_time": "2021-10-21T17:30:00-07:00"
+  },
+  {
+    "id": 7113,
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/7113",
+    "name": "Robot Developer Workshops",
+    "description": "<div>Join us at Silicon Valley Robotics, MechLabs and Circuit Launch in Oakland for a week full of exciting robot activities!<br><br>On Wednesday Oct 20th and Thursday Oct 21st we're hosting a Viewing Party &amp; Screening for ROSWorld 21 : https://roscon21-viewing-party.eventbrite.com<br><br>* register for ROSCon '21 here : https://roscon.ros.org/world/2021/<br><br>On Friday Oct 22nd we're hosting robot developers workshop day, with Foxglove Robotics, Haddington Dynamics, PickNik Robotics, Merklebot and Spot from Boston Dynamics (more TBC) : https://robot-developer-day.eventbrite.com<br><br>* full schedule coming soon<br><br>And on Saturday Oct 23rd we're hosting the Robot Block Party, with demos, speakers, job fair, robots, robots, more robots, fun, food trucks and fiesta! https://robot-block-party.eventbrite.com<br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzg5NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--58eed7e90b412f418b4b0e16ff8ef1c5258f9210\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamNQIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5b93d7c2d082679af5b38f546c35c5d9b5515682/Robot%20Block%20Party%20Developer%20Day.png\" filename=\"Robot Block Party Developer Day.png\" filesize=\"362867\" width=\"2160\" height=\"1080\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "San Francisco, CA, USA",
+    "location_info": "[Shown to members only]",
+    "start_time": "2021-10-22T09:00:00-07:00",
+    "end_time": "2021-10-22T17:00:00-07:00"
+  },
+  {
+    "id": 6961,
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/6961",
+    "name": "Robot Block Party",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzg1NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--12b1d3a5a2419f4e8a827f37cac4bc28be901f06\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZzhQIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c1d4a4eeeeb5bb8c23ae0c64cae440e033caf55f/Robot%20Block%20Party%20Event%20Header.png\" filename=\"Robot Block Party Event Header.png\" filesize=\"838690\" width=\"2160\" height=\"1080\" presentation=\"gallery\"></action-text-attachment><br><br>The Silicon Valley Robotics Robot Block Party is BACK! Join us at Circuit Launch in Oakland for a Saturday full of robot demos, developer workshops, speakers, job fair, show'n'tell and most of all lots and lots of fun!<br><br><strong>PLS SIGN UP TO ATTEND OR SHOWCASE HERE - https://robot-block-party.eventbrite.com<br></strong><br><strong>AGENDA (see eventbrite for updates)</strong></div><ul><li><strong>Robot Demos (upstairs, downstairs &amp; outside - all day)</strong></li><li><strong>Robots On Ice Teaser</strong></li><li><strong>Indoor DIY Robocar Racing (tbc)</strong></li><li><strong>Outdoor AgRobotics Rover Competition (tba)</strong></li><li><strong>Developer Workshops (tba)</strong></li><li><strong>Make Spot Dance Workshop (tbc)</strong></li><li><strong>MechLabs Robot Building Workshops (tba)</strong></li><li><strong>ROS Con Viewing (tba)</strong></li><li><strong>3 Minute Thesis &amp; Posters</strong></li><li><strong>Tech Talks &amp; Engineer Office Hours</strong></li><li><strong>Investor Office Hours &amp; Startup Pitches</strong></li><li><strong>Robojobs Job Fair</strong></li><li><strong>Women in Robotics Networking Event</strong></li><li><strong>Black in Robotics Networking Event</strong></li><li><strong>Bots &amp; Beer Networking Event</strong></li><li><strong>Brazilian BBQ &amp; Ice Cream Truck</strong></li></ul><div><br></div><div>What are you going to bring??? (aside from your masks of course!)</div>",
+    "location": "San Francisco, CA, USA",
+    "location_info": "[Shown to members only]",
+    "start_time": "2021-10-23T10:00:00-07:00",
+    "end_time": "2021-10-23T16:00:00-07:00"
+  },
+  {
+    "id": 8730,
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/8730",
+    "name": "Coffee and a hike in the Oakland Hills with Women in Robotics",
+    "description": "<div><strong>Coffee and a hike in the Oakland Hills with Women in Robotics</strong>. 9am Sunday, February 20. Come walk under the eucalyptus trees and sit in the sun on a grassy hill. Meet at Clyde Woolridge Staging parking lot, where Skyline Blvd. meets Grass Valley Rd. in Anthony Chabot Regional Park in Oakland, 10-15 minutes from the Keller or Golf Links exits on the 580. <a href=\"https://www.google.com/maps/place/Clyde+Woolridge+Staging/@37.7537611,-122.1266963,15.04z/data=!4m13!1m7!3m6!1s0x808f8f133bd1c78b:0x5eca8712cc9a7195!2sGrass+Valley,+Oakland,+CA+94605!3b1!8m2!3d37.7525172!4d-122.1509798!3m4!1s0x808f8ef9fbd00f67:0xbc91887cb08c1ec2!8m2!3d37.753804!4d-122.1182058\">https://www.google.com/maps/place/Clyde+Woolridge+Staging/@37.7537611,-122.1266963,1[…]ef9fbd00f67:0xbc91887cb08c1ec2!8m2!3d37.753804!4d-122.1182058</a> Leave parking lot at 9:00am for a short walk and coffee (BYO coffee, snack, and towel/picnic blanket if desired) on a grassy hill within 100m of trailhead. Coffee followed by hike but it's fine to come just for coffee (and to hang out on the hill as long as you like) if you like picnics better than hiking. Hiking is fairly gentle hills, fire road wide trails. If many come, we'll break into small subgroups based on desired hiking speed/distance and for easy social distancing. It's easy to walk a nice half mile or ten from that trailhead. Be vaxed/boosted, keep 6'-10' apart. Friends, co-workers, and leashed dogs welcome.</div>",
+    "location": "San Francisco, CA, USA",
+    "location_info": "[Shown to members only]",
+    "start_time": "2022-02-20T09:00:00-08:00",
+    "end_time": "2022-02-20T11:00:00-08:00"
+  },
+  {
     "id": 3421,
     "url": "https://meetingplace.io/women-in-robotics-Boston/events/3421",
     "name": "Launching Women in Robotics Boston!",
@@ -138,66 +198,6 @@
     "location_info": "[Shown to members only]",
     "start_time": "2022-01-09T19:00:00-05:00",
     "end_time": "2022-01-09T20:00:00-05:00"
-  },
-  {
-    "id": 4055,
-    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/4055",
-    "name": "Ada Lovelace Day 2020 celebration of Women in Robotics",
-    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSJAZ2lkOi8vcmVhY3Qtc2NyZWVuY2FzdHMvQWN0aXZlU3RvcmFnZTo6QmxvYi8yMzA4P2V4cGlyZXNfaW4GOwBUSSIMcHVycG9zZQY7AFRJIg9hdHRhY2hhYmxlBjsAVEkiD2V4cGlyZXNfYXQGOwBUMA==--ecc13e2c9f68e61db6172939d4386f89eb1f2e8c\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ1FKIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--cb94b3ac4e11abc65293149175dd9a1e65a4984f/ALD2020-Event.jpg\" filename=\"ALD2020-Event.jpg\" filesize=\"358910\" width=\"1920\" height=\"1080\" presentation=\"gallery\"></action-text-attachment></div>",
-    "location": "Online Event",
-    "location_info": "[Shown to members only]",
-    "start_time": "2020-10-13T18:00:00-07:00",
-    "end_time": "2020-10-13T19:15:00-07:00"
-  },
-  {
-    "id": 5264,
-    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/5264",
-    "name": "Bots & Beverages (all ages!) online",
-    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjk5Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--a65498ba644e7e14b2b47afb9d7f21043a98fd62\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBckVMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--cdbae9dff68e44e6f18818b0d831a1c3ba6cfd84/Bots%26Beer%20Graphics%20NRWtop.jpg\" filename=\"Bots&amp;Beer Graphics NRWtop.jpg\" filesize=\"87484\" width=\"960\" height=\"540\" presentation=\"gallery\"></action-text-attachment><br><br>It's National Robotics Week so let's celebrate!!<br>Special guests this month include:</div><ul><li>Circuit Launch CoLab students demoing Reachy, humanoid robot (<a href=\"https://blog.circuitlaunch.com/\">https://blog.circuitlaunch.com</a>)</li><li>Fergs from Robot and Chisel (with UBR 2.0) <a href=\"https://www.robotandchisel.com/\">https://www.robotandchisel.com/</a></li><li>And many more showcases coming!</li></ul><div><br>Do you have a robot to showcase? Let me know: andra@svrobo.org<br><br></div>",
-    "location": "Online Event",
-    "location_info": "[Shown to members only]",
-    "start_time": "2021-04-07T19:00:00-07:00",
-    "end_time": "2021-04-07T21:00:00-07:00"
-  },
-  {
-    "id": 7112,
-    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/7112",
-    "name": "ROSCon '21 Viewing Party",
-    "description": "<div>Join us at Silicon Valley Robotics, MechLabs and Circuit Launch in Oakland for a week full of exciting robot activities!<br><br>On Wednesday Oct 20th and Thursday Oct 21st we're hosting a Viewing Party &amp; Screening for ROSWorld 21 : https://roscon21-viewing-party.eventbrite.com<br><br>* register for ROSCon '21 here : https://roscon.ros.org/world/2021/<br><br>On Friday Oct 22nd we're hosting robot developers workshop day, with Foxglove Robotics, Haddington Dynamics, PickNik Robotics, Merklebot and Spot from Boston Dynamics (more TBC) : https://robot-developer-day.eventbrite.com<br><br>* full schedule coming soon<br><br>And on Saturday Oct 23rd we're hosting the Robot Block Party, with demos, speakers, job fair, robots, robots, more robots, fun, food trucks and fiesta! https://robot-block-party.eventbrite.com<br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzg5ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--d165f3cc48ba4d379f1ab92b0a4fec5029bda30c\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBallQIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--44b31e3e6baf0af2b09ab4cb6d57e4e3eecfffb5/join%20us%20for%20a%20ROSCon%20viewing%20party!.jpg\" filename=\"join us for a ROSCon viewing party!.jpg\" filesize=\"1059229\" width=\"6912\" height=\"3456\" presentation=\"gallery\"></action-text-attachment></div>",
-    "location": "San Francisco, CA, USA",
-    "location_info": "[Shown to members only]",
-    "start_time": "2021-10-20T08:30:00-07:00",
-    "end_time": "2021-10-21T17:30:00-07:00"
-  },
-  {
-    "id": 7113,
-    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/7113",
-    "name": "Robot Developer Workshops",
-    "description": "<div>Join us at Silicon Valley Robotics, MechLabs and Circuit Launch in Oakland for a week full of exciting robot activities!<br><br>On Wednesday Oct 20th and Thursday Oct 21st we're hosting a Viewing Party &amp; Screening for ROSWorld 21 : https://roscon21-viewing-party.eventbrite.com<br><br>* register for ROSCon '21 here : https://roscon.ros.org/world/2021/<br><br>On Friday Oct 22nd we're hosting robot developers workshop day, with Foxglove Robotics, Haddington Dynamics, PickNik Robotics, Merklebot and Spot from Boston Dynamics (more TBC) : https://robot-developer-day.eventbrite.com<br><br>* full schedule coming soon<br><br>And on Saturday Oct 23rd we're hosting the Robot Block Party, with demos, speakers, job fair, robots, robots, more robots, fun, food trucks and fiesta! https://robot-block-party.eventbrite.com<br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzg5NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--58eed7e90b412f418b4b0e16ff8ef1c5258f9210\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamNQIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5b93d7c2d082679af5b38f546c35c5d9b5515682/Robot%20Block%20Party%20Developer%20Day.png\" filename=\"Robot Block Party Developer Day.png\" filesize=\"362867\" width=\"2160\" height=\"1080\" presentation=\"gallery\"></action-text-attachment></div>",
-    "location": "San Francisco, CA, USA",
-    "location_info": "[Shown to members only]",
-    "start_time": "2021-10-22T09:00:00-07:00",
-    "end_time": "2021-10-22T17:00:00-07:00"
-  },
-  {
-    "id": 6961,
-    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/6961",
-    "name": "Robot Block Party",
-    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzg1NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--12b1d3a5a2419f4e8a827f37cac4bc28be901f06\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZzhQIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c1d4a4eeeeb5bb8c23ae0c64cae440e033caf55f/Robot%20Block%20Party%20Event%20Header.png\" filename=\"Robot Block Party Event Header.png\" filesize=\"838690\" width=\"2160\" height=\"1080\" presentation=\"gallery\"></action-text-attachment><br><br>The Silicon Valley Robotics Robot Block Party is BACK! Join us at Circuit Launch in Oakland for a Saturday full of robot demos, developer workshops, speakers, job fair, show'n'tell and most of all lots and lots of fun!<br><br><strong>PLS SIGN UP TO ATTEND OR SHOWCASE HERE - https://robot-block-party.eventbrite.com<br></strong><br><strong>AGENDA (see eventbrite for updates)</strong></div><ul><li><strong>Robot Demos (upstairs, downstairs &amp; outside - all day)</strong></li><li><strong>Robots On Ice Teaser</strong></li><li><strong>Indoor DIY Robocar Racing (tbc)</strong></li><li><strong>Outdoor AgRobotics Rover Competition (tba)</strong></li><li><strong>Developer Workshops (tba)</strong></li><li><strong>Make Spot Dance Workshop (tbc)</strong></li><li><strong>MechLabs Robot Building Workshops (tba)</strong></li><li><strong>ROS Con Viewing (tba)</strong></li><li><strong>3 Minute Thesis &amp; Posters</strong></li><li><strong>Tech Talks &amp; Engineer Office Hours</strong></li><li><strong>Investor Office Hours &amp; Startup Pitches</strong></li><li><strong>Robojobs Job Fair</strong></li><li><strong>Women in Robotics Networking Event</strong></li><li><strong>Black in Robotics Networking Event</strong></li><li><strong>Bots &amp; Beer Networking Event</strong></li><li><strong>Brazilian BBQ &amp; Ice Cream Truck</strong></li></ul><div><br></div><div>What are you going to bring??? (aside from your masks of course!)</div>",
-    "location": "San Francisco, CA, USA",
-    "location_info": "[Shown to members only]",
-    "start_time": "2021-10-23T10:00:00-07:00",
-    "end_time": "2021-10-23T16:00:00-07:00"
-  },
-  {
-    "id": 8730,
-    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/8730",
-    "name": "Coffee and a hike in the Oakland Hills with Women in Robotics",
-    "description": "<div><strong>Coffee and a hike in the Oakland Hills with Women in Robotics</strong>. 9am Sunday, February 20. Come walk under the eucalyptus trees and sit in the sun on a grassy hill. Meet at Clyde Woolridge Staging parking lot, where Skyline Blvd. meets Grass Valley Rd. in Anthony Chabot Regional Park in Oakland, 10-15 minutes from the Keller or Golf Links exits on the 580. <a href=\"https://www.google.com/maps/place/Clyde+Woolridge+Staging/@37.7537611,-122.1266963,15.04z/data=!4m13!1m7!3m6!1s0x808f8f133bd1c78b:0x5eca8712cc9a7195!2sGrass+Valley,+Oakland,+CA+94605!3b1!8m2!3d37.7525172!4d-122.1509798!3m4!1s0x808f8ef9fbd00f67:0xbc91887cb08c1ec2!8m2!3d37.753804!4d-122.1182058\">https://www.google.com/maps/place/Clyde+Woolridge+Staging/@37.7537611,-122.1266963,1[…]ef9fbd00f67:0xbc91887cb08c1ec2!8m2!3d37.753804!4d-122.1182058</a> Leave parking lot at 9:00am for a short walk and coffee (BYO coffee, snack, and towel/picnic blanket if desired) on a grassy hill within 100m of trailhead. Coffee followed by hike but it's fine to come just for coffee (and to hang out on the hill as long as you like) if you like picnics better than hiking. Hiking is fairly gentle hills, fire road wide trails. If many come, we'll break into small subgroups based on desired hiking speed/distance and for easy social distancing. It's easy to walk a nice half mile or ten from that trailhead. Be vaxed/boosted, keep 6'-10' apart. Friends, co-workers, and leashed dogs welcome.</div>",
-    "location": "San Francisco, CA, USA",
-    "location_info": "[Shown to members only]",
-    "start_time": "2022-02-20T09:00:00-08:00",
-    "end_time": "2022-02-20T11:00:00-08:00"
   },
   {
     "id": 4056,
