@@ -5,7 +5,7 @@ declare -a Chapters=(
     "women-in-robotics-bay-area"
     "women-in-robotics-boulder-denver"
     "women-in-robotics-bristol"
-    "women-in-robotics-mumbai"
+    "women-in-robotics-dehli"
     "women-in-robotics-new-york"
     "womeninroboticsmelbourne"
     "women-in-robotics-brisbane"
