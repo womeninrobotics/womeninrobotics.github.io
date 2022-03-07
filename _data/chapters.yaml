@@ -11,15 +11,15 @@ Americas:
   - name: Boston, MA, USA
     url: https://meetingplace.io/women-in-robotics-Boston
   - name: New York, USA
-    # url: https://meetingplace.io/women-in-robotics-new-york
+    url: https://meetingplace.io/women-in-robotics-new-york
 Oceania:
   - name: Brisbane, Australia
   # url: https://meetingplace.io/women-in-robotics-brisbane
   - name: Melborne, Australia
     url: https://meetingplace.io/womeninroboticsmelbourne
 Asia:
-  - name: Dehli, India
-    # url: https://meetingplace.io/women-in-robotics-mumbai
+  - name: Delhi, India
+    url: https://meetingplace.io/women-in-robotics-delhi
 Europe:
   - name: Bristol, UK
   # url: https://meetingplace.io/women-in-robotics-bristol
