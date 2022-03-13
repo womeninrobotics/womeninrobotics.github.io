@@ -525,12 +525,14 @@ img.footer-logo {
     position: relative;
     overflow: hidden;
     width: 100%;
-    margin: 0
+    margin: 0;
+    padding-bottom: 100%;
 }
 
 .team-item figure img {
     width: 100%;
-    height: auto
+    height: auto;
+    position: absolute;
 }
 
 .team-item figure figcaption {
@@ -602,7 +604,7 @@ img.footer-logo {
     margin-top: 15px;
 }
 
-.team-item .social .facebook, .team-item .social .twitter, .team-item .social .email, .team-item .social .linkedin, .team-item .social .instagram {
+.team-item .social .facebook, .team-item .social .twitter, .team-item .social .email, .team-item .social .linkedin, .team-item .social .instagram, .team-item .social .website {
     font-size: 24px;
     line-height: normal;
     outline: none;
@@ -640,6 +642,11 @@ img.footer-logo {
 
 .team-item .social .instagram {
     -webkit-transition: all 600ms ease;
+    transition: all 700ms ease
+}
+
+.team-item .social .website {
+    -webkit-transition: all 700ms ease;
     transition: all 700ms ease
 }
 

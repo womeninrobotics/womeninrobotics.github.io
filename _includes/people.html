@@ -17,6 +17,7 @@ twitter: (optional)
 instagram: (optional)
 linkedin: (optional)
 facebook: (optional)
+website: (optional)
 ```
 {% endcomment %}
 <div class="row">
@@ -56,6 +57,9 @@ facebook: (optional)
                             {%- if member.linkedin %}
                             <a class="linkedin" href="https://www.linkedin.com/in/{{member.linkedin}}"><i
                                     class="fa fa-linkedin"></i></a>
+                            {%- endif %}
+                            {%- if member.website %}
+                            <a class="website" href="{{member.website}}"><i class="fa fa-code"></i></a>
                             {%- endif %}
                         </div>
                     </div>
