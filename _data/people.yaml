@@ -52,12 +52,6 @@ board:
     joined: 2022
     image: /assets/images/board/Dharini-Dutia.jpeg
     linkedin: dharinidutia
-  - name: Sanjuksha Nirgude
-    office: Chair of New Chapter Formation SubCommittee
-    joined: 2022
-    image: /assets/images/board/Sanjuksha-Nirgude.jpg
-    linkedin: sanjuksha
-    website: https://sanjuksha.github.io/
   - name: Antonia Tzemanaki
     office: Chair of Advisory Board SubCommittee
     joined: 2022
@@ -73,6 +67,11 @@ board:
     joined: 2022
     image: /assets/images/board/Sonia-Roberts.jpeg
     linkedin: sonia-roberts-1bba7aa
+  - name: Andrea Jurado
+    office: Latam Liaison
+    joined: 2022
+    image: /assets/images/board/Andrea-Jurado.jpeg
+    linkedin: andreajurado14
 
 advisors:
   - name: Sarah Osentoski
