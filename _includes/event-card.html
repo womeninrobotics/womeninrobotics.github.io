@@ -3,7 +3,9 @@ This file adds an event card.
 
 Example:
 ```
-{% include event-card.html event=site.data.events %}
+{% for event in site.data.events %}
+{% include event-card.html event=event %}
+{% endfor %}
 ```
 event is a record:
 
