@@ -114,7 +114,11 @@ js: about.js
     </div>
 
     <div class="team-members my-5">
-        {% include people.html members=site.data.people.board %}
+        <div class="row">
+            {%- for member in site.data.people.board %}
+            {% include member-card.html member=member %}
+            {%- endfor %}
+        </div>
     </div>
 </div>
 <!-- end board of directors -->
@@ -130,7 +134,11 @@ js: about.js
     </div>
 
     <div class="team-members my-5">
-        {% include people.html members=site.data.people.advisors %}
+        <div class="row">
+            {%- for member in site.data.people.advisors %}
+            {% include member-card.html member=member %}
+            {%- endfor %}
+        </div>
     </div>
 </div>
 <!-- end Advisory Board -->
