@@ -1,0 +1,35 @@
+{% comment %}
+This file adds an chapter card.
+
+Example:
+```
+{% for chapter in site.data.chapters %}
+{% include chapter-card.html chapter=chapter %}
+{% endfor %}
+```
+chapter is a record:
+
+```
+"name":
+"url":
+"email":
+"description":
+```
+
+{% endcomment %}
+<div class="row p-3 border-top border-bottom rounded">
+    <div class="col-md-8">
+        <div class="card-block">
+            <h4>{{ chapter.name}}</h4>
+            {%- if chapter.email %}
+            <p><a href="mailto:{{ chapter.email }}">{{chapter.email}}</a></p>
+            {%- endif %}
+            <p>{{ chapter.description | newline_to_br}}</p>
+        </div>
+    </div>
+    {%- if chapter.meetingplace %}
+    <div class="col-md-4">
+        <a href="https://meetingplace.io/{{ chapter.meetingplace }}"><i class="fa fa-2x fa-group text-primary"></i></a>
+    </div>
+    {%- endif %}
+</div>
