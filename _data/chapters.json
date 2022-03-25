@@ -5,6 +5,7 @@
     "meetingplace": "womeninrobotics",
     "slack": "events",
     "email": "online@womeninrobotics.org",
+    "time": 15,
     "description": "Andra Keay\nLaura Stelzner\n"
   },
   {
@@ -13,6 +14,7 @@
     "meetingplace": "women-in-robotics-bay-area",
     "slack": "local_sf_bay_area",
     "email": "bayarea@womeninrobotics.org",
+    "time": 15,
     "description": "Andra Keay\nLaura Stelzner\nAllison Thackston\n"
   },
   {
@@ -21,6 +23,7 @@
     "meetingplace": "women-in-robotics-boulder-denver",
     "slack": "local_boulder_denver",
     "email": "bounderdenver@womeninrobotics.org",
+    "time": 14,
     "description": "Laurie Linz\n"
   },
   {
@@ -29,6 +32,7 @@
     "meetingplace": "women-in-robotics-Boston",
     "slack": "local_boston",
     "email": "boston@womeninrobotics.org",
+    "time": 12,
     "description": "Dharini Dutia\nSanjuksha Nirgude\n"
   },
   {
@@ -37,6 +41,7 @@
     "meetingplace": "women-in-robotics-new-york",
     "slack": "local_new_york",
     "email": "newyork@womeninrobotics.org",
+    "time": 12,
     "description": "Caroline Willer-Burchardi\nCharlotte Willer-Burchardi\n"
   },
   {
@@ -45,6 +50,7 @@
     "meetingplace": "women-in-robotics-pittsburgh",
     "slack": "local_pittsburgh",
     "email": "pittsburgh@womeninrobotics.org",
+    "time": 13,
     "description": "Jenn Apicella\n"
   },
   {
@@ -53,6 +59,7 @@
     "meetingplace": "women-in-robotics-san-antonio",
     "slack": "local_texas",
     "email": "sanantonio@womeninrobotics.org",
+    "time": 13,
     "description": "Stephanie Garcia\n"
   },
   {
@@ -60,6 +67,7 @@
     "region": "Oceania",
     "slack": "local_australia",
     "email": "brisbane@womeninrobotics.org",
+    "time": 21,
     "description": "Sue Keay"
   },
   {
@@ -68,6 +76,7 @@
     "meetingplace": "womeninroboticsmelbourne",
     "slack": "local_australia",
     "email": "melbourne@womeninrobotics.org",
+    "time": 21,
     "description": "Poornima L Nathan\nNicci Rossouw/Exaptec"
   },
   {
@@ -76,6 +85,7 @@
     "meetingplace": "women-in-robotics-delhi",
     "slack": "local_india",
     "email": "delhi@womeninrobotics.org",
+    "time": "2",
     "description": "Momita Pal\nKanchan Prasad\n"
   },
   {
@@ -84,6 +94,7 @@
     "meetingplace": "women-in-robotics-uk",
     "slack": "local_uk",
     "email": "uk@womeninrobotics.org",
+    "time": 8,
     "description": "Myra (Miranda) Lowther\nEdith-Clare Hall\n"
   }
 ]
