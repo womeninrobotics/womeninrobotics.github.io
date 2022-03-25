@@ -79,11 +79,12 @@ js: main.js
                         <ul>
                             {%- for chapter in region.items %}
                             {%- if chapter.meetingplace %}
-                            <li><a href="https://meetingplace.io/{{ chapter.meetingplace }}">{{ chapter.name }}</a></li>
+                            <li><a href="https://meetingplace.io/{{ chapter.meetingplace }}">{{ chapter.long_name }}</a>
+                            </li>
                             {%- elsif chapter.email %}
-                            <li><a href="mailto:{{ chapter.email }}">{{ chapter.name }}</a></li>
+                            <li><a href="mailto:{{ chapter.email }}">{{ chapter.long_name }}</a></li>
                             {% else %}
-                            <li>{{ chapter.name }}</li>
+                            <li>{{ chapter.long_name }}</li>
                             {%- endif %}
                             {%- endfor %}
                         </ul>

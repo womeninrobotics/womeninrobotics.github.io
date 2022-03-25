@@ -1,100 +1,123 @@
 [
   {
     "name": "Online",
+    "long_name": "Online",
     "region": "Global",
     "meetingplace": "womeninrobotics",
+    "meetingplace_url": "https://meetingplace.io/womeninrobotics",
     "slack": "events",
     "email": "online@womeninrobotics.org",
     "time": 15,
-    "description": "Andra Keay\nLaura Stelzner\n"
+    "description": "Andra Keay\nLaura Stelzner"
   },
   {
-    "name": "SF Bay Area, CA, USA",
-    "region": "Americas",
-    "meetingplace": "women-in-robotics-bay-area",
-    "slack": "local_sf_bay_area",
-    "email": "bayarea@womeninrobotics.org",
-    "time": 15,
-    "description": "Andra Keay\nLaura Stelzner\nAllison Thackston\n"
-  },
-  {
-    "name": "Boulder/Denver, CO, USA",
-    "region": "Americas",
-    "meetingplace": "women-in-robotics-boulder-denver",
-    "slack": "local_boulder_denver",
-    "email": "bounderdenver@womeninrobotics.org",
-    "time": 14,
-    "description": "Laurie Linz\n"
-  },
-  {
-    "name": "Boston, MA, USA",
+    "name": "Boston",
+    "long_name": "Boston, MA, USA",
     "region": "Americas",
     "meetingplace": "women-in-robotics-Boston",
+    "meetingplace_url": "https://meetingplace.io/women-in-robotics-Boston",
     "slack": "local_boston",
     "email": "boston@womeninrobotics.org",
     "time": 12,
-    "description": "Dharini Dutia\nSanjuksha Nirgude\n"
+    "description": "Dharini Dutia\nSanjuksha Nirgude"
   },
   {
-    "name": "New York, USA",
+    "name": "Bay Area",
+    "long_name": "SF Bay Area, CA, USA",
+    "region": "Americas",
+    "meetingplace": "women-in-robotics-bay-area",
+    "meetingplace_url": "https://meetingplace.io/women-in-robotics-bay-area",
+    "slack": "local_sf_bay_area",
+    "email": "bayarea@womeninrobotics.org",
+    "time": 15,
+    "description": "Andra Keay\nLaura Stelzner\nAllison Thackston"
+  },
+  {
+    "name": "Boulder/Denver",
+    "long_name": "Boulder/Denver, CO, USA",
+    "region": "Americas",
+    "meetingplace": "women-in-robotics-boulder-denver",
+    "meetingplace_url": "https://meetingplace.io/women-in-robotics-boulder-denver",
+    "slack": "local_boulder_denver",
+    "email": "boulderdenver@womeninrobotics.org",
+    "time": 14,
+    "description": "Laurie Linz"
+  },
+  {
+    "name": "UK",
+    "long_name": "United Kingdom",
+    "region": "Europe",
+    "meetingplace": "women-in-robotics-uk",
+    "meetingplace_url": "https://meetingplace.io/women-in-robotics-uk",
+    "slack": "local_uk",
+    "email": "uk@womeninrobotics.org",
+    "time": 8,
+    "description": "Myra (Miranda) Lowther\nEdith-Clare Hall"
+  },
+  {
+    "name": "Delhi",
+    "long_name": "Delhi, India",
+    "region": "Asia",
+    "meetingplace": "women-in-robotics-delhi",
+    "meetingplace_url": "https://meetingplace.io/women-in-robotics-delhi",
+    "slack": "local_india",
+    "email": "delhi@womeninrobotics.org",
+    "time": 2,
+    "description": "Momita Pal\nKanchan Prasad"
+  },
+  {
+    "name": "New York",
+    "long_name": "New York, USA",
     "region": "Americas",
     "meetingplace": "women-in-robotics-new-york",
+    "meetingplace_url": "https://meetingplace.io/women-in-robotics-new-york",
     "slack": "local_new_york",
     "email": "newyork@womeninrobotics.org",
     "time": 12,
-    "description": "Caroline Willer-Burchardi\nCharlotte Willer-Burchardi\n"
+    "description": "Caroline Willer-Burchardi\nCharlotte Willer-Burchardi"
   },
   {
-    "name": "Pittsburgh, PA, USA",
-    "region": "Americas",
-    "meetingplace": "women-in-robotics-pittsburgh",
-    "slack": "local_pittsburgh",
-    "email": "pittsburgh@womeninrobotics.org",
-    "time": 13,
-    "description": "Jenn Apicella\n"
-  },
-  {
-    "name": "San Antonio, TX, USA",
-    "region": "Americas",
-    "meetingplace": "women-in-robotics-san-antonio",
-    "slack": "local_texas",
-    "email": "sanantonio@womeninrobotics.org",
-    "time": 13,
-    "description": "Stephanie Garcia\n"
-  },
-  {
-    "name": "Brisbane, Australia",
-    "region": "Oceania",
-    "slack": "local_australia",
-    "email": "brisbane@womeninrobotics.org",
-    "time": 21,
-    "description": "Sue Keay"
-  },
-  {
-    "name": "Melbourne, Australia",
+    "name": "Melbourne",
+    "long_name": "Melbourne, Australia",
     "region": "Oceania",
     "meetingplace": "womeninroboticsmelbourne",
+    "meetingplace_url": "https://meetingplace.io/womeninroboticsmelbourne",
     "slack": "local_australia",
     "email": "melbourne@womeninrobotics.org",
     "time": 21,
     "description": "Poornima L Nathan\nNicci Rossouw/Exaptec"
   },
   {
-    "name": "Delhi, India",
-    "region": "Asia",
-    "meetingplace": "women-in-robotics-delhi",
-    "slack": "local_india",
-    "email": "delhi@womeninrobotics.org",
-    "time": "2",
-    "description": "Momita Pal\nKanchan Prasad\n"
+    "name": "Brisbane",
+    "long_name": "Brisbane, Australia",
+    "region": "Oceania",
+    "meetingplace": "women-in-robotics-brisbane",
+    "meetingplace_url": "https://meetingplace.io/women-in-robotics-brisbane",
+    "slack": "local_australia",
+    "email": "brisbane@womeninrobotics.org",
+    "time": 21,
+    "description": "Sue Keay"
   },
   {
-    "name": "UK",
-    "region": "Europe",
-    "meetingplace": "women-in-robotics-uk",
-    "slack": "local_uk",
-    "email": "uk@womeninrobotics.org",
-    "time": 8,
-    "description": "Myra (Miranda) Lowther\nEdith-Clare Hall\n"
+    "name": "San Antonio",
+    "long_name": "San Antonio, TX, USA",
+    "region": "Americas",
+    "meetingplace": "women-in-robotics-san-antonio",
+    "meetingplace_url": "https://meetingplace.io/women-in-robotics-san-antonio",
+    "slack": "local_texas",
+    "email": "sanantonio@womeninrobotics.org",
+    "time": 13,
+    "description": "Stephanie Garcia"
+  },
+  {
+    "name": "Pittsburgh",
+    "long_name": "Pittsburgh, PA, USA",
+    "region": "Americas",
+    "meetingplace": "women-in-robotics-pittsburgh",
+    "meetingplace_url": "https://meetingplace.io/women-in-robotics-pittsburgh",
+    "slack": "local_pittsburgh",
+    "email": "pittsburgh@womeninrobotics.org",
+    "time": 13,
+    "description": "Jenn Appicella"
   }
 ]
