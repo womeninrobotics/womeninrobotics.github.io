@@ -64,23 +64,25 @@ js: main.js
     </h5>
     <div class="container pb-5">
         <div class="accordion col-md-6 offset-md-3 mb-5" id="chapter-regions">
-            {%- for region in site.data.chapters %}
+            {% assign chapters_by_region = site.data.chapters | group_by: "region" %}
+            {%- for region in chapters_by_region %}
             <div class="accordion-item mb-2">
-                <div class="accordion-header" id="{{ region[0] }}-heading">
+                <div class="accordion-header" id="{{ region.name }}-heading">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#{{ region[0] }}" aria-expanded="false" aria-controls="{{ region[0] }}">
-                        {{ region[0] }}
+                        data-bs-target="#{{ region.name }}" aria-expanded="false" aria-controls="{{ region.name }}">
+                        {{ region.name }}
                     </button>
                 </div>
-                <div id="{{ region[0] }}" class="accordion-collapse collapse" aria-labelledby="{{ region[0] }}-heading"
-                    data-bs-parent="#chapter-regions">
+                <div id="{{ region.name }}" class="accordion-collapse collapse"
+                    aria-labelledby="{{ region.name }}-heading" data-bs-parent="#chapter-regions">
                     <div class="accordion-body">
                         <ul>
-                            {%- assign local_chapters = region[1] %}
-                            {%- for chapter in local_chapters %}
-                            {%- if chapter.url %}
-                            <li><a href="{{ chapter.url }}">{{ chapter.name }}</a></li>
-                            {%- else %}
+                            {%- for chapter in region.items %}
+                            {%- if chapter.meetingplace %}
+                            <li><a href="https://meetingplace.io/{{ chapter.meetingplace }}">{{ chapter.name }}</a></li>
+                            {%- elsif chapter.email %}
+                            <li><a href="mailto:{{ chapter.email }}">{{ chapter.name }}</a></li>
+                            {% else %}
                             <li>{{ chapter.name }}</li>
                             {%- endif %}
                             {%- endfor %}

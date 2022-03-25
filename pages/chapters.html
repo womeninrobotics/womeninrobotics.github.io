@@ -14,8 +14,10 @@ permalink: /chapters/
                     Women in Robotics is a growing community of {{ site.data.stats.members }} members in
                     {{ site.data.stats.chapters }} chapters worldwide.
                 </h4>
+                <a href="{{ site.join_url }}" class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Join
+                    the community</a>
                 <h5 class="text-white">
-                    <p class="text-white">Our chapters are led by an amazing team of volunteers. Join one near you!</p>
+                    <p class="text-white">Our chapters are led by an amazing team of volunteers. Find one near you!</p>
                 </h5>
             </div>
         </div>
@@ -25,21 +27,22 @@ permalink: /chapters/
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8 my-5">
-            {%- for region in site.data.chapters %}
+            {% assign chapters_by_region = site.data.chapters | group_by: "region" %}
+            {%- for region in chapters_by_region %}
             <div>
-                <h2>{{ region[0] }}</h2>
+                <h2 class="text-primary">{{ region.name }}</h2>
                 <ul>
-                    {%- assign local_chapters = region[1] %}
-                    {%- for chapter in local_chapters %}
-                    {%- if chapter.url %}
-                    <li><a href="{{ chapter.url }}">{{ chapter.name }}</a></li>
-                    {%- else %}
-                    <li>{{ chapter.name }}</li>
-                    {%- endif %}
+                    {%- for chapter in region.items %}
+                    {% include chapter-card.html chapter=chapter %}
                     {%- endfor %}
                 </ul>
             </div>
             {%- endfor %}
         </div>
+    </div>
+    <div class="text-center my-5">
+        <p>Don't see a chapter in your area? Start one!</p>
+        <a href="/start-a-chapter/" class="page-scroll btn btn-lg btn-common animated fadeInUp">Start
+            a chapter</a>
     </div>
 </div>
