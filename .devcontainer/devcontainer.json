@@ -4,7 +4,6 @@
 	"name": "Women in Robotics website",
 	"dockerFile": "Dockerfile",
 	"remoteUser": "jekyll",
-	"containerUser": "jekyll",
 	"settings": {
 		"terminal.integrated.defaultProfile.linux": "bash",
 	},
