@@ -926,6 +926,10 @@ img.footer-logo {
     .list-group {
         margin-bottom: 30px
     }
+
+    .navbar-brand {
+        font-size: 5vw;
+    }
 }
 
 @media (max-width: 480px) {

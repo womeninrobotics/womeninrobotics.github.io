@@ -23,23 +23,7 @@
                 <h3 class="small-title text-uppercase">
                     Follow
                 </h3>
-                <span class="social">
-                    {%- if site.facebook %}
-                    <a href="{{ site.facebook }}"><i class="fa fa-2x fa-facebook"></i></a>
-                    {%- endif %}
-                    {%- if site.twitter %}
-                    <a href="{{ site.twitter }}"><i class="fa fa-2x fa-twitter"></i></a>
-                    {%- endif %}
-                    {%- if site.linkedin %}
-                    <a href="{{ site.linkedin }}"><i class="fa fa-2x fa-linkedin"></i></a>
-                    {%- endif %}
-                    {%- if site.instagram %}
-                    <a href="{{ site.instagram }}"><i class="fa fa-2x fa-instagram"></i></a>
-                    {%- endif %}
-                    {%- if site.pinterest %}
-                    <a href="{{ site.pinterest }}"><i class="fa fa-2x fa-pinterest"></i></a>
-                    {%- endif %}
-                </span>
+                {% include social.html fa_size="fa-2x" %}
             </div>
             <div class="footer-widget col-md-3 col-xs-12 wow fadeIn" data-wow-delay=".8s">
                 <h3 class="small-title text-uppercase">
