@@ -1,28 +1,22 @@
 #!/bin/bash
-declare -a Chapters=(
-    "womeninrobotics"
-    "women-in-robotics-Boston"
-    "women-in-robotics-bay-area"
-    "women-in-robotics-boulder-denver"
-    "women-in-robotics-bristol"
-    "women-in-robotics-delhi"
-    "women-in-robotics-new-york"
-    "womeninroboticsmelbourne"
-    "women-in-robotics-brisbane"
-)
+EXIT_CODE=0
 
-# Get all chapter events
-for chapter in ${Chapters[@]}; do
-    curl -s "https://meetingplace.io/api/v1/group/${chapter}/events" | jq '.' > _data/wir_events_${chapter}.json
-done
+function get_events() {
+    event_type=$1
+    # Get all chapter events
+    for chapter in $(jq -r '.[].meetingplace' _data/chapters.json); do
+        echo "Retrieving ${event_type} for ${chapter}"
+        curl -s "https://meetingplace.io/api/v1/group/${chapter}/${event_type}" | jq '.' > _data/wir_${event_type}_${chapter}.json
+        if jq '. | has("error")' _data/wir_${event_type}_${chapter}.json &> /dev/null; then
+            echo "Error retrieving ${event_type} for ${chapter}"
+            EXIT_CODE=1
+        fi
+    done
 
-# Combine all chapter events
-jq -s '[.[][]]' _data/wir_events*.json > _data/events.json
+    # Combine all chapter events
+    jq -s '[.[][]]' _data/wir_${event_type}*.json > _data/${event_type}.json
+}
 
-# Get all chapter past events
-for chapter in ${Chapters[@]}; do
-    curl -s "https://meetingplace.io/api/v1/group/${chapter}/past_events" | jq '.' > _data/wir_past_events_${chapter}.json
-done
-
-#Combine all past chapter events
-jq -s '[.[][]]' _data/wir_past_events*.json > _data/past_events.json
+get_events "events"
+get_events "past_events"
+exit $EXIT_CODE

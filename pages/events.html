@@ -10,9 +10,11 @@ permalink: /events/
         {% include event-card.html event=event %}
         {% endfor %}
     </div>
-    <div class="text-center col-md-6 mb-60" future-date="{{ sorted_events.first.date | date: '%Y%m%d' }}">
+    {%- if sorted_events.size == 0 %}
+    <div class="text-center col-md-6 mb-60">
         <a href="/past-events/">Past events <i class="fa fa-arrow-right"></i></a>
     </div>
+    {%- endif %}
     <div class="massage-box alert-info">
         <strong>
             <i class="fa fa-info"></i>

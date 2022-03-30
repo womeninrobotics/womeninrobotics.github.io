@@ -107,18 +107,23 @@ js: main.js
         <span>We offer career development meetings and events.</span>
     </h5>
     <div class="container pb-5">
-        {% if site.data.events %}
-        {% assign sorted_events = site.data.events | sort:"start_time" %}
-        {% for event in sorted_events limit: 5 %}
-        {% include event-card.html event=event %}
-        {% endfor %}
-        {% endif %}
-        <div class="offset-md-4 col-md-6 mb-5" future-date="{{ sorted_events.first.start_time | date: '%Y%m%d' }}">
+        {%- if site.data.events %}
+            {% assign sorted_events = site.data.events | sort:"start_time" | compact%}
+        {%- endif %}
+        {%- for event in sorted_events limit: 5 %}
+            {%- if event.name %}
+                {% include event-card.html event=event %}
+            {%- endif %}
+        {%- endfor %}
+        {%- if sorted_events.size > 1 %}
+        <div class="offset-md-4 col-md-6 mb-5">
             <a href="/events/">All events <i class="fa fa-arrow-right"></i></a>
         </div>
-        <div class="toffset-md-6 mb-5" past-date="{{ sorted_events.first.start_time | date: '%Y%m%d' }}">
+        {%- else %}
+        <div class="text-center">
             <a href="/past-events/" class="btn btn-lg btn-common">Past events <i class="fa fa-arrow-right"></i></a>
         </div>
+        {%- endif %}
         <div class="massage-box alert-info">
             <strong>
                 <i class="fa fa-info"></i>
