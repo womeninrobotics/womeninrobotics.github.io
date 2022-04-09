@@ -2,7 +2,8 @@ backend:
   name: git-gateway
   branch: main
 publish_mode: editorial_workflow
-media_folder: "assets/images/uploads" # Media files will be stored in the repo under images/uploads
+logo_url: https://www.womeninrobotics.org/assets/images/logo/WiRLogo-banner.png
+media_folder: "assets/images/news" # Media files will be stored in the repo under images/uploads
 collections:
   - name: "news" # Used in routes, e.g., /admin/collections/blog
     label: "News Post" # Used in the UI
@@ -10,7 +11,6 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Featured Image", name: "image", widget: "image"}
-      - {label: "Link", name: "link", widget: "string"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Link", name: "link", widget: "string" }

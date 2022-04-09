@@ -12,7 +12,7 @@ exclude:
     "Rakefile",
     "changelog.md",
     "vendor",
-    ".orig"
+    ".orig",
   ]
 # Markdown providor
 markdown: kramdown
