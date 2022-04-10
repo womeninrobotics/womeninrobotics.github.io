@@ -22,10 +22,10 @@ The easiest way to get started is to join the community!  You'll be connected wi
 
 Women in Robotics chapters are volunteer-run communities that allow you to connect to other women in robotics, develop your professional skills, and give back to your local area.
 
-Find a local [chapter](/chapters/) near you!
+[Find a local chapter](/chapters/){: .btn .btn-lg .btn-info-filled .my-2}
 
 ### Virtual events
 
 Learn more about other women in robotics, robotic technology, and career development at one of our events.
 
-See what's upcoming! Join our [events](/events/)
+[Upcoming events](/events/){: .btn .btn-lg .btn-info-filled .my-2}
