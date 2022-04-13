@@ -1,0 +1,53 @@
+- organizations:
+    - name: Black in Robotics
+      link: https://blackinrobotics.org/
+    - name: Black in AI
+      link: https://blackinai.github.io/
+    - name: Black ComputeHer
+      link: https://blackcomputeher.org/
+    - name: Women in Machine Learning
+      link: https://wimlworkshop.org/faq/
+    - name: Women in Machine Learning & Data Science
+      link: https://wimlds.org/
+    - name: Women in AI
+      link: https://www.womeninai.co/
+    - name: Women Who Code
+      link: https://www.womenwhocode.com/about
+    - name: IEEE Women in Engineering
+      link: https://www.ieee.org/membership/women/index.html
+    - name: ACM-W or Women in Association for Computing Machinery
+      link: https://women.acm.org/
+    - name: Society of Women Engineers
+      link: https://swe.org/
+    - name: Anita Borg Org
+      link: https://anitab.org/
+    - name: Lesbians Who Tech
+      link: https://lesbianswhotech.org/about/
+    - name: Women Who Tech
+      link: https://womenwhotech.com/about
+    - name: Association for Women in Science
+      link: https://www.awis.org/about-awis
+
+- directories/lists:
+    - name: Women in US Academic Robotics Research (list)
+      link: https://us-women-in-robotics-research.github.io/
+    - name: Women in Academic Research in Robotics in Canada (list)
+      link: https://canada-robotics-research-lists.github.io/canada-women-in-robotics-research/
+
+- references/resources:
+    - name: Terminology for 21st Century Technologists
+      link: https://robohub.org/its-time-to-update-19th-century-terms-for-21st-century-technology/
+    - name: For Women in Science
+      link: https://www.forwomeninscience.com/map/
+    - name: Picture a Scientist
+      link: https://www.rocoeducational.com/picture_a_scientist
+    - name: Coded Bias
+      link: https://www.codedbias.com/
+    - name: Women in STEM
+      link: https://online.maryville.edu/blog/women-in-stem/
+    - name: "Breaking the Glass Ceiling Early On: How to Empower Girls in STEM"
+      link: https://bootcamp.pe.gatech.edu/blog/how-to-empower-girls-in-stem/
+    - name: Free STEM Resources for Girls and Women Who Want to Work in Data Science, Machine Learning and AI
+      link: https://bootcamp.berkeley.edu/blog/free-stem-resources-for-girls-and-women-in-data-science-machine-learning-and-ai/
+    - name: Women in Robotics Submission to National Robotics Strategy
+      link: /assets/WiR%20submission%20to%20Australia%20National%20Robotics%20Strategy.pdf

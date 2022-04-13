@@ -85,3 +85,25 @@ collections:
               - { label: Instagram, name: instagram, widget: string }
               - { label: LinkedIn, name: linkedin, widget: string }
               - { label: Website, name: website, widget: string }
+      - label: "Resources"
+        name: "resources"
+        file: "_data/resources.yaml"
+        fields:
+          - label: "Organizations"
+            name: "organizations"
+            widget: "list"
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Link, name: link, widget: string }
+          - label: "Directories/Lists"
+            name: "directories/lists"
+            widget: "list"
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Link, name: link, widget: string }
+          - label: "references/resources"
+            name: "references/resources"
+            widget: "list"
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Link, name: link, widget: string }
