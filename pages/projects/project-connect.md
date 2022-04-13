@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Project Connect
+image: /assets/images/project-connect.jpg
 permalink: /project-connect/
 ---
 
-![Project Connect](/assets/images/project-connect.jpg)
+![Project Connect]({{ page.image }})
 
 ## What is it
 

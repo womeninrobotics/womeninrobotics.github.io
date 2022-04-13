@@ -18,6 +18,8 @@ collections:
     label: "Forms" # Used in the UI
     folder: "pages/forms" # The path to the folder where the documents are stored
     create: false # Allow users to create new documents in this collection
+    editor:
+      preview: false
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matterlayout: iframe
       - { label: "Title", name: "title", widget: "string" }
@@ -28,6 +30,8 @@ collections:
     label: "Redirects" # Used in the UI
     folder: "pages/redirects" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    editor:
+      preview: false
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matterlayout: iframe
       - { label: "Title", name: "title", widget: "string" }
@@ -40,6 +44,7 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matterlayout: iframe
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
       - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "config"
