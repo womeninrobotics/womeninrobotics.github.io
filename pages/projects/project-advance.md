@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Project Advance
+image: /assets/images/project-advance.jpg
 permalink: /project-advance/
 ---
 
-![Project Advance](/assets/images/project-advance.jpg)
+![Project Advance]({{ page.image }})
 
 ## Why We Started Project Advance
 
