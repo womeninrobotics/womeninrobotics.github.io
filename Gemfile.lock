@@ -279,6 +279,7 @@ GEM
       unf_ext
     unf_ext (0.0.8)
     unicode-display_width (1.8.0)
+    webrick (1.7.0)
     yell (2.2.2)
     zeitwerk (2.5.4)
 
@@ -294,6 +295,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jemoji
+  webrick
 
 BUNDLED WITH
    2.2.24
