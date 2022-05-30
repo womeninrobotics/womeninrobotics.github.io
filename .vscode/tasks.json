@@ -4,20 +4,31 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "w: serve website",
+            "label": "w: serve",
             "type": "shell",
-            "command": "bundle exec jekyll serve",
-            "problemMatcher": []
+            "command": "bundle exec jekyll serve --livereload",
+            "group": {
+                "kind": "test",
+                "isDefault": false
+            },
         },
         {
-            "label": "b: build website",
+            "label": "w: drafts",
+            "type": "shell",
+            "command": "bundle exec jekyll serve --drafts",
+            "problemMatcher": [],
+            "dependsOn": [
+                "c: clean"
+            ]
+        },
+        {
+            "label": "b: build",
             "type": "shell",
             "command": "bundle exec jekyll build",
-            "problemMatcher": [],
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
         },
         {
             "label": "u: update",
@@ -34,11 +45,21 @@
         {
             "label": "t: test",
             "type": "shell",
-            "command": ".github/htmlproofer.rb",
+            "command": "ruby .github/htmlproofer.rb",
+            "problemMatcher": [],
             "dependsOn": [
-                "b: build website"
+                "b: build"
             ],
-            "problemMatcher": []
+            "group": {
+                "kind": "test",
+                "isDefault": false
+            },
+        },
+        {
+            "label": "c: clean",
+            "type": "shell",
+            "command": "rm -fr _site vendor .jekyll-cache",
+            "problemMatcher": [],
         }
     ]
 }
