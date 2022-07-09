@@ -1,5 +1,15 @@
 [
   {
+    "id": 9552,
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/9552",
+    "name": "The Future of Mobility is Software Defined",
+    "description": "<div><strong>Join us for an in person evening at Apex.AI with networking, refreshments and talks from two Apex.AI women engineers:</strong><br><br>1. “Camera stack on Apex.OS (safety-certified ROS 2) using iceoryx zero copy” by<br>Divya Aggarwal<br>2. “Performance Test: A latency and performance testing tool for ROS 2 middleware”<br>by Revati Naik<br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvNTMxNT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--776fd3e12be2f4fcddd7514e3f2109a920b93569\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc01VIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--95312f8822f06c13fecbe03dbf0a12a488d0331b/Screen%20Shot%202022-07-08%20at%204.15.43%20PM.png\" filename=\"Screen Shot 2022-07-08 at 4.15.43 PM.png\" filesize=\"442260\" width=\"1045\" height=\"341\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment><br><br></div>",
+    "location": "San Francisco, CA, USA",
+    "location_info": "[Shown to members only]",
+    "start_time": "2022-07-21T18:00:00-07:00",
+    "end_time": "2022-07-21T20:30:00-07:00"
+  },
+  {
     "id": 7763,
     "url": "https://meetingplace.io/womeninrobotics/events/7763",
     "name": "WiR Organizers & Volunteers Get Together",
