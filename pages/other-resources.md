@@ -12,7 +12,7 @@ permalink: /other-resources/
 ## ORGANIZATIONS
 
 - Black in Robotics - ​​[https://blackinrobotics.org/](https://blackinrobotics.org/)
-- Black in AI - [https://blackinai.github.io/](https://blackinai.github.io/#/)
+- Black in AI - [https://blackinai.github.io/](https://blackinai.github.io/)
 - Black ComputeHer - [https://blackcomputeher.org/](https://blackcomputeher.org/)
 - Women in Machine Learning - [https://wimlworkshop.org/](https://wimlworkshop.org/faq/)
 - Women in Machine Learning & Data Science - [https://wimlds.org/](https://wimlds.org/)

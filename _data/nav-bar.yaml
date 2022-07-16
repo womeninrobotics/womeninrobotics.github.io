@@ -1,4 +1,5 @@
 - title: About
+  url: /
   subpages:
     - title: About Us
       url: /about/
@@ -13,12 +14,14 @@
     - title: Other Resources
       url: /other-resources/
 - title: Events
+  url: /
   subpages:
     - title: Upcoming Events
       url: /events/
     - title: Past Events
       url: /past-events/
 - title: Chapters
+  url: /
   subpages:
     - title: Our chapters
       url: /chapters/
@@ -27,6 +30,7 @@
 - title: News
   url: /news/
 - title: Join Us
+  url: /
   subpages:
     - title: Join the community
       url: /signup/
