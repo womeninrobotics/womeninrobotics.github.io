@@ -105,7 +105,7 @@ GEM
     html-pipeline (2.14.0)
       activesupport (>= 2)
       nokogiri (>= 1.4)
-    html-proofer (4.1.0)
+    html-proofer (4.2.0)
       addressable (~> 2.3)
       mercenary (~> 0.3)
       nokogiri (~> 1.13)
@@ -282,7 +282,7 @@ GEM
     unicode-display_width (1.8.0)
     webrick (1.7.0)
     yell (2.2.2)
-    zeitwerk (2.5.4)
+    zeitwerk (2.6.0)
 
 PLATFORMS
   x86_64-linux-musl
