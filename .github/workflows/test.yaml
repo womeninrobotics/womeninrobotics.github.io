@@ -1,20 +1,27 @@
 name: Test site
 on:
+  # Run test on every push to main
   push:
     branches:
-      - main # Run test on every push to main
-  pull_request: # Run tests on all pull requests
-  workflow_dispatch: # Run tests from manual triggers from any branch
+      - main 
+  # Run on every pull request
+  pull_request:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: ruby/setup-ruby@v1
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3 # Not needed with a .ruby-version file
-      - run: bundle install
-      - run: bundle exec jekyll build
-      - name: HtmlProofer
-        run: |
-          ruby .github/htmlproofer.rb
+          ruby-version: '3.0' # Not needed with a .ruby-version file
+          bundler-cache: true
+          cache-version: 3
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build
+      - name: Test with htmlproofer
+        run: bundle exec ruby .github/htmlproofer.rb
