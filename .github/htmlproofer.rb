@@ -9,8 +9,8 @@ options = {
     timeout: 120,
     connecttimeout: 30
   },
-  ignore_status_codes: ["403"],
-  log_level: "debug"
+  log_level: "debug",
+  ignore_urls: ["https://bootcamp.pe.gatech.edu/blog/how-to-empower-girls-in-stem/"]
 }
 
 HTMLProofer.check_directory('./_site', options).run
