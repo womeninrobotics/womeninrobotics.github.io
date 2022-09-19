@@ -26,57 +26,33 @@ See our [Contributing guide](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_COND
 
 ### Update chapter listing
 
-Update `_data/chapters.yaml` to add or edit chapter info
+Update `_data/chapters.json` to add or edit chapter info
 
 Format:
 
-```yaml
-Region: # This is the chapter region heading
-  - name: # The location of the chapter
-    url: # The url for the chapter
-  - name: # The location of the chapter
-    url: # The url for the chapter
+```jsonc
+[
+  {
+    "name": "Online", // Short name of the chapter
+    "long_name": "Online", // Long name of the chapter, include region, state, or country if applicable
+    "region": "Global", // Region to place the chapter in for the index
+    "meetingplace": "womeninrobotics", // meetingplace id
+    "slack": "events", // Name of the corresponding slack channel for the chapter, often local_<chapter name>
+    "email": "online@womeninrobotics.org", // email address for the chapter
+    "time": 15, // time offset for checking for new events
+    "description": "Andra Keay\nLaura Stelzner" // Leaders for the chapter
+  }
+]
 ```
 
-### Update the meetingplace.io scraper
+These values are updated from the [`Current Chapter Organizers`](https://docs.google.com/spreadsheets/d/1Z9iAIqHjX-nGQ3G9jNqXhYdm38QD7I1HmJVSlmf_d-E/edit?usp=sharing) file on the shared drive.
 
-Events are updated from [meetingplace.io](https://meetingplace.io/) in the [meetingplace workflow action](.github/workflows/meetinplace.yaml).
+Updating this file will
 
-To add another group, add the meetingplace.io group name to `.github/meetingplace.sh:
-
-```bash
-declare -a Chapters=(
-    "womeninrobotics"
-    "women-in-robotics-Boston"
-    "women-in-robotics-bay-area"
-    "women-in-robotics-boulder-denver"
-    "women-in-robotics-bristol"
-    "women-in-robotics-mumbai"
-    "women-in-robotics-new-york"
-    "womeninroboticsmelbourne"
-    "women-in-robotics-brisbane"
+1. Update the chapter list on the website [chapaters](https://www.womeninrobotics.org/chapters/)
+2. Update the meetingplace.io scrapper
+3. Update the [meetingplace slackbot](https://github.com/womeninrobotics/meetingplace-slack-bot) on [heroku](https://dashboard.heroku.com/apps/meetingplace-slack-bot
 )
-```
-
-### Update the slack bot
-
-Log into heroku https://dashboard.heroku.com/apps/meetingplace-slack-bot
-
-Go into Heroku Scheduler
-
-Add 3 new jobs:
-
-1. This weeks events
-   * Schedule: Every Day
-   * Command: `rake meetingplace_slack_bot:this_weeks_events[{slack-room-name},{meetingplace-id}]`
-
-2. Todays events:
-    * Schedule: Every Day
-    * Command: `rake meetingplace_slack_bot:todays_events[{slack-room-name},{meetingplace-id}]`
-
-3. Next event:
-   * Schedule: Every hour at :50
-   * Command: `rake meetingplace_slack_bot:next_event[{slack-room-name},{meetingplace-id}]`
 
 ## How to change shop items
 
@@ -97,7 +73,7 @@ Add a news article by adding a new file in `_posts`.   The filename should be fo
 layout: default
 title: # your title
 image: # thumbnail image
-link: https://robohub.org/25-women-in-robotics-you-need-to-know-about/
+link: # link to the article
 ---
 ```
 
@@ -112,7 +88,6 @@ example:
 layout: default
 title: # your title
 image: # thumbnail image
-link: #/YYYY/mm/dd/title.html
 ---
 
 # Your article title
