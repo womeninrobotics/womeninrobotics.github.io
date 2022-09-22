@@ -1,0 +1,24 @@
+---
+layout: default
+title: store
+permalink: /store/
+---
+<div style="max-width: 1040px; margin: 0 auto;">
+    <div> <a class="anchor" id="fitPrintAnchor" style="padding-top: 0px; margin-top: 0px;" data-proofer-ignore></a>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script
+            type="text/javascript"> iFrameResize({ log: false, checkOrigin: false, heightCalculationMethod: 'grow', autoResize: false, onMessage: function (messageData) { var jsonData = JSON.parse(messageData.message); if (jsonData.action == 'navigateTo') { window.onbeforeunload = null; window.parent.location.href = jsonData.data; } if (jsonData.action == 'scrollTo') { setTimeout(function () { document.getElementById('fitPrintAnchor').scrollIntoView({ behavior: 'smooth', block: 'center' }); }, 200); } }, onInit: function (iframe) { $(document).ready(function () { iframe.iFrameResizer = { $(window).on('scroll', () => { const scrollFromTop = $(document).scrollTop(); var fitPrintIframe = $("#fitPrintIframe"); var offset = fitPrintIframe.offset(); if (scrollFromTop > offset.top + 10) { iframe.iFrameResizer.sendMessage(scrollFromTop - (offset.top - 10)); } }); }); } }, '#fitPrintIframe'); </script>
+        <br> <iframe id="fitPrintIframe" frameborder="0" scrolling="no"
+            src="https://shop.fitprint.io/v2.html?shop=5df0fac5-6cd6-4633-817f-8396aa1a8cc8" width="100%"
+            onload="iFrameResize({ log: false, checkOrigin: false, heightCalculationMethod: 'grow', autoResize: false, onMessage: function(messageData) {var jsonData = JSON.parse(messageData.message);if (jsonData.action == 'navigateTo') {window.onbeforeunload = null;window.parent.location.href= jsonData.data;}if (jsonData.action == 'scrollTo') {setTimeout(function () {document.getElementById('fitPrintAnchor').scrollIntoView({behavior: 'smooth', block: 'center'});},200);}},onInit: function(iframe) { $(document).ready(function () { $(window).on('scroll', () => { const scrollFromTop = $(document).scrollTop(); var fitPrintIframe = $('#fitPrintIframe'); var offset = fitPrintIframe.offset(); if (scrollFromTop > offset.top + 10) { iframe.iFrameResizer.sendMessage(scrollFromTop - (offset.top - 10)); }if (scrollFromTop == 0 ) { iframe.iFrameResizer.sendMessage(scrollFromTop); } }); }); }}, '#fitPrintIframe');"></iframe>
+        <style>
+            iframe {
+                width: 1px;
+                min-width: 100%;
+            }
+
+        </style>
+    </div>
+</div>
