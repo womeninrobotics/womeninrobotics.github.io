@@ -1,5 +1,25 @@
 [
   {
+    "id": 9661,
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/9661",
+    "name": "WiR @ Apex.AI",
+    "description": "<div><strong>Celebrate Ada Lovelace Day with Women in Robotics and Apex.AI</strong><br><br></div><blockquote><strong>The Future of Mobility is Software Defined. </strong>We are hosting an in-person event with networking, refreshments, and a presentation with Q&amp;A in our headquarters - an iconic historical building in Palo Alto on October 11 from 6 to 8 pm PST.  <br>RSVP today! HERE <a href=\"https://www.apex.ai/wir\">OR HERE</a></blockquote><div><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvNTcyOT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--a7dc87eba12d26b4f274a531a41cdbeb473bee6d\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbUVXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--84a2736c25d88b122df10bd9eee3c0c040bb4ad9/Screen%20Shot%202022-09-25%20at%2012.34.08%20PM.png\" filename=\"Screen Shot 2022-09-25 at 12.34.08 PM.png\" filesize=\"345572\" width=\"977\" height=\"305\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment><br><br><br></div><blockquote><strong>Performance Test: A latency and performance testing tool for ROS 2 middleware</strong><br>with Divya Agarwal<br>ROS 2 is a rather heterogeneous and complex system that depends on several components. Recently we have seen multiple attempts to create performance reports in ROS 2 that were plainly incorrect or largely incomplete. In this talk, we first explain the terminology relevant for performance testing, emphasizing the parameters that influence the performance of ROS 2 the most.</blockquote><div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvNTcyNz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--4491c9d4e4d1b75a3b35cd27de757c2b6fe7a75e\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbDhXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c6542ca6bb0d7a6ed05143b3262c63a577500461/Screen%20Shot%202022-09-25%20at%2012.33.57%20PM.png\" filename=\"Screen Shot 2022-09-25 at 12.33.57 PM.png\" filesize=\"85513\" width=\"300\" height=\"297\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "San Francisco, CA, USA",
+    "location_info": "[Shown to members only]",
+    "start_time": "2022-10-11T18:00:00-07:00",
+    "end_time": "2022-10-11T20:00:00-07:00"
+  },
+  {
+    "id": 9662,
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/9662",
+    "name": "WiR/Autonomy @ Skydio",
+    "description": "<div><strong>Come by for a fun- filled evening of networking, Skydio drone demos &amp; some tech talk from your sisters in engineering. Our panelists will include:</strong></div><ul><li><a href=\"https://www.linkedin.com/in/kristen-holtz/\">Kristen Holtz</a> - Skydio - Head of Tracking &amp; Cinematics</li><li><a href=\"https://www.linkedin.com/in/heart-hsin-a5b768a/\">Heart Hsin</a> - Skydio - Sr Hardware Engineering Program Manager</li><li><a href=\"https://www.linkedin.com/in/snigdha-bommadevara/\">Snigdha Bommadevara </a>- Skydio - Sr Electronics Design Engineer</li><li><a href=\"https://www.linkedin.com/in/blythetowal/\">Blythe Towal</a> - Saildrone - VP of SW/Head of Machine Learning</li><li><a href=\"https://www.linkedin.com/in/baharaksoltanian/\">Becky Soltanian</a> - Sanborn - VP of R&amp;D</li><li><a href=\"https://www.linkedin.com/in/nika-carlson/\">Nika Carlson</a> - Scale AI/Cruise - Former Chief of Staff &amp; Head of Design</li></ul>",
+    "location": "San Francisco, CA, USA",
+    "location_info": "[Shown to members only]",
+    "start_time": "2022-10-13T18:00:00-07:00",
+    "end_time": "2022-10-13T21:00:00-07:00"
+  },
+  {
     "id": 9660,
     "url": "https://meetingplace.io/women-in-robotics-delhi/events/9660",
     "name": "Robotics Talks",
