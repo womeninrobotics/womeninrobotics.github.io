@@ -37,7 +37,7 @@ permalink: /other-resources/
 
 - For Women in Science - [https://www.forwomeninscience.com/map/](https://www.forwomeninscience.com/map/)
 - Picture a Scientist - [https://www.rocoeducational.com/picture_a_scientist](https://www.rocoeducational.com/picture_a_scientist)
-- Coded Bias - [https://www.netflix.com/title/81328723](https://www.netflix.com/title/81328723)
+- Coded Bias - [https://www.codedbias.com/](https://www.codedbias.com/)
 - Women in STEM - [https://online.maryville.edu/blog/women-in-stem/](https://online.maryville.edu/blog/women-in-stem/)
 - Breaking the Glass Ceiling Early On: How to Empower Girls in STEM - [https://bootcamp.pe.gatech.edu/blog/how-to-empower-girls-in-stem/](https://bootcamp.pe.gatech.edu/blog/how-to-empower-girls-in-stem/)
 

@@ -21,7 +21,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-    color: #D14E63;
+    color: #f095b3;
     text-decoration: none
 }
 
@@ -192,8 +192,8 @@ figure {
 
 .btn-default-filled:hover {
     color: #fff;
-    background: #D14E63;
-    border: 2px solid #D14E63
+    background: #f095b3;
+    border: 2px solid #f095b3
 }
 
 .btn-info-filled, .btn-info-filled:active, .btn-info-filled:focus {
@@ -204,8 +204,8 @@ figure {
 
 .btn-info-filled:hover {
     color: #fff;
-    background: #428fc4;
-    border: 2px solid #428fc4
+    background: #9191e9;
+    border: 2px solid #9191e9;
 }
 
 .netlify-identity-button {
@@ -337,7 +337,6 @@ figure {
 .alert-info {
     color: #fff;
     background-color: #2e3192;
-    border-color: #428fc4;
 }
 
 /*Message/alert boxes*/
