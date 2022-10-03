@@ -29,6 +29,13 @@
       url: /start-a-chapter/
 - title: News
   url: /news/
+  subpages:
+    - title: Articles
+      url: /news/
+    - title: Annual List
+      url: /annual-list/
+    - title: Photo Challenge
+      url: /photo-challenge/
 - title: Join Us
   url: /
   subpages:
@@ -36,7 +43,10 @@
       url: /signup/
     - title: Get the newsletter
       url: /newsletter/
-    - title: Buy merchandise
+- title: Support Us
+  url: /
+  subpages:
+    - title: Store
       url: /store/
-- title: Donate
-  url: /donate/
+    - title: Donate
+      url: /donate/
