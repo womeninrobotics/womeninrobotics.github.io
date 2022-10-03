@@ -35,16 +35,13 @@ js: main.js
                 <figure>
                     <div class="hovereffect">
                         <img src="{{ post.image }}" alt="{{ post.title }}">
-                        <div class="overlay">
-                            <div class="iocns pt-2">
-                                <a href="{{ post.link | strip}}">
+                        <a href="{{ post.link | strip}}">
+                            <div class="overlay">
+                                <figcaption>
                                     <h5 class="text-white">{{ post.title }}</h5>
-                                </a>
-                                <a class="left-link" href="{{ post.link | strip}}">
-                                    <i class="fa fa-link"></i>
-                                </a>
+                                </figcaption>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </figure>
             </li>
@@ -108,12 +105,12 @@ js: main.js
     </h5>
     <div class="container pb-5">
         {%- if site.data.events %}
-            {% assign sorted_events = site.data.events | sort:"start_time" | compact%}
+        {% assign sorted_events = site.data.events | sort:"start_time" | compact%}
         {%- endif %}
         {%- for event in sorted_events limit: 5 %}
-            {%- if event.name %}
-                {% include event-card.html event=event %}
-            {%- endif %}
+        {%- if event.name %}
+        {% include event-card.html event=event %}
+        {%- endif %}
         {%- endfor %}
         {%- if sorted_events.size > 1 %}
         <div class="offset-md-4 col-md-6 mb-5">
