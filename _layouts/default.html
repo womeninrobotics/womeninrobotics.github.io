@@ -64,11 +64,13 @@
 </head>
 
 <body>
+
+  {% include nav-bar.html %}
   <div class="wrapper">
-    {% include nav-bar.html %}
     {{ content }}
-    {% include footer.html %}
   </div>
+  {% include footer.html %}
+
   <!-- Google Analytics -->
   {%- if site.google.tracking_id %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google.tracking_id }}"></script>
