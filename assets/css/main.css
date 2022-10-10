@@ -45,6 +45,12 @@ figure {
 .header-img {
     max-width: 500px;
 }
+.hero-content {
+    margin-top: 4.5em;
+}
+.hero-content .buttons .btn {
+    margin: 10px 20px;
+  }
 
 .sub-title {
     color: #999;
@@ -224,6 +230,18 @@ figure {
     border: 2px solid #9191e9;
 }
 
+.btn-info, .btn-info:active, .btn-info:focus {
+    color: #2e3192;
+    background: transparent;
+    border: 2px solid #2e3192;
+}
+
+.btn-info:hover {
+    color: #9191e9;
+    background: RGBA(255, 255, 255, 0.4);
+    border: 2px solid #9191e9;
+}
+
 .netlify-identity-button {
     text-decoration: none;
 }
@@ -387,6 +405,18 @@ figure {
     background-size: cover;
     width: 100%;
     padding: 2.5rem;
+}
+
+#newsletter {
+    background: #2e3192;
+    color: white;
+}
+#newsletter h1 {
+    color: white;
+}
+
+#support {
+    background: #F6F6F6;
 }
 
 #portfolio .mix {

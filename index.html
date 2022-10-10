@@ -5,29 +5,51 @@ js: main.js
 ---
 <!-- begin intro section -->
 <section id="intro">
-    <div class="header-caption">
+    <div class="header-caption container">
         <div class="row">
-            <div class="col-md-12 header-content text-center">
-                <div class="header-img mx-auto">
-                    <img alt="logo" class="img-fluid" src="/assets/images/logo/WiRLogo wText-05-t.png">
+            <div class="col-xs-12 col-sm-6 d-flex align-items-center">
+                <div>
+                    <h1>Women in Robotics</h1>
+                    <h5 class="sub-title animated fadeIn">
+                        The professional network for women who work in robotics -
+                        or who aspire to.
+                    </h5>
+                    <h6 class="sub-title animated fadeIn">Non-binary people welcome.</h6>
+                    <div class="buttons">
+                        <div class="p-2">
+                            <a href="{{ site.join_url }}"
+                                class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">
+                                Join us
+                            </a>
+                        </div>
+                        <div class="p-2">
+                            <a href="/about/" class="page-scroll btn btn-lg btn-common animated fadeInUp">
+                                Learn more
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <h5 class="sub-title animated fadeIn">
-                    The professional network for women who work in robotics -
-                    or who aspire to.</h5>
-                <h6 class="sub-title animated fadeIn">Non-binary people welcome.</h6>
-                <a href="{{ site.join_url }}" class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Join
-                    the community</a>
-                <a href="{{ site.newsletter_url }}"
-                    class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Get the newsletter</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 text-center">
+                <figure>
+                    <img src="/assets/images/Deconstructed robot-amico.png" class="w-100"
+                        alt="women working on a robot">
+                </figure>
+                <a href="https://storyset.com/technology" style="color:lightgray; font-size:x-small;">
+                    Technology illustrations by Storyset
+                </a>
             </div>
         </div>
     </div>
+
 </section>
 <!-- end intro section -->
 
 <!-- portfolio section 4col -->
 <section id="news">
-    <h5 class="text-white text-center">We promote the visibility of women in robotics.</h5>
+    <div class="container text-center">
+        <h3 class="text-white">Stay up to date</h3>
+    </div>
     <div id="portfolio">
         <ul class="row list-unstyled" id="grid">
             {% for post in site.posts limit:4 %}
@@ -49,50 +71,30 @@ js: main.js
         </ul>
     </div>
     <div class="text-center">
-        <a class="page-scroll btn btn-lg btn-info-filled animated fadeInUp" href="/news/">Read more</a>
+        <h5 class="text-white">We provide a weekly newsletter keeping you up to date with the latest news in the
+            industry and Women in Robotics.</h5>
+        <a class="page-scroll btn btn-lg btn-info-filled animated fadeInUp" href="/newsletter/">Subscribe</a>
+        <a class="page-scroll btn btn-lg btn-info animated fadeInUp" href="/news/">Read more</a>
     </div>
 </section>
 <!-- End portfolio section 4col -->
 
 <!-- Begin chapters section -->
 <section id="chapters">
-    <h5 class="sub-title text-center p-5">
-        <span>We support each other through a global community and local chapters.</span>
-    </h5>
-    <div class="container pb-5">
-        <div class="accordion col-md-6 offset-md-3 mb-5" id="chapter-regions">
-            {% assign chapters_by_region = site.data.chapters | group_by: "region" %}
-            {%- for region in chapters_by_region %}
-            <div class="accordion-item mb-2">
-                <div class="accordion-header" id="{{ region.name }}-heading">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#{{ region.name }}" aria-expanded="false" aria-controls="{{ region.name }}">
-                        {{ region.name }}
-                    </button>
-                </div>
-                <div id="{{ region.name }}" class="accordion-collapse collapse"
-                    aria-labelledby="{{ region.name }}-heading" data-bs-parent="#chapter-regions">
-                    <div class="accordion-body">
-                        <ul>
-                            {%- for chapter in region.items %}
-                            {%- if chapter.meetingplace %}
-                            <li><a href="https://meetingplace.io/{{ chapter.meetingplace }}">{{ chapter.long_name }}</a>
-                            </li>
-                            {%- elsif chapter.email %}
-                            <li><a href="mailto:{{ chapter.email }}">{{ chapter.long_name }}</a></li>
-                            {% else %}
-                            <li>{{ chapter.long_name }}</li>
-                            {%- endif %}
-                            {%- endfor %}
-                        </ul>
-                    </div>
-                </div>
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8">
+                <figure>
+                    <img src="/assets/images/wir-map.png" class="w-100" alt="women in robotics chapter map" />
+                </figure>
             </div>
-            {%- endfor %}
-        </div>
-        <div class="text-center">
-            <a href="/start-a-chapter/" class="page-scroll btn btn-lg btn-common animated fadeInUp">Start
-                a chapter</a>
+            <div class="col-xs-12 col-sm-4">
+                <h3>Join a local chapter</h3>
+                <h5 class="sub-title">
+                    <span>We support each other through a global community and local chapters.</span>
+                </h5>
+                <a href="/chapters/" class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Find yours</a>
+            </div>
         </div>
     </div>
 </section>
@@ -100,82 +102,139 @@ js: main.js
 
 <!-- Begin event highlight section -->
 <section id="events">
-    <h5 class="sub-title text-center p-5">
-        <span>We offer career development meetings and events.</span>
-    </h5>
-    <div class="container pb-5">
-        {%- if site.data.events %}
-        {% assign sorted_events = site.data.events | sort:"start_time" | compact%}
-        {%- endif %}
-        {%- for event in sorted_events limit: 5 %}
-        {%- if event.name %}
-        {% include event-card.html event=event %}
-        {%- endif %}
-        {%- endfor %}
-        {%- if sorted_events.size > 1 %}
-        <div class="offset-md-4 col-md-6 mb-5">
-            <a href="/events/">All events <i class="fa fa-arrow-right"></i></a>
+    <div class="container">
+        <div class="text-center p-5">
+            <h3>Go to an event</h3>
+            <h5 class="sub-title">
+                <span>We offer career development meetings and events.</span>
+            </h5>
         </div>
-        {%- else %}
-        <div class="text-center">
-            <a href="/past-events/" class="btn btn-lg btn-common">Past events <i class="fa fa-arrow-right"></i></a>
-        </div>
-        {%- endif %}
-        <div class="massage-box alert-info">
-            <strong>
-                <i class="fa fa-info"></i>
-                Want more events?
-            </strong>
-            <p>We would love for you to sponsor our next event! </p>
-            <p>Some of the companies who’ve hosted events include X, the moonshot factory, Fetch Robotics, Cruise
-                Automation, BossaNova Robotics, Auris Technology, Embark Trucking, Farmwise, Cooper Perkins, Apex.AI,
-                OhmniLabs, Vecna, UC Berkeley and Circuit Launch</p>
-            <a href="mailto:info@womeninrobotics.org"
-                class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Contact us</a>
+        <div class="pb-5">
+            {%- if site.data.events %}
+            {% assign sorted_events = site.data.events | sort:"start_time" | compact%}
+            {%- endif %}
+            {%- for event in sorted_events limit: 5 %}
+            {%- if event.name %}
+            {% include event-card.html event=event %}
+            {%- endif %}
+            {%- endfor %}
+            {%- if sorted_events.size > 1 %}
+            <div class="offset-md-4 col-md-6 mb-5">
+                <a href="/events/">All events <i class="fa fa-arrow-right"></i></a>
+            </div>
+            {%- else %}
+            <div class="text-center">
+                <a href="/past-events/" class="btn btn-lg btn-common">Past events <i class="fa fa-arrow-right"></i></a>
+            </div>
+            {%- endif %}
         </div>
     </div>
 </section>
 <!-- End event highlight section -->
 
-<!-- Begin support section -->
-<section id="support">
-    <h5 class="sub-title text-center p-5">
-        <span>Support Women in Robotics.</span>
-    </h5>
-    <div class="container pb-5">
-        <div class="text-center">
-            <a href="{{ site.donation_url }}" class="page-scroll btn btn-lg btn-info-filled animated fadeInUp">Donate
-            </a>
+<!-- Begin newsletter section -->
+<section id="newsletter">
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <h1>Subscribe to our newsletter</h1>
+                <p>New events, new chapters, you name it! There’s a lot happening for women in our online community and
+                    in the rest of the world. Subscribe to always be up-to-date on the latest from Women in Robotics!
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <div style="margin-top:2.5em;">
+                    <form action="https://www.getrevue.co/profile/WomeninRobotics/add_subscriber" method="post"
+                        id="revue-form" name="revue-form" target="_blank">
+                        <div class="revue-form-group form-group">
+                            <label for="member_email">Email address</label>
+                            <input class="revue-form-field form-control" placeholder="Your email address..."
+                                type="email" name="member[email]" id="member_email">
+                        </div>
+                        <div class="revue-form-actions">
+                            <input class="btn btn-lg btn-default-filled mb-1" type="submit" value="Subscribe"
+                                name="member[subscribe]" id="member_submit">
+                        </div>
+                        <div class="revue-form-footer">By subscribing, you agree with Revue's <a target="_blank"
+                                href="https://www.getrevue.co/terms">Terms</a> and <a target="_blank"
+                                href="https://www.getrevue.co/privacy">Privacy Policy</a>.</div>
+                    </form>
+
+                </div>
+            </div>
         </div>
-        <div class="slider-container">
-            <div class="shop-slider">
-                {%- for item in site.data.shop %}
-                <div class="slider-item">
-                    <div class="card">
-                        <img src=" {{ item.image }}" alt="item">
+    </div>
+
+</section>
+<!-- End newsletter section -->
+
+<!-- Begin store section -->
+<section id="store">
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4">
+                <h3>Shop</h3>
+                <p>Help us raise awareness by shopping our online store</p>
+                <a href="{{ site.store_url }}"
+                    class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Shop</a>
+            </div>
+            <div class="col-xs-12 col-sm-8">
+                <div class="slider-container">
+                    <div class="shop-slider">
+                        {%- for item in site.data.shop %}
+                        <div class="slider-item">
+                            <div class="card">
+                                <img src=" {{ item.image }}" alt="item">
+                            </div>
+                        </div>
+                        {%- endfor %}
                     </div>
                 </div>
-                {%- endfor %}
             </div>
         </div>
-        <div class="text-center">
-            <a href="{{ site.store_url }}" class="page-scroll btn btn-lg btn-common animated fadeInUp">Shop</a>
-        </div>
-        <div id="sponsors">
-            <div class="massage-box alert-info">
-                <strong>
-                    <i class="fa fa-info"></i>
-                    Join the following companies and become a sponsor for Women in Robotics.
-                </strong>
-                <a class="page-scroll btn btn-lg btn-default-filled animated fadeInUp"
+    </div>
+</section>
+
+<!-- Begin support section -->
+<section id="support">
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4">
+                <h3 class="sub-title">
+                    <span>Become a Women in Robotics sponsor.</span>
+                </h3>
+                <p>
+                    Every year, people like you contribute to making Women in Robotics successful. We are a
+                    volunteer-led organization that relies on the generous support from individuals and
+                    organizations.
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <h4>Individuals</h4>
+                <p>Want to contribute but don't have time? Donations help support our rapidly growing initiatives. Every
+                    bit helps! </p>
+                <a href="{{ site.donation_url }}"
+                    class="page-scroll btn btn-lg btn-info-filled animated fadeInUp">Donate
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <h4>Companies</h4>
+                <p>Join the following companies and become a sponsor for Women in Robotics. Most sponsors host
+                    interactive events and mentorship to support our growing community.
+                </p>
+                <a class="page-scroll btn btn-lg btn-info-filled animated fadeInUp"
                     href="{{ site.sponsor_url }}">Sponsor</a>
             </div>
-            <div class="row">
-                {%- for sponsor in site.data.sponsors %}
-                <div class="col text-center mb-2">
-                    <a href="{{ sponsor.link }}"><img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}"></a>
+        </div>
+        <div class="container pb-5">
+            <div id="sponsors">
+                <div class="row">
+                    {%- for sponsor in site.data.sponsors %}
+                    <div class="col text-center mb-2">
+                        <a href="{{ sponsor.link }}"><img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}"></a>
+                    </div>
+                    {%- endfor %}
                 </div>
-                {%- endfor %}
             </div>
         </div>
     </div>
