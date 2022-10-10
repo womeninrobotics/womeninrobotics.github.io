@@ -172,24 +172,24 @@ js: main.js
 <section id="store">
     <div class="container p-5">
         <div class="row">
-            <div class="col-xs-12 col-sm-4">
-                <h3>Shop</h3>
+            <div class="text-center">
+                <h3>Show your support</h3>
                 <p>Help us raise awareness by shopping our online store</p>
+            </div>
+            <div class="slider-container">
+                <div class="shop-slider">
+                    {%- for item in site.data.shop %}
+                    <div class="slider-item">
+                        <div class="card">
+                            <img src=" {{ item.image }}" alt="item">
+                        </div>
+                    </div>
+                    {%- endfor %}
+                </div>
+            </div>
+            <div class="d-flex justify-content-center d-inline-flex p-2">
                 <a href="{{ site.store_url }}"
                     class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Shop</a>
-            </div>
-            <div class="col-xs-12 col-sm-8">
-                <div class="slider-container">
-                    <div class="shop-slider">
-                        {%- for item in site.data.shop %}
-                        <div class="slider-item">
-                            <div class="card">
-                                <img src=" {{ item.image }}" alt="item">
-                            </div>
-                        </div>
-                        {%- endfor %}
-                    </div>
-                </div>
             </div>
         </div>
     </div>
