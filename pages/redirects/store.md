@@ -1,5 +1,5 @@
 ---
 title: Store
 permalink: /store/index.html
-redirect_to: https://svrobo.org/product-category/wir/
+redirect_to: https://women-in-robotics.creator-spring.com
 ---
