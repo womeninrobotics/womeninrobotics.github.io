@@ -94,3 +94,7 @@ image: # thumbnail image
 
 Some content!  All articles are written in [markdown](https://www.markdownguide.org/)
 ```
+
+## Credits
+
+This site is based off of [helium ui kit](https://uideck.com/templates/category/ui-kits/)
