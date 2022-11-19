@@ -27,9 +27,11 @@ chapter is a record:
             <p>{{ chapter.description | newline_to_br}}</p>
         </div>
     </div>
+    {% comment %}
     {%- if chapter.meetingplace %}
     <div class="col-md-4">
         <a href="https://meetingplace.io/{{ chapter.meetingplace }}"><i class="fa fa-2x fa-group text-primary"></i></a>
     </div>
     {%- endif %}
+    {% endcomment %}
 </div>
