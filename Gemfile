@@ -12,4 +12,4 @@ group :jekyll_plugins do
   gem 'jemoji'
 end
 
-gem 'html-proofer'
+gem 'html-proofer', '<5.0'
