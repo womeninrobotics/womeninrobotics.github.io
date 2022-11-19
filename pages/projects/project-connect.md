@@ -5,8 +5,6 @@ image: /assets/images/project-connect.jpg
 permalink: /project-connect/
 ---
 
-![Project Connect]({{ page.image }})
-
 ## What is it
 
 Project Connect is our initiative to connect women who are working on robotics or those who aspire to.  The Women in Robotics network allows you access to opportunities you might be able to find on your own.  We provide an active slack community, local chapters, and virtual events.  These activities are designed to broaden both your knowledge of robotics, and your network.  Networking has been shown as one of the most effective methods for accelerating the pace of your career development and providing you with more opportunities to succeed.

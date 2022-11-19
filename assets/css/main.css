@@ -456,6 +456,9 @@ figure {
 
 .card img {
     width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    object-fit: cover;
     margin: auto;
 }
 
@@ -709,6 +712,7 @@ img.footer-logo {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 0;
+    width: 400px;
 }
 
 .card-block {

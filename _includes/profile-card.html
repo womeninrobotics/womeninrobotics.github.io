@@ -25,47 +25,41 @@ person is a record:
 
 {% endcomment %}
 <!-- Profile card starts -->
-<div class="card mb-3 profile-card">
-    <div class="row g-0">
-        <div class="image col-md-4">
-            {%- if person.image %}
-            <img src="{{person.image}}" alt="{{ person.name}}" class="img-fluid rounded-start">
-            {%- else %}
-            <img src="/assets/images/RosieUpdated.jpeg" alt="{{person.name}}" class="img-fluid mx-auto d-block w-100">
-            {%- endif %}
+<div class="card m-3 profile-card align-self-start">
+    <div class="card-img-top">
+        {%- if person.image %}
+        <img src="{{person.image}}" alt="{{ person.name}}" class="img-fluid roundeded-circle mx-auto d-block">
+        {%- else %}
+        <img src="/assets/images/RosieUpdated.jpeg" alt="{{person.name}}" class="img-fluid mx-auto d-block">
+        {%- endif %}
+    </div>
+    <div class="card-body">
+        <h3 class="card-title my-auto">{{ person.name }}</h3>
+        <div class="meta">
+            <p class="card-text"><small class="text-muted">{{ person.title }}</small></p>
+            <p class="card-text"><small class="text-muted">{{ person.organization }}</small></p>
+            <p class="card-text"><small class="text-muted">{{ person.region }}</small></p>
         </div>
-        <div class="col-md-8">
-            <div class="card-body">
-                <h3 class="card-title my-auto">{{ person.name }}</h3>
-                <div class="meta">
-                    <p class="card-text"><small class="text-muted">{{ person.title }}</small></p>
-                    <p class="card-text"><small class="text-muted">{{ person.organization }}</small></p>
-                    <p class="card-text"><small class="text-muted">{{ person.region }}</small></p>
-                </div>
-                <div class="card-text">
-                    <p>{{ person.bio }}</p>
-                </div>
-            </div>
-            <div class="extra">
-                <div class="social">
-                    {%- if person.profile %}
-                    <a class="social-icon" href="{{ person.profile }}" data-proofer-ignore><i
-                            class="fa fa-user"></i></a>
-                    {%- endif %}
-                    {%- if person.professional %}
-                    <a class="social-icon" href="{{ person.professional }}" data-proofer-ignore><i
-                            class="fa fa-briefcase"></i></a>
-                    {%- endif %}
-                    {%- if person.twitter %}
-                    <a class="social-icon" href="{{ person.twitter }}" data-proofer-ignore><i
-                            class="fa fa-twitter"></i></a>
-                    {%- endif %}
-                    {%- if person.video %}
-                    <a class="social-icon" href="{{ person.video }}" data-proofer-ignore><i
-                            class="fa fa-solid fa-video-camera"></i></a>
-                    {%- endif %}
-                </div>
-            </div>
+        <div class="card-text">
+            <p>{{ person.bio }}</p>
+        </div>
+    </div>
+    <div class="card-footer extra">
+        <div class="social">
+            {%- if person.profile %}
+            <a class="social-icon" href="{{ person.profile }}" data-proofer-ignore><i class="fa fa-user"></i></a>
+            {%- endif %}
+            {%- if person.professional %}
+            <a class="social-icon" href="{{ person.professional }}" data-proofer-ignore><i
+                    class="fa fa-briefcase"></i></a>
+            {%- endif %}
+            {%- if person.twitter %}
+            <a class="social-icon" href="{{ person.twitter }}" data-proofer-ignore><i class="fa fa-twitter"></i></a>
+            {%- endif %}
+            {%- if person.video %}
+            <a class="social-icon" href="{{ person.video }}" data-proofer-ignore><i
+                    class="fa fa-solid fa-video-camera"></i></a>
+            {%- endif %}
         </div>
     </div>
 </div>

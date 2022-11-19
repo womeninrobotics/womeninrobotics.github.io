@@ -5,8 +5,6 @@ image: /assets/images/project-advance.jpg
 permalink: /project-advance/
 ---
 
-![Project Advance]({{ page.image }})
-
 ## Why We Started Project Advance
 
 Robotics is a fast-growing field touching many different industries. Although there are several prominent women and nonbinary leaders in the space, more can be done to pave a smoother path for the next generation. Research shows that high-value mentoring happens between people 4-5 years apart in career stages. Project Advance aims to make those connections to facilitate the advancement of women and non-binary people in robotics. We launched this program in 2021, drawing inspiration from some of the best mentorship programs in the country to create a high-trust, intimate environment with structured accountability and a sense of community. We're excited to start accepting applications for our second cohort!
