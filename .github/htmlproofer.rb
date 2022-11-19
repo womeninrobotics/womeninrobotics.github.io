@@ -9,8 +9,7 @@ options = {
     timeout: 120,
     connecttimeout: 30
   },
-  log_level: "debug",
-  ignore_urls: ["https://bootcamp.pe.gatech.edu/blog/how-to-empower-girls-in-stem/"]
+  ignore_urls: ["https://bootcamp.pe.gatech.edu/blog/how-to-empower-girls-in-stem/",/meetingplace.io/]
 }
 
 HTMLProofer.check_directory('./_site', options).run
