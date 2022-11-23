@@ -3,6 +3,7 @@
     "name": "Online",
     "long_name": "Online",
     "region": "Global",
+    "url": "https://womeninrobotics.eventbrite.com",
     "meetingplace": "womeninrobotics",
     "meetingplace_url": "https://meetingplace.io/womeninrobotics",
     "slack": "events",
@@ -14,6 +15,7 @@
     "name": "Boston",
     "long_name": "Boston, MA, USA",
     "region": "Americas",
+    "url": "https://www.eventbrite.com/o/women-in-robotics-boston-29860294075",
     "meetingplace": "women-in-robotics-Boston",
     "meetingplace_url": "https://meetingplace.io/women-in-robotics-Boston",
     "slack": "local_boston",
@@ -25,6 +27,7 @@
     "name": "Bay Area",
     "long_name": "SF Bay Area, CA, USA",
     "region": "Americas",
+    "url": "https://www.eventbrite.com/o/women-in-robotics-bay-area-57133362463",
     "meetingplace": "women-in-robotics-bay-area",
     "meetingplace_url": "https://meetingplace.io/women-in-robotics-bay-area",
     "slack": "local_sf_bay_area",
@@ -52,7 +55,7 @@
     "slack": "local_uk",
     "email": "uk@womeninrobotics.org",
     "time": 8,
-    "description": "Edith-Clare Hall"
+    "description": "Edith-Clare Hall\nElla Maule\nYael Zekaria\nIsabelle Ormerod"
   },
   {
     "name": "Delhi",
@@ -119,5 +122,16 @@
     "email": "pittsburgh@womeninrobotics.org",
     "time": 13,
     "description": "Jenn Appicella"
+  },
+  {
+    "name": "Ontario",
+    "long_name": "Ontario, Canada",
+    "region": "Americas",
+    "url": "https://www.eventbrite.com/o/women-in-robotics-ontario-55204272703",
+    "meetingplace": "women-in-robotics-ontario",
+    "meetingplace_url": "https://meetingplace.io/women-in-robotics-ontario",
+    "slack": "local_ontario",
+    "email": "ontario@womeninrobotics.org",
+    "time": 13
   }
 ]
