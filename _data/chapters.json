@@ -21,7 +21,7 @@
     "slack": "local_boston",
     "email": "boston@womeninrobotics.org",
     "time": 12,
-    "description": "Dharini Dutia\nSanjuksha Nirgude"
+    "description": "Colleen Anderson"
   },
   {
     "name": "Bay Area",
@@ -132,6 +132,7 @@
     "meetingplace_url": "https://meetingplace.io/women-in-robotics-ontario",
     "slack": "local_ontario",
     "email": "ontario@womeninrobotics.org",
-    "time": 13
+    "time": 13,
+    "description": "Nevedhaa Ayyappan"
   }
 ]
