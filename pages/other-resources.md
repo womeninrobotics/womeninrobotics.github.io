@@ -35,7 +35,7 @@ permalink: /other-resources/
 {:.mt-5}
 ## REFERENCES/RESOURCES
 
-- “Terminology for 21st Century Technologists" - [https://robohub.org/its-time-to-update-19th-century-terms-for-21st-century-technology/](https://robohub.org/its-time-to-update-19th-century-terms-for-21st-century-technology/)
+- Terminology for 21st Century Technologists - [https://robohub.org/its-time-to-update-19th-century-terms-for-21st-century-technology/](https://robohub.org/its-time-to-update-19th-century-terms-for-21st-century-technology/)
 - For Women in Science - [https://www.forwomeninscience.com/map/](https://www.forwomeninscience.com/map/)
 - Picture a Scientist - [https://www.rocoeducational.com/picture_a_scientist](https://www.rocoeducational.com/picture_a_scientist)
 - Coded Bias - [https://www.codedbias.com/](https://www.codedbias.com/)
