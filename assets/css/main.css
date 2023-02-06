@@ -458,6 +458,7 @@ figure {
     width: 100%;
     max-width: 500px;
     max-height: 500px;
+    object-fit: cover;
     margin: auto;
 }
 
@@ -702,6 +703,50 @@ img.footer-logo {
 
 .team-item .social a:hover {
     background: transparent
+}
+
+.profile-card {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    width: 400px;
+}
+
+.card-block {
+    padding: 15px;
+}
+
+.profile-card .extra {
+    max-width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    width: auto;
+    margin: 0;
+    padding: 10px 15px;
+    top: 0;
+    left: 0;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.post-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 300px;
+    margin-bottom: 30px;
+}
+
+.meta {
+    margin-bottom: 30px;
+}
+
+.meta p {
+    color: #444;
+    font-size: small;
+    margin-bottom: 0px;
 }
 
 .info {

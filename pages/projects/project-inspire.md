@@ -5,8 +5,6 @@ image: /assets/images/project-inspire-sm.jpg
 permalink: /project-inspire/
 ---
 
-![Project Connect]({{ page.image }})
-
 ## What is it
 
 You can't be what you can't see.  Project Inspire is our initiative to promote the visibility of women in robotics.
