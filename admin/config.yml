@@ -1,6 +1,9 @@
 backend:
   name: git-gateway
   branch: main
+  accept_roles:
+    - admin
+    - editor
 publish_mode: editorial_workflow
 logo_url: https://www.womeninrobotics.org/assets/images/logo/WiRLogo-banner.png
 media_folder: "assets/images" # Media files will be stored in the repo under images/uploads
