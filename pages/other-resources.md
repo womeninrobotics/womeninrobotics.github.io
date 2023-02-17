@@ -41,6 +41,6 @@ permalink: /other-resources/
 - Coded Bias - [https://www.codedbias.com/](https://www.codedbias.com/)
 - Women in STEM - [https://online.maryville.edu/blog/women-in-stem/](https://online.maryville.edu/blog/women-in-stem/)
 - Breaking the Glass Ceiling Early On: How to Empower Girls in STEM - [https://bootcamp.pe.gatech.edu/blog/how-to-empower-girls-in-stem/](https://bootcamp.pe.gatech.edu/blog/how-to-empower-girls-in-stem/)
-- Free STEM Resources for Girls and Women Who Want to Work in Data Science, Machine Learning and AI - https://bootcamp.berkeley.edu/blog/free-stem-resources-for-girls-and-women-in-data-science-machine-learning-and-ai/
+- Free STEM Resources for Girls and Women Who Want to Work in Data Science, Machine Learning and AI - [https://bootcamp.berkeley.edu/blog/free-stem-resources-for-girls-and-women-in-data-science-machine-learning-and-ai](https://bootcamp.berkeley.edu/blog/free-stem-resources-for-girls-and-women-in-data-science-machine-learning-and-ai/)
 
 Submit corrections or new information to [website@womeninrobotics.org](mailto:website@womeninrobotics.org)
