@@ -16,7 +16,7 @@ jobs:
         run: .github/eventbrite.sh
         env:
           EVENTBRITE_ORG_ID: ${{ secrets.EVENTBRITE_ORG_ID }}
-          EVENTBRITE_TOKEN: ${{ secrents.EVENTBRITE_TOKEN }}
+          EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
       - name: Set up git
         run: |
           git config user.name "WiR Bot"
