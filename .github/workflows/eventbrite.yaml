@@ -1,0 +1,28 @@
+name: eventbrite
+
+on:
+  workflow_dispatch:
+
+jobs:
+  meetingplace:
+    runs-on: ubuntu-latest
+    name: Update events from eventbrite
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.ACTION_TOKEN }}
+      - name: Get chapter events from meetingplace
+        run: .github/eventbrite.sh
+        env:
+          EVENTBRITE_ORG_ID: ${{ secrets.EVENTBRITE_ORG_ID }}
+          EVENTBRITE_TOKEN: ${{ secrents.EVENTBRITE_TOKEN }}
+      - name: Set up git
+        run: |
+          git config user.name "WiR Bot"
+          git config user.email website@womeninrobotics.org
+          git add .
+          if ! git diff --exit-code --cached; then
+            git commit -m "Updating meetingplace events"
+            git push
+          fi
