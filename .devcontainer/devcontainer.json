@@ -1,42 +1,15 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
-// https://github.com/microsoft/vscode-dev-containers/tree/v0.234.0/containers/jekyll
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/jekyll
 {
 	"name": "Jekyll",
-	"build": {
-		"dockerfile": "Dockerfile",
-		"args": {
-			// Update 'VARIANT' to pick a Debian OS version: bullseye, buster
-			// Use bullseye when on local arm64/Apple Silicon.
-			"VARIANT": "bullseye",
-			// Enable Node.js: pick the latest LTS version
-			"NODE_VERSION": "none"
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/jekyll:0-bullseye",
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "18"
 		}
 	},
-	"mounts": [
-		"source=/${env:HOME}/.bash_aliases,target=/home/vscode/.bash_aliases,type=bind,consistency=cached",
-		"source=/${env:HOME}/.aliases,target=/home/vscode/.aliases,type=bind,consistency=cached"
-	],
-	// Set *default* container specific settings.json values on container create.
-	"settings": {},
-	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [
-		// yaml for data files
-		"redhat.vscode-yaml",
-		// liquid templating syntax highlighting
-		"sissel.shopify-liquid",
-		// jekyll
-		"ginfuru.ginfuru-vscode-jekyll-syntax",
-		"ginfuru.vscode-jekyll-snippets",
-		// markdown
-		"yzhang.markdown-all-in-one",
-		"davidanson.vscode-markdownlint",
-		// html/css
-		"ecmel.vscode-html-css",
-		"aeschli.vscode-css-formatter",
-		// editing
-		"streetsidesoftware.code-spell-checker",
-		"ms-vscode.wordcount"
-	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
 		// Jekyll server
@@ -44,8 +17,35 @@
 		// Live reload server
 		35729
 	],
-	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "sh .devcontainer/post-create.sh",
-	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode"
+	// Local aliases settings as mounts
+	"mounts": [
+		"source=/${env:HOME}/.bash_aliases,target=/home/vscode/.bash_aliases,type=bind,consistency=cached",
+		"source=/${env:HOME}/.aliases,target=/home/vscode/.aliases,type=bind,consistency=cached"
+	],
+	// Uncomment the next line to run commands after the container is created.
+	// "postCreateCommand": "jekyll --version"
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "vscode",
+	// Configure tool-specific properties.
+	"customizations": {
+		"vscode": {
+			// Add the IDs of extensions you want installed when the container is created in the array below.
+			"extensions": [
+				// yaml for data files
+				"redhat.vscode-yaml",
+				// jekyll
+				"ginfuru.ginfuru-vscode-jekyll-syntax",
+				"ginfuru.vscode-jekyll-snippets",
+				// markdown
+				"yzhang.markdown-all-in-one",
+				"davidanson.vscode-markdownlint",
+				// html/css
+				"ecmel.vscode-html-css",
+				"aeschli.vscode-css-formatter",
+				// editing
+				"streetsidesoftware.code-spell-checker",
+				"ms-vscode.wordcount"
+			]
+		}
+	},
 }
