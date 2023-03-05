@@ -113,7 +113,7 @@ js: main.js
             {%- if site.data.events %}
             {% assign sorted_events = site.data.events | sort:"start_time" | compact%}
             {%- endif %}
-            {%- for event in sorted_events limit: 5 %}
+            {%- for event in sorted_events limit: 2 %}
             {%- if event.name %}
             {% include event-card.html event=event %}
             {%- endif %}
