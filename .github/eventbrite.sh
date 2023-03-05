@@ -1,4 +1,9 @@
 #!/bin/bash
+set -e
+
+if [ -f .env ]; then
+  source .env
+fi
 
 ORG_ID="${EVENTBRITE_ORG_ID}"
 API_KEY="${EVENTBRITE_TOKEN}"
