@@ -11,13 +11,14 @@ chapter is a record:
 
 ```
 "name":
-"url":
+"eventbrite": (optional)
+"meetup": (optional)
 "email":
 "description":
 ```
 
 {% endcomment %}
-<div class="row p-3 border-top border-bottom rounded">
+<div class="row border-top border-bottom rounded">
     <div class="col-md-8">
         <div class="card-block">
             <h4>{{ chapter.long_name}}</h4>
@@ -27,11 +28,16 @@ chapter is a record:
             <p>{{ chapter.description | newline_to_br}}</p>
         </div>
     </div>
-    {% comment %}
-    {%- if chapter.meetingplace %}
     <div class="col-md-4">
-        <a href="https://meetingplace.io/{{ chapter.meetingplace }}"><i class="fa fa-2x fa-group text-primary"></i></a>
+        <div class="m-4 text-end">
+            {%- if chapter.eventbrite %}
+            <a href="{{ chapter.eventbrite }}"><img src="/assets/images/eventbrite-icon.png" width="36" height="36"
+                    alt="eventbrite" /></a>
+            {%- endif %}
+            {%- if chapter.meetup %}
+            <a href="{{ chapter.meetup }}"><img src="/assets/images/meetup-icon.png" width="36" height="36"
+                    alt="meetup" /></a>
+            {%- endif %}
+        </div>
     </div>
-    {%- endif %}
-    {% endcomment %}
 </div>
