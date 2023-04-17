@@ -13,11 +13,11 @@ permalink: /newsletter/index.html
     </p>
 </div>
 
-<form name="newsletter" method="post" data-netlify="true" netlify-honeypot="bot-field" action="/success">
+<form name="newsletter" method="post" data-netlify="true" netlify-honeypot="member-field" action="/success">
     <div class="form-group">
         <label for="member_email">Email address</label>
         <input class="form-control" placeholder="Your email address..." type="email" name="member[email]"
-            id="member_email">
+            id="member_email" required>
     </div>
     <div class="form-group">
         <label for="member_first_name">First name <span class="optional">(Optional)</span></label>
@@ -35,7 +35,7 @@ permalink: /newsletter/index.html
     </div>
     <div class="d-none">
         <label>
-            Don’t fill this out if you’re human: <input name="bot-field" />
+            Member filter: <input name="member-field" />
         </label>
     </div>
 </form>

@@ -144,12 +144,12 @@ js: main.js
             </div>
             <div class="col-xs-12 col-sm-6">
                 <div style="margin-top:2.5em;">
-                    <form name="newsletter" method="post" data-netlify="true" netlify-honeypot="bot-field"
+                    <form name="newsletter" method="post" data-netlify="true" netlify-honeypot="member-field"
                         action="/success/">
                         <div class=" form-group">
                             <label for="member_email">Email address</label>
                             <input class="form-control" placeholder="Your email address..." type="email"
-                                name="member[email]" id="member_email">
+                                name="member[email]" id="member_email" required>
                         </div>
                         <div class="form-actions">
                             <input class="btn btn-lg btn-default-filled mb-1" type="submit" value="Subscribe"
@@ -157,7 +157,7 @@ js: main.js
                         </div>
                         <div class="d-none">
                             <label>
-                                Don’t fill this out if you’re human: <input name="bot-field" />
+                                Member filter: <input name="member-field" />
                             </label>
                         </div>
                     </form>
