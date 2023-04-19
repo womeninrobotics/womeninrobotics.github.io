@@ -2,10 +2,7 @@
 
 # Get the current ruby version ansd set .ruby-version
 ruby_version=$(ruby -v | awk '{print $2}')
-
-# Set the Ruby version in .ruby-version file
 printf %s "$ruby_version" > .ruby-version
-
 echo "Ruby version $ruby_version set in .ruby-version file"
 
 # Install the version of Bundler.
