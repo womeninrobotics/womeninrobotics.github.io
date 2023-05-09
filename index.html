@@ -145,20 +145,21 @@ js: main.js
             <div class="col-xs-12 col-sm-6">
                 <div style="margin-top:2.5em;">
                     <form name="newsletter" method="post" data-netlify="true" netlify-honeypot="member-field"
-                        action="/success/">
+                        data-netlify-recaptcha="true" action="/success/">
                         <div class=" form-group">
                             <label for="member_email">Email address</label>
                             <input class="form-control" placeholder="Your email address..." type="email"
                                 name="member[email]" id="member_email" required>
                         </div>
-                        <div class="form-actions">
-                            <input class="btn btn-lg btn-default-filled mb-1" type="submit" value="Subscribe"
-                                name="member[subscribe]" id="member_submit">
-                        </div>
+                        <div data-netlify-recaptcha="true" class="form-group mb-4"></div>
                         <div class="d-none">
                             <label>
                                 Member filter: <input name="member-field" />
                             </label>
+                        </div>
+                        <div class="form-actions">
+                            <input class="btn btn-lg btn-default-filled mb-1" type="submit" value="Subscribe"
+                                name="member[subscribe]" id="member_submit">
                         </div>
                     </form>
 
