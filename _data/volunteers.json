@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Yael Zekaria",
+        "title": "PhD Candidate",
+        "organization": "Bristol Robotics Laboratory (University of Bristol and University of the West of England)",
+        "projects": [
+            "Chapter Organizer"
+        ],
+        "image": "/assets/images/volunteers/yael-zekaria.jpg"
+    },
+    {
+        "name": "Selam Gano",
+        "title": "Graduate Student ",
+        "organization": "Carnegie Mellon University ",
+        "projects": [],
+        "image": "/assets/images/volunteers/selam-gano.jpg"
+    },
+    {
+        "name": "Andra Keay",
+        "title": "Managing Director and VP Global Robotics",
+        "organization": "Silicon Valley Robotics and The Association of Manufacturing Technologies",
+        "projects": [
+            "Chapter Organizer",
+            "Advisory Board",
+            "Board of Directors",
+            "Media"
+        ],
+        "image": "/assets/images/volunteers/andra-keay.jpg"
+    },
+    {
+        "name": "Dharini Dutia",
+        "title": "Robotics Software Engineer",
+        "organization": "Intrinsic",
+        "projects": [
+            "Board of Directors",
+            "Chapter Organizer",
+            "Mentoring",
+            "Other"
+        ],
+        "image": "/assets/images/volunteers/dharini-dutia.JPG"
+    }
+]
