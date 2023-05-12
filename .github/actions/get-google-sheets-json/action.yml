@@ -1,0 +1,56 @@
+name: Update JSON file from Google Sheet
+author: Allison Thackston
+description: "Get a Google Spreadsheet as a JSON file and create a PR"
+
+inputs:
+  published_sheet_url:
+    description: "The URL of the published Google Spreadsheet"
+    required: true
+  output_file:
+    description: "URI of the output file"
+    required: true
+  repo_token:
+    description: "The GitHub token used to authenticate with the repository"
+    default: ${{ github.token }}
+  branch_name:
+    description: "The name of the branch where the changes will be pushed"
+    required: true
+    default: ${{ github.action }}-${{ GITHUB_RUN_NUMBER }}
+
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Get spreadsheet as JSON
+      shell: bash
+      run: |
+        curl -L "${{ inputs.published_sheet_url }}" \
+          | csvjson --indent 4 \
+          > ${{ inputs.output_file }}
+    - name: Create new branch
+      shell: bash
+      run: |
+        git config --local user.email "website@womeninrobotics.org"
+        git config --local user.name "WIR Website Bot"
+        git checkout -b "${{ inputs.branch_name }}"
+    - name: Add JSON file
+      shell: bash
+      run: |
+        git add ${{ inputs.output_file }}
+        git commit -m "Updating ${{ inputs.output_file }}"
+    - name: Push changes
+      uses: ad-m/github-push-action@0.6.0
+      with:
+        github_token: ${{ inputs.repo_token }}
+        branch: ${{ inputs.branch_name }}
+    - name: Create pull request
+      uses: peter-evans/create-pull-request@v5.0.1
+      with:
+        title: "Update ${{ inputs.output_file }}"
+        body: "Updates ${{ inputs.output_file }}"
+        branch: ${{ inputs.branch_name }}
+        base: main
+        draft: false
+      env:
+        GITHUB_TOKEN: ${{ inputs.repo_token }}
