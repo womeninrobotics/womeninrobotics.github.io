@@ -57,5 +57,4 @@ runs:
         branch: ${{ inputs.branch_name }}-${{ github.run_number }}
         base: main
         draft: false
-      env:
-        GITHUB_TOKEN: ${{ inputs.repo_token }}
+        token: ${{ inputs.repo_token }}
