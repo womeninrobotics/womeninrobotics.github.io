@@ -1,125 +1,145 @@
 [
-  {
-    "name": "Online",
-    "long_name": "Online",
-    "region": "Global",
-    "eventbrite": "https://womeninrobotics.eventbrite.com",
-    "slack": "events",
-    "email": "online@womeninrobotics.org",
-    "time": 15,
-    "description": "Andra Keay\nLaura Stelzner"
-  },
-  {
-    "name": "Boston",
-    "long_name": "Boston, MA, USA",
-    "region": "Americas",
-    "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-boston-29860294075",
-    "slack": "local_boston",
-    "email": "boston@womeninrobotics.org",
-    "time": 12,
-    "description": "Colleen Anderson"
-  },
-  {
-    "name": "Bay Area",
-    "long_name": "SF Bay Area, CA, USA",
-    "region": "Americas",
-    "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-bay-area-57133362463",
-    "meetup": "https://www.meetup.com/womeninrobotics/",
-    "slack": "local_sf_bay_area",
-    "email": "bayarea@womeninrobotics.org",
-    "time": 15,
-    "description": "Andra Keay\nLaura Stelzner\nAllison Thackston"
-  },
-  {
-    "name": "Boulder/Denver",
-    "long_name": "Boulder/Denver, CO, USA",
-    "region": "Americas",
-    "meetup": "https://www.meetup.com/women-in-robotics-boulder-denver/",
-    "slack": "local_boulder_denver",
-    "email": "boulderdenver@womeninrobotics.org",
-    "time": 14,
-    "description": "Laurie Linz"
-  },
-  {
-    "name": "UK",
-    "long_name": "United Kingdom",
-    "region": "Europe",
-    "meetup": "https://www.meetup.com/meetup-group-yjutnnie/",
-    "slack": "local_uk",
-    "email": "uk@womeninrobotics.org",
-    "time": 8,
-    "description": "Edith-Clare Hall\nElla Maule\nYael Zekaria\nIsabelle Ormerod"
-  },
-  {
-    "name": "Delhi",
-    "long_name": "Delhi, India",
-    "region": "Asia",
-    "slack": "local_india",
-    "email": "delhi@womeninrobotics.org",
-    "time": 2,
-    "description": "Momita Pal\nKanchan Prasad"
-  },
-  {
-    "name": "New York",
-    "long_name": "New York, USA",
-    "region": "Americas",
-    "slack": "local_new_york",
-    "email": "newyork@womeninrobotics.org",
-    "time": 12,
-    "description": "Caroline Willer-Burchardi\nCharlotte Willer-Burchardi"
-  },
-  {
-    "name": "Melbourne",
-    "long_name": "Melbourne, Australia",
-    "region": "Oceania",
-    "slack": "local_australia",
-    "email": "melbourne@womeninrobotics.org",
-    "time": 21,
-    "description": "Poornima L Nathan\nNicci Rossouw/Exaptec"
-  },
-  {
-    "name": "Brisbane",
-    "long_name": "Brisbane, Australia",
-    "region": "Oceania",
-    "slack": "local_australia",
-    "email": "brisbane@womeninrobotics.org",
-    "time": 21,
-    "description": "Sue Keay"
-  },
-  {
-    "name": "San Antonio",
-    "long_name": "San Antonio, TX, USA",
-    "region": "Americas",
-    "meetup": "https://www.meetup.com/women-in-robotics-san-antonio-chapter/",
-    "slack": "local_texas",
-    "email": "sanantonio@womeninrobotics.org",
-    "time": 13,
-    "description": "Stephanie Garcia"
-  },
-  {
-    "name": "Pittsburgh",
-    "long_name": "Pittsburgh, PA, USA",
-    "region": "Americas",
-    "slack": "local_pittsburgh",
-    "email": "pittsburgh@womeninrobotics.org",
-    "time": 13,
-    "description": "Jenn Appicella"
-  },
-  {
-    "name": "Ontario",
-    "long_name": "Ontario, Canada",
-    "region": "Americas",
-    "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-ontario-55204272703",
-    "slack": "local_ontario",
-    "email": "ontario@womeninrobotics.org",
-    "time": 13,
-    "description": "Nevedhaa Ayyappan"
-  },
-  {
-    "name": "Paris",
-    "long_name": "Paris, France",
-    "region": "Europe",
-    "email": "france@womeninrobotics.org",
-    "description": "Sarah Najmark"
-  }
+    {
+        "name": "Online",
+        "long_name": "Online",
+        "region": "Global",
+        "eventbrite": "https://womeninrobotics.eventbrite.com",
+        "meetup": null,
+        "slack": "events",
+        "email": "online@womeninrobotics.org",
+        "time": 15.0,
+        "description": "Andra Keay\nLaura Stelzner"
+    },
+    {
+        "name": "Boston",
+        "long_name": "Boston, MA, USA",
+        "region": "Americas",
+        "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-boston-29860294075",
+        "meetup": null,
+        "slack": "local_boston",
+        "email": "boston@womeninrobotics.org",
+        "time": 12.0,
+        "description": "Colleen Anderson"
+    },
+    {
+        "name": "Bay Area",
+        "long_name": "SF Bay Area, CA, USA",
+        "region": "Americas",
+        "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-bay-area-57133362463",
+        "meetup": "https://www.meetup.com/womeninrobotics/",
+        "slack": "local_sf_bay_area",
+        "email": "bayarea@womeninrobotics.org",
+        "time": 15.0,
+        "description": "Andra Keay\nLaura Stelzner\nAllison Thackston"
+    },
+    {
+        "name": "Boulder/Denver",
+        "long_name": "Boulder/Denver, CO, USA",
+        "region": "Americas",
+        "eventbrite": null,
+        "meetup": "https://www.meetup.com/women-in-robotics-boulder-denver/",
+        "slack": "local_boulder_denver",
+        "email": "boulderdenver@womeninrobotics.org",
+        "time": 14.0,
+        "description": "Laurie Linz"
+    },
+    {
+        "name": "UK",
+        "long_name": "United Kingdom",
+        "region": "Europe",
+        "eventbrite": null,
+        "meetup": "https://www.meetup.com/meetup-group-yjutnnie/",
+        "slack": "local_uk",
+        "email": "uk@womeninrobotics.org",
+        "time": 8.0,
+        "description": "Edith-Clare Hall\nElla Maule\nYael Zekaria\nIsabelle Ormerod"
+    },
+    {
+        "name": "Delhi",
+        "long_name": "Delhi, India",
+        "region": "Asia",
+        "eventbrite": null,
+        "meetup": null,
+        "slack": "local_india",
+        "email": "delhi@womeninrobotics.org",
+        "time": 2.0,
+        "description": "Momita Pal\nKanchan Prasad"
+    },
+    {
+        "name": "New York",
+        "long_name": "New York, USA",
+        "region": "Americas",
+        "eventbrite": null,
+        "meetup": null,
+        "slack": "local_new_york",
+        "email": "newyork@womeninrobotics.org",
+        "time": 12.0,
+        "description": "Caroline Willer-Burchardi\nCharlotte Willer-Burchardi"
+    },
+    {
+        "name": "Melbourne",
+        "long_name": "Melbourne, Australia",
+        "region": "Oceania",
+        "eventbrite": null,
+        "meetup": null,
+        "slack": "local_australia",
+        "email": "melbourne@womeninrobotics.org",
+        "time": 21.0,
+        "description": "Poornima L Nathan\nNicci Rossouw/Exaptec"
+    },
+    {
+        "name": "Brisbane",
+        "long_name": "Brisbane, Australia",
+        "region": "Oceania",
+        "eventbrite": null,
+        "meetup": null,
+        "slack": "local_australia",
+        "email": "brisbane@womeninrobotics.org",
+        "time": 21.0,
+        "description": "Sue Keay"
+    },
+    {
+        "name": "San Antonio",
+        "long_name": "San Antonio, TX, USA",
+        "region": "Americas",
+        "eventbrite": null,
+        "meetup": "https://www.meetup.com/women-in-robotics-san-antonio-chapter/",
+        "slack": "local_texas",
+        "email": "sanantonio@womeninrobotics.org",
+        "time": 13.0,
+        "description": "Stephanie Garcia"
+    },
+    {
+        "name": "Pittsburgh",
+        "long_name": "Pittsburgh, PA, USA",
+        "region": "Americas",
+        "eventbrite": null,
+        "meetup": null,
+        "slack": "local_pittsburgh",
+        "email": "pittsburgh@womeninrobotics.org",
+        "time": 13.0,
+        "description": "Jenn Appicella"
+    },
+    {
+        "name": "Ontario",
+        "long_name": "Ontario, Canada",
+        "region": "Americas",
+        "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-ontario-55204272703",
+        "meetup": null,
+        "slack": "local_ontario",
+        "email": "ontario@womeninrobotics.org",
+        "time": 13.0,
+        "description": "Nevedhaa Ayyappan"
+    },
+    {
+        "name": "Paris",
+        "long_name": "Paris, France",
+        "region": "Europe",
+        "eventbrite": null,
+        "meetup": null,
+        "slack": null,
+        "email": "france@womeninrobotics.org",
+        "time": null,
+        "description": "Sarah Najmark"
+    }
 ]
