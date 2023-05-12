@@ -1,0 +1,33 @@
+name: chapters
+
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    # Generate from https://crontab.guru/
+    #        ┌───────────── minute (0 - 59)
+    #        │ ┌───────────── hour (0 - 23)
+    #        │ │ ┌───────────── day of the month (1 - 31)
+    #        │ │ │ ┌───────────── month (1 - 12 or JAN-DEC)
+    #        │ │ │ │ ┌───────────── day of the week (0 - 6 or SUN-SAT)
+    #        │ │ │ │ │
+    #        │ │ │ │ │
+    #        │ │ │ │ │
+    #        * * * * *
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    name: Update chapters json
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.ACTION_TOKEN }}
+      - name: Update
+        uses: ./.github/actions/get-google-sheets-json/
+        with:
+          published_sheet_url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTqGH2SOdoVUxhOPjZ1KuW-bhNgDmdbihuqPw74OJ8CMkDpz1fBU7hXy0L-QF-7Le1glwbxkWWURQfc/pub?gid=247665893&single=true&output=csv"
+          output_file: "_data/chapters.json"
+          repo_token: ${{ secrets.ACTION_TOKEN }}
