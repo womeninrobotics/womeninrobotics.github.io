@@ -11,16 +11,17 @@ Example:
 person is a record:
 
 ```
-"name":
-"title":
-"organization":
-"region":
-"image":
-"bio":
-"profile":
-"professional":
-"twitter":
-"video":
+"name": (required)
+"title": (optional)
+"organization": (optional)
+"region": (optional)
+"image": (optional)
+"bio": (optional)
+"profile": (optional)
+"professional": (optional)
+"twitter": (optional)
+"video": (optional)
+"projects": (optional)
 ```
 
 {% endcomment %}
@@ -43,7 +44,15 @@ person is a record:
         <div class="card-text">
             <p>{{ person.bio }}</p>
         </div>
+        {%- if person.projects %}
+        <div class="projects">
+            {%- for project in person.projects %}
+            <span class="badge text-bg-secondary">{{project}}</span>
+            {%- endfor %}
+        </div>
+        {%- endif %}
     </div>
+    {%- if person.profile or person.professional or person.twitter or person.video %}
     <div class="card-footer extra">
         <div class="social">
             {%- if person.profile %}
@@ -62,5 +71,6 @@ person is a record:
             {%- endif %}
         </div>
     </div>
+    {%- endif %}
 </div>
 <!-- Profile card ends -->

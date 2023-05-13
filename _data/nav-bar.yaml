@@ -43,6 +43,8 @@
       url: /signup/
     - title: Get the newsletter
       url: /newsletter/
+    - title: Volunteer
+      url: /volunteer/
 - title: Support Us
   url: /
   subpages:

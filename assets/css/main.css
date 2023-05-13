@@ -60,8 +60,18 @@ figure {
     color: #eb155b !important;
 }
 
+.text-bg-primary {
+    background-color: #eb155b !important;
+    color:#fff !important;
+}
+
 .text-secondary {
     color: #2e3192 !important;
+}
+
+.text-bg-secondary {
+    background-color: #2e3192 !important;
+    color:#fff !important;
 }
 
 /* Navbar */
@@ -205,14 +215,14 @@ figure {
     border: 2px solid #eb155b
 }
 
-.btn-default-filled, .btn-default-filled:active, .btn-default-filled:focus {
+.btn-primary, .btn-primary:active, .btn-primary:focus, .btn-default-filled, .btn-default-filled:active, .btn-default-filled:focus {
     color: #fff;
     background: #eb155b;
     border: 2px solid #eb155b;
     margin-bottom: 0.3rem;
 }
 
-.btn-default-filled:hover {
+.btn-primary:hover, .btn-default-filled:hover {
     color: #fff;
     background: #f095b3;
     border: 2px solid #f095b3
@@ -405,6 +415,11 @@ figure {
     background-size: cover;
     width: 100%;
     padding: 2.5rem;
+}
+
+.bg-secondary {
+    background: #2e3192 !important;
+    color: white !important;
 }
 
 #newsletter {

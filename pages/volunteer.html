@@ -1,0 +1,118 @@
+---
+layout: page
+title: Volunteer
+permalink: /volunteer/
+---
+<div class="container col-md-6 mb-5">
+    <p>We are excited that you are interested in joining our community and supporting our mission of promoting gender
+        diversity and inclusion in the field of robotics.</p>
+
+    <p>As a volunteer for Women in Robotics, you will have the opportunity to:</p>
+
+    <ul>
+        <li>Connect with other women in the field of robotics</li>
+        <li>Develop leadership and communication skills</li>
+        <li>Make a positive impact on the robotics community</li>
+    </ul>
+</div>
+
+</p>
+<div class="container col-md-8 mb-5">
+    <h2>Opportunities</h2>
+    <ul class="list-group list-group-flush">
+        {% for opportunity in site.data.opportunities %}
+        <li class="list-group-item">
+            {% include volunteer-card.html opportunity=opportunity %}
+        </li>
+        {% endfor %}
+    </ul>
+    <div class="modal fade" id="volunteerModal" tabindex="-1" aria-labelledby="volunteerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class=" modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="volunteerModalLabel">New message</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form name="volunteer" id="volunteerForm" data-netlify="true" netlify-honeypot="member-field">
+                    <div class="modal-body">
+                        <div class="mb-3 d-none">
+                            <label for=" project-name" class="col-form-label">Project:</label>
+                            <input type="text" class="form-control" id="project" readonly>
+                        </div>
+                        <div class="mb-3">
+                            <label for="volunteer-name" class="col-form-label">Name:</label>
+                            <input type="text" class="form-control" id="volunteer-name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="volunteer-email" class="col-form-label"
+                                placeholder="Your email address...">Email:</label>
+                            <input type="email" class="form-control" id="volunteer-email" required>
+                        </div>
+                        <div class="d-none">
+                            <label for="contact_field">contact:</label>
+                            <input name="contact-field" type="text" id="contact_field">
+                        </div>
+                        <div class="d-none">
+                            <label for="member_field">Member filter:</label>
+                            <input name="member-field" type="text" id="member_field">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Sign up</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<script>
+    var volunteerModal = document.getElementById('volunteerModal')
+    volunteerModal.addEventListener('show.bs.modal', function (event) {
+        // Button that triggered the modal
+        var button = event.relatedTarget
+        // Extract info from data-bs-* attributes
+        var recipient = button.getAttribute('data-bs-opportunity')
+        var contact = button.getAttribute('data-bs-contact')
+        // If necessary, you could initiate an AJAX request here
+        // and then do the updating in a callback.
+        //
+        // Update the modal's content.
+        var modalTitle = volunteerModal.querySelector('.modal-title')
+        var modalBodyInput = volunteerModal.querySelector('.modal-body input')
+        var modalContactInput = volunteerModal.querySelector('#contact_field')
+
+        modalTitle.textContent = 'Volunteer for ' + recipient
+        modalBodyInput.value = recipient
+        modalContactInput.value = contact
+    })
+
+    var form = document.getElementById('volunteerForm');
+    form.addEventListener('submit', function (event) {
+        console.log('Form submitted!');
+        event.preventDefault();
+        $('#volunteerModal').modal('hide');
+    });
+</script>
+
+<div class="bg-secondary py-3">
+    <div class="container col-md-8 mb-5">
+        <h2 class="bg-secondary">Volunteers</h2>
+        <div class="container">
+            <p>We would like to take a moment to recognize and thank our current volunteers for their hard work and
+                dedication to Women in Robotics. Our volunteers are the backbone of our organization, and we are
+                grateful for their contributions.
+            </p>
+            <p>We are continually inspired by the passion and commitment of our volunteers, and we could not do what we
+                do without their support. Thank you to all of our current volunteers for helping to make Women in
+                Robotics a success.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="container d-flex flex-wrap">
+    {% for person in site.data.volunteers %}
+    {% include profile-card.html person=person %}
+    {% endfor %}
+</div>
