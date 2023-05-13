@@ -26,6 +26,7 @@ permalink: /volunteer/
         </li>
         {% endfor %}
     </ul>
+    <!--Volunteer modal-->
     <div class="modal fade" id="volunteerModal" tabindex="-1" aria-labelledby="volunteerModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class=" modal-content">
@@ -64,8 +65,20 @@ permalink: /volunteer/
             </div>
         </div>
     </div>
+    <!-- Thank you modal -->
+    <div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="volunteerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h1 class="page-header-title">Thank you</h1>
+                    <p class="card-text">Your interest has been submitted successfully.</p>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-</div>
+
 
 <script>
     var volunteerModal = document.getElementById('volunteerModal')
@@ -104,6 +117,7 @@ permalink: /volunteer/
                 if (xhr.status === 200) {
                     console.log('Form submitted successfully.');
                     $('#volunteerModal').modal('hide');
+                    $('#thankYouModal').modal('show');
                     // Trigger the thank you modal here
                 } else {
                     console.error('Form submission failed.');
