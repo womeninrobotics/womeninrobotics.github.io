@@ -89,9 +89,29 @@ permalink: /volunteer/
     })
 
     var form = document.getElementById('volunteerForm');
+    // form.addEventListener('submit', function (event) {
+    //     console.log('Form submitted!');
+    //     $('#volunteerModal').modal('hide');
+    // });
     form.addEventListener('submit', function (event) {
-        console.log('Form submitted!');
-        $('#volunteerModal').modal('hide');
+        event.preventDefault();
+        var formData = new FormData(form);
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', form.action);
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === XMLHttpRequest.DONE) {
+                if (xhr.status === 200) {
+                    console.log('Form submitted successfully.');
+                    $('#volunteerModal').modal('hide');
+                    // Trigger the thank you modal here
+                } else {
+                    console.error('Form submission failed.');
+                    // Display an error message here if desired
+                }
+            }
+        }
+        xhr.send(new URLSearchParams(formData).toString());
     });
 </script>
 
