@@ -32,7 +32,7 @@ runs:
     - name: Check for changes
       shell: bash
       run: |
-        git diff --quiet || echo "run_pr=true" >> $GITHUB_OUTPUT
+        git status --porcelain | grep -q . && echo "run_pr=true" >> $GITHUB_OUTPUT || echo "All done"
       id: check_changes
     - name: Add JSON file
       if: steps.check_changes.outputs.run_pr == 'true'
