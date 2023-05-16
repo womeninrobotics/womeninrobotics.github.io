@@ -6,9 +6,45 @@
         "contact": "translation@womeninrobotics.org"
     },
     {
-        "title": "Content creation",
+        "title": "Content Creation",
         "description": "Create content for the Women in Robotics newsletter and socials.",
         "location": "online",
         "contact": "content@womeninrobotics.org"
+    },
+    {
+        "title": "Wikipedia Hackathon CoOrganizers",
+        "description": null,
+        "location": "online",
+        "contact": null
+    },
+    {
+        "title": "Wikipedia Hackathon Participants",
+        "description": null,
+        "location": "online",
+        "contact": null
+    },
+    {
+        "title": "Local Events Volunteers",
+        "description": null,
+        "location": "everywhere",
+        "contact": null
+    },
+    {
+        "title": "Online Community AMA Organizers",
+        "description": "Find Women in Robotics speakers for online AMAs, promote and provide questions",
+        "location": "online",
+        "contact": "community@womeninrobotics.org"
+    },
+    {
+        "title": "Online Interest Group Moderators",
+        "description": "Start conversations online about your favorite topics (research, books, robotics events, etc.)",
+        "location": "online",
+        "contact": "community@womeninrobotics.org"
+    },
+    {
+        "title": "Mentoring Project CoOrganizers",
+        "description": "2024 onwards - help to coordinate next Mentoring Program",
+        "location": "online",
+        "contact": "mentoring@womeninrobotics.org"
     }
 ]
