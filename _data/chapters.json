@@ -141,5 +141,16 @@
         "email": "france@womeninrobotics.org",
         "time": null,
         "description": "Sarah Najmark"
+    },
+    {
+        "name": "Vancouver",
+        "long_name": null,
+        "region": null,
+        "eventbrite": null,
+        "meetup": null,
+        "slack": null,
+        "email": null,
+        "time": null,
+        "description": null
     }
 ]
