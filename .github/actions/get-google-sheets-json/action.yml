@@ -21,44 +21,47 @@ runs:
   using: "composite"
   steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
-    - name: Get spreadsheet as JSON
+      uses: actions/checkout@v3
+    - name: Checkout remote branch if exists
       shell: bash
       run: |
-        pip install csvkit
         # Check if the remote branch exists
         if git ls-remote --exit-code --heads origin ${{ inputs.branch_name }}; then
             # Check out remote branch
             echo "Checking out matching remote branch"
             git fetch --no-tags --prune --depth=1 origin +refs/heads/${{ inputs.branch_name }}:refs/remotes/origin/${{ inputs.branch_name }}
             git checkout --detach --progress --force origin/${{ inputs.branch_name }}
+            echo "Got remote branch ${{ inputs.branch_name }}."
+        else
+            echo "Remote branch doesn't exist."
         fi
-
+    - name: Get spreadsheet as JSON
+      shell: bash
+      run: |
+        pip install csvkit
         # Get the spreadsheet as JSON
         curl -L "${{ inputs.published_sheet_url }}" \
             | csvjson --indent 4 \
             >  ${{ inputs.output_file }}
-    - name: Check for changes
-      id: check_changes
-      shell: bash
-      run: |
-        git status --porcelain | grep -q . && echo "has_changes=true" >> $GITHUB_OUTPUT || echo "All done"
+        echo "Saved sheet to ${{ inputs.output_file }}."
     - name: Add JSON file
-      if: steps.check_changes.outputs.has_changes == 'true'
+      id: commit
       shell: bash
       run: |
         git config --local user.email "website@womeninrobotics.org"
         git config --local user.name "WIR Website Bot"
         git add ${{ inputs.output_file }}
-        git commit -m "Updating ${{ inputs.output_file }}"
+        if git commit -m "Updating ${{ inputs.output_file }}"; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+        fi
     - name: Push changes
-      if: steps.check_changes.outputs.has_changes == 'true'
+      if: steps.commit.outputs.has_changes == 'true'
       uses: ad-m/github-push-action@v0.6.0
       with:
         github_token: ${{ inputs.repo_token }}
         branch: ${{ inputs.branch_name }}
     - name: Create pull request
-      if: steps.check_changes.outputs.has_changes == 'true'
+      if: steps.commit.outputs.has_changes == 'true'
       uses: peter-evans/create-pull-request@v5.0.1
       with:
         title: "Update ${{ inputs.output_file }}"
