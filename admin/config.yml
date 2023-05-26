@@ -14,6 +14,7 @@ collections:
     label: "News Post" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    preview_path: news
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
@@ -22,8 +23,8 @@ collections:
   - name: "forms" # Used in routes, e.g., /admin/collections/blog
     label: "Forms" # Used in the UI
     folder: "pages/forms" # The path to the folder where the documents are stored
-    create: false # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    preview_path: "{{permalink}}"
     fields: # The fields for each document, usually in front matterlayout: iframe
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Permalink", name: "permalink", widget: "string" }
@@ -43,6 +44,7 @@ collections:
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
     folder: "pages/posts" # The path to the folder where the documents are stored
+    preview_path: "{{permalink}}"
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matterlayout: iframe
