@@ -36,13 +36,14 @@
       render: function () {
         var entry = this.props.entry;
         var image = entry.getIn(['data', 'image']);
+        var title = entry.getIn(['data', 'title']);
         var bg = this.props.getAsset(image);
         var link = entry.getIn(['data', 'link']);
         return h('div', { "className": "blog-item-wrapper h-100" },
           h('img', { "className": "blog-item-img", src: bg.toString() }),
           h('div', { "className": "blog-item-text" },
-            h('h3', {}, entry.getIn(['data', 'title'])),
-            h('a', { "className": "btn btn-common btn-rm", href: link.toString() }, "Read More")
+            h('h3', {}, title),
+            h('a', { "className": "btn btn-common btn-rm", href: link }, "Read More")
           )
         );
       }
@@ -56,7 +57,7 @@
         var form = entry.getIn(['data', 'iframe']);
         var height = entry.getIn(['data', 'height']);
         return h('div', {},
-          h('iframe', { height: height, width: "100%", src: form.toString() }),
+          h('iframe', { height: height, width: "100%", src: form }),
         );
       }
     });
