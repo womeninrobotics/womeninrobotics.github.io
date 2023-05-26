@@ -60,6 +60,12 @@
             "type": "shell",
             "command": "rm -fr _site vendor .jekyll-cache",
             "problemMatcher": [],
+        },
+        {
+            "label": "CMS",
+            "type": "shell",
+            "command": "npx netlify-cms-proxy-server",
+            "problemMatcher": []
         }
     ]
 }
