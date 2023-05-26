@@ -13,6 +13,10 @@ exclude:
     "changelog.md",
     "vendor",
     ".orig",
+    "node_modules",
+    ".devcontainer",
+    ".github",
+    ".vscode",
   ]
 # Markdown providor
 markdown: kramdown

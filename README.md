@@ -95,6 +95,30 @@ image: # thumbnail image
 Some content!  All articles are written in [markdown](https://www.markdownguide.org/)
 ```
 
+## Running CMS locally
+
+To run CMS locally:
+
+1. Set the port number in your .env file
+
+    ```txt
+    PORT=8081
+    ```
+
+    > Note: it appears to need to be 8081 to function properly
+
+2. Start a local proxy server
+
+   ```bash
+   npx netlify-cms-proxy-server
+   ```
+
+3. Start the jekyll server
+
+   ```bash
+   bundle exec jekyll server --watch
+   ```
+
 ## Credits
 
 This site is based off of [helium ui kit](https://uideck.com/templates/category/ui-kits/)

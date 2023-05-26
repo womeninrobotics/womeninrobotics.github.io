@@ -12,6 +12,56 @@
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script>
+    CMS.registerPreviewStyle("/assets/css/main.css");
+  </script>
+
+  <script>
+    var PostPreview = createClass({
+      render: function () {
+        var entry = this.props.entry;
+        var image = entry.getIn(['data', 'image']);
+        var bg = this.props.getAsset(image);
+        return h('div', {},
+          h('h1', { "className": "page-header-title" }, entry.getIn(['data', 'title'])),
+          h('img', { "className": "post-image", src: bg.toString() }),
+          h('div', { "className": "text" }, this.props.widgetFor('body'))
+        );
+      }
+    });
+
+    CMS.registerPreviewTemplate("pages", PostPreview);
+
+    var NewsPreview = createClass({
+      render: function () {
+        var entry = this.props.entry;
+        var image = entry.getIn(['data', 'image']);
+        var bg = this.props.getAsset(image);
+        var link = entry.getIn(['data', 'link']);
+        return h('div', { "className": "blog-item-wrapper h-100" },
+          h('img', { "className": "blog-item-img", src: bg.toString() }),
+          h('div', { "className": "blog-item-text" },
+            h('h3', {}, entry.getIn(['data', 'title'])),
+            h('a', { "className": "btn btn-common btn-rm", href: link.toString() }, "Read More")
+          )
+        );
+      }
+    });
+    CMS.registerPreviewTemplate("news", NewsPreview);
+
+    var FormPreview = createClass({
+      render: function () {
+        var entry = this.props.entry;
+        var title = entry.getIn(['data', 'title']);
+        var form = entry.getIn(['data', 'iframe']);
+        var height = entry.getIn(['data', 'height']);
+        return h('div', {},
+          h('iframe', { height: height, width: "100%", src: form.toString() }),
+        );
+      }
+    });
+    CMS.registerPreviewTemplate("forms", FormPreview);
+  </script>
 </body>
 
 </html>

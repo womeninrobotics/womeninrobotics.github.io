@@ -1,9 +1,11 @@
 backend:
   name: git-gateway
+  repo: womeninrobotics/womeninrobotics.github.io
   branch: main
   accept_roles:
     - admin
     - editor
+local_backend: true
 publish_mode: editorial_workflow
 logo_url: https://www.womeninrobotics.org/assets/images/logo/WiRLogo-banner.png
 media_folder: "assets/images" # Media files will be stored in the repo under images/uploads
@@ -21,8 +23,6 @@ collections:
     label: "Forms" # Used in the UI
     folder: "pages/forms" # The path to the folder where the documents are stored
     create: false # Allow users to create new documents in this collection
-    editor:
-      preview: false
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matterlayout: iframe
       - { label: "Title", name: "title", widget: "string" }
@@ -40,16 +40,6 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Redirect To", name: "redirect_to", widget: "string" }
-  - name: "projects" # Used in routes, e.g., /admin/collections/blog
-    label: "Projects" # Used in the UI
-    folder: "pages/projects" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matterlayout: iframe
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Image", name: "image", widget: "image" }
-      - { label: "Permalink", name: "permalink", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
     folder: "pages/posts" # The path to the folder where the documents are stored
@@ -60,60 +50,3 @@ collections:
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "data"
-    label: "Data"
-    editor:
-      preview: false
-    files:
-      - label: "People"
-        name: "people"
-        file: "_data/people.yaml"
-        fields:
-          - label: "Board of Directors"
-            name: "board"
-            widget: "list"
-            fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Office, name: office, widget: string }
-              - { label: Location, name: location, widget: string }
-              - { label: Joined, name: joined, widget: number }
-              - { label: Image, name: image, widget: image }
-              - { label: Twitter, name: twitter, widget: string }
-              - { label: Instagram, name: instagram, widget: string }
-              - { label: LinkedIn, name: linkedin, widget: string }
-              - { label: Website, name: website, widget: string }
-          - label: "Advisors"
-            name: "advisors"
-            widget: "list"
-            fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Office, name: office, widget: string }
-              - { label: Location, name: location, widget: string }
-              - { label: Joined, name: joined, widget: number }
-              - { label: Image, name: image, widget: image }
-              - { label: Twitter, name: twitter, widget: string }
-              - { label: Instagram, name: instagram, widget: string }
-              - { label: LinkedIn, name: linkedin, widget: string }
-              - { label: Website, name: website, widget: string }
-      - label: "Resources"
-        name: "resources"
-        file: "_data/resources.yaml"
-        fields:
-          - label: "Organizations"
-            name: "organizations"
-            widget: "list"
-            fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Link, name: link, widget: string }
-          - label: "Directories/Lists"
-            name: "directories/lists"
-            widget: "list"
-            fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Link, name: link, widget: string }
-          - label: "references/resources"
-            name: "references/resources"
-            widget: "list"
-            fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Link, name: link, widget: string }
