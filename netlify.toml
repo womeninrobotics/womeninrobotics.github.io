@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/:splat"
+  force = true
+  status = 200
+  conditions = {Role = ["editor", "admin"]}
