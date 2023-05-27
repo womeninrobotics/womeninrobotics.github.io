@@ -256,6 +256,44 @@ figure {
     text-decoration: none;
 }
 
+[data-netlify-identity-menu] ul {
+    justify-content: center!important;
+    display: flex;
+}
+
+[data-netlify-identity-menu] li:first-child {
+    margin-right: 16px;
+}
+
+[data-netlify-identity-menu] li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+[data-netlify-identity-menu] a {
+    font-size: 14px;
+    padding: 11px 27px;
+    border-radius: 0;
+    margin-bottom: 0.3rem;
+    color: #fff;
+    background: #eb155b;
+    border: 2px solid #eb155b;
+    margin-bottom: 0.3rem;
+    text-decoration: none;
+}
+
+[data-netlify-identity-menu] a:hover {
+    font-size: 14px;
+    padding: 11px 27px;
+    border-radius: 0;
+    margin-bottom: 0.3rem;
+    color: #fff;
+    background: #f095b3;
+    border: 2px solid #f095b3;
+    margin-bottom: 0.3rem;
+    text-decoration: none;
+}
+
 /* Accordions */
 .accordion-button {
     background-color: #eb155b;
