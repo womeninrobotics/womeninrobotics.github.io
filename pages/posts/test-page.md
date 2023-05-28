@@ -1,5 +1,5 @@
 ---
-title: Updated page
+title: Testing squash merge strategy
 image: /assets/images/RosieUpdated.jpeg
 permalink: test-page
 ---
