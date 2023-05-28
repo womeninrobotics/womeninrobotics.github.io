@@ -1,5 +1,5 @@
 ---
-title: Testing squash merge strategy
+title: Testing status checks
 image: /assets/images/RosieUpdated.jpeg
 permalink: test-page
 ---
