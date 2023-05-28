@@ -1,5 +1,5 @@
 ---
-title: test page
+title: Updated page
 image: /assets/images/RosieUpdated.jpeg
 permalink: test-page
 ---
