@@ -1,5 +1,5 @@
 ---
-title: Testing status checks
+title: Testing status checks pt 2
 image: /assets/images/RosieUpdated.jpeg
 permalink: test-page
 ---
