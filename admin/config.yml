@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   repo: womeninrobotics/womeninrobotics.github.io
   branch: main
+  squash_merges: true
   accept_roles:
     - admin
     - editor
