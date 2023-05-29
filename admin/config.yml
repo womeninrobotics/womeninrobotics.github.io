@@ -52,4 +52,5 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Permalink", name: "permalink", widget: "string" }
+      - { label: "Layout", name: "layout", widget: "string", default: "post" }
       - { label: "Body", name: "body", widget: "markdown" }
