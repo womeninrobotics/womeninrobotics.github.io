@@ -144,8 +144,10 @@ permalink: /volunteer/
         </div>
     </div>
 </div>
-<div class="container d-flex flex-wrap">
-    {% for person in site.data.volunteers %}
-    {% include profile-card.html person=person %}
-    {% endfor %}
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-5 g-4 my-5">
+        {% for person in site.data.volunteers %}
+        {% include profile-card.html person=person %}
+        {% endfor %}
+    </div>
 </div>

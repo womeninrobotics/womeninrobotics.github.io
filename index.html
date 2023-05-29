@@ -178,15 +178,27 @@ js: main.js
                 <h3>Show your support</h3>
                 <p>Help us raise awareness by donating and receive branded merchandise.</p>
             </div>
-            <div class="slider-container">
-                <div class="shop-slider">
-                    {%- for item in site.data.shop %}
-                    <div class="slider-item">
-                        <div class="card">
-                            <img src=" {{ item.image }}" alt="item">
+            <div class="row justify-content-center">
+                <div class="col-xs-12 col-sm-6">
+                    <div id="storeCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            {%- assign num = site.data.shop.size %}
+                            {%- assign range = (1..num) %}
+                            {%- for i in (1..site.data.shop.size) %}
+                            <button type="button" data-bs-target="#storeCarousel" data-bs-slide-to="{{i | minus: 1}}"
+                                aria-label="Slide {{i}}" {% if i==1 %}class="active" aria-current="true" {%endif
+                                %}></button>
+                            {%- endfor %}
+                        </div>
+                        <div class="carousel-inner">
+                            {%- for item in site.data.shop %}
+                            <div class="carousel-item {% if item == site.data.shop.first %} active {% endif %}">
+                                <img src=" {{ item.image }}" alt="item" class="d-block w-100">
+                            </div>
+                            {%- endfor %}
                         </div>
                     </div>
-                    {%- endfor %}
+
                 </div>
             </div>
             <div class="d-flex justify-content-center d-inline-flex p-2">
