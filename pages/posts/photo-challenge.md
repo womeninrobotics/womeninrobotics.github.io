@@ -49,8 +49,6 @@ Send a link of your contribution to [photos@womeninrobotics.org](mailto:photos@w
 
 Use the tags **\#WomenInRobotics**{:.text-primary} **\#PhotoChallenge**{:.text-primary}.
 
-Be sure to repost/reshare others' contributions! and follow 
-
-Follow Women in Robotics
+Be sure to repost/reshare others' contributions and follow Women in Robotics to see more!
 
 {% include social.html fa_size='fa-2x' %}
