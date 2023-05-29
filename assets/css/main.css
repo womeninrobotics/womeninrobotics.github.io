@@ -74,6 +74,30 @@ figure {
     color:#fff !important;
 }
 
+blockquote {
+    background: #2e3192;
+    /* border-left: 10px solid #2e3192; */
+    color: #fff !important;
+    border-radius: 15px;
+    margin: 1.5em 10px;
+    padding: 1.5em 30px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+    color: #fff;
+    content: '\201C';
+    font: 6em/1.08em 'PT Sans', sans-serif;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+.blockquote-footer {
+    color:#ccc;
+    font-style:italic;
+}
+
 /* Navbar */
 .navbar-brand {
     color: #eb155b !important;
