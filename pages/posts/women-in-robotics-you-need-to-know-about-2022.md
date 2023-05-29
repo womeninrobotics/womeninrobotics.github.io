@@ -2,7 +2,7 @@
 title: Women in Robotics you need to know about 2022
 image: /assets/images/2022-ALD-HEADER.jpg
 permalink: /2022-wir-list/
-layout: page
+layout: post
 ---
 Our [Women in Robotics list](/annual-list/) turns 10 this year and we are delighted to introduce you to another amazing “50 women in robotics you need to know about” as we also celebrate Ada Lovelace Day. We have now profiled more than 300 women AND non-binary people making important contributions to robotics since the list began in 2013. This year our 50 come from robotics companies (small and large), self-driving car companies, governments, research organizations and the media. The list covers the globe, with the chosen ones having nationalities from the EU, UK, USA, Australia, China, Turkey, India and Kenya. A number of women come from influential companies that are household names such as NASA, ABB, GE, Toyota and the Wall Street Journal. As the number of women on the list grows so does the combined global impact of their efforts, increasing the visibility of women in the field who may otherwise go unrecognized. We publish this list to overcome the unconscious perception that women aren’t making significant contributions. We encourage you to use our lists to help find women for keynotes, panels, interviews and to cite their work and include them in curricula.
 
