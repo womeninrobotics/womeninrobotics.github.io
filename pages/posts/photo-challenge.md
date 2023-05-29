@@ -34,7 +34,7 @@ Help us by taking high quality photos of women, non-binary and underrepresented 
 
 ### 2. Upload them to Wikimedia
 
-Upload them to [Wikimedia Commons](https://commons.wikimedia.org/wiki/Commons:Contributing_your_own_work) for anyone to use
+Upload them to [Wikimedia Commons](https://commons.wikimedia.org/wiki/Commons:Contributing_your_own_work) for anyone to use.
 
 **Category:**
 
