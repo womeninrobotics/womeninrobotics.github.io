@@ -28,7 +28,7 @@ person is a record:
 <!-- Profile card starts -->
 <div class="col">
     <div class="card h-100">
-        {%- if person.image %}
+        {%- if person.image and person.image != "" %}
         <img src="{{person.image}}" alt="{{ person.name}}" class="card-img-top">
         {%- else %}
         <img src="/assets/images/RosieUpdated.jpeg" alt="{{person.name}}" class="card-img-top">
@@ -54,17 +54,17 @@ person is a record:
         {%- if person.profile or person.professional or person.twitter or person.video %}
         <div class="card-footer extra">
             <div class="social">
-                {%- if person.profile %}
+                {%- if person.profile and person.profile != "" %}
                 <a class="social-icon" href="{{ person.profile }}" data-proofer-ignore><i class="fa fa-user"></i></a>
                 {%- endif %}
-                {%- if person.professional %}
+                {%- if person.professional and person.professional != "" %}
                 <a class="social-icon" href="{{ person.professional }}" data-proofer-ignore><i
                         class="fa fa-briefcase"></i></a>
                 {%- endif %}
-                {%- if person.twitter %}
+                {%- if person.twitter and person.twitter != "" %}
                 <a class="social-icon" href="{{ person.twitter }}" data-proofer-ignore><i class="fa fa-twitter"></i></a>
                 {%- endif %}
-                {%- if person.video %}
+                {%- if person.video and person.video != "" %}
                 <a class="social-icon" href="{{ person.video }}" data-proofer-ignore><i
                         class="fa fa-solid fa-video-camera"></i></a>
                 {%- endif %}
