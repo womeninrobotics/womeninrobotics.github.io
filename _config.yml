@@ -68,6 +68,11 @@ plugins:
 whitelist:
   - jekyll-redirect-from
 
+collections:
+  wir-list:
+    output: true
+    permalink: /:collection/:title
+
 defaults:
   - scope:
       path: "" # an empty string here means all files in the project
@@ -79,3 +84,8 @@ defaults:
       type: "pages" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
+  - scope:
+      path: "wir-list"
+      type: "pages"
+    values:
+      layout: "list"

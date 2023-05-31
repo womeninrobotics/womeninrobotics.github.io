@@ -12,7 +12,8 @@ layout: page
         </div>
     </div>
     <div class="row row-cols-1 row-cols-md-5 g-4 mb-5">
-        {%- for person in site.data[page.list] %}
+        {% assign wir-list = site.data.wir-list | where: 'year', page.year | sort: "last_name" %}
+        {%- for person in wir-list %}
         {% include profile-card.html person=person %}
         {%- endfor %}
     </div>
