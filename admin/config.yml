@@ -77,4 +77,10 @@ collections:
           format: "YYYY",
         }
       - { label: "Robohub link", name: "robohub", widget: "string" }
+      - {
+          label: "Archive",
+          name: "archive",
+          widget: "boolean",
+          default: "false",
+        }
       - { label: "Body", name: "body", widget: "markdown" }
