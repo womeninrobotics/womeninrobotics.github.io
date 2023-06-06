@@ -76,6 +76,7 @@ collections:
           widget: "date",
           default: "",
           format: "YYYY",
+          date_format: "YYYY",
         }
       - { label: "Robohub link", name: "robohub", widget: "string" }
       - {
