@@ -80,8 +80,8 @@ defaults:
     values:
       layout: "post"
   - scope:
-      path: "pages/posts" # an empty string here means all files in the project
-      type: "pages" # previously `post` in Jekyll 2.2.
+      path: "pages/posts"
+      type: "pages"
     values:
       layout: "post"
   - scope:
@@ -89,3 +89,8 @@ defaults:
       type: "pages"
     values:
       layout: "list"
+  - scope:
+      path: "emails"
+      type: "pages"
+    values:
+      layout: "email"
