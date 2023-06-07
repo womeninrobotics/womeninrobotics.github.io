@@ -27,7 +27,8 @@ collections:
     folder: "pages/forms" # The path to the folder where the documents are stored
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     preview_path: "{{permalink}}"
-    fields: # The fields for each document, usually in front matterlayout: iframe
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Form", name: "iframe", widget: "string" }
@@ -39,7 +40,7 @@ collections:
     editor:
       preview: false
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matterlayout: iframe
+    fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Redirect To", name: "redirect_to", widget: "string" }
@@ -49,7 +50,7 @@ collections:
     preview_path: "{{permalink}}"
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matterlayout: iframe
+    fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Permalink", name: "permalink", widget: "string" }
@@ -67,7 +68,7 @@ collections:
     preview_path: "/wir-list/{{year}}"
     create: true # Allow users to create new documents in this collection
     slug: "YYYY.md" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matterlayout: iframe
+    fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Image", name: "image", widget: "image" }
       - {
