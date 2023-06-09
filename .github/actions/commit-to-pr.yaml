@@ -1,0 +1,59 @@
+on:
+  workflow_call:
+    inputs:
+      add:
+        description: 'The arguments for the `git add` command (see the paragraph below for more info)'
+        default: ''
+        required: false
+        type: string
+      branch_name:
+        description: 'The branch to push and create a pull request with'
+        required: true
+        type: string
+      tite:
+        description: 'The title of the PR'
+        required: true
+        type: string
+      body:
+        description: 'The body of the PR'
+        required: true
+        type: string
+    secrets:
+        token:
+          returned: true
+
+jobs:
+  create-commit:
+    runs-on: ubuntu-latest
+    outputs:
+      has_changes: ${{ steps.commit.outputs.has_changes }}
+    steps:
+      - name: Add files
+        id: commit
+        shell: bash
+        run: |
+          git config --local user.email "website@womeninrobotics.org"
+          git config --local user.name "WIR Website Bot"
+          git add ${{ inputs.add }}
+          if git commit -m "Updating ${{ inputs.title }}"; then
+              echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+    create-pr:
+      runs-on: ubuntu-latest
+      needs: create-commit
+      if: ${{ needs.create-commit.outputs.has_changes }}
+      steps:
+        - name: Push changes
+          uses: ad-m/github-push-action@v0.6.0
+          with:
+            github_token: ${{ secrets.token }}
+            branch: ${{ inputs.branch_name }}
+        - name: Create pull request
+          uses: peter-evans/create-pull-request@v5.0.1
+          with:
+            title: "${{ inputs.title }}"
+            body: "${{ inputs.body }}"
+            branch: ${{ inputs.branch_name }}
+            base: main
+            draft: false
+            token: ${{ secrets.token }}
