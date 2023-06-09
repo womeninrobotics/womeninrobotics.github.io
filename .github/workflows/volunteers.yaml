@@ -1,0 +1,48 @@
+name: volunteers
+
+on:
+  # TODO: Uncomment once working
+  # schedule:
+  # * is a special character in YAML so you have to quote this string
+  # Generate from https://crontab.guru/
+  #        ┌───────────── minute (0 - 59)
+  #        │ ┌───────────── hour (0 - 23)
+  #        │ │ ┌───────────── day of the month (1 - 31)
+  #        │ │ │ ┌───────────── month (1 - 12 or JAN-DEC)
+  #        │ │ │ │ ┌───────────── day of the week (0 - 6 or SUN-SAT)
+  #        │ │ │ │ │
+  #        │ │ │ │ │
+  #        │ │ │ │ │
+  #        * * * * *
+  # - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    name: Update volunteers
+    env:
+      BRANCH_NAME: volunteer-update
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Checkout remote branch if exists
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ env.BRANCH_NAME }}
+        continue-on-error: true
+      - name: Get volunteers from airtable
+        shell: bash
+        run: |
+          pip3 install -r .github/scripts/get-volunteers/requirements.txt
+          .github/scripts/get-volunteers/volunteers.py
+        env:
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+      - name: Commit and PR
+        uses: ./.github/actions/commit-to-pr.yaml
+        with:
+          add: _data/volunteers.json assets/images/volunteers/*
+          branch_name: update-volunteers
+          title: "Update volunteer json"
+          body: "Updates volunteers from airtable form."
+          token: ${{ secrets.GITHUB_TOKEN }}
