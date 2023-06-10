@@ -1,5 +1,5 @@
-#!/usr/local/bin/python
-''' md
+#!/usr/bin/env python3
+""" md
 # volunteers.py
 
 This file grabs the volunteer information from the Women in Robotics Volunteers airtable.
@@ -11,7 +11,7 @@ You should have the following environment variables in the .env file:
 Generate your key from https://airtable.com/create/tokens
 The airtable API for this table is located at https://airtable.com/appyWs86AFu81RRac/api/docs
 
-'''
+"""
 
 import os
 import requests
@@ -40,7 +40,7 @@ field_permission = "Permission to Publish?"
 load_dotenv()
 
 # Set up Airtable client
-airtable = airtable.Airtable(base_id, os.environ['AIRTABLE_API_KEY'])
+airtable = airtable.Airtable(base_id, os.environ["AIRTABLE_API_KEY"])
 
 # Get all records from the table
 records = airtable.iterate(table_id)
@@ -51,13 +51,13 @@ data = []
 # Loop through each record in the table
 for record in records:
     # Get the "Full Name" field
-    items = record['fields']
+    items = record["fields"]
     qualified = items.get(field_qualified, False)
     permission = items.get(field_permission, False)
     if not qualified or not permission:
         continue
 
-    full_name = items.get(field_name, '')
+    full_name = items.get(field_name, "")
 
     # Loop through each attachment in the "Image" field of the record
     attachments = items.get(field_image, [])
@@ -69,7 +69,7 @@ for record in records:
         attachment = attachments[0]
 
         # Get the attachment URL
-        attachment_url = attachment['url']
+        attachment_url = attachment["url"]
 
         # Check if the folder exists
         if not os.path.exists(image_folder):
@@ -77,10 +77,10 @@ for record in records:
             os.makedirs(image_folder)
 
         # Download the attachment
-        file_type = os.path.splitext(attachment['filename'])[1]
+        file_type = os.path.splitext(attachment["filename"])[1]
         file_path = os.path.join(image_folder, f"{file_name}{file_type}")
         response = requests.get(attachment_url)
-        with open(file_path, 'wb') as f:
+        with open(file_path, "wb") as f:
             f.write(response.content)
         print(f"Downloaded attachment: {file_path}")
 
@@ -92,13 +92,15 @@ for record in records:
         # "image": "jpeg",
         # "projects": []
         #
-        data.append({
-            "name": full_name,
-            "title": items.get(field_title, ""),
-            "organization": items.get(field_company, ""),
-            "projects": items.get(field_projects, []),
-            "image": f"/{file_path}",
-        })
+        data.append(
+            {
+                "name": full_name,
+                "title": items.get(field_title, ""),
+                "organization": items.get(field_company, ""),
+                "projects": items.get(field_projects, []),
+                "image": f"/{file_path}",
+            }
+        )
 
 # Check if the folder exists
 if not os.path.exists(data_folder):
