@@ -25,10 +25,17 @@ jobs:
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.ACTION_TOKEN }}
-      - name: Update
+      - name: Update chapters
         uses: ./.github/actions/get-google-sheets-json/
         with:
           published_sheet_url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTqGH2SOdoVUxhOPjZ1KuW-bhNgDmdbihuqPw74OJ8CMkDpz1fBU7hXy0L-QF-7Le1glwbxkWWURQfc/pub?gid=247665893&single=true&output=csv"
           output_file: "_data/chapters.json"
-          branch_name: "update-chapter"
-          repo_token: ${{ secrets.ACTION_TOKEN }}
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v5.0.1
+        with:
+          committer: WIR Website Bot <website@womeninrobotics.org>
+          base: main
+          title: "Update chapters json"
+          body: "Updates chapters from google sheet."
+          branch: update-chapter
+          token: ${{ secrets.ACTION_TOKEN }}

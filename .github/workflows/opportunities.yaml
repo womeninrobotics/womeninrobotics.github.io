@@ -25,10 +25,17 @@ jobs:
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.ACTION_TOKEN }}
-      - name: Update
+      - name: Update opportunities
         uses: ./.github/actions/get-google-sheets-json/
         with:
           published_sheet_url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRGCMtpWA7gtC3RAaF8uljsN3QLCtoPXeVmNUUn4PtkJ4dpJJyouRFNV-Uoiz6SFlBamfppL0lCWYpJ/pub?gid=0&single=true&output=csv"
           output_file: "_data/opportunities.json"
-          branch_name: "update-opportunities"
-          repo_token: ${{ secrets.ACTION_TOKEN }}
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v5.0.1
+        with:
+          committer: WIR Website Bot <website@womeninrobotics.org>
+          base: main
+          title: "Update opportunities json"
+          body: "Updates volunteer opportunities from google sheet."
+          branch: update-opportunities
+          token: ${{ secrets.ACTION_TOKEN }}
