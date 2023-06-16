@@ -5,9 +5,10 @@
         "region": "Global",
         "eventbrite": "https://womeninrobotics.eventbrite.com",
         "meetup": null,
+        "webpage": null,
         "slack": "events",
         "email": "online@womeninrobotics.org",
-        "time": 15.0,
+        "time_offset": 15.0,
         "description": "Andra Keay\nLaura Stelzner"
     },
     {
@@ -16,9 +17,10 @@
         "region": "Americas",
         "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-boston-29860294075",
         "meetup": null,
+        "webpage": null,
         "slack": "local_boston",
         "email": "boston@womeninrobotics.org",
-        "time": 12.0,
+        "time_offset": 12.0,
         "description": "Colleen Anderson"
     },
     {
@@ -27,9 +29,10 @@
         "region": "Americas",
         "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-bay-area-57133362463",
         "meetup": "https://www.meetup.com/womeninrobotics/",
+        "webpage": null,
         "slack": "local_sf_bay_area",
         "email": "bayarea@womeninrobotics.org",
-        "time": 15.0,
+        "time_offset": 15.0,
         "description": "Andra Keay\nLaura Stelzner\nAllison Thackston"
     },
     {
@@ -38,9 +41,10 @@
         "region": "Americas",
         "eventbrite": null,
         "meetup": "https://www.meetup.com/women-in-robotics-boulder-denver/",
+        "webpage": null,
         "slack": "local_boulder_denver",
         "email": "boulderdenver@womeninrobotics.org",
-        "time": 14.0,
+        "time_offset": 14.0,
         "description": "Laurie Linz"
     },
     {
@@ -49,9 +53,10 @@
         "region": "Europe",
         "eventbrite": null,
         "meetup": "https://www.meetup.com/meetup-group-yjutnnie/",
+        "webpage": null,
         "slack": "local_uk",
         "email": "uk@womeninrobotics.org",
-        "time": 8.0,
+        "time_offset": 8.0,
         "description": "Edith-Clare Hall\nElla Maule\nYael Zekaria\nIsabelle Ormerod"
     },
     {
@@ -60,9 +65,10 @@
         "region": "Asia",
         "eventbrite": null,
         "meetup": null,
+        "webpage": null,
         "slack": "local_india",
         "email": "delhi@womeninrobotics.org",
-        "time": 2.0,
+        "time_offset": 2.0,
         "description": "Momita Pal\nKanchan Prasad"
     },
     {
@@ -71,9 +77,10 @@
         "region": "Americas",
         "eventbrite": null,
         "meetup": null,
+        "webpage": null,
         "slack": "local_new_york",
         "email": "newyork@womeninrobotics.org",
-        "time": 12.0,
+        "time_offset": 12.0,
         "description": "Caroline Willer-Burchardi\nCharlotte Willer-Burchardi"
     },
     {
@@ -82,9 +89,10 @@
         "region": "Oceania",
         "eventbrite": null,
         "meetup": null,
+        "webpage": null,
         "slack": "local_australia",
         "email": "melbourne@womeninrobotics.org",
-        "time": 21.0,
+        "time_offset": 21.0,
         "description": "Poornima L Nathan\nNicci Rossouw/Exaptec"
     },
     {
@@ -93,9 +101,10 @@
         "region": "Oceania",
         "eventbrite": null,
         "meetup": null,
+        "webpage": null,
         "slack": "local_australia",
         "email": "brisbane@womeninrobotics.org",
-        "time": 21.0,
+        "time_offset": 21.0,
         "description": "Sue Keay"
     },
     {
@@ -104,9 +113,10 @@
         "region": "Americas",
         "eventbrite": null,
         "meetup": "https://www.meetup.com/women-in-robotics-san-antonio-chapter/",
+        "webpage": null,
         "slack": "local_texas",
         "email": "sanantonio@womeninrobotics.org",
-        "time": 13.0,
+        "time_offset": 13.0,
         "description": "Stephanie Garcia"
     },
     {
@@ -115,9 +125,10 @@
         "region": "Americas",
         "eventbrite": null,
         "meetup": null,
+        "webpage": null,
         "slack": "local_pittsburgh",
         "email": "pittsburgh@womeninrobotics.org",
-        "time": 13.0,
+        "time_offset": 13.0,
         "description": "Jenn Appicella"
     },
     {
@@ -126,9 +137,10 @@
         "region": "Americas",
         "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-ontario-55204272703",
         "meetup": null,
+        "webpage": null,
         "slack": "local_ontario",
         "email": "ontario@womeninrobotics.org",
-        "time": 13.0,
+        "time_offset": 13.0,
         "description": "Nevedhaa Ayyappan"
     },
     {
@@ -137,9 +149,34 @@
         "region": "Europe",
         "eventbrite": null,
         "meetup": null,
-        "slack": null,
+        "webpage": null,
+        "slack": "local_france",
         "email": "france@womeninrobotics.org",
-        "time": null,
+        "time_offset": null,
         "description": "Sarah Najmark"
+    },
+    {
+        "name": "Vancouver",
+        "long_name": "Vancouver, Canada",
+        "region": "Americas",
+        "eventbrite": null,
+        "meetup": null,
+        "webpage": null,
+        "slack": "local_vancouver",
+        "email": "vancouver@womeninrobotics.org",
+        "time_offset": 15.0,
+        "description": "Flora Huo\nKritika Joshi"
+    },
+    {
+        "name": "Michigan",
+        "long_name": "Michigan, USA",
+        "region": "Americas",
+        "eventbrite": null,
+        "meetup": null,
+        "webpage": null,
+        "slack": "local_michigan",
+        "email": "michigan@womeninrobotics.org",
+        "time_offset": null,
+        "description": "Nivedhitha Giri"
     }
 ]
