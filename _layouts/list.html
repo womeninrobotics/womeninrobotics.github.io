@@ -7,14 +7,30 @@ layout: page
     <img class="post-image" src="{{ page.image }}" alt="{{ page.title }}">
     {% endif %}
     <div class="row justify-content-center">
-        <div class="col-md-6 mb-5">
+        <div class="container mb-5">
             {{ content }}
         </div>
     </div>
-    <div class="row row-cols-1 row-cols-md-5 g-4 mb-5">
+    <div class="row row-cols-1 row-cols-md-5 g-4 mb-5" data-masonry='{"percentPosition": true }' id="masonry">
         {% assign wir-list = site.data.wir-list | where: 'year', page.year | sort: "last_name" %}
         {%- for person in wir-list %}
         {% include profile-card.html person=person %}
         {%- endfor %}
     </div>
 </div>
+
+<script>
+    var $grid = document.querySelector('.row');
+    var msnry = new Masonry($grid, {
+        itemSelector: '.col',
+        percentPosition: true
+    });
+
+    var $images = $grid.querySelectorAll('.card img');
+    $images.forEach(function (el) {
+        el.addEventListener('load', function () {
+            console.log("Image is loaded: " + el.getAttribute("src"));
+            msnry.layout();
+        });
+    });
+</script>
