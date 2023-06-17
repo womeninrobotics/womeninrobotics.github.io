@@ -45,7 +45,7 @@ jobs:
         run: |
           tree
       - name: Test with htmlproofer
-        run: bundle exec ruby .github/htmlproofer.rb
+        run: .github/scripts/htmlproofer/entrypoint.sh
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
