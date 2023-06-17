@@ -23,4 +23,4 @@ jobs:
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build
       - name: Test with htmlproofer
-        run: bundle exec ruby .github/htmlproofer.rb
+        run: .github/scripts/htmlproofer/entrypoint.sh
