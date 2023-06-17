@@ -9,23 +9,23 @@ To ensure a smooth onboarding process, you should hop over to the [group member 
 * {name}
 * {email}
 
-It's important that we have accurate information for seamless communication.  
-
 Now, let's show {name} our team spirit! Take a moment to send them a quick welcome message. Here's an example to get you started:
 
->Subject: Welcome to {group}, {name}!
+> Subject: Welcome to {group}, {name}!
 >
->Hey {name},
+> ---
 >
->Welcome aboard! We're thrilled to have you join our team of amazing volunteers.
+> Hey {name},
 >
->If you have any questions or need assistance, feel free to reach out to me or any of our team members at [{group}@womeninrobotics.org](mailto:{group}@womeninrobotics.org) . We're here to support you every step of the way.
+> Welcome aboard! We're thrilled to have you join our team of amazing volunteers.
 >
->Once again, a big warm welcome to {project}, {name}!
+> If you have any questions or need assistance, feel free to reach out to me or any of our team members at [{group}@womeninrobotics.org](mailto:{group}@womeninrobotics.org) . We're here to support you every step of the way.
 >
->Cheers,
+> Once again, a big warm welcome to {project}, {name}!
 >
->[Your Name]
+> Cheers,
+>
+> [Your Name]
 
 Let's act quickly and get {name} settled in. Remember, updating the group member management page should be a priority.
 
