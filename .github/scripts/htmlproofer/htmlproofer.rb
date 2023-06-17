@@ -7,7 +7,9 @@ options = {
     ssl_verifypeer: false,
     ssl_verifyhost: 0,
     timeout: 120,
-    connecttimeout: 30
+    connecttimeout: 30,
+    cookiefile: ".cookies",
+    cookiejar: ".cookies"
   },
   ignore_urls: [
     "https://bootcamp.berkeley.edu/blog/free-stem-resources-for-girls-and-women-in-data-science-machine-learning-and-ai/",
