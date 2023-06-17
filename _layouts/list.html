@@ -20,17 +20,33 @@ layout: page
 </div>
 
 <script>
-    var $grid = document.querySelector('.row');
+
+    var $grid = document.querySelector('#masonry');
     var msnry = new Masonry($grid, {
         itemSelector: '.col',
         percentPosition: true
     });
-
     var $images = $grid.querySelectorAll('.card img');
+    // After each image is loaded
     $images.forEach(function (el) {
         el.addEventListener('load', function () {
             console.log("Image is loaded: " + el.getAttribute("src"));
             msnry.layout();
         });
     });
+
+    // // After all images are loaded
+    // Promise.all(
+    //     Array.from($images).filter(img => !img.complete)
+    //         .map(img => new Promise(resolve => {
+    //             img.addEventListener('load', resolve);
+    //             img.addEventListener('error', resolve);
+    //         })
+    //         )
+    // ).then(
+    //     () => {
+    //         console.log('images finished loading');
+    //         msnry.layout();
+    //     }
+    // );
 </script>
