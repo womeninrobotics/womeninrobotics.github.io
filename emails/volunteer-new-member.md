@@ -11,6 +11,7 @@ To ensure a smooth onboarding process, you should hop over to the [group member 
 
 Now, let's show {name} our team spirit! Take a moment to send them a quick welcome message. Here's an example to get you started:
 
+{: style="background: #f9f9f9; border-left: 3px solid #ccc; margin: 1.5em 10px;padding: 0.5em 10px;"}
 > Subject: Welcome to {group}, {name}!
 >
 > ---
