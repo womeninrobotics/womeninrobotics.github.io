@@ -27,7 +27,7 @@
         "title": "Local Events Volunteers",
         "description": "Help Women in Robotics plan local events.",
         "location": "everywhere",
-        "contact": null
+        "contact": "volunteer@womeninrobotics.org"
     },
     {
         "title": "Online Community AMA Organizers",
@@ -42,7 +42,7 @@
         "contact": "community@womeninrobotics.org"
     },
     {
-        "title": "Mentoring Project CoOrganizers",
+        "title": "Mentoring Project Co-Organizers",
         "description": "2024 onwards - help to coordinate next Mentoring Program",
         "location": "online",
         "contact": "mentoring@womeninrobotics.org"
