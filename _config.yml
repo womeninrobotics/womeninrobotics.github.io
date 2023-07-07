@@ -85,6 +85,11 @@ defaults:
     values:
       layout: "post"
   - scope:
+      path: "pages/forms"
+      type: "pages"
+    values:
+      layout: "iframe"
+  - scope:
       path: "wir-list"
       type: "pages"
     values:
