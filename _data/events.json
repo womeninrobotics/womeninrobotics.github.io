@@ -1,5 +1,14 @@
 [
     {
+        "name": "Get into Robotics",
+        "description": "Get into Robotics: Careers, Development, & Building Robots (for fun or profit).\n\nHey there robot lovers! Circuit Launch and the Hardware Collective are throwing a robo-tastic event on July 27th from 6:30 to 8:30 PM. We're bringing together a cool bunch of folks who eat, sleep, and breathe robotics. They're super pumped to share what they know about breaking into the field, building next-level tech, and the whirlwind adventure of running a robotics startup.",
+        "location": "Bay Area",
+        "date": "2023-07-27",
+        "time": "6:30:00 PM",
+        "url": "https://www.eventbrite.com/e/get-into-robotics-tickets-668369951517?aff=oddtdtcreator",
+        "datetime": "2023-07-27T18:30:00"
+    },
+    {
         "name": "Volunteers and Organizers meetup",
         "description": "A regular meeting to connect Women in Robotics Volunteers and Organizers",
         "location": "Online",
