@@ -10,18 +10,20 @@ In celebration of the wonderful **Joanne Pransky, World’s First RoboPsychiatri
  
 
 > Joanne Pransky is an unusual participant in the leading edge of the robotics industry. That is, Service Robotics. With great good humor she professes to be the first robotics psychiatrist!
->
+> {: .blockquote }
 > **Joseph Engelberger**
->
+> {: .blockquote-footer .text-end}
 > Father of Robotics
+> {: .blockquote-footer .text-end}
 
 As 'The World's First Robot Psychiatrist', modeled after Isaac Asimov's Susan Calvin from the iRobot stories, Joanne brought the social side of robots to the forefront, long before robots were at all common. Not only did Joanne love robots in science fiction but she was at the forefront of the community developing social robots in real life.
 
 > She’s the very first Robopsychologist
->
+> {: .blockquote }
 > **Dr. Marvin Minsky**
->
+> {: .blockquote-footer .text-end}
 > Co-founder / Artificial Intelligence
+> {: .blockquote-footer .text-end}
 
 Joanne leaves us her collection of social robots which form the heart of the **[Museum of Robots](https://svrobo.org/robot-museum/)** at Silicon Valley Robotics and Circuit Launch 8000 Edgewater Dr Oakland. We continue to add to the collection of interesting robots and visitors are welcome.
 
