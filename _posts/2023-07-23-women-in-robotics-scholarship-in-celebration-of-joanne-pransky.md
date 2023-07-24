@@ -58,7 +58,7 @@ Brian Heater, of Actuator and TechCrunch also [shared stories of Joanne](https:
 > {: .blockquote-footer .text-end}
 
 
-## [Women in Robotics Scholarship Fund in Celebration of Joanne Pransky](https://bold.org/funds/women-in-robotics-scholarship-fund/)
+## Women in Robotics Scholarship Fund in Celebration of Joanne Pransky
 
 At the request of family and friends, Women in Robotics, has set up a scholarship fund to encourage more women to enter the field of robotics - across any discipline.
 
