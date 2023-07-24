@@ -45,11 +45,18 @@
         var title = entry.getIn(['data', 'title']);
         var bg = this.props.getAsset(image);
         var link = entry.getIn(['data', 'link']);
-        return h('div', { "className": "blog-item-wrapper h-100" },
-          h('img', { "className": "blog-item-img", src: bg.toString() }),
-          h('div', { "className": "blog-item-text" },
-            h('h3', {}, title),
-            h('a', { "className": "btn btn-common btn-rm", href: link }, "Read More")
+        return h('div', {},
+          h('div', { "className": "blog-item-wrapper h-100" },
+            h('img', { "className": "blog-item-img", src: bg.toString() }),
+            h('div', { "className": "blog-item-text" },
+              h('h3', {}, title),
+              h('a', { "className": "btn btn-common btn-rm", href: link }, "Read More")
+            ),
+          ),
+          h('div', {},
+            h('h1', { "className": "page-header-title" }, entry.getIn(['data', 'title'])),
+            h('img', { "className": "post-image", src: bg.toString() }),
+            h('div', { "className": "text" }, this.props.widgetFor('body'))
           )
         );
       }
