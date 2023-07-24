@@ -44,8 +44,9 @@ The SF Bay Area memorial service was very small, and if you missed it there will
  
 
 > She’s the real Susan Calvin
->
+> {: .blockquote }
 > **Isaac Asimov**
+> {: .blockquote-footer .text-end}
 
 We held off on posting news about Joanne’s passing until her memorial scholarship had been set up. In the meantime, Prof Robin Murphy [shared a beautiful remembrance](https://www.roboticsthroughsciencefiction.com/single-post/joanne-pransky-rest-in-peace-1959-2023) on her website which was reposted on Robohub.org
 
@@ -57,7 +58,8 @@ Brian Heater, of Actuator and TechCrunch also [shared stories of Joanne](https:
 >
 > Robots are not the same as us and we should not use the same terminology to characterize their responses. Attributing an expression such as artificial empathy to a machine may only lead to confusion and the assumption that machines emote like us, especially as our view of what is artificial, and what is real, becomes blurred. Humans learn empathy from other humans face to face.
 >
-> > *Joanne Pransky 2021 TEDx talk ‘Robot on the Couch’*
+> *Joanne Pransky 2021 TEDx talk ‘Robot on the Couch’*
+> {: .blockquote-footer .text-end}
 
  
 
@@ -65,7 +67,7 @@ Brian Heater, of Actuator and TechCrunch also [shared stories of Joanne](https:
 
 At the request of family and friends, Women in Robotics, has set up scholarship fund to encourage more women to enter the field of robotics - across any discipline.
 
-**[Contribute now](https://bold.org/funds/women-in-robotics-scholarship-fund/)**
+[Contribute now](https://bold.org/funds/women-in-robotics-scholarship-fund/){: .btn .btn-lg .btn-default-filled .my-5}
 
  
 
