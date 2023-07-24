@@ -11,18 +11,14 @@ In celebration of the wonderful **Joanne Pransky, World’s First RoboPsychiatri
 
 > Joanne Pransky is an unusual participant in the leading edge of the robotics industry. That is, Service Robotics. With great good humor she professes to be the first robotics psychiatrist!
 > {: .blockquote }
-> **Joseph Engelberger**
-> {: .blockquote-footer .text-end}
-> Father of Robotics
+> **Joseph Engelberger**, Father of Robotics
 > {: .blockquote-footer .text-end}
 
 As 'The World's First Robot Psychiatrist', modeled after Isaac Asimov's Susan Calvin from the iRobot stories, Joanne brought the social side of robots to the forefront, long before robots were at all common. Not only did Joanne love robots in science fiction but she was at the forefront of the community developing social robots in real life.
 
 > She’s the very first Robopsychologist
 > {: .blockquote }
-> **Dr. Marvin Minsky**
-> {: .blockquote-footer .text-end}
-> Co-founder / Artificial Intelligence
+> **Dr. Marvin Minsky**, Co-founder / Artificial Intelligence
 > {: .blockquote-footer .text-end}
 
 Joanne leaves us her collection of social robots which form the heart of the **[Museum of Robots](https://svrobo.org/robot-museum/)** at Silicon Valley Robotics and Circuit Launch 8000 Edgewater Dr Oakland. We continue to add to the collection of interesting robots and visitors are welcome.
@@ -61,11 +57,10 @@ Brian Heater, of Actuator and TechCrunch also [shared stories of Joanne](https:
 > *Joanne Pransky 2021 TEDx talk ‘Robot on the Couch’*
 > {: .blockquote-footer .text-end}
 
- 
 
-# [Women in Robotics Scholarship Fund in Celebration of Joanne Pransky](https://bold.org/funds/women-in-robotics-scholarship-fund/)
+## [Women in Robotics Scholarship Fund in Celebration of Joanne Pransky](https://bold.org/funds/women-in-robotics-scholarship-fund/)
 
-At the request of family and friends, Women in Robotics, has set up scholarship fund to encourage more women to enter the field of robotics - across any discipline.
+At the request of family and friends, Women in Robotics, has set up a scholarship fund to encourage more women to enter the field of robotics - across any discipline.
 
 [Contribute now](https://bold.org/funds/women-in-robotics-scholarship-fund/){: .btn .btn-lg .btn-default-filled .my-5}
 
