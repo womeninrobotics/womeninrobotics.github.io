@@ -11,11 +11,11 @@ permalink: /news/
         <!-- Blog Item Starts -->
         <div class="blog-item-wrapper h-100">
           <div class="blog-item-img">
-            <a href="{{ post.link }}"><img src="{{ post.image }}" alt="{{ post.title }}"></a>
+            <img src="{{ post.image }}" alt="{{ post.title }}">
           </div>
           <div class="blog-item-text">
             <h3>
-              <a href="{{ post.link }}">{{ post.title }}</a>
+              {{ post.title }}
             </h3>
             <div class="meta-tags">
               <span class="date"><i class="lnr lnr-calendar-full"></i>{{ post.date | date: "%B %d, %Y" }}</span>
@@ -23,7 +23,8 @@ permalink: /news/
             </div>
             <p>{{ post.tagline }}
             </p>
-            <a href="{{ post.link }}" class="btn btn-common btn-rm">Read More</a>
+            <a href="{% if post.link %}{{ post.link | strip}}{% else %}{{ post.url }}{% endif %}"
+              class="btn btn-common btn-rm">Read More</a>
           </div>
         </div>
         <!-- Blog Item Wrapper Ends-->
