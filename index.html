@@ -57,10 +57,12 @@ js: main.js
                 <figure>
                     <div class="hovereffect">
                         <img src="{{ post.image }}" alt="{{ post.title }}">
-                        <a href="{{ post.link | strip}}">
+                        <a href="{% if post.link %}{{ post.link | strip}}{% else %}{{ post.url }}{% endif %}">
                             <div class="overlay">
                                 <figcaption>
-                                    <h5 class="text-white">{{ post.title }}</h5>
+                                    <h5
+                                        class="card-img-overlay text-center d-flex flex-column justify-content-center text-white">
+                                        {{ post.title }}</h5>
                                 </figcaption>
                             </div>
                         </a>

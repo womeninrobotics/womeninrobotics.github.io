@@ -79,7 +79,7 @@ js: about.js
 </div>
 
 <!-- begin stats section -->
-<div id="counter">
+<div id="counter" class="mb-5">
     <div class="container">
         <div class="row count-to-sec">
             <div class="col-md-4 col-sm-6 count-one">
@@ -120,7 +120,7 @@ js: about.js
         </div>
     </div>
 
-    <div class="team-members my-5">
+    <div class="team-members mb-5">
         <div class="row">
             {%- for member in site.data.people.board %}
             {% include member-card.html member=member %}
@@ -140,7 +140,7 @@ js: about.js
         </div>
     </div>
 
-    <div class="team-members my-5">
+    <div class="team-members mb-5">
         <div class="row">
             {%- for member in site.data.people.advisors %}
             {% include member-card.html member=member %}
