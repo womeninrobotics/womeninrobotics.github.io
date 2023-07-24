@@ -11,6 +11,7 @@ options = {
     cookiefile: ".cookies",
     cookiejar: ".cookies"
   },
+  enforce_https: false,
   ignore_urls: [
     "https://bootcamp.berkeley.edu/blog/free-stem-resources-for-girls-and-women-in-data-science-machine-learning-and-ai/",
     "https://bootcamp.pe.gatech.edu/blog/how-to-empower-girls-in-stem/",
