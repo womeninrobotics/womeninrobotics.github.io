@@ -62,7 +62,7 @@ Brian Heater, of Actuator and TechCrunch also [shared stories of Joanne](https:
 
 At the request of family and friends, Women in Robotics, has set up a scholarship fund to encourage more women to enter the field of robotics - across any discipline.
 
-[Contribute now](https://bold.org/funds/women-in-robotics-scholarship-fund/){: .btn .btn-lg .btn-default-filled .my-5}
+[Contribute now](https://bold.org/funds/women-in-robotics-scholarship-fund/){: .btn .btn-lg .btn-default-filled .my-3}
 
  
 
