@@ -21,4 +21,4 @@ Join us in making a powerful impact by hosting an event for International Women 
 
 Your snapshots have the power to amplify the voices and stories of women who are building the future of robotics. Contribute to a global narrative that celebrates achievements, challenges norms, and encourages more women to join the exciting realm of robotics. Share photos of your Women in Robotics Day celebrations, or simply celebrate a Women in Robotics in your organization. Join us in capturing the spirit of International Women in Robotics Day and be a part of this transformative movement!
 
-[Send a photo](mailto:photos@womeninrobotics.org){:.btn .btn-lg .btn-default-filled my-5}
+[Share a photo](mailto:photos@womeninrobotics.org){:.btn .btn-lg .btn-default-filled my-5}
