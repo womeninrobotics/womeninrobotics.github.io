@@ -99,3 +99,29 @@ collections:
           options: ["list"],
           default: "list",
         }
+  - name: "config" # Used in routes, e.g., /admin/collections/blog
+    label: "Config" # Used in the UI
+    editor:
+      preview: false
+    files:
+      - label: "Nav bar"
+        name: "nav-bar"
+        file: "_data/nav-bar.yaml"
+        fields:
+          - label: Pages
+            name: pages
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Url, name: url, widget: string }
+              - {
+                  label: Subpages,
+                  name: subpages,
+                  widget: list,
+                  fields:
+                    [
+                      { label: Title, name: title, widget: string },
+                      { label: Url, name: url, widget: string },
+                    ],
+                }
+
