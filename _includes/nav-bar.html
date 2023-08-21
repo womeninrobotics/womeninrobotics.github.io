@@ -10,7 +10,7 @@
 
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0">
-            {%- for node in site.data.nav-bar %}
+            {%- for node in site.data.nav-bar.pages %}
             <li
                 class="nav-item{% if page.url == node.url %} active{% endif %}{% if node.subpages %} dropdown{% endif %}">
                 {%- if node.subpages %}
