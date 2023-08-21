@@ -1,11 +1,12 @@
 ---
 title: Women in Robotics Day 2023
+image: /assets/images/wir-day-bubblesv2-maincolors.png
 permalink: /wir-day-2023
 layout: post
 ---
 ## October 3rd
 
-On the inaugural International Women in Robotics Day, we celebrate the extraordinary contributions of women who have pushed forward the field of robotics. Today, we spotlight women in the robotics field who are **building the future** of robotics. From inventors to innovators, they have fearlessly shattered barriers and defied stereotypes, showcasing that gender is no impediment to success in the robotics field.  Join us in this celebration by hosting your own events, and don't forget to share pictures and stories of the influential women in robotics around you. Together, we can inspire and uplift all women in robotics, making this day a true global milestone. Happy International Women in Robotics Day!
+On the inaugural International Women in Robotics Day, we celebrate the extraordinary contributions of women who have pushed forward the field of robotics. Today we spotlight women in the robotics field who are **building the future** of robotics. From inventors to innovators, they have fearlessly shattered barriers and defied stereotypes, showcasing that gender is no impediment to success in the robotics field.  Join us in this celebration by hosting your own events, and don't forget to share pictures and stories of the influential women in robotics around you. Together, we can inspire and uplift all women in robotics, making this day a true global milestone. Happy International Women in Robotics Day!
 
 ## 2023 Women in Robotics Theme
 
