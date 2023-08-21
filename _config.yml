@@ -34,6 +34,13 @@ sponsor_url: mailto:info@womeninrobotics.org
 newsletter_url: /newsletter/
 join_url: /signup/
 
+languages: ["en", "es"]
+exclude_from_localizations: ["assets"]
+defaultLang: en
+languageNames:
+  es: Espaniol
+  en: English
+
 # Social media info
 facebook: https://www.facebook.com/womeninrobotics
 twitter: https://twitter.com/womeninroboticz/
@@ -58,11 +65,12 @@ google:
 
 # Use the following plug-ins
 plugins:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-  - jekyll-seo-tag
   - github-pages
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-multiple-languages-plugin # To support multiple languages
   - jekyll-redirect-from # Set up custom redirects
+  - jekyll-seo-tag
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jemoji # Github flavored emoji
 
 whitelist:
