@@ -1,54 +1,55 @@
-- title: About
-  url: /
-  subpages:
-    - title: About Us
-      url: /about/
-    - title: Project Advance
-      url: /project-advance/
-    - title: Project Connect
-      url: /project-connect/
-    - title: Project Inspire
-      url: /project-inspire/
-    - title: Code of Conduct
-      url: /code-of-conduct/
-    - title: Other Resources
-      url: /other-resources/
-- title: Events
-  url: /
-  subpages:
-    - title: Upcoming Events
-      url: /events/
-    - title: Past Events
-      url: /past-events/
-- title: Chapters
-  url: /
-  subpages:
-    - title: Our chapters
-      url: /chapters/
-    - title: Start a chapter
-      url: /start-a-chapter/
-- title: News
-  url: /news/
-  subpages:
-    - title: Articles
-      url: /news/
-    - title: Annual List
-      url: /annual-list/
-    - title: Photo Challenge
-      url: /photo-challenge/
-- title: Join Us
-  url: /
-  subpages:
-    - title: Join the community
-      url: /signup/
-    - title: Get the newsletter
-      url: /newsletter/
-    - title: Volunteer
-      url: /volunteer/
-- title: Support Us
-  url: /
-  subpages:
-    - title: Store
-      url: /store/
-    - title: Donate
-      url: /donate/
+pages:
+  - title: About
+    url: /
+    subpages:
+      - title: About Us
+        url: /about/
+      - title: Project Advance
+        url: /project-advance/
+      - title: Project Connect
+        url: /project-connect/
+      - title: Project Inspire
+        url: /project-inspire/
+      - title: Code of Conduct
+        url: /code-of-conduct/
+      - title: Other Resources
+        url: /other-resources/
+  - title: Events
+    url: /
+    subpages:
+      - title: Upcoming Events
+        url: /events/
+      - title: Past Events
+        url: /past-events/
+  - title: Chapters
+    url: /
+    subpages:
+      - title: Our chapters
+        url: /chapters/
+      - title: Start a chapter
+        url: /start-a-chapter/
+  - title: News
+    url: /news/
+    subpages:
+      - title: Articles
+        url: /news/
+      - title: Annual List
+        url: /annual-list/
+      - title: Photo Challenge
+        url: /photo-challenge/
+  - title: Join Us
+    url: /
+    subpages:
+      - title: Join the community
+        url: /signup/
+      - title: Get the newsletter
+        url: /newsletter/
+      - title: Volunteer
+        url: /volunteer/
+  - title: Support Us
+    url: /
+    subpages:
+      - title: Store
+        url: /store/
+      - title: Donate
+        url: /donate/
