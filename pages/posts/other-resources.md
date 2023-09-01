@@ -41,7 +41,7 @@ layout: post
 
 * Terminology for 21st Century Technologists - <https://robohub.org/its-time-to-update-19th-century-terms-for-21st-century-technology/>
 * For Women in Science - <https://www.forwomeninscience.com/map/>
-* Picture a Scientist - <https://www.rocoeducational.com/picture_a_scientist>
+* Picture a Scientist - <https://rocofilms.com/films/picture-a-scientist/>
 * Coded Bias - <https://www.codedbias.com/>
 * Women in STEM - <https://online.maryville.edu/blog/women-in-stem/>
 * Breaking the Glass Ceiling Early On: How to Empower Girls in STEM - <https://bootcamp.pe.gatech.edu/blog/how-to-empower-girls-in-stem/>
