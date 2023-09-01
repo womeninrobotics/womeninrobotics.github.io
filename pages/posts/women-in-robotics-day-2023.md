@@ -8,7 +8,7 @@ layout: post
 
 On the inaugural International Women in Robotics Day, we celebrate the extraordinary contributions of women who have pushed forward the field of robotics. Today we spotlight women in the robotics field who are **building the future** of robotics. From inventors to innovators, they have fearlessly shattered barriers and defied stereotypes, showcasing that gender is no impediment to success in the robotics field.  Join us in this celebration by hosting your own events, and don't forget to share pictures and stories of the influential women in robotics around you. Together, we can inspire and uplift all women in robotics, making this day a true global milestone. Happy International Women in Robotics Day!
 
-## Building the Future{:.text-primary}
+## Building the Future{: .text-primary}
 
 **"Building the Future"** is the inaugural International Women in Robotics Day theme.  We hope to ignite a spirited conversation about the women shaping robotics. As we spotlight the incredible contributions of women in robotics, we ask you to join us in celebrating their achievements and recognizing their invaluable impact on this rapidly evolving field. From pioneering groundbreaking research to driving innovation, these women have not only pushed the boundaries of technology but have also shattered stereotypes and paved the way for future generations.  We also ask you to recognize the women in robotics that work with you and share their stories. By acknowledging their accomplishments and sharing their stories, we aim to inspire more women to pursue careers in robotics, fostering a diverse and inclusive community that will undoubtedly drive the field to even greater heights.
 
