@@ -1,14 +1,5 @@
 [
     {
-        "name": "End of Summer Social Event",
-        "description": "Join us for a Women in Robotics End of Summer Social Event - share stories, challenges and accomplishments. *refreshments will be served\n",
-        "location": "Boston",
-        "date": "2023-09-14",
-        "time": "5:00:00 PM",
-        "url": "https://www.eventbrite.com/e/women-in-robotics-end-of-summer-social-event-tickets-687472317207?aff=oddtdtcreator",
-        "datetime": "2023-09-14T17:00:00"
-    },
-    {
         "name": "Volunteers and Organizers meetup",
         "description": "A regular meeting to connect Women in Robotics Volunteers and Organizers",
         "location": "Online",
