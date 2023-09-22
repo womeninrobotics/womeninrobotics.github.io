@@ -177,6 +177,30 @@
         "slack": "local_michigan",
         "email": "michigan@womeninrobotics.org",
         "time_offset": null,
-        "description": "Nivedhitha Giri"
+        "description": "Nivedhitha Giri "
+    },
+    {
+        "name": "Southern California",
+        "long_name": "Orange County, California",
+        "region": "Americas",
+        "eventbrite": null,
+        "meetup": null,
+        "webpage": null,
+        "slack": null,
+        "email": "southern-california@womeninrobotics.org",
+        "time_offset": null,
+        "description": "Vinita Palaniveloo\nSalma Salim Arellano "
+    },
+    {
+        "name": "Washington D.C.",
+        "long_name": "Washington D.C.",
+        "region": "Americas",
+        "eventbrite": null,
+        "meetup": null,
+        "webpage": null,
+        "slack": null,
+        "email": "washington-dc@womeninrobotics.org",
+        "time_offset": null,
+        "description": "Cassie Rothrauff"
     }
 ]
