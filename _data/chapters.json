@@ -198,7 +198,7 @@
         "eventbrite": null,
         "meetup": null,
         "webpage": null,
-        "slack": null,
+        "slack": "local_umd_and_washington_dc",
         "email": "washington-dc@womeninrobotics.org",
         "time_offset": null,
         "description": "Cassie Rothrauff"
