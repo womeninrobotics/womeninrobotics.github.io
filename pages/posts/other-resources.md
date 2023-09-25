@@ -21,7 +21,7 @@ layout: post
 * Women in AI - <https://www.womeninai.co/>
 * Women Who Code - [https://www.womenwhocode.com/](https://www.womenwhocode.com/about)
 * IEEE Women in Engineering - [https://www.ieee.org/membership/women/](https://www.ieee.org/membership/women/index.html)
-* ACM-W or Women in Association for Computing Machinery - <https://women.acm.org/>
+* ACM-W or Women in Association for Computing Machinery - <https://women.acm.org/>{: data-proofer-ignore=''}
 * Society of Women Engineers - <https://swe.org/>
 * Anita Borg Org - <https://anitab.org/>
 * Lesbians Who Tech - [https://lesbianswhotech.org](https://lesbianswhotech.org/about/)

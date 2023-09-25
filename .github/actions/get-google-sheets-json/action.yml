@@ -15,10 +15,7 @@ runs:
   steps:
     - name: Get spreadsheet as JSON
       shell: bash
-      run: |
-        pip install csvkit
-        # Get the spreadsheet as JSON
-        curl -L "${{ inputs.published_sheet_url }}" \
-            | csvjson --indent 4 \
-            >  ${{ inputs.output_file }}
-        echo "Saved sheet to ${{ inputs.output_file }}."
+      run: .github/actions/get-google-sheets-json/get_json.sh
+      env:
+        SHEET_URL: ${{ inputs.published_sheet_url }}
+        OUTPUT_FILE: ${{ inputs.output_file }}
