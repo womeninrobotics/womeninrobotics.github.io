@@ -24,9 +24,10 @@ event is a record:
 <div class="row mb-5">
     <div class="col-md-4">
         <div class="card-block text-end">
-            <h5>{{ event.start_time | date: '%A' }}</h5>
-            <h4>{{ event.start_time | date: '%b %d,' }}</h4>
-            <h5>{{ event.start_time | date: '%Y' }}</h5>
+            <h5>{{ event.date | date: '%A' }}</h5>
+            <h4>{{ event.date | date: '%b %d,' }}</h4>
+            <h5>{{ event.date | date: '%Y' }}</h5>
+            <h6>{{ event.time | date: '%l:%M %p' }}</h6>
         </div>
     </div>
     <div class="col-md-8">
