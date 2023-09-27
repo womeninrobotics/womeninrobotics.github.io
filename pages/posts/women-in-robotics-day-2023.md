@@ -43,4 +43,14 @@ Join us in making a powerful impact by hosting an event for International Women 
 
 Your snapshots have the power to amplify the voices and stories of women who are building the future of robotics. Contribute to a global narrative that celebrates achievements, challenges norms, and encourages more women to join the exciting realm of robotics. Share photos of your Women in Robotics Day celebrations, or simply celebrate a Women in Robotics in your organization. Join us in capturing the spirit of International Women in Robotics Day and be a part of this transformative movement!
 
-[Share a photo](mailto:photos@womeninrobotics.org){:.btn .btn-lg .btn-default-filled}
+[Share a photo](mailto:photos@womeninrobotics.org){:.btn .btn-lg .btn-default-filled .mb-5}
+
+## Donate
+
+Consider supporting International Women in Robotics Day by making a generous donation to receive your very own Women in Robotics Day shirt! Your contribution not only helps us celebrate and empower women in the field of robotics but also enables us to continue fostering a diverse and inclusive community. These stylish shirts are a symbol of your commitment to gender equality and innovation in robotics. Get yours today and wear it proudly as a statement of your support for women in technology and the future of robotics. Don't miss this opportunity to be part of the change and showcase your dedication to a more inclusive and equitable world of robotics.
+
+{:.row}
+[![unisex](/assets/images/shop/women-in-robotics-day-2023-unisex.jpg)](https://women-in-robotics.printify.me/product/2634428/women-in-robotics-day-2023-unisex-jersey-short-sleeve-tee){:.col-md-6}
+[![womens](/assets/images/shop/women-in-robotics-day-2023-womens.jpg)](https://women-in-robotics.printify.me/product/2634433/women-in-robotics-day-2023-womens-favorite-tee){:.col-md-6}
+
+[Donate](/donate){:.btn .btn-lg .btn-default-filled .mb-5}
