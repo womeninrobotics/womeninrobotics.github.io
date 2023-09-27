@@ -4,9 +4,9 @@
         "description": "International Women in Robotics Day CelebrationJoin us in celebrating the inauguration of Women in Robotics Day! \nhttps://www.womeninrobotics.org/wir-day-2023\nThis day aims to establish a platform for knowledge exchange and networking, foster an environment of inclusivity, and empower women and non-binary people in robotics. The theme Building the Future hopes to ignite a spirited conversation about the women shaping robotics and inspiring the next generation of leaders.\nThrough this event, we want to celebrate the achievements of all trailblazing women in robotics. And following the theme by acknowledging the contributions that drive progress in the field. W﻿omen in Robotics Bay Area is dedicating an evening full of spotlight talks, engaging activities, and plain robotics.  Location: TBD (Bay Area). \nTogether we can contribute to making this day a true global milestone!",
         "location": "Bay Area",
         "date": "2023-10-05",
-        "time": "12:30:00 AM",
+        "time": "5:30:00 PM",
         "url": "https://www.eventbrite.com/e/building-the-future-with-women-in-robotics-tickets-720201481017",
-        "datetime": "2023-10-05T0:30:0Z"
+        "datetime": "2023-10-05T17:30:00"
     },
     {
         "name": "Volunteers and Organizers meetup",
@@ -15,7 +15,7 @@
         "date": "2023-10-07",
         "time": "8:00:00 PM",
         "url": "https://www.eventbrite.com/e/volunteers-and-organizers-meetup-tickets-534654324477",
-        "datetime": "2023-10-07T20:0:0Z"
+        "datetime": "2023-10-07T20:00:00"
     },
     {
         "name": "Volunteers and Organizers meetup",
@@ -24,7 +24,7 @@
         "date": "2023-11-04",
         "time": "8:00:00 PM",
         "url": "https://www.eventbrite.com/e/volunteers-and-organizers-meetup-tickets-534654334507",
-        "datetime": "2023-11-04T20:0:0Z"
+        "datetime": "2023-11-04T20:00:00"
     },
     {
         "name": "Volunteers and Organizers meetup",
@@ -33,7 +33,7 @@
         "date": "2023-12-02",
         "time": "9:00:00 PM",
         "url": "https://www.eventbrite.com/e/volunteers-and-organizers-meetup-tickets-534654344537",
-        "datetime": "2023-12-02T21:0:0Z"
+        "datetime": "2023-12-02T21:00:00"
     },
     {
         "name": "Volunteers and Organizers meetup",
@@ -42,7 +42,7 @@
         "date": "2024-01-06",
         "time": "9:00:00 PM",
         "url": "https://www.eventbrite.com/e/volunteers-and-organizers-meetup-tickets-534654354567",
-        "datetime": "2024-01-06T21:0:0Z"
+        "datetime": "2024-01-06T21:00:00"
     },
     {
         "name": "Volunteers and Organizers meetup",
@@ -51,6 +51,6 @@
         "date": "2024-02-03",
         "time": "9:00:00 PM",
         "url": "https://www.eventbrite.com/e/volunteers-and-organizers-meetup-tickets-534654364597",
-        "datetime": "2024-02-03T21:0:0Z"
+        "datetime": "2024-02-03T21:00:00"
     }
 ]
