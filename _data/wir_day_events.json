@@ -1,14 +1,29 @@
 [
     {
-        "Timestamp": "2023-09-24T17:16:50",
-        "Your name": "Andra Keay",
-        "Your email address": "andrakeay@gmail.com",
-        "name": "Diversity Cocktails at IROS",
+        "name": "Diversity Cocktail Hour",
         "date": "2023-10-03",
         "time": "7:00:00 PM",
         "region": "Americas",
-        "location": " Firebird Tavern, 419 Monroe St, Detroit, MI 48226",
-        "url": "https://ieee-iros.org/evening-socials/",
-        "datetime": "2023-10-03T19:00:00"
+        "location": "Firebird Tavern, 419 Monroe St Detroit MI 48226",
+        "url": "https://www.ieee-ras.org/women-in-engineering/wie-events/event/2285-ras-wie-diversity-cocktail-hour",
+        "datetime": null
+    },
+    {
+        "name": "Women Shaping the Future of Robotics",
+        "date": "2023-10-02",
+        "time": "12:30:00 PM",
+        "region": "Americas",
+        "location": "Huntington Place Detroit MI",
+        "url": "https://www.ieee-ras.org/women-in-engineering/wie-events/event/2282-wie-luncheon-and-networking-women-shaping-the-future-of-robotics",
+        "datetime": null
+    },
+    {
+        "name": "Building the Future with Women in Robotics",
+        "date": "2023-10-04",
+        "time": "5:30:00 PM",
+        "region": "Americas",
+        "location": "Hacker Dojo Mountain View CA USA",
+        "url": "https://www.eventbrite.com/e/building-the-future-with-women-in-robotics-tickets-720201481017?aff=oddtdtcreator",
+        "datetime": null
     }
 ]
