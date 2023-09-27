@@ -37,10 +37,10 @@ On the inaugural International Women in Robotics Day, we celebrate the extraordi
 
 Join us in making a powerful impact by hosting an event for International Women in Robotics Day. By hosting an event, you will not just create a platform for knowledge exchange and networking; you will also foster an environment of inclusivity and empowerment that drives progress in the field. Whether it's a panel discussion, a hands-on workshop, or a showcase of groundbreaking projects, your event can spark conversations, challenge stereotypes, and shape the future of robotics.
 
-[Register an event](/wir-day-2023-event-registration){:.btn .btn-lg .btn-default-filled my-5}
+[Register an event](/wir-day-2023-event-registration){:.btn .btn-lg .btn-default-filled .mb-5}
 
 ## Share your photos
 
 Your snapshots have the power to amplify the voices and stories of women who are building the future of robotics. Contribute to a global narrative that celebrates achievements, challenges norms, and encourages more women to join the exciting realm of robotics. Share photos of your Women in Robotics Day celebrations, or simply celebrate a Women in Robotics in your organization. Join us in capturing the spirit of International Women in Robotics Day and be a part of this transformative movement!
 
-[Share a photo](mailto:photos@womeninrobotics.org){:.btn .btn-lg .btn-default-filled my-5}
+[Share a photo](mailto:photos@womeninrobotics.org){:.btn .btn-lg .btn-default-filled}
