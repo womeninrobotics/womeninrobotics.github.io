@@ -1,0 +1,25 @@
+{% comment %}
+This file adds a info card.
+
+Example:
+
+```
+{% include info-card.html
+title="Project Inspire"
+url="/project-inspire"
+image="/assets/images/project-inspire.jpg"
+description='Our annual "Women in Robotics You Need to Know About" list, plus regular updates, spotlights, and Wikipedia
+pages for women in robotics.' %}
+```
+{% endcomment %}
+<!-- Start Info Box 1 -->
+<div class="col-md-4 mb-5">
+    <div class="image-service-box">
+        <img src="{{ info.image }}" alt="{{ info.title }}" />
+        <div class="service-text">
+            <h3><a href="{{ info.url }}">{{ info.title }}</a></h3>
+            <p>{{ info.description }}</p>
+        </div>
+    </div>
+</div>
+<!-- End Info Box 1 -->
