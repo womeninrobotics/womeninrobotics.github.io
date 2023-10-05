@@ -92,3 +92,10 @@ collections:
           default: "false",
         }
       - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Layout",
+          name: "layout",
+          widget: "select",
+          options: ["list"],
+          default: "list",
+        }
