@@ -43,5 +43,23 @@
         "location": "United Robotics Group, 20850 Leapwood Ave, STE J Carson, CA 90746",
         "url": "https://www.eventbrite.com/e/launching-women-in-robotics-southern-california-tickets-728345580237?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl",
         "datetime": null
+    },
+    {
+        "name": "Women in Robotics virtual Lean In Circle meeting",
+        "date": "2023-10-23",
+        "time": "1:00:00 PM",
+        "region": "Americas",
+        "location": "Online, 1pm EST / 5pm GMT / 10am PST",
+        "url": null,
+        "datetime": null
+    },
+    {
+        "name": "Tech Together: Bridging Communities",
+        "date": "2023-10-26",
+        "time": "6:00:00 PM",
+        "region": "Americas",
+        "location": "The InOrbit Robot Space, 293 Castro St., Mountain View, California",
+        "url": "https://www.inorbit.ai/robotspace/techtogether-bridgingcommunities",
+        "datetime": null
     }
 ]
