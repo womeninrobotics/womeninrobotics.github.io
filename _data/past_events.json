@@ -691,5 +691,14 @@
         "time": "20:00:00",
         "url": "https://www.eventbrite.com/e/volunteers-and-organizers-meetup-tickets-534654334507",
         "datetime": "2023-11-04T20:0:0Z"
+    },
+    {
+        "name": "Volunteers and Organizers meetup",
+        "description": "A regular meeting to connect Women in Robotics Volunteers and Organizers",
+        "location": "Online",
+        "date": "2023-12-02",
+        "time": "21:00:00",
+        "url": "https://www.eventbrite.com/e/volunteers-and-organizers-meetup-tickets-534654344537",
+        "datetime": "2023-12-02T21:0:0Z"
     }
 ]
