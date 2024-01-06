@@ -219,5 +219,18 @@
         "email": "washington-dc@womeninrobotics.org",
         "time_offset": null,
         "description": "Cassie Rothrauff"
+    },
+    {
+        "name": "Querétaro",
+        "long_name": "Querétaro, Mexico",
+        "region": "Americas",
+        "eventbrite": null,
+        "meetup": null,
+        "linkedin": null,
+        "webpage": null,
+        "slack": "local_queretaro",
+        "email": "queretaro@womeninrobotics.org",
+        "time_offset": null,
+        "description": "X. Yamile Sandoval-Castro\nRocío Damara Merlo Espino"
     }
 ]
