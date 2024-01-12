@@ -68,7 +68,7 @@
         "name": "Delhi",
         "long_name": "Delhi, India",
         "region": "Asia",
-        "eventbrite": null,
+        "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-new-delhi-62628541323",
         "meetup": null,
         "linkedin": null,
         "webpage": null,
@@ -198,7 +198,7 @@
         "name": "Southern California",
         "long_name": "Orange County, California",
         "region": "Americas",
-        "eventbrite": null,
+        "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-southern-california-72409864633",
         "meetup": null,
         "linkedin": null,
         "webpage": null,
@@ -224,7 +224,7 @@
         "name": "Querétaro",
         "long_name": "Querétaro, Mexico",
         "region": "Americas",
-        "eventbrite": null,
+        "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-queretaro-77036536203",
         "meetup": null,
         "linkedin": null,
         "webpage": null,
@@ -232,5 +232,18 @@
         "email": "queretaro@womeninrobotics.org",
         "time_offset": null,
         "description": "X. Yamile Sandoval-Castro\nRocío Damara Merlo Espino"
+    },
+    {
+        "name": "Sweden",
+        "long_name": "Gothenburg, Sweden",
+        "region": "Europe",
+        "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-sweden-77295899123",
+        "meetup": null,
+        "linkedin": null,
+        "webpage": null,
+        "slack": "local_sweden",
+        "email": "sweden@womeninrobotics.org",
+        "time_offset": null,
+        "description": "Jennifer David"
     }
 ]
