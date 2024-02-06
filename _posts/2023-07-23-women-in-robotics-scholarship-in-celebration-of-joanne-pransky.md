@@ -23,7 +23,7 @@ As 'The World's First Robot Psychiatrist', modeled after Isaac Asimov's Susan Ca
 
 Joanne leaves us her collection of social robots which form the heart of the **[Museum of Robots](https://svrobo.org/robot-museum/)** at Silicon Valley Robotics and Circuit Launch 8000 Edgewater Dr Oakland. We continue to add to the collection of interesting robots and visitors are welcome.
 
-[Please share this post to help spread the word.](https://249x.substack.com/p/remembering-joanne-pransky-worlds?utm_source=substack&utm_medium=email&utm_content=share&action=share&token=eyJ1c2VyX2lkIjoyNDY3OTkwLCJwb3N0X2lkIjoxMjkwNjgyMTEsImlhdCI6MTY5MDE0NTM1OCwiZXhwIjoxNjkyNzM3MzU4LCJpc3MiOiJwdWItMTMxMzA3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.gkiRz2imYxWPBRTYi7Awt4yITd-RmHh3ib0TegxNaJU)
+[Please share this post to help spread the word.](https://open.substack.com/pub/249x/p/remembering-joanne-pransky-worlds?utm_campaign=post&utm_medium=web)
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa47275ea-8243-4fff-9649-c6298743d9ff_566x566.webp)
 
@@ -33,7 +33,7 @@ I know that Joanne’s death came as a shock to many of her friends. Joanne didn
 
 The SF Bay Area memorial service was very small, and if you missed it there will be another one in Boston on July 25th. I believe there is a remote participation option but please contact Sherry Barone to confirm. We also have a [digital guest book](https://svrobo.org/robot-museum/) on the Museum of Robots page if you’d like to leave a message.
 
-**[Please share this information!](https://249x.substack.com/?utm_source=substack&utm_medium=email&utm_content=share&action=share)**
+**[Please share this information!](https://open.substack.com/pub/249x/p/remembering-joanne-pransky-worlds?utm_campaign=post&utm_medium=web)**
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52c6d024-3618-49e5-9707-3ac5d8e75d9a_625x782.png)
 
