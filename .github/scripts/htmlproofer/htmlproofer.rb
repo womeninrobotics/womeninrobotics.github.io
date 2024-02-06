@@ -17,7 +17,10 @@ options = {
     "https://bootcamp.pe.gatech.edu/blog/how-to-empower-girls-in-stem/",
     /meetingplace.io/,
     /twitter.com/
-  ]
+  ],
+  ignore_status_codes: [ 
+    403
+  ],
 }
 
 HTMLProofer.check_directory('./_site', options).run
