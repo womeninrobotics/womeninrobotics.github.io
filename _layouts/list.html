@@ -35,18 +35,4 @@ layout: page
         });
     });
 
-    // // After all images are loaded
-    // Promise.all(
-    //     Array.from($images).filter(img => !img.complete)
-    //         .map(img => new Promise(resolve => {
-    //             img.addEventListener('load', resolve);
-    //             img.addEventListener('error', resolve);
-    //         })
-    //         )
-    // ).then(
-    //     () => {
-    //         console.log('images finished loading');
-    //         msnry.layout();
-    //     }
-    // );
 </script>

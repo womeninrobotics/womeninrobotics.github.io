@@ -36,6 +36,6 @@ jobs:
           git config user.email website@womeninrobotics.org
           git add .
           if ! git diff --exit-code --cached; then
-            git commit -m "Updating meetingplace events"
+            git commit -m "Updating eventbrite events"
             git push
           fi
