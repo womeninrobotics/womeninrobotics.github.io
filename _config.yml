@@ -20,14 +20,19 @@ exclude:
   ]
 # Markdown providor
 markdown: kramdown
-# URL of website
-url: https://womeninrobotics.org
 
-# Title of the site
+
+# SEO Data
 title: Women in Robotics
 description: Community for women working in robotics, and women who want to work in robotics.
+url: https://womeninrobotics.org
+twitter:
+  username: womeninroboticz
+  card: summary_large_image
+logo: /assets/images/logo/WiRLogo-200x200t.png
 image: https://womeninrobotics.org/assets/images/logo/WiRLogo-banner.png
 
+# Site settings
 donation_url: /donate/
 store_url: /store/
 sponsor_url: mailto:info@womeninrobotics.org
@@ -35,12 +40,13 @@ newsletter_url: /newsletter/
 join_url: /signup/
 
 # Social media info
-facebook: https://www.facebook.com/womeninrobotics
-twitter: https://twitter.com/womeninroboticz/
-instagram: https://www.instagram.com/womeninroboticz/
-pinterest: https://www.pinterest.com/womeninrobotics
-linkedin: https://www.linkedin.com/company/womeninrobotics/
-email: info@womeninrobotics.org
+social_media:
+  facebook: https://www.facebook.com/womeninrobotics
+  twitter: https://twitter.com/womeninroboticz/
+  instagram: https://www.instagram.com/womeninroboticz/
+  pinterest: https://www.pinterest.com/womeninrobotics
+  linkedin: https://www.linkedin.com/company/womeninrobotics/
+  email: info@womeninrobotics.org
 
 # TODO (athackst) rss and atom feeds
 # atom_path: TODO

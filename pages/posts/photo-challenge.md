@@ -51,4 +51,5 @@ Use the tags **\#WomenInRobotics**{:.text-primary} **\#PhotoChallenge**{:.text-p
 
 Be sure to repost/reshare others' contributions and follow Women in Robotics to see more!
 
+{% assign social = site.social_media %}
 {% include social.html fa_size='fa-2x' %}
