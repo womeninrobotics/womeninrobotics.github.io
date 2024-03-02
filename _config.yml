@@ -21,7 +21,6 @@ exclude:
 # Markdown providor
 markdown: kramdown
 
-
 # SEO Data
 title: Women in Robotics
 description: Community for women working in robotics, and women who want to work in robotics.
@@ -30,7 +29,6 @@ twitter:
   username: womeninroboticz
   card: summary_large_image
 logo: /assets/images/logo/WiRLogo-200x200t.png
-image: https://womeninrobotics.org/assets/images/logo/WiRLogo-banner.png
 
 # Site settings
 donation_url: /donate/
@@ -82,9 +80,8 @@ collections:
 defaults:
   - scope:
       path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
     values:
-      layout: "post"
+      image: /assets/images/logo/WiRLogo-banner.png
   - scope:
       path: "pages/posts"
       type: "pages"
