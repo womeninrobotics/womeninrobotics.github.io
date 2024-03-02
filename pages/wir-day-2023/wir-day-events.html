@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Women in Robotics Day Events
+title: Women in Robotics Day 2023 Events
 image: /assets/images/wir-day-2023-celebrate.png
-permalink: /wir-day-events/
+permalink: /wir-day-2023/events/
 ---
 <div class="container pb-5">
     <div class="pb-5">
-        {% assign events_by_region = site.data.wir_day_events | group_by:"region" %}
+        {% assign events_by_year = site.data.wir_day_events | where_exp: "item", "item['date'] contains '2023'" %}
+        {% assign events_by_region = events_by_year | group_by:"region" %}
         {% for region in events_by_region %}
         <div>
             <h2 class="text-primary">{{ region.name }}</h2>
@@ -22,7 +23,7 @@ permalink: /wir-day-events/
             Want your event listed here?
         </strong>
         <p>We would love for you to share your events with us!! </p>
-        <a href="/wir-day-2023-event-registration" class="page-scroll btn btn-lg btn-default-filled">
+        <a href="/wir-day-event-registration" class="page-scroll btn btn-lg btn-default-filled">
             Register an event</a>
     </div>
 </div>
