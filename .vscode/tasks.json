@@ -73,8 +73,8 @@
             "command": ".github/actions/get-google-sheets-json/get_json.sh",
             "options": {
                 "env": {
+                    "OUTPUT_FILE": "${input:output_file}",
                     "SHEET_URL": "${input:sheet_url}",
-                    "OUTPUT_FILE": "${input:output_file}"
                 }
             },
             "problemMatcher": []
@@ -82,16 +82,20 @@
     ],
     "inputs": [
         {
-            "id": "sheet_url",
-            "type": "promptString",
-            "description": "Google Sheets URL",
-            "default": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTMYWr-9rNI300A9YQeYK8hbiCa0cJNGhqtZ9yn7QsYKvyTJcM_9DQcGFheDJzXoS1aonhkCR9Y0fRb/pub?gid=610270313&single=true&output=csv"
-        },
-        {
             "id": "output_file",
             "type": "promptString",
             "description": "Output file",
-            "default": "_data/wir_day_events.json"
-        }
-    ]
+            // "default": "_data/wir_day_events.json"
+            // "default": "_data/past_events.json"
+            "default": "_data/photo_challenge.json"
+        },
+        {
+            "id": "sheet_url",
+            "type": "promptString",
+            "description": "Google Sheets URL",
+            // "default": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTMYWr-9rNI300A9YQeYK8hbiCa0cJNGhqtZ9yn7QsYKvyTJcM_9DQcGFheDJzXoS1aonhkCR9Y0fRb/pub?gid=610270313&single=true&output=csv"
+            // "default": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-Y1pT_wkRDrTkoZ0Qbj-fID09asj0zCBEh60OdigyVgGrc87gdhOKB2iW0omGEy3WZOEEYmeHA7S5/pub?gid=176663679&single=true&output=csv"
+            "default": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTwL9OONwxvO5zGruIliv0TDh_d5ss-55N0tv8IDiQWzk_VQ1Mne0IhQImp_FX8qNJfdMcLBP9YppiZ/pub?gid=376278346&single=true&output=csv"
+        },
+    ],
 }
