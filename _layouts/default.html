@@ -2,20 +2,8 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <link rel="icon" type="image/png" href="/assets/images/logo/WiRLogo-50x50t.png" />
-  {%- if page.tagline %}
-  <meta name="description" content="{{ page.tagline }}">
-  {%- endif %}
-  {%- if page.keywords %}
-  <meta name="keywords" content="{{ page.keywords }}">
-  {%- endif %}
-  {%- if page.canonical %}
-  <link rel="canonical" href="{{ page.canonical }}" />
-  {%- endif %}
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- HTML Meta Tags -->
+  {% seo %}
 
   <!-- Google Font link -->
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
@@ -31,15 +19,6 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/custom/{{ page.css }}" />
   {%- endif %}
 
-  <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:description" content="{{ page.tagline }}">
-  {%- if page.image %}
-  <meta property="og:image" content="{{ page.image | absolute_url }}">
-  {%- else %}
-  <meta property="og:image" content="{{ site.image | absolute_url }}">
-  {%- endif %}
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta name="twitter:card" content="summary_large_image">
 
   {%- if site.atom_path %}
   <link href="{{ site.url }}{{ site.atom_path }}" type="application/atom+xml" rel="alternate"
@@ -64,7 +43,6 @@
     integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
     sync></script>
   <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
-
 
 </head>
 
