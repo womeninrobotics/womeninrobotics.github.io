@@ -1,0 +1,53 @@
+{% comment %}
+This file adds a photo card.
+
+Example:
+```
+{% for photo in site.photo-challenge %}
+{% include profile-card.html photo=photo %}
+{% endfor %}
+```
+
+photo is a record:
+
+```
+"License": (required)
+"File URL": (required)
+"Attribution: (optional)
+```
+
+{% endcomment %}
+
+{%- assign attribution_parts = photo['Attribution'] | split: ',' %}
+{%- assign attribution = '' %}
+
+{%- for part in attribution_parts %}
+{%- if part contains '<' %}
+{%- assign license_link = part | split: '<' | last | split: '>' | first %}
+{%- assign license_text = part | split: '<' | first | strip %}
+{%- capture link_part %}
+<a href = "{{ license_link }}">{{ license_text }}</a>
+{%- endcapture %}
+{%- assign attribution = attribution | append: link_part %}
+{%- else %}
+{%- assign attribution = attribution | append: part %}
+{%- endif %}
+{%- unless forloop.last %}
+{%- assign attribution = attribution | append: "," %}
+{%- endunless %}
+{%- endfor %}
+
+<!-- Photo card starts -->
+<div class="col">
+    <div class="card h-100">
+        <img src="{{photo['File URL']}}" alt="{{ photo['Attribution'] }}" class="card-img-top">
+        <div class="card-body">
+            <p class="card-text">
+                <!-- {{ photo['Attribution'] }} link: {{ license_link }} -->
+                {{ attribution }}
+            </p>
+            <p class="card-text"><small class="text-muted">{{ photo['License'] }}</small></p>
+        </div>
+    </div>
+</div>
+<!-- Photo card ends -->

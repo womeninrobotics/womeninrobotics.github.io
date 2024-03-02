@@ -13,11 +13,26 @@ Here’s a [handy guide](https://svrobo.org/wp-content/uploads/2021/10/Women-in-
 > Marian Wright Edelman, Civil Rights Activist
 > {: .blockquote-footer .text-end}
 
-If you’ve ever searched for images of **women building robots**{:.text-primary } to promote your inclusive activities,  you know just how few suitable images are available online. 
+If you’ve ever searched for images of **women building robots**{:.text-primary } to promote your inclusive activities,  you know just how few suitable images are available online.
 
 Let’s make women working in robotics **more visible**{:.text-primary}.  Let’s help make it **more desirable**{:.text-primary} for women to work in robotics and for companies/labs to showcase women (and nonbinary and underrepresented people!) and let’s **inspire, connect and advance the women that are working in robotics and the women who’d like to work in robotics**{:.text-primary}.
 
-## What makes a great photo?
+{% assign photos = site.data.photo_challenge %}
+<div class="row row-cols-1 row-cols-md-3 g-4 my-5">
+{% for photo in photos limit: 3 %}
+  {% include photo-card.html photo=photo %}
+{% endfor %}
+</div>
+
+[Photo Challenge Gallery](/photo-challenge-gallery){: .btn .btn-lg .btn-info-filled .mb-3}
+
+## Contribute
+
+### 1. Take a photo or animated gif
+
+Help us by taking high quality photos of women, non-binary and underrepresented people (with permission!) engaging in actively building and programming robots.
+
+#### What makes a great photo?
 
 * Real robot/programming (not toy/sci-fi robot)
 * Adult (not school age)
@@ -25,12 +40,6 @@ Let’s make women working in robotics **more visible**{:.text-primary}.  Let’
 * The subject is using tools, code, or sensors to build or deploy robots.
 * Unbranded image (small logos in background ok)
 * Permission from subject
-
-## Contribute
-
-### 1. Take a photo or animated gif
-
-Help us by taking high quality photos of women, non-binary and underrepresented people (with permission!) engaging in actively building and programming robots.
 
 ### 2. Upload them to Wikimedia
 
@@ -43,7 +52,9 @@ Upload them to [Wikimedia Commons](https://commons.wikimedia.org/wiki/Commons:Co
 
 ### 3. Send a link to us
 
-Send a link of your contribution to [photos@womeninrobotics.org](mailto:photos@womeninrobotics.org). We’ll link to your photos and give your lab/company a shout-out.
+Send your contribution to us! We’ll link to your photos and give your lab/company a shout-out.
+
+[Submit Your Photo](/photo-challenge-submission){: .btn .btn-lg .btn-default-filled .mb-3}
 
 ### 4. Share on social media
 
