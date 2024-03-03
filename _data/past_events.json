@@ -1,1 +1,666 @@
-[]
+[
+  {
+    "name": "Get into Robotics",
+    "description": "Get into Robotics: Careers, Development, & Building Robots (for fun or profit).\n\nHey there robot lovers! Circuit Launch and the Hardware Collective are throwing a robo-tastic event on July 27th from 6:30 to 8:30 PM. We're bringing together a cool bunch of folks who eat, sleep, and breathe robotics. They're super pumped to share what they know about breaking into the field, building next-level tech, and the whirlwind adventure of running a robotics startup.",
+    "location": "Bay Area",
+    "date": "2023-07-27",
+    "time": "18:30:00",
+    "url": "https://www.eventbrite.com/e/get-into-robotics-tickets-668369951517?aff=oddtdtcreator"
+  },
+  {
+    "name": "End of Summer Social Event",
+    "description": "Join us for a Women in Robotics End of Summer Social Event - share stories, challenges and accomplishments. *refreshments will be served\n",
+    "location": "Boston",
+    "date": "2023-09-14",
+    "time": "17:00:00",
+    "url": "https://www.eventbrite.com/e/women-in-robotics-end-of-summer-social-event-tickets-687472317207?aff=oddtdtcreator"
+  },
+  {
+    "name": "Chapter Launch",
+    "description": "We are launching Women in Robotics, Southern California chapter to coincide with Women in Robotics Day Oct 4, 2023.",
+    "location": "Southern California",
+    "date": "2023-10-04",
+    "time": "10:00:00",
+    "url": "https://www.eventbrite.com/e/launching-women-in-robotics-southern-california-tickets-728345580237"
+  },
+  {
+    "name": "Launching Women in Robotics Boston!",
+    "description": "<div>Are you a woman working in robotics or aspires to? Do you want to expand your network with students, educators, promoters, and professionals in the field? Or simply to build/debug that robotics project waiting in your garage? <br>Join us for an open discussion about robotics, enabling the launch of the Boston Chapter of the global Women in Robotics community. Attendees from all backgrounds and experience levels are welcome!<br><br><br><strong>Note: This event is open to non-members as well!<br><br></strong>Meeting link:<br><a href=\"https://meetingsamer12.webex.com/meetingsamer12/j.php?MTID=mb3c56ffdd29723e43dab80703651cd64\">https://meetingsamer12.webex.com/meetingsamer12/j.php?MTID=mb3c56ffdd29723e43dab80703651cd64<br></a>Use the above link to join the event using the password: wirb#1</div>",
+    "location": "Online Event",
+    "date": "2020-06-29",
+    "time": "19:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-Boston/events/3421"
+  },
+  {
+    "name": "A Coffee Chat with Women in Robotics",
+    "description": "<div>Women in Robotics Boston has partnered with Vecna Robotics to host a panel discussion with four women in the field of robotics. We are honored to announce our panelists, who hold both technical and non-technical roles at Boston-based Vecna Robotics. We look forward to your participation!</div><div> <br>The discussion would cover day-to-day of the lives of these industrious women, going from skills required to work as a robotics developer to managing technology startup. </div><div><br><strong>PS: This event is open to all!<br></strong><br><strong>NOTE: RSVP via Eventbrite link only<br></strong><a href=\"https://www.eventbrite.com/e/a-coffee-chat-with-women-in-robotics-registration-109910631658\">https://www.eventbrite.com/e/a-coffee-chat-with-women-in-robotics-registration-109910631658</a><br><br><br><br><strong>Meet our panelists: </strong></div><div><strong>Kay Perkinson – Chief of Staff, Vecna Robotics</strong></div><div>Kay Perkinson is the Chief of Staff and Interim VP of Advanced Development at Vecna Robotics. She is responsible for organizing and aligning strategic priorities with members of the senior leadership team, designing and facilitating the cross-company processes and communications, and supporting the CEO on strategic initiatives. Kay has held a variety of non-technical roles across various industries, including solar technology, healthcare, and finance. She holds a B.A. in Environmental Sciences from Northwestern University, where she played center midfield on the Division I Varsity Women’s Soccer team. Kay lives with her husband, Jim, an Engineering Manager at Boeing, and children, Ashton (17), Logan (4), Evan (3), and Benjamin (2), at their family home in Winchester, MA. <br><br></div><div><strong>Diandra Drago – Director of Human Resources, Vecna Robotics<br></strong>Diandra Oliveira serves as Director of HR at Vecna Robotics, where she is responsible for implementing and executing internal programs, policies, and initiatives around employee engagement and performance, diversity and inclusion, corporate training, and immigration. She is an SHRM Senior Certified Professional and has completed Veterans at Work and Employing Abilities at Work certificates.  Diandra previously served as Director of Talent Acquisition for both Vecna Robotics and its healthcare IT predecessor, Vecna Technologies, and started her career as a Project Manager. She graduated from MIT’s Sloan School of Management with a B.S. in Management Science and spent 3 years in combined computer science and mechanical engineering program. As an undergraduate, she served as both President of MIT Society of Women Engineers and as a Career Fair Director, where she first met Vecna. Diandra lives in Billerica with her husband, Bruno, and daughters Annalise (4) and Carolina (2).  <br><br></div><div><strong>Zoe Snape – Product Architect – Enterprise Software, Vecna Robotics</strong><br>Zoe Snape is the Product Architect for the Enterprise team at Vecna Robotics, supporting client integrations work, and working on scaling up our products and platform. Zoe started out working on the first release of Vecna Robotics's web-based tool used to monitor and administrate robots. From there, she was involved in robotics projects like next-gen VGo, OmniEye, QCArmBot, and more. She grew up in Tacoma, Washington, and got her bachelor's in EECS (6-3 for the MIT crowd) in 2015. Currently, she is in Seattle (working from home for 3 years) with her partner who is currently getting his Ph.D. in Astronomy from UW. In her free time, she loves to bake and go for long walks, work out while watching cartoons, and tend to her pea plants and tomatoes in the balcony.</div><blockquote>\"It's been really cool over the last three years to watch these robots go from being a couple of franken-bots struggling to navigate around cones in an unused corner of someone else's manufacturing facility to a real fleet of dozens of units doing real work at customer sites, with a real manufacturing division, a real support team, and a real deployments team. I'm excited to see where the next three years takes us!\"</blockquote><div><br></div><div><strong>Janani Mohan – Robotics Software Engineer, Vecna Robotics</strong><br>Janani Mohan works as a Robotics Software Engineer at Vecna Robotics. She has a Master's degree in Robotics Engineering specialized in Swarm Robotics from Worcester Polytechnic Institute. She was previously employed as an Embedded Systems Engineer at Bosch India. The world of machines and automation has always inspired her and she enjoys making fun hobby projects. The first robot she made is a human following robot called Vodabot which is like a faithful pet but also helps transport items from different rooms, aimed to help the elderly carry items within their household. She envisions a future in Robotics with her contributions to inventing technologies which makes life easier. Apart from Robotics, she is passionate about learning new skills and spends her free time with her plants.</div><div><br><br></div><div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSJAZ2lkOi8vcmVhY3Qtc2NyZWVuY2FzdHMvQWN0aXZlU3RvcmFnZTo6QmxvYi8xNjQ1P2V4cGlyZXNfaW4GOwBUSSIMcHVycG9zZQY7AFRJIg9hdHRhY2hhYmxlBjsAVEkiD2V4cGlyZXNfYXQGOwBUMA==--30e81d5f5fc70c810b5ed1c8d7120fab08bd5378\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBHIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--34e3c4bb5bbb5479714365c5ad9c1fb7aa77e00e/WiRB%20Event%20(1).png\" filename=\"WiRB Event (1).png\" filesize=\"1432701\" width=\"1680\" height=\"945\" presentation=\"gallery\"></action-text-attachment><strong><br></strong><br></div>",
+    "location": "Online Event",
+    "date": "2020-07-15",
+    "time": "19:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-Boston/events/3420"
+  },
+  {
+    "name": "Casual Chat with Women in Robotics",
+    "description": "<div>Hey everyone, let's catch up and get to know more about our members in the group have been up to. Share our thoughts, ideas, inspirations, work-from-home routines and issues in robotics. This is a casual conversation to know what all cool projects our fellow roboticists are working on, ask questions, and just have some fun. Also, if you have any new questions for us we would love to answer those. <strong>Let's talk robotics! </strong></div>",
+    "location": "Online Event",
+    "date": "2020-09-21",
+    "time": "19:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-Boston/events/3990"
+  },
+  {
+    "name": "Bridging the Gap -  Robotics in Industry and Academia with Daniela Rus and Clara Vu",
+    "description": "<div>Women in Robotics Boston has partnered with Vecna Robotics to host a technical discussion on Bridging the Gap - Robotics in Industry and Academia.<br><br></div><div>We are pleased to announce our speakers, two female pioneers in the field of robotics: MIT Professor, <strong>Daniela Rus</strong>, Director of the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL) and professor in the Department of Electrical Engineering and Computer Science (EECS) at the Massachusetts Institute of Technology, and <strong>Clara Vu</strong>, Co-founder and CTO Veo Robotics. <br><br></div><div>The discussion will include the following topics:<br><br></div><ul><li>Ideologies and challenges of a successful robotics startup/research lab</li><li>Managing practicality in research</li><li>Robotics and AI technologies that can potentially grow into industrial/commercial products</li><li>Major differences in expectations of research and industry on distributed robotics and autonomous mobile robots</li><li>Next big milestone in automation</li></ul><div><br></div><div>Please RSVP here: <a href=\"https://www.eventbrite.com/e/bridging-the-gap-robotics-in-industry-and-academia-registration-127045369119\">https://www.eventbrite.com/e/bridging-the-gap-robotics-in-industry-and-academia-registration-127045369119</a></div><div>where you will have the opportunity to submit your questions in advance of the discussion.<br>We look forward to your participation!<br><br><br></div><h1>Meet our speakers:</h1><div><strong>Daniela Rus</strong> is the Andrew (1956) and Erna Viterbi Professor of Electrical Engineering and Computer Science; Director of the Computer Science and Artificial Intelligence Laboratory (CSAIL); and Deputy Dean of Research for Schwarzman College of Computing at MIT. Rus’ research interests are in robotics, artificial intelligence, and data science. The focus of her work is developing the science and engineering of autonomy, toward the long-term objective of enabling a future with machines pervasively integrated into the fabric of life, supporting people with cognitive and physical tasks. Her research addresses some of the gaps between where robots are today and the promise of pervasive robots: increasing the ability of machines to reason, learn, and adapt to complex tasks in human-centered environments, developing intuitive interfaces between robots and people, and creating the tools for designing and fabricating new robots quickly and efficiently. The applications of this work are broad and include transportation, manufacturing, agriculture, construction, monitoring the environment, underwater exploration, smart cities, medicine, and in-home tasks such as cooking. Rus serves as the Associate Director of MIT’s Quest for Intelligence Core, and as Director of the Toyota-CSAIL Joint Research Center, whose focus is the advancement of AI research and its applications to intelligent vehicles. She is a member of the Toyota Research Institute advisory board. Rus is a Class of 2002 MacArthur Fellow, a fellow of ACM, AAAI and IEEE, and a member of the National Academy of Engineering and the American Academy of Arts and Sciences. She is the recipient of the 2017 Engelberger Robotics Award from the Robotics Industries Association. She is a Mitre Senior Visiting Fellow. She earned her PhD in Computer Science from Cornell University.<br><br></div><div><strong>Clara Vu </strong>has been building autonomous robots for over 20 years. She began her career at iRobot in its early days, where she developed robots for oil well exploration and wrote the programming language behind Roomba. After iRobot’s IPO, she went on to found Harvest Automation, where she led software development for their autonomous agricultural materials handling system. This was the world’s first product that combined fully autonomous mobility and manipulation in an unconstrained environment. Clara connected with Patrick Sobalvarro through Rethink Robots, where she became interested in the challenge of human-robot interaction for manufacturing. As CTO of Veo Robotics, Clara leads the company’s advanced technology development and product roadmap planning to solve fundamental problems in durable goods manufacturing.<br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjQxMz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--c2c1ef03e2b13c08d7c79939cdfd97b05f708fbc\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBKIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--695aaf1cd0606a99a3fd27af4f83518d37886f5a/Eventbrite%20Header%20-%202160X1080.png\" filename=\"Eventbrite Header - 2160X1080.png\" filesize=\"2052103\" width=\"2160\" height=\"1080\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "Online Event",
+    "date": "2020-11-12",
+    "time": "19:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-Boston/events/3502"
+  },
+  {
+    "name": "Bioinspired Robotics - from Research to Technology",
+    "description": "<div>Please RSVP for the event at Eventbrite, where you will have the opportunity to submit your questions in advance of the discussion. We look forward to your participation! <br><a href=\"https://www.eventbrite.com/e/bioinspired-robotics-from-research-to-technology-registration-130826689149\">https://www.eventbrite.com/e/bioinspired-robotics-from-research-to-technology-registration-130826689149</a><strong><br></strong><br></div><div><strong>About this Event</strong></div><div>Women in Robotics Boston hosts a technical discussion on 'Bioinspired Robotics - from Research to Technology'.</div><div>We are pleased to announce our speakers, two female pioneers in the field of bio-inspired robotics: Oregon State University Dr. <strong>Julie A. Adams</strong>, Associate Director of Research in the Collaborative Robotics and Intelligent Systems Institute at Oregon State University, and <strong>Liane Thompson</strong>, Co-founder, and CEO of <a href=\"https://www.aquaai.com/\">Aquaai</a>.</div><div>The discussion will include the following topics:</div><ul><li>Ideologies and challenges of a successful robotics startup/research lab</li><li>Managing practicality in research</li><li>Difficulties in getting a design potentially grow into industrial/commercial products</li><li>Types and limits of bio-mimicry</li><li>Next big milestone in bioinspired robot design</li></ul><div><br></div><div><br></div><div>Meet our speakers:</div><div> <strong>Dr. Julie A. Adams</strong>, Professor, Associate Director of the Collaborative Robotics and Intelligent Systems Institute, Oregon State University. Dr. Adams was the founder of the Human-Machine Teaming Laboratory at Vanderbilt University, prior to moving the laboratory to Oregon State. Adams has worked in the area of human-machine teaming for thirty years. Throughout her career she has focused on human interaction with unmanned systems, but also focused on manned civilian and military aircraft at Honeywell, Inc. and commercial, consumer and industrial systems at the Eastman Kodak Company. Her research, which is grounded in robotics applications for domains such as first response, archaeology, oceanography, the national airspace, and the U.S. military, focuses on distributed artificial intelligence, swarms, robotics and human-machine teaming. Dr. Adams received her M.S. and Ph.D. degrees in Computer and Information Sciences from the University of Pennsylvania and her B.S. in Computer Science and B.B.E. in Accounting from Siena College. Dr. Adams’ research efforts have been featured in international news outlets, including National Geographic, Scientific American Podcast, Der Spiegel, and BBC on-line. Dr. Adams spoke at TedX Nashville, received the NSF CAREER Award and was selected for the DARPA Computer Science Study Panel. She is a contributor to the National Academies report on Mainstreaming UUVs into the fleet for the CNO and to an Army BAST requested report on counter measures for UAVs. Dr. Adams is also the Oregon State University primary investigator to the FAA Center of Excellence for Unmanned Aerial Systems Research Alliance for System Safety of UAS through Research Excellence (ASSURE) and a member of the Board on Army Research, Development, Test &amp; Evaluation, System Acquisition and Logistics. </div><div><br></div><div><strong>Liane Thompson </strong>is the CEO of Aquaai, a marine robotics company that uses data to improve our understanding of ocean and freshwater health by collecting and delivering real-time visual and environmental data to a web-based dashboard. Thompson's company has grown from a daughter’s idea into a full-fledged production, with a global team and backers including GrowthX, Backstage Capital and Boost VC. Norwegian sustainable salmon producer Kvarøy Fiskeoppdrett, suppliers to Whole Foods, is working with Aquaai's bio-inspired finned robots to monitor fish behavior and conditions at their fish farms. Aquaai has been awarded Top Aquaculture Innovation Award 2019 Fish2.0 Global Forum, an Innovation Norway grant, as well as given a Seal of Excellence by the European Union. Prior to starting her positive impact for a Blue Economy company, Liane was a global reporter and New York Times executive creating innovative content with global audience appeal, including the premier television series of the late Anthony Bourdain, A Cook's Tour. She has spearheaded technical and programming firsts in the media industry earning her three time PrimeTime Emmy nominations. Liane's journey as an entrepreneur includes setting up new businesses in Hungary, Israel, the United States and most recently Norway. Liane earned her Bachelor's degrees in International Relations and in German from CSU,Chico and was a recipient of an academic scholarship to Johannes Gutenberg Universität, Mainz, Germany where she studied European Law. A graduate fellow, Liane holds a Master of Arts degree in Journalism and Public Affairs from American University, Washington, DC. Liane is a TEDx speaker and ocean advocate passionate about providing her children a healthier planet.</div><div><br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjUxMD9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--fd97517fc4346ce583442886efafd2eb238802c2\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBczRKIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a6c6d947640121c4324ae0075f91f25c602fb79f/Event%20Header.jpg\" filename=\"Event Header.jpg\" filesize=\"52811\" width=\"960\" height=\"540\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "Online Event",
+    "date": "2020-12-08",
+    "time": "17:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-Boston/events/4476"
+  },
+  {
+    "name": "Finding a job in Robotics: Tales from working professionals",
+    "description": "<div>Engineers can join the field of robotics from any background, be it Computer Science, Mechanical, Electronics, or Robotics. But how to filter from those thousands of job profiles for an interdisciplinary position and most importantly, understanding what the company is looking for?!<br>Join us to hear three women in robotics speak about their experience in building resumes, networking, applications, and the interview process. Bonus: Learn what to expect while searching for a job in the pandemic!<br><br>The topics of conversation would be but not limited to:</div><ul><li>Finding companies that are currently hiring</li><li>LinkedIn networking and employee referrals</li><li>Nature of different rounds of interviews </li><li>Prepping for live coding &amp; whiteboard design questions</li><li>Resume and cover letter tips</li></ul><div> Lastly, the participants would get a chance to ask any specific questions they may have. <br><br><em>Note: The information shared in the event is solely based on the speakers' experience and not an absolute guideline on what to do. Nevertheless, each speaker has prepared a cheat sheet based on what has worked for them in the past, which would be shared publicly!</em><br><br></div><div><br>Sign up and make sure to fill the google form with questions you may have on the topic: <a href=\"https://forms.gle/DhXhe7YW2r1AyByk9\">https://forms.gle/DhXhe7YW2r1AyByk9</a> <br>(Maximum 100 participants)<br><br>See you soon!<br> <br><br><strong>About the speakers:</strong><br>Sanjuksha Nirgude is an Advanced Controls Engineer at Symbotic, working on the development of control software for mobile robots. Before joining Symbotic, she worked as an intern for Waypoint Robotics on mobile robots and at Cere Labs on reinforcement learning. She holds a Master's degree in Robotics Engineering from Worcester Polytechnic Institute, Massachusetts. She also holds a Bachelor's degree in Mechanical Engineering from India where she actively participated in university robotics events. Her journey in robotics started after attending a robotics workshop in high school and she continues to work on fascinating robotics problems and their commercialization. Sanjuksha enjoys painting, meeting new people, and kickboxing.<br><br>Dharini Dutia is a Robotics (M.Sc) and Electronics (B.Eng) Engineer, actively looking for an opportunity to learn and contribute to autonomous navigation for mobile robots or drone-based applications. Previously, she has worked as a Robotics Software Engineer, working on robot planning, localization, simulation, and testing, for warehousing and logistics applications at Vecna Robotics. During her Masters at Worcester Polytechnic Institute, she has co-authored a research paper in human-robot interaction and completed her thesis in multi-robot coordination. She believes the true purpose of robotics is to do things beyond human capabilities and has been working towards developing systems that do the same. Currently, she lives in Cambridge, Massachusetts where she explores new places around, reads fiction, enjoys painting, and hiking. She loves food, the smell of new books, time travel, and space exploration.<br><br> </div><div>Kajal Gada started her journey in robotics by working on personal projects such as a line follower with an Arduino. She then pursued and graduated with a Masters in Robotics from the University of Maryland in 2017.  With 3 years of collective professional experience at Reality AI, Qualcomm, and Brain Corp, she has mastered digging in core robotics problems at ground zero level. Her goal is to develop algorithms for realizing robot operations in the real world and support women in the workplace to pursue a career of their dreams. In her free time, she likes to read mystery novels and play board games.</div><div><br></div><div>Check out her Youtube channel about robotics concepts and her experience as a roboticist: <a href=\"https://www.youtube.com/kajalgada\">https://www.youtube.com/kajalgada</a> </div><div> <br><br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjc5OT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--dc2a1a2d357bef5f374b0b277a3f2f957d62d6e8\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdThLIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f42bb924ef717e2249eb182e4c3a24bae625668d/How%20to%20find%20a%20job%20in%20Robotics%20Poster.png\" filename=\"How to find a job in Robotics Poster.png\" filesize=\"351791\" width=\"1280\" height=\"720\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment> </div>",
+    "location": "Online Event",
+    "date": "2021-02-24",
+    "time": "19:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-Boston/events/5014"
+  },
+  {
+    "name": "Finding a Job in Robotics: Recruiters' Perspective",
+    "description": "<div>From ‘what projects are relevant for a job profile’ to ‘why haven’t I received a response from the company yet’, each robotics graduate goes through this ordeal every year! In an attempt to make the job search process seem a little less daunting, we have invited a panel of recruiters and hiring managers to answer frequently asked questions, share tips, tricks, and break some myths.<br>Join us to hear these experienced professionals share their views about the interview process, candidate pool, skills in demand, and much more.</div><div><br></div><div>The topics of conversation would be but not limited to:</div><ul><li>Dos and don’ts in resume writing</li><li>Yearly hiring cycles and identifying the market </li><li>Nature of different rounds of interviews </li><li>Prepping for live coding &amp; whiteboard design questions</li><li>Networking and follow-up emails</li></ul><div> Lastly, the participants would get a chance to ask any specific questions they may have.<br>If you have any questions you would like to be covered in the event, please enter them here: <a href=\"https://forms.gle/1Ek5JnivxMXod2u87\">https://forms.gle/1Ek5JnivxMXod2u87</a> </div><div><br></div><div>Note: The information shared in the event is solely based on the speakers' experience and not an absolute guideline on what to do.</div><div><br></div><div>This event is open to all members of the Women in Robotics Boston group, sign up on the meetingplace group, and RSVP to this event to get the zoom seminar link! </div><div>(Maximum 100 participants)</div><div><br></div><div>See you soon!</div><div><br>Speakers:</div><ol><li><a href=\"https://www.linkedin.com/in/laurie-mccloskey-6rs/\">Laurie McCloskey, 6 River Systems</a><br>Current Position: Recruiting Manager with 6 River Systems &amp; Lead for our Diversity, Inclusion, and Belonging Program</li><li><a href=\"https://www.linkedin.com/in/emilybarden/\">Emily Barden, People Ops Generalist at Optimus Ride</a><br>Emily Barden is a People Operations Generalist at Optimus Ride, a Boston-based autonomous vehicle company. She supports recruitment across the company and acts as an HRBP to the Field Ops Deployment teams since joining in January of this year. Previously, she was with Boston Human Capital Partners operating as an insourced Talent Acquisition Consultant to a variety of Boston-based tech companies. Since graduating from Nichols College with a BSBA focused in Human Resource Management and Entrepreneurship, Emily has held a passion for candidate experience and emphasis for recruiting excellence and execution in a highly competitive market. </li><li><a href=\"https://www.linkedin.com/in/jesharpe/\">Jennifer Sharpe, Senior Technical Talent Advisor at iRobot</a><br>Jennifer Sharpe is iRobot’s Senior Talent Acquisition Advisor driving the Talent Acquisition strategy for iRobot’s global R&amp;D teams.  She joined iRobot in January 2021 and was most recently the Senior Talent Acquisition Lead for Viasat, a global satellite communications provider serving the consumer, commercial, government, and department of defense markets.  She brings over 15 years of technical talent acquisition experience and has a strong background in early career, high potential, and leadership talent development and is a strengths finder and co-active coaching enthusiast.  Jennifer has a B.S. degree in Kinesiology and her favorite quote is, “Your career is like running your own business, think about what you need to do to make that successful!”, by Jennifer Sharpe. <br><br><br></li></ol><div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjk2Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--856a0256c91f500af99244b0c0aaf2c6c92b701d\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcElMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8d4323e24f223f9a79e8a51538bcfbc33a1ec601/Poster.png\" filename=\"Poster.png\" filesize=\"281355\" width=\"960\" height=\"540\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "Online Event",
+    "date": "2021-03-29",
+    "time": "19:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-Boston/events/5147"
+  },
+  {
+    "name": "Casual Chat with Women In Robotics",
+    "description": "<div>Hey everyone, it's been a while since we last talked and our community has grown since then. Let's catch up and get to know more about each other, welcome our new members in the group and see what everyone's been up to. Share our thoughts, ideas, inspirations, work-from-home routines and issues in robotics. This is a casual conversation to know what all cool projects our fellow roboticists are working on, ask questions, and just have some fun.  If you are interested in organizing events with amazing women in the field to inspire and encourage more women to join the field of robotics, do join us for our upcoming casual talk. <br><strong>Let's talk robotics! </strong></div>",
+    "location": "Online Event",
+    "date": "2021-04-15",
+    "time": "19:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-Boston/events/5275"
+  },
+  {
+    "name": "Career Pathways in Robotics with Women in 6 River Systems",
+    "description": "<div>Learn about careers in robotics technology and the skills required to be a good robotics engineer.</div><div><br></div><div>Women in Robotics Boston partnered with 6 River Systems to host a panel discussion about career pathways for mechanical engineers, electrical engineers, computer science engineers interested in robotics. Join us to learn more about careers in robotics and the skills you will need to be successful in the robotics industry. The event will include a discussion about the day-to-day lives of industrious women building collaborative, mobile robots driven by cloud-based software.</div><div><br><br><strong>NOTE: Please RSVP on Eventbrite to confirm your participation and submit your questions in advance of the discussion.<br></strong><a href=\"https://www.eventbrite.com/e/a-coffee-chat-with-women-in-robotics-registration-109910631658\">https://www.eventbrite.com/e/career-pathways-in-robotics-with-women-in-6-river-systems-registration-151837878181</a><br><br></div><div><br></div><div> We look forward to your participation!</div><div><br></div><div><br></div><div>Meet our panelists:<br><br></div><ul><li><a href=\"https://www.linkedin.com/in/gillanhawkesprofile/\">Gillan Hawkes</a>, VP, Product &amp; Analytics: Gillan Hawkes is VP of Product Management and Analytics at 6RS where she is responsible for the product vision and roadmap. In this role, she has earned recognition as a Top Woman in Supply Chain by Supply &amp; Demand Chain Executive and a leader making a mark in robotics by SME (Society of Manufacturing Engineers). Prior to joining 6RS, Gillan worked in Finance and Management Consulting before spending 10+ years building and running eCommerce businesses for large retailers in the US and UK such as Tesco, Home Depot, and Staples. Gillan loves running, biking, doing hot yoga, and being a mom to 2 growing boys. Gillan has a BA from Princeton University and an MBA from the London Business School.</li><li><a href=\"https://www.linkedin.com/in/jesspodoloff/\">Jess Podoloff</a>, Program Manager, Deployment: Jess studied Industrial and Systems Engineering at Georgia Tech before jumping into the supply chain scene in Atlanta as a Software Consultant with Manhattan Associates. She then worked in supply chain implementation at The Home Depot before joining 6RS as a Program Manager. Jess currently leads a team deploying robotic systems driven by our cloud-based software.</li><li><a href=\"https://www.linkedin.com/in/diarrabell/\">Diarra Bell</a>, Reliability Support Engineer </li><li>Katie Boria, Sr. Software Engineer in Test: Katie joined 6RS in 2020 during the covid pandemic and has been enjoying working with her team remotely. Katie graduated with a degree in Management Information Systems but found a love during her first internship with quality assurance testing. After spending the last 20 years as a Systems\\Software QA engineer in the Enterprise Storage Business, she has decided to take on the challenge of robotics and warehousing at 6RS. In her spare time, Katie enjoys spending time at the lake with her 2 children, husband, and English mastiff Penny. </li><li><a href=\"https://www.linkedin.com/in/powersk/\">Katie Powers</a>, Software Engineering Manager: Katy joined 6RS in 2017 as a software engineer specializing in robotic navigation, after working at several other robotics companies in the Boston area. She has recently begun leading the localization and mapping team. In her spare time, she goes rock climbing in New Hampshire.</li><li><a href=\"https://www.linkedin.com/in/saviniprematilleke/\">Savini Prematilleke</a>, Software Engineer: Savini joined 6RS as a Software Reliability Engineer in 2019 and then started a Software Engineer position earlier this year. Prior to joining, Savini graduated from Duke University with a degree in Mechanical Engineering.</li><li><a href=\"https://www.linkedin.com/in/taliza-sanchez/\">Taliza Sanchez</a>, Mechanical Engineer: Taliza joined 6RS the summer of 2019 as a Mechanical Engineering co-op after graduating from Northeastern University. She has since transitioned to full-time and is currently a Mechanical Engineer on the Hardware Team, primarily focusing on accessories.</li></ul><div><br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzE3Nj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--81c091c5fb9bd86598558f45e9cb974f4ed28b53\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbWdNIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2457655c9c4ad13f666678d18bcca6402c36d35d/6RS%20Women%20in%20Robotics%20Event%20May%202021.png\" filename=\"6RS Women in Robotics Event May 2021.png\" filesize=\"495927\" width=\"1200\" height=\"600\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "Online Event",
+    "date": "2021-05-10",
+    "time": "18:30:00",
+    "url": "https://meetingplace.io/women-in-robotics-Boston/events/5893"
+  },
+  {
+    "name": "Autonomy in Aviation with GreenSight and Autonodyne",
+    "description": "<div>Women in Robotics Boston hosts a technical discussion on the present and the future of autonomous unmanned aerial systems as 'Autonomy in Aviation’ with GreenSight and Autonodyne. Dig deeper into the technologies developed by these Boston-based companies pushing the limits of aerial intelligence. The discussion will range from the challenges faced in developing autonomous software, sensor technology, data collection and analysis, various use-cases, and what the future holds for this industry.<br><br></div><div><br></div><div>The event is open to everyone from any professional background interested in the field. Please RSVP here OR on <a href=\"https://www.eventbrite.com/e/autonomy-in-aviation-with-greensight-and-autonodyne-tickets-161274007899\">Eventbrite</a> to save your spot!<br><br></div><div>NOTE: Total capacity is 100 participants.<br><br></div><div><br></div><div>We look forward to your participation!<br><br></div><div><br><br></div><div>Meet the speakers:<br><br></div><div><strong>James Peverill</strong>, GreenSight’s CEO/CTO and co-founder, is an expert engineer and technical executive who has focused on electric powered unmanned aerial robotics for over 15 years. He has led a huge variety of innovative development efforts for enterprise and government including DARPA, AFRL and NASA in both PM and PI capacities. Wide ranging ambitious technical efforts ranged from air-to-air UAV docking to autonomous landing of micro air vehicles. James founded GreenSight to focus on solving real world problems using ubiquitous robotics technology. He holds an ScB (’03) in Mechanical Engineering from Brown University and a MS in Electrical Engineering from Boston University.<br><br></div><div><strong>Latimer Gerle</strong> is a Systems Engineer at Greensight with qualifications in both the systems and software fields. As evidenced by her prior positions, ranging from golf caddy to optical technician to her extensive experience in the defense industry, she enjoys learning about new topics and tackling new challenges. Her curriculum vitae includes an M.S. in Data Analytics, a B.S. in Computer Science and an enduring passion for the Classics. In her free time, Latimer's interests include traveling, building miniatures, attending rock concerts, and being terrible at golf.<br><br></div><div><strong>Laura Aptowitz</strong> is the Director of Software Engineering at Autonodyne. She have been with the company since 2018. Prior to her time at Autonodyne she worked as an Information Assurance Engineer at General Dynamics - Mission Systems. Laura received her bachelors of science in computer engineering from Union College.<br><br></div><div><strong>Shrutika Ruhela</strong> graduated from Carnegie Mellon University in 2020 with a degree in Electrical and Computer Engineering and Public Policy, and is now a systems engineer at Autonodyne. In college, Shrutika was president of Women in ECE, volunteered for Camp Kesem, and did research on the risks of IOT technology as part of CMU’s CyLab. In her free time, Shrutika runs the peer mentorship program for the Anaya Tipnis Foundation.<br><br></div><div><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzQwOT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--1d5e04f740111b6c41ed37fe3b9eeb64a183c2bd\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbEVOIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ed00a48a58fa37caaf14bf68b581017e98d23cee/AiAnew.png\" filename=\"AiAnew.png\" filesize=\"150359\" width=\"2160\" height=\"1080\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "Online Event",
+    "date": "2021-07-08",
+    "time": "19:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-Boston/events/6284"
+  },
+  {
+    "name": "Bring Your Own Bots",
+    "description": "<div>Women in Robotics Boston presents a Robotics Open Mic . . .</div><div>Bring your thesis, ideas, projects, and more with our new event series, Bring Your Own Bots! </div><div>This event is a platform to demo a robot or share your personal project or practice your thesis presentation or course projects, anything related to robotics. Get exposure, recognition, and feedback from our supportive robotics community. </div><div>All projects big or small are welcome, this is your stage to shine! Please email us on womeninroboticsboston@gmail.com to let us know you’ll be presenting.</div><div><br></div><div>If you don’t have anything to showcase, do attend to learn from and meet fellow roboticists, show your support and share feedback! Please RSVP on the meetingplace group to get joining information for the Zoom meeting.</div><div><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzU4Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--f9cf611dd6ade3b32576f66b3d42be3b9260a18b\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdjhOIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c8a4ff833e0699dd0ac6d4452885ae762c408d0c/BYOB%20Graphic.png\" filename=\"BYOB Graphic.png\" filesize=\"74692\" width=\"528\" height=\"408\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "Online Event",
+    "date": "2021-08-10",
+    "time": "19:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-Boston/events/6480"
+  },
+  {
+    "name": "Technical Talk: Situated Multi-Party Human-Robot Interactions by Dr. Marynel Vázquez",
+    "description": "<div>Women in Robotics Boston partnered with the Interactive Machines Group at Yale University led by Dr. Marynel Vázquez to learn more about the fundamental problems in social interactions between robots and multiple people. Join us for a technical talk on fundamental principles and algorithms to enable autonomous perception of human behavior, group social phenomena, and the social context of human-robot interactions.</div><div><br><strong>Dr. Marynel Vázquez</strong> is an Assistant Professor in Yale’s Computer Science Department, where she leads the Interactive Machines Group. Her research focuses on advancing multi-party human-robot interaction, both by studying social group phenomena and developing perception and decision making algorithms that enable autonomous robot behavior. Marynel received her bachelor's degree in Computer Engineering from Universidad Simón Bolívar in 2008, and obtained her M.S. and Ph.D. in Robotics from Carnegie Mellon University in 2013 and 2017, respectively. Before joining Yale, Marynel was a collaborator of Disney Research and a Postdoctoral Scholar at the Stanford Vision &amp; Learning Lab.</div><div><br></div><div>Interactive Machines Group: <a href=\"https://interactive-machines.com/research.html\">https://interactive-machines.com/research.html</a></div><div><br><br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzYxMj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--bfbe9e38e5c7f76530b100452bd6b4f30e2cad1e\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaHdPIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1a80db7fda926cd95162426b1724d1ff50062829/HRI%20Event.png\" filename=\"HRI Event.png\" filesize=\"420358\" width=\"2160\" height=\"1080\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "Online Event",
+    "date": "2021-08-25",
+    "time": "19:30:00",
+    "url": "https://meetingplace.io/women-in-robotics-Boston/events/6481"
+  },
+  {
+    "name": "User-Centered Robot Design with iRobot",
+    "description": "<div>When designing robots, it is important to keep the end-user in mind throughout the process. Evaluating the impact of robot design on the ideal user experience has become important as more robotic systems enter our daily lives. Women in Robotics Boston partnered with women in iRobot, featuring Lauren Stern, Design Researcher, and Shipra Arora, UX Designer, to share lessons learned, design principles, and tools for evaluating user perception. In this webinar, learn more about:</div><ul><li>Ways to center the user in robot design and research</li><li>Broadening scope for an inclusive user experience</li><li>Evolution in design as guided by research</li><li>Development of research tools to evaluate robot designs</li></ul><div><br></div><div>The event is open to everyone from any professional background interested in the field. Please register to save your spot and sign up to the Women in Robotics Boston group for future updates!</div><div>NOTE: Total capacity is 100 participants.</div><div><br></div><div>We look forward to your participation!</div><div><br><strong>Meet your speakers:<br>Lauren Stern</strong> is a Design Researcher at iRobot, where she focuses on research efforts related to robot behavior and interactions specific to the home environment. Prior to her time at iRobot, Lauren's UX work focused on research and design of collaborative analysis tools for government and business agencies. ​When not conducting research, she enjoys reading, dancing, and board games.<br><br><strong>Shipra Arora</strong> is a User Experience Designer at iRobot, where she focuses her design efforts on new product innovation and robot behaviors. Shipra joined iRobot in 2018 after graduating with a degree in Human-Computer Interaction at Carnegie Mellon. ​Prior to her design life, Shipra was a developer and has a hybrid skill set in UX Design, Research and Software Development. She enjoys working at the intersection of all three disciplines, supporting how people make sense of and interact with their world. In her spare time, you can find her painting, traveling &amp; eating all kinds of food, singing all the pop chart hits (sometimes rapping), and she loves board games too!  ​<br><br><br><strong>Summary</strong> <br>Stories from the research and design of household robots with key takeaways for others on keeping users in mind during robot development.<br><br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzY1Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--b8bf5ec43cd2a610103181447439a63a4e42cd6e\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1VPIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--05893cb9a98519d2ea5b537e640def38d117a22e/iRobot%20(1).png\" filename=\"iRobot (1).png\" filesize=\"757487\" width=\"2160\" height=\"1080\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "Online Event",
+    "date": "2021-09-15",
+    "time": "19:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-Boston/events/6483"
+  },
+  {
+    "name": "[CANCELED] Off the Clock with Women in Robotics Boston",
+    "description": "<div><strong> Unfortunately, we've decided to cancel this event for now. Stay safe!<br></strong><br></div><div><br>Finally, let's meet!!!<br>After functioning virtually since our launch, we're excited to host an in-person event at the <a href=\"https://www.massrobotics.org/\">MassRobotics</a> office.<br>Join us for a socially distanced off-the-clock meetup where we can talk robots, interact with enterprising women, or simply get a reason to go out of the house!  <br><br>The maximum capacity of the event is 40 people, so please RSVP and if you cannot make it, please cancel your RSVP by emailing us at womeninroboticsboston@gmail.com. If there is a ton of interest, we will make this a recurring event. <br><strong>RSVP here: </strong><a href=\"https://forms.gle/ZWFoiTfnPGg1Y6yk6\"><strong>https://forms.gle/ZWFoiTfnPGg1Y6yk6</strong></a><strong><br></strong><br></div><ul><li>Keeping in mind the current situation, we are requesting only vaccinated members to attend (proof of vaccination is required). Also, please wear a face mask at all times inside the building.</li><li>Please arrive at the location 15 mins prior to the event time to find parking and give enough time to check yourself in. </li></ul><div><br>Subscribe to the MassRobotics newsletter to stay updated on startup news, robotics events, and much more ... <a href=\"https://massrobotics.us14.list-manage.com/subscribe?u=e49ee727b51b3f8daf7fdee0b&amp;id=24ee87169f\">https://massrobotics.us14.list-manage.com/subscribe?u=e49ee727b51b3f8daf7fdee0b&amp;id=24ee87169f</a><br><br>Again don't forget to RSVP by filling the form! See you then :-)<br><br></div>",
+    "location": "Massachusetts, USA",
+    "date": "2022-01-09",
+    "time": "19:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-Boston/events/8518"
+  },
+  {
+    "name": "Casual Chat with Women in Robotics",
+    "description": "<div>Hey everyone, it's been a while since we last talked and our community has grown since then. Let's catch up and get to know more about each other, welcome our new members in the group and see what everyone's been up to. Share our thoughts, ideas, inspirations, hybrid/back-to-office routines and issues in robotics. This is a casual conversation to know what all cool projects our fellow roboticists are working on, ask questions, and just have some fun.  If you are interested in organizing events with amazing women in the field to inspire and encourage more women to join the field of robotics, do join us for our upcoming casual talk.<br><strong>Let's talk robotics! </strong></div>",
+    "location": "Online Event",
+    "date": "2022-04-14",
+    "time": "19:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-Boston/events/8836"
+  },
+  {
+    "name": "Off the Clock with Women in Robotics Boston and Ava Robotics",
+    "description": "<div>Finally, let's meet!!!<br>After functioning virtually since our launch, we're excited to host an in-person event at the <a href=\"https://www.massrobotics.org/\">MassRobotics</a> office.<br>Join us for a socially distanced off-the-clock meetup where we can talk robots, interact with enterprising women, or simply get a reason to go out of the house!<br> <br>We will have a guest speaker from <a href=\"https://www.avarobotics.com/\">Ava Robotics</a>, Director Of Marketing, <a href=\"https://www.linkedin.com/in/molly-gardner-403b9a5/\">Ms. Molly Gardner</a> to tell us more about augmentation and automation with workplace robotics.<br><br><br>The maximum capacity of the event is 40 people, so please RSVP and if you cannot make it, please cancel your RSVP by emailing us at womeninroboticsboston@gmail.com.<br><strong>RSVP here: </strong><a href=\"https://forms.gle/ZWFoiTfnPGg1Y6yk6\"><strong>https://forms.gle/ZWFoiTfnPGg1Y6yk6</strong></a><strong><br></strong><br></div><ul><li>Keeping in mind the current situation, we are requesting only vaccinated members to attend.</li><li>Please arrive at the location 15 mins prior to the event time to find parking and give enough time to check yourself in. </li></ul><div><br>Subscribe to the MassRobotics newsletter to stay updated on startup news, robotics events, and much more ... <a href=\"https://massrobotics.us14.list-manage.com/subscribe?u=e49ee727b51b3f8daf7fdee0b&amp;id=24ee87169f\">https://massrobotics.us14.list-manage.com/subscribe?u=e49ee727b51b3f8daf7fdee0b&amp;id=24ee87169f</a><br><br><br>Again don't forget to RSVP by filling out the form! See you then :-) <br><br><br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvNTA3OT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--e503749ed344c38efcb82afdb8b842688d72018d\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdGNUIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--664ba4f63034a4a9e13ce347ba4d665f4e8f2d66/Ava%20Robotics%20Event%20Poster.png\" filename=\"Ava Robotics Event Poster.png\" filesize=\"728389\" width=\"2160\" height=\"1080\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "Massachusetts, USA",
+    "date": "2022-06-14",
+    "time": "17:30:00",
+    "url": "https://meetingplace.io/women-in-robotics-Boston/events/9109"
+  },
+  {
+    "name": "Ada Lovelace Day 2020 celebration of Women in Robotics",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSJAZ2lkOi8vcmVhY3Qtc2NyZWVuY2FzdHMvQWN0aXZlU3RvcmFnZTo6QmxvYi8yMzA4P2V4cGlyZXNfaW4GOwBUSSIMcHVycG9zZQY7AFRJIg9hdHRhY2hhYmxlBjsAVEkiD2V4cGlyZXNfYXQGOwBUMA==--ecc13e2c9f68e61db6172939d4386f89eb1f2e8c\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ1FKIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--cb94b3ac4e11abc65293149175dd9a1e65a4984f/ALD2020-Event.jpg\" filename=\"ALD2020-Event.jpg\" filesize=\"358910\" width=\"1920\" height=\"1080\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "Online Event",
+    "date": "2020-10-13",
+    "time": "18:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/4055"
+  },
+  {
+    "name": "Bots & Beverages (all ages!) online",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjk5Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--a65498ba644e7e14b2b47afb9d7f21043a98fd62\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBckVMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--cdbae9dff68e44e6f18818b0d831a1c3ba6cfd84/Bots%26Beer%20Graphics%20NRWtop.jpg\" filename=\"Bots&amp;Beer Graphics NRWtop.jpg\" filesize=\"87484\" width=\"960\" height=\"540\" presentation=\"gallery\"></action-text-attachment><br><br>It's National Robotics Week so let's celebrate!!<br>Special guests this month include:</div><ul><li>Circuit Launch CoLab students demoing Reachy, humanoid robot (<a href=\"https://blog.circuitlaunch.com/\">https://blog.circuitlaunch.com</a>)</li><li>Fergs from Robot and Chisel (with UBR 2.0) <a href=\"https://www.robotandchisel.com/\">https://www.robotandchisel.com/</a></li><li>And many more showcases coming!</li></ul><div><br>Do you have a robot to showcase? Let me know: andra@svrobo.org<br><br></div>",
+    "location": "Online Event",
+    "date": "2021-04-07",
+    "time": "19:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/5264"
+  },
+  {
+    "name": "ROSCon '21 Viewing Party",
+    "description": "<div>Join us at Silicon Valley Robotics, MechLabs and Circuit Launch in Oakland for a week full of exciting robot activities!<br><br>On Wednesday Oct 20th and Thursday Oct 21st we're hosting a Viewing Party &amp; Screening for ROSWorld 21 : https://roscon21-viewing-party.eventbrite.com<br><br>* register for ROSCon '21 here : https://roscon.ros.org/world/2021/<br><br>On Friday Oct 22nd we're hosting robot developers workshop day, with Foxglove Robotics, Haddington Dynamics, PickNik Robotics, Merklebot and Spot from Boston Dynamics (more TBC) : https://robot-developer-day.eventbrite.com<br><br>* full schedule coming soon<br><br>And on Saturday Oct 23rd we're hosting the Robot Block Party, with demos, speakers, job fair, robots, robots, more robots, fun, food trucks and fiesta! https://robot-block-party.eventbrite.com<br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzg5ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--d165f3cc48ba4d379f1ab92b0a4fec5029bda30c\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBallQIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--44b31e3e6baf0af2b09ab4cb6d57e4e3eecfffb5/join%20us%20for%20a%20ROSCon%20viewing%20party!.jpg\" filename=\"join us for a ROSCon viewing party!.jpg\" filesize=\"1059229\" width=\"6912\" height=\"3456\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "San Francisco, CA, USA",
+    "date": "2021-10-20",
+    "time": "8:30:00",
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/7112"
+  },
+  {
+    "name": "Robot Developer Workshops",
+    "description": "<div>Join us at Silicon Valley Robotics, MechLabs and Circuit Launch in Oakland for a week full of exciting robot activities!<br><br>On Wednesday Oct 20th and Thursday Oct 21st we're hosting a Viewing Party &amp; Screening for ROSWorld 21 : https://roscon21-viewing-party.eventbrite.com<br><br>* register for ROSCon '21 here : https://roscon.ros.org/world/2021/<br><br>On Friday Oct 22nd we're hosting robot developers workshop day, with Foxglove Robotics, Haddington Dynamics, PickNik Robotics, Merklebot and Spot from Boston Dynamics (more TBC) : https://robot-developer-day.eventbrite.com<br><br>* full schedule coming soon<br><br>And on Saturday Oct 23rd we're hosting the Robot Block Party, with demos, speakers, job fair, robots, robots, more robots, fun, food trucks and fiesta! https://robot-block-party.eventbrite.com<br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzg5NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--58eed7e90b412f418b4b0e16ff8ef1c5258f9210\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamNQIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5b93d7c2d082679af5b38f546c35c5d9b5515682/Robot%20Block%20Party%20Developer%20Day.png\" filename=\"Robot Block Party Developer Day.png\" filesize=\"362867\" width=\"2160\" height=\"1080\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "San Francisco, CA, USA",
+    "date": "2021-10-22",
+    "time": "9:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/7113"
+  },
+  {
+    "name": "Robot Block Party",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzg1NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--12b1d3a5a2419f4e8a827f37cac4bc28be901f06\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZzhQIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c1d4a4eeeeb5bb8c23ae0c64cae440e033caf55f/Robot%20Block%20Party%20Event%20Header.png\" filename=\"Robot Block Party Event Header.png\" filesize=\"838690\" width=\"2160\" height=\"1080\" presentation=\"gallery\"></action-text-attachment><br><br>The Silicon Valley Robotics Robot Block Party is BACK! Join us at Circuit Launch in Oakland for a Saturday full of robot demos, developer workshops, speakers, job fair, show'n'tell and most of all lots and lots of fun!<br><br><strong>PLS SIGN UP TO ATTEND OR SHOWCASE HERE - https://robot-block-party.eventbrite.com<br></strong><br><strong>AGENDA (see eventbrite for updates)</strong></div><ul><li><strong>Robot Demos (upstairs, downstairs &amp; outside - all day)</strong></li><li><strong>Robots On Ice Teaser</strong></li><li><strong>Indoor DIY Robocar Racing (tbc)</strong></li><li><strong>Outdoor AgRobotics Rover Competition (tba)</strong></li><li><strong>Developer Workshops (tba)</strong></li><li><strong>Make Spot Dance Workshop (tbc)</strong></li><li><strong>MechLabs Robot Building Workshops (tba)</strong></li><li><strong>ROS Con Viewing (tba)</strong></li><li><strong>3 Minute Thesis &amp; Posters</strong></li><li><strong>Tech Talks &amp; Engineer Office Hours</strong></li><li><strong>Investor Office Hours &amp; Startup Pitches</strong></li><li><strong>Robojobs Job Fair</strong></li><li><strong>Women in Robotics Networking Event</strong></li><li><strong>Black in Robotics Networking Event</strong></li><li><strong>Bots &amp; Beer Networking Event</strong></li><li><strong>Brazilian BBQ &amp; Ice Cream Truck</strong></li></ul><div><br></div><div>What are you going to bring??? (aside from your masks of course!)</div>",
+    "location": "San Francisco, CA, USA",
+    "date": "2021-10-23",
+    "time": "10:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/6961"
+  },
+  {
+    "name": "Coffee and a hike in the Oakland Hills with Women in Robotics",
+    "description": "<div><strong>Coffee and a hike in the Oakland Hills with Women in Robotics</strong>. 9am Sunday, February 20. Come walk under the eucalyptus trees and sit in the sun on a grassy hill. Meet at Clyde Woolridge Staging parking lot, where Skyline Blvd. meets Grass Valley Rd. in Anthony Chabot Regional Park in Oakland, 10-15 minutes from the Keller or Golf Links exits on the 580. <a href=\"https://www.google.com/maps/place/Clyde+Woolridge+Staging/@37.7537611,-122.1266963,15.04z/data=!4m13!1m7!3m6!1s0x808f8f133bd1c78b:0x5eca8712cc9a7195!2sGrass+Valley,+Oakland,+CA+94605!3b1!8m2!3d37.7525172!4d-122.1509798!3m4!1s0x808f8ef9fbd00f67:0xbc91887cb08c1ec2!8m2!3d37.753804!4d-122.1182058\">https://www.google.com/maps/place/Clyde+Woolridge+Staging/@37.7537611,-122.1266963,1[…]ef9fbd00f67:0xbc91887cb08c1ec2!8m2!3d37.753804!4d-122.1182058</a> Leave parking lot at 9:00am for a short walk and coffee (BYO coffee, snack, and towel/picnic blanket if desired) on a grassy hill within 100m of trailhead. Coffee followed by hike but it's fine to come just for coffee (and to hang out on the hill as long as you like) if you like picnics better than hiking. Hiking is fairly gentle hills, fire road wide trails. If many come, we'll break into small subgroups based on desired hiking speed/distance and for easy social distancing. It's easy to walk a nice half mile or ten from that trailhead. Be vaxed/boosted, keep 6'-10' apart. Friends, co-workers, and leashed dogs welcome.</div>",
+    "location": "San Francisco, CA, USA",
+    "date": "2022-02-20",
+    "time": "9:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/8730"
+  },
+  {
+    "name": "ARTEMIS 1 LAUNCH Viewing Party",
+    "description": "<div><strong>ARTEMIS 1 LAUNCH</strong><br><strong>Viewing Party at Circuit Launch<br></strong><br></div><div>until Artemis is underway - unless the launch is postponed again.<br><br>This is a general public welcome event (family friendly)<br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvNTY0MT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--530db0443c36d74fdfee0bd7ca63beb749265639\" content-type=\"image/avif\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ2tXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--404fba9827166a1a02e463b9b6ffb8f5b564e4e2/https___cdn.evbuc.com_images_135408763_435332337358_1_original.avif\" filename=\"https___cdn.evbuc.com_images_135408763_435332337358_1_original.avif\" filesize=\"12695\"></action-text-attachment></div>",
+    "location": "San Francisco, CA, USA",
+    "date": "2022-09-03",
+    "time": "9:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/9623"
+  },
+  {
+    "name": "WiR @ Apex.AI",
+    "description": "<div><strong>Celebrate Ada Lovelace Day with Women in Robotics and Apex.AI</strong><br><br></div><blockquote><strong>The Future of Mobility is Software Defined. </strong>We are hosting an in-person event with networking, refreshments, and a presentation with Q&amp;A in our headquarters - an iconic historical building in Palo Alto on October 11 from 6 to 8 pm PST.  <br>RSVP today! HERE <a href=\"https://www.apex.ai/wir\">OR HERE</a></blockquote><div><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvNTcyOT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--a7dc87eba12d26b4f274a531a41cdbeb473bee6d\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbUVXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--84a2736c25d88b122df10bd9eee3c0c040bb4ad9/Screen%20Shot%202022-09-25%20at%2012.34.08%20PM.png\" filename=\"Screen Shot 2022-09-25 at 12.34.08 PM.png\" filesize=\"345572\" width=\"977\" height=\"305\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment><br><br><br></div><blockquote><strong>Camera stack on Apex.OS (Safety Certified ROS2) using iceoryx zero copy</strong><br>Have you ever faced system freezes and shutdowns when processing large amounts of data? Specifically, image processing algorithms like deep neural network based object detection and semantic segmentation in autonomous driving applications are very demanding in terms of data transfer rate and processing power.​In this talk, we show how to efficiently implement a computer vision pipeline using Apex.OS (a safety certified fork of ROS2) which utilizes zero-copy optimizations on the middleware level to reduce bandwidth requirements. In addition, we use hardware accelerated versions of the algorithms to increase the throughput. We also explain how to abstract this hardware acceleration in the application code to decouple it from the underlying SoC.</blockquote><div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvNTcyNz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--4491c9d4e4d1b75a3b35cd27de757c2b6fe7a75e\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbDhXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c6542ca6bb0d7a6ed05143b3262c63a577500461/Screen%20Shot%202022-09-25%20at%2012.33.57%20PM.png\" filename=\"Screen Shot 2022-09-25 at 12.33.57 PM.png\" filesize=\"85513\" width=\"300\" height=\"297\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "San Francisco, CA, USA",
+    "date": "2022-10-11",
+    "time": "18:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/9661"
+  },
+  {
+    "name": "WiR/Autonomy @ Skydio",
+    "description": "<div><strong>Come by for a fun- filled evening of networking, Skydio drone demos &amp; some tech talk from your sisters in engineering. Our panelists will include:</strong></div><ul><li><a href=\"https://www.linkedin.com/in/kristen-holtz/\">Kristen Holtz</a> - Skydio - Head of Tracking &amp; Cinematics</li><li><a href=\"https://www.linkedin.com/in/heart-hsin-a5b768a/\">Heart Hsin</a> - Skydio - Sr Hardware Engineering Program Manager</li><li><a href=\"https://www.linkedin.com/in/snigdha-bommadevara/\">Snigdha Bommadevara </a>- Skydio - Sr Electronics Design Engineer</li><li><a href=\"https://www.linkedin.com/in/blythetowal/\">Blythe Towal</a> - Saildrone - VP of SW/Head of Machine Learning</li><li><a href=\"https://www.linkedin.com/in/baharaksoltanian/\">Becky Soltanian</a> - Sanborn - VP of R&amp;D</li><li><a href=\"https://www.linkedin.com/in/nika-carlson/\">Nika Carlson</a> - Scale AI/Cruise - Former Chief of Staff &amp; Head of Design</li></ul>",
+    "location": "San Francisco, CA, USA",
+    "date": "2022-10-13",
+    "time": "18:00:00",
+    "url": "https://meetingplace.io/women-in-robotics-bay-area/events/9662"
+  },
+  {
+    "name": "Robotics Talks",
+    "description": "<div><strong><em>Greetings, Robotics Enthusiasts! </em></strong><strong> </strong><br><br>Robotics is an expanding industry. There aren't enough programmers with the knowledge to program robots, even though we are aware that the demand for robotics developers is increasing. You now have the opportunity to distinguish yourself from the other engineers in the world. Your edge over other developers will be obvious if you join the robots development bandwagon right now.<br><br>We <strong>are women in robotics, Delhi</strong> preparing for our inaugural event, where roboticists will speak on Introduction to  Robotics and SLAM. Anyone (of any gender) who is interested in learning about robotics is welcome to attend this free session. We'll discuss the potential of robotics as well as the variety of careers available in the field.<br><br></div><div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvNTcyMj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--757c552cd3e437ccb169080063374e50f380b31e\" content-type=\"image/png\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbG9XIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1693c804b77f4f2b83b5bdce56fb3852a06c320b/wircap2.PNG\" filename=\"wircap2.PNG\" filesize=\"663718\" width=\"878\" height=\"622\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment></div><div><br><strong>Prerequisite Note - No prerequisite is needed.<br><br></strong><em>Please have a look at the details in this email and confirm your RSVP by clicking the link :</em><a href=\"https://meetingplace.io/women-in-robotics-delhi/events/9660\"><em><br></em>https://meetingplace.io/women-in-robotics-delhi/events/9660</a><strong><br><br>Please join the Google meet link below on 9th October 2022 from 7:30 pm - 8:15 pm <br></strong><a href=\"http://meet.google.com/nmw-hhus-hym\">http://meet.google.com/nmw-hhus-hym</a><strong><br></strong><br></div>",
+    "location": "Online Event",
+    "date": "2022-10-09",
+    "time": "19:30:00",
+    "url": "https://meetingplace.io/women-in-robotics-delhi/events/9660"
+  },
+  {
+    "name": "Ada Lovelace Day 2020 celebration of Women in Robotics",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSJAZ2lkOi8vcmVhY3Qtc2NyZWVuY2FzdHMvQWN0aXZlU3RvcmFnZTo6QmxvYi8yMzA5P2V4cGlyZXNfaW4GOwBUSSIMcHVycG9zZQY7AFRJIg9hdHRhY2hhYmxlBjsAVEkiD2V4cGlyZXNfYXQGOwBUMA==--5e556020280013d206238be961e996bdb03445e1\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ1VKIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--70eca203c896bc51496d02bfaded7f54b44eda48/ALD2020-Event.jpg\" filename=\"ALD2020-Event.jpg\" filesize=\"358910\" width=\"1920\" height=\"1080\" presentation=\"gallery\"></action-text-attachment></div>",
+    "location": "Online Event",
+    "date": "2020-10-13",
+    "time": "18:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/4056"
+  },
+  {
+    "name": "WiR Organizers & Volunteers Get Together",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjkyNT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--7110a33e9dd7f6d5f3eb89854e6300c76f481500\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--96485b3bdd8192b586cb67d9c3f50eed268bef52/beautiful%20women%203.jpeg\" filename=\"beautiful women 3.jpeg\" filesize=\"16535\" width=\"225\" height=\"225\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment>If you're helping Women in Robotics or interested in volunteering then this meeting is for you. <br>Let's create more local chapters and events, more online activities, more stories and inspiring content. Bring your ideas, your enthusiasm and your questions.</div>",
+    "location": "Online Event",
+    "date": "2021-03-06",
+    "time": "13:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/5132"
+  },
+  {
+    "name": "Save the date: AMA with  Sanjuksha Nirgude",
+    "description": "<div>We are excited to host a AMA with  Sanjuksha Nirgude on April 3rd at 11am Pacific /2pm Eastern on Zoom,<br><br> Sanjuksha Nirgude is an Advanced Controls Engineer at Symbotic LLc in Massachusetts, working on the development of control software for mobile robots. Before joining Symbotic, she worked as an intern for Waypoint Robotics on mobile robots and at Cere Labs on reinforcement learning. She holds a Master's degree in Robotics Engineering from Worcester Polytechnic Institute, Massachusetts. She also holds a Bachelor's degree in Mechanical Engineering from India where she actively participated in university robotics events. Her journey in robotics started after attending a robotics workshop in high school and she continues to work on fascinating robotics problems and their commercialization. Sanjuksha enjoys painting, meeting new people, and kickboxing </div>",
+    "location": "Online Event",
+    "date": "2021-04-03",
+    "time": "11:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/5261"
+  },
+  {
+    "name": "WiR Organizers & Volunteers Get Together",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjkyNT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--7110a33e9dd7f6d5f3eb89854e6300c76f481500\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--96485b3bdd8192b586cb67d9c3f50eed268bef52/beautiful%20women%203.jpeg\" filename=\"beautiful women 3.jpeg\" filesize=\"16535\" width=\"225\" height=\"225\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment>If you're helping Women in Robotics or interested in volunteering then this meeting is for you. <br>Let's create more local chapters and events, more online activities, more stories and inspiring content. Bring your ideas, your enthusiasm and your questions.</div>",
+    "location": "Online Event",
+    "date": "2021-04-03",
+    "time": "13:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/5133"
+  },
+  {
+    "name": "Bots & Beverages (all ages!) online",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjk5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--cf01830e211ced9058b16a9ffbccf1074e479b97\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBckFMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ee255aa567e111c44a5afce58a3cfd36d3d6d7d4/Bots%26Beer%20Graphics%20NRWtop.jpg\" filename=\"Bots&amp;Beer Graphics NRWtop.jpg\" filesize=\"87484\" width=\"960\" height=\"540\" presentation=\"gallery\"></action-text-attachment><br><br>It's National Robotics Week so let's celebrate!!<br>Special guests this month include:</div><ul><li>Circuit Launch CoLab students demoing Reachy, humanoid robot (<a href=\"https://blog.circuitlaunch.com/\">https://blog.circuitlaunch.com</a>)</li><li>Fergs from Robot and Chisel (with UBR 2.0) <a href=\"https://www.robotandchisel.com/\">https://www.robotandchisel.com/</a></li><li>And many more showcases coming!</li></ul><div><br>Do you have a robot to showcase? Let me know: andra@svrobo.org</div>",
+    "location": "Online Event",
+    "date": "2021-04-07",
+    "time": "19:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/5263"
+  },
+  {
+    "name": "Inclusive Robotics Unconference",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzAyOT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--d0b83268462cbc810f906ac615e96369f100182e\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdFVMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--61f15658410ee21846bd96f56c65dc691ecdc7e4/Inclusive%20Robotics%20Unconference%20PDT.jpg\" filename=\"Inclusive Robotics Unconference PDT.jpg\" filesize=\"134935\" width=\"960\" height=\"540\" presentation=\"gallery\"></action-text-attachment><br><br>Robotics can improve the world, but the robotics industry needs improving. First, we need many more people to get involved. Celebrations of robotics like the <strong>US National Robotics Week</strong> coming up on April 3-12 aim to increase the number of people (particularly women and underrepresented groups) aspiring to careers in robotics. But we lose women and minorities from the field faster than we add them. So until we’ve addressed the underlying reasons why robotics lacks diversity, while other fields have changed significantly, until we’ve developed an actionable agenda, then we won’t have an inclusive robotics industry. <br><br></div><div><strong>An inclusive robotics industry will be more innovative, but it is harder to achieve. Let’s continue working towards this goal by coming together for an unconference to:<br></strong><br></div><ul><li>Share our stories</li><li>Find common ground</li><li>Explore the issues</li><li>Relate successes and best practices</li><li>See what works in other places</li></ul><div><br><strong>What is an UNCONFERENCE?<br></strong><br></div><div>An unconference is a participant-driven meeting, organized, structured and led by the people attending it. There are no powerpoints, no speakers, no preset agenda. You have the mic.<br><br></div><div>We will frame the unconference as two rounds of zoom breakout rooms.<br><br></div><ul><li>12pm - 12.15pm Welcome, introduction to unconference format, topic ideas collected</li><li>12.15-12.45pm Participants join the breakout rooms that interest them (or move between rooms)</li><li>12.45pm - 1pm Rooms report back to the group</li><li>1pm - 1.15pm Topic ideas collected</li><li>1.15pm-1.45pm Participants join the breakout rooms that interest them (or move between rooms)</li><li>1.45pm-2pm Rooms report back to the group</li></ul><div><br>Share with others: <a href=\"https://inclusiverobotics.eventbrite.com/\">https://inclusiverobotics.eventbrite.com</a> <br><br></div><div>Data shows that while large numbers of women entered many other professions in the 1970s and 1980s there was a reduction in the number of women entering computer science and engineering. This rate of entry continues to lag to this day. Data also shows that women entering the workforce in computer science and engineering leave at a rate 2-3 times higher than men. (US centric figures but trends align across most other places)<br><br></div>",
+    "location": "Online Event",
+    "date": "2021-04-10",
+    "time": "12:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/5272"
+  },
+  {
+    "name": "Save the Date: AMA with Bing Jiang",
+    "description": "<div>We are excited to host another AMA, this time with Bing Jiang on April 17th at 11am Pacific, 2pm Eastern, 6pm UTC. We will be hosting via Zoom.<br><br>Bing Jiang is the co-founder and CEO of Rolling Robots, Inc., a Los Angeles based kids tech and robotics learning center where kids build and code robots to learn STEM-related skills. <br><br></div><div>As the pioneer in STEM education, she co-led the growth of Rolling Robots from one to three locations in the Los Angeles area. Each year, Rolling Robots is severing thousand of children from age 4 to 16 each year in the afterschool membership programs, summer/winter/spring camps, and the one-of-kind robot building birthday parties. <br><br></div><div>Rolling Robots’ students won numerous world championship awards in VEX Robotics Competitions year after year. Rolling Robots BattleBots Team was on BattleBots 2019 Season. Rolling Robots InvenTeam was the Beaver Work Award recipient at Lemelson-MIT Eureka Festival. Rolling Robots Young Inventors group was selected as the Top 25 Team of the XPRIZE Next-Gen Mask Challenge. Despite the impact of the pandemic, Rolling Robots VEX Robotics Competition Teams have 10 teams qualified for the VEX World Championship in 2021.<br><br></div><div>Bing Jiang is passionate to help nurture young tech geniuses. She was a Boeing engineering manager prior to her entrepreneur career. She earned a Master's Degree in Physics from Cal State LA. She is a Goldman Sachs 10KSB scholar. She also co-founded Rolling Robots Outreach, a 501(c)(3) nonprofit organization with the mission to promote STEM education in youth by providing maker spaces and STEM outreach activities.<br><br></div>",
+    "location": "Online Event",
+    "date": "2021-04-17",
+    "time": "11:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/5273"
+  },
+  {
+    "name": "WiR Organizers & Volunteers Get Together",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjkyNT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--7110a33e9dd7f6d5f3eb89854e6300c76f481500\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--96485b3bdd8192b586cb67d9c3f50eed268bef52/beautiful%20women%203.jpeg\" filename=\"beautiful women 3.jpeg\" filesize=\"16535\" width=\"225\" height=\"225\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment>If you're helping Women in Robotics or interested in volunteering then this meeting is for you. <br>Let's create more local chapters and events, more online activities, more stories and inspiring content. Bring your ideas, your enthusiasm and your questions.</div>",
+    "location": "Online Event",
+    "date": "2021-05-01",
+    "time": "13:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/5134"
+  },
+  {
+    "name": "Save the Date: AMA with Jasmine Lawrence",
+    "description": "<div>We are excited to host an AMA with Jasmine Lawrence on May 8th at 11am Pacific 2pm Eastern<br><br>Jasmine Lawrence currently serves as a Product Manager at X, the moonshot factory on the Everyday Robot Project. Prior to X, she has held a number of positions creating consumer-focused products for companies like Facebook, Softbank Robotics America, and Microsoft. She earned her Bachelor of Science in Computer Science from Georgia Tech and her Masters in Human-Centered Design and Engineering at the University of Washington.<br><br></div><div>Jasmine is also the Founder of EDEN BodyWorks. At the age of 13, after attending a NFTE BizCamp, Jasmine founded EDEN BodyWorks to meet her own need for affordable natural hair and body care products. After almost 16 years in business her products are available at Target, Walmart, CVS, Amazon.com, HEB, and Sally Beauty just to name a few. She’s been featured in news outlets such as the Oprah Winfrey Show, the Wall Street Journal, and Forbes 30 under 30.<br><br></div><div>Outside of work Jasmine is a poet, STEM advocate, and Advisory Board Member for the Network for Teaching Entrepreneurship. <br><br></div>",
+    "location": "Online Event",
+    "date": "2021-05-08",
+    "time": "11:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/5149"
+  },
+  {
+    "name": "Save the date: AMA  with Sravanthi Kanchi",
+    "description": "<div>We are looking forward to hosting another  AMA, this time with  Sravanthi Kanchi !  May 22nd at 11am Pacific 2pm Eastern<br>Sravanthi writes<br>\" I am a Data Engineer full time and I am also founder of early stage robotics company in home cleaning and interior design company CreateYourAbode. I love design and I am passionate on making ergonomic robots efficient and intelligent. \"<br><br><br></div>",
+    "location": "Online Event",
+    "date": "2021-05-22",
+    "time": "11:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/5148"
+  },
+  {
+    "name": "WiR Organizers & Volunteers Get Together",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjkyNT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--7110a33e9dd7f6d5f3eb89854e6300c76f481500\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--96485b3bdd8192b586cb67d9c3f50eed268bef52/beautiful%20women%203.jpeg\" filename=\"beautiful women 3.jpeg\" filesize=\"16535\" width=\"225\" height=\"225\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment>If you're helping Women in Robotics or interested in volunteering then this meeting is for you. <br>Let's create more local chapters and events, more online activities, more stories and inspiring content. Bring your ideas, your enthusiasm and your questions.</div>",
+    "location": "Online Event",
+    "date": "2021-06-05",
+    "time": "13:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/5135"
+  },
+  {
+    "name": " WiR Speaker Series (Pride Edition!) - Dr. Vivian Chu, Co-founder/CTO @ Diligent Robotics",
+    "description": "<div>Join us for the inaugural Women in Robotics Project Advance speaker series, where we interview women and non-binary people about their journey in the field of robotics. To cap off Pride Month, we are excited to welcome Dr. Vivian Chu, co-founder and CTO of <a href=\"https://www.diligentrobots.com/\">Diligent Robotics</a>.</div><div><br></div><div>Vivian is a 10+ year expert roboticist that specializes in human-robot interaction and has received high tier industry recognition including: recognized by MIT Technology Review on its 35 Innovators Under 35 list, being honored as a Google Anita Borg Memorial Scholar, honored as a Stanford EECS Rising Star, awarded Best Cognitive Robotics Paper Award at ICRA 2013 and featured on Robohub’s 2016 list of “25 women in robotics you need to know”. She was also included in the 2021 Fast Company Queer 50 list of top women and nonbinary innovators in business and tech.</div><div><br></div><div>In addition to creating Diligent Robotics’ Moxi and Poli robots, Vivian has used her HRI and machine learning expertise on other robotic platforms including PR2, Meka Robot and Kinova Jaco2. She has also worked at Google[X], Honda Research Institute and at IBM Research in Almaden (where she worked on natural language processing and intelligent information integration).</div><div><br></div><div>Vivian completed her Ph.D. in Robotics at Georgia Tech where she was co-advised by her now co-founder, Dr. Andrea Thomaz, along with Dr. Sonia Chernova. Vivian received her M.S.E. in Robotics from the University of Pennsylvania in 2013, where she worked in Dr. Katherine J. Kuchenbecker in the GRASP Lab. She received her B.S. degree in Electrical Engineering and Computer Science from the University of California, Berkeley in 2009.<br>Register at : <a href=\"https://us02web.zoom.us/meeting/register/tZctd-2gpj4vG9exBIqXDKWUMc3MlL7E63ix\">https://us02web.zoom.us/meeting/register/tZctd-2gpj4vG9exBIqXDKWUMc3MlL7E63ix</a></div>",
+    "location": "Online Event",
+    "date": "2021-06-24",
+    "time": "16:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/6281"
+  },
+  {
+    "name": "WiR Organizers & Volunteers Get Together",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjkyNT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--7110a33e9dd7f6d5f3eb89854e6300c76f481500\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--96485b3bdd8192b586cb67d9c3f50eed268bef52/beautiful%20women%203.jpeg\" filename=\"beautiful women 3.jpeg\" filesize=\"16535\" width=\"225\" height=\"225\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment>If you're helping Women in Robotics or interested in volunteering then this meeting is for you. <br>Let's create more local chapters and events, more online activities, more stories and inspiring content. Bring your ideas, your enthusiasm and your questions.</div>",
+    "location": "Online Event",
+    "date": "2021-07-03",
+    "time": "13:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/5136"
+  },
+  {
+    "name": "WiR Speaker Series - Dr Ariel Anders, black feminist roboticist",
+    "description": "<div>Join us for the Women in Robotics Project Advance speaker series, where we interview women and non-binary people about their journey in the field of robotics. Our next event will be with <a href=\"https://www.linkedin.com/in/ariel-anders/\">Dr Ariel Anders</a>, the first technical hire at Robust.AI.<br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzU4OD9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--01705e3c8cf2d90747ac7c811a3dd04d3957946d\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ1FPIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--6b64a600bd78954753631a2254fd6985642fc63f/eb0blwbh_400x400.jpeg\" filename=\"eb0blwbh_400x400.jpeg\" filesize=\"22807\" width=\"400\" height=\"400\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment><br><br>Ariel Anders is a black feminist roboticist who enjoys spending time with her family and artistic self-expression. Anders is the first roboticist hired at Robust.AI, an early stage robotics startup building the world’s first industrial grade cognitive engine. Anders received a BS in Computer Engineering from UC Santa Cruz and her Doctorate in Computer Science from MIT, where she taught project-based collaborative robotics courses, developed an iOS app for people with vision impairment, and received a grant to install therapy lamps across campus. Her research focused on reliable robotic manipulation with the vision of enabling household helpers.<br><br>Our first speaker series event was with Dr. Vivian Chu, co-founder and CTO of <a href=\"https://www.diligentrobots.com/\">Diligent Robotics</a> and is now online.<br><br><br></div><div><br></div>",
+    "location": "Online Event",
+    "date": "2021-07-30",
+    "time": "12:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/6482"
+  },
+  {
+    "name": "WiR Organizers & Volunteers Get Together",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjkyNT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--7110a33e9dd7f6d5f3eb89854e6300c76f481500\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--96485b3bdd8192b586cb67d9c3f50eed268bef52/beautiful%20women%203.jpeg\" filename=\"beautiful women 3.jpeg\" filesize=\"16535\" width=\"225\" height=\"225\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment>If you're helping Women in Robotics or interested in volunteering then this meeting is for you. <br>Let's create more local chapters and events, more online activities, more stories and inspiring content. Bring your ideas, your enthusiasm and your questions.</div>",
+    "location": "Online Event",
+    "date": "2021-08-07",
+    "time": "13:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/5137"
+  },
+  {
+    "name": "WiR Organizers & Volunteers Get Together",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjkyNT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--7110a33e9dd7f6d5f3eb89854e6300c76f481500\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--96485b3bdd8192b586cb67d9c3f50eed268bef52/beautiful%20women%203.jpeg\" filename=\"beautiful women 3.jpeg\" filesize=\"16535\" width=\"225\" height=\"225\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment>If you're helping Women in Robotics or interested in volunteering then this meeting is for you. <br>Let's create more local chapters and events, more online activities, more stories and inspiring content. Bring your ideas, your enthusiasm and your questions.</div>",
+    "location": "Online Event",
+    "date": "2021-09-04",
+    "time": "13:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/5138"
+  },
+  {
+    "name": "WiR Speaker Series - Dr Maria Telleria",
+    "description": "<div>Join us in celebrating the successful conclusion of the pilot Women in Robotics mentoring scheme, with a wonderful speaker &amp; roboticist, Dr Maria Telleria, CoFounder and CTO of Canvas Robotics.<br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMzgxMT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--f0cde02fa5a3bfe66c9a5ac472fbae8fb3f386d6\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdU1PIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1b68acc1baa1f92a93a0eb719f66d75c3f62447f/Maria%20Telleria.jpeg\" filename=\"Maria Telleria.jpeg\" filesize=\"6309\" width=\"225\" height=\"225\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment><br><br>Dr Maria Telleria is driven by a desire to create tools/machines that work for the user. Better tools are needed to increase productivity and to create better working conditions. She loves working with a team to take ideas from concept to useful tools. Her background is in machine design and manufacturing and she has worked on designs ranging from high precision laser communications satellites to cm-scale robots to all-fuidic high-compliance robotic manipulators. Contact her at maria@canvas.build <br><br>Our previous speaker series events with Dr. Vivian Chu, co-founder and CTO of <a href=\"https://www.diligentrobots.com/\">Diligent Robotics</a>, and Dr Ariel Anders, black feminist roboticist at <a href=\"https://www.robust.ai/\">Robust.ai</a>, are now online.<br><br></div>",
+    "location": "Online Event",
+    "date": "2021-09-17",
+    "time": "9:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/6849"
+  },
+  {
+    "name": "WiR Organizers & Volunteers Get Together",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjkyNT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--7110a33e9dd7f6d5f3eb89854e6300c76f481500\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--96485b3bdd8192b586cb67d9c3f50eed268bef52/beautiful%20women%203.jpeg\" filename=\"beautiful women 3.jpeg\" filesize=\"16535\" width=\"225\" height=\"225\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment>If you're helping Women in Robotics or interested in volunteering then this meeting is for you. <br>Let's create more local chapters and events, more online activities, more stories and inspiring content. Bring your ideas, your enthusiasm and your questions.</div>",
+    "location": "Online Event",
+    "date": "2021-10-02",
+    "time": "13:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/5139"
+  },
+  {
+    "name": "WiR Organizers & Volunteers Get Together",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjkyNT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--7110a33e9dd7f6d5f3eb89854e6300c76f481500\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--96485b3bdd8192b586cb67d9c3f50eed268bef52/beautiful%20women%203.jpeg\" filename=\"beautiful women 3.jpeg\" filesize=\"16535\" width=\"225\" height=\"225\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment>If you're helping Women in Robotics or interested in volunteering then this meeting is for you. <br>Let's create more local chapters and events, more online activities, more stories and inspiring content. Bring your ideas, your enthusiasm and your questions.</div>",
+    "location": "Online Event",
+    "date": "2021-11-06",
+    "time": "13:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/5140"
+  },
+  {
+    "name": "Inclusion@CORL - Women in Machine Learning and Robotics",
+    "description": "<div>There are also additional online events for Queer in AI and Robotics AND in person luncheons - see https://www.robot-learning.org/attending2021/inclusion-events<br><br>Description</div><div><br>The panelists will present their research and engage each other in a discussion on their respective journeys to becoming roboticists. A virtual social for discussing the panel and networking will take place after.</div><div><br></div><div><br></div><div>Bios</div><div><br>Dr. Chollette Olisah received the B.Sc. degree in Computer Science from Anambra State University, Uli. She received her M.Sc. and Ph.D. degrees in Computer Science from the Universiti Teknologi Malaysia in 2011 and 2015, respectively. She began her academic career in 2016 and in 2019 progressed to Senior Lecturer at Baze University, Abuja, Nigeria. In 2017 she became a Fellow of the distinguished Massachusetts Institute of Technology Empowering the Teachers (MIT-ETT) Fellowship program held in fall, 2017. She is currently a Research Fellow in Computer Vision and Machine Learning with the Centre for Machine Vision at the University of the West of England, Bristol, UK. Dr. Chollette has authored over 18 peer-reviewed scholarly, conference, journal, and book chapter articles. Her research interests are in machine learning, computer vision, image processing, face recognition, image understanding, and analysis. Dr. Chollette has served as a reviewer for local and international journals and conferences.</div><div><br>Selim Tudgey graduated from the University of the West of England (UWE) with a degree in Aerospace Engineering whilst working in the automation machinery industry. She left the industry after 4 years to pursue a master’s in research engineering at UWE and afterwards a PhD in Robotics &amp; Autonomous Systems at the University of Bristol.</div>",
+    "location": "Online Event",
+    "date": "2021-11-09",
+    "time": "12:15:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/8003"
+  },
+  {
+    "name": "WiR Organizers & Volunteers Get Together",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjkyNT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--7110a33e9dd7f6d5f3eb89854e6300c76f481500\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--96485b3bdd8192b586cb67d9c3f50eed268bef52/beautiful%20women%203.jpeg\" filename=\"beautiful women 3.jpeg\" filesize=\"16535\" width=\"225\" height=\"225\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment>If you're helping Women in Robotics or interested in volunteering then this meeting is for you. <br>Let's create more local chapters and events, more online activities, more stories and inspiring content. Bring your ideas, your enthusiasm and your questions.</div>",
+    "location": "Online Event",
+    "date": "2021-12-04",
+    "time": "13:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/5141"
+  },
+  {
+    "name": "WiR Organizers & Volunteers Get Together",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjkyNT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--7110a33e9dd7f6d5f3eb89854e6300c76f481500\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--96485b3bdd8192b586cb67d9c3f50eed268bef52/beautiful%20women%203.jpeg\" filename=\"beautiful women 3.jpeg\" filesize=\"16535\" width=\"225\" height=\"225\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment>If you're helping Women in Robotics or interested in volunteering then this meeting is for you. <br>Let's create more local chapters and events, more online activities, more stories and inspiring content. Bring your ideas, your enthusiasm and your questions.</div>",
+    "location": "Online Event",
+    "date": "2022-01-01",
+    "time": "13:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/5142"
+  },
+  {
+    "name": "Intro to MoveIt & Open Source Robotics with the Women of PickNik",
+    "description": "<div>The Boulder/Denver chapter of Women in Robotics invites us all to join them and connect with the Women of PickNik to learn more about open source robotics! <br><br>There will be a brief presentation on the applications of robotic arms, MoveIt (the open source motion planning library maintained by PickNik), and some tips and tricks on how to get started contributing to an open source project. There will be a live remote robot demo, along with some time afterwards to work on contributing to MoveIt, for those interested.<br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvNDM4MD9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3e1fc09007381910f4fa994c81d729b6d12dfaa1\" content-type=\"image/webp\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaHdSIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--76bf3ba62a2cb80643d00630ef3ec3ff8a6b0cfa/Picknik%20Sign%20676x380.webp\" filename=\"Picknik Sign 676x380.webp\" filesize=\"10342\"></action-text-attachment></div>",
+    "location": "Online Event",
+    "date": "2022-02-01",
+    "time": "17:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/8530"
+  },
+  {
+    "name": "WiR Organizers & Volunteers Get Together",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjkyNT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--7110a33e9dd7f6d5f3eb89854e6300c76f481500\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--96485b3bdd8192b586cb67d9c3f50eed268bef52/beautiful%20women%203.jpeg\" filename=\"beautiful women 3.jpeg\" filesize=\"16535\" width=\"225\" height=\"225\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment>If you're helping Women in Robotics or interested in volunteering then this meeting is for you. <br>Let's create more local chapters and events, more online activities, more stories and inspiring content. Bring your ideas, your enthusiasm and your questions.</div>",
+    "location": "Online Event",
+    "date": "2022-02-05",
+    "time": "13:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/5143"
+  },
+  {
+    "name": "WiR Organizers & Volunteers Get Together",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjkyNT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--7110a33e9dd7f6d5f3eb89854e6300c76f481500\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--96485b3bdd8192b586cb67d9c3f50eed268bef52/beautiful%20women%203.jpeg\" filename=\"beautiful women 3.jpeg\" filesize=\"16535\" width=\"225\" height=\"225\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment>If you're helping Women in Robotics or interested in volunteering then this meeting is for you. <br>Let's create more local chapters and events, more online activities, more stories and inspiring content. Bring your ideas, your enthusiasm and your questions.</div>",
+    "location": "Online Event",
+    "date": "2022-03-05",
+    "time": "13:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/7313"
+  },
+  {
+    "name": "San Antonio Women Demoing Robotics",
+    "description": "<div>Ladies, let's crash the SVR Bots'n'Beer!<br>Tonight all the great demos are from amazing women in robotics!<br><br></div><ul><li>SWRI</li><li>Plus One Robotics</li><li>Renubot</li><li>ReckonPoint</li><li>???</li></ul><div>More about Silicon Valley Robotics Bots&amp;Beer:<br>We do announcements, introductions, demos and tech discussions. Would you like to speak? Showcase a robot? Join the organizing team? bots&amp;beer<a href=\"http://svrobo/\">@svrobo</a>.org<br><br></div><div>We're also starting in person Bots&amp;Beer events and Robotics Open Houses in the SV/SF Bay Area and beyond, so check the Silicon Valley Robotics calendar https://svrobo.org/calendar<br>OR sign up for our newsletter https://getrevue.co/profile/svrobo<br><br></div><div>Silicon Valley Robotics is more than just a meetup. If you are a robotics startup or company you can join our organization at https://svrobo.org/membership<br><br></div><div>Join Zoom Meeting<br><br></div><div>https://us06web.zoom.us/j/94877980407?pwd=N0NhcFFLL0NZalNqMWZHRDlWWlNNZz09<br>Meeting ID: 948 7798 0407<br>Passcode: 962324<br>One tap mobile<br>+12532158782,,94877980407#,,,,*962324# US (Tacoma)<br>+13462487799,,94877980407#,,,,*962324# US (Houston)<br><br><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvNDY2OD9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--b53999b15852d75ca8dad12872f60472acc31a53\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBandTIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--303ecd0e43cf4b08895472f80aadf9764219199c/rawImage.jpg\" filename=\"rawImage.jpg\" filesize=\"465885\" width=\"2048\" height=\"1524\" presentation=\"gallery\"></action-text-attachment></div><div><br><br></div>",
+    "location": "Online Event",
+    "date": "2022-04-06",
+    "time": "19:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/8798"
+  },
+  {
+    "name": "WiR Organizers & Volunteers Get Together",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjkyNT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--7110a33e9dd7f6d5f3eb89854e6300c76f481500\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--96485b3bdd8192b586cb67d9c3f50eed268bef52/beautiful%20women%203.jpeg\" filename=\"beautiful women 3.jpeg\" filesize=\"16535\" width=\"225\" height=\"225\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment>If you're helping Women in Robotics or interested in volunteering then this meeting is for you. <br>Let's create more local chapters and events, more online activities, more stories and inspiring content. Bring your ideas, your enthusiasm and your questions.</div>",
+    "location": "Online Event",
+    "date": "2022-05-07",
+    "time": "13:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/7524"
+  },
+  {
+    "name": "WiR Organizers & Volunteers Get Together",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjkyNT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--7110a33e9dd7f6d5f3eb89854e6300c76f481500\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--96485b3bdd8192b586cb67d9c3f50eed268bef52/beautiful%20women%203.jpeg\" filename=\"beautiful women 3.jpeg\" filesize=\"16535\" width=\"225\" height=\"225\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment>If you're helping Women in Robotics or interested in volunteering then this meeting is for you. <br>Let's create more local chapters and events, more online activities, more stories and inspiring content. Bring your ideas, your enthusiasm and your questions.</div>",
+    "location": "Online Event",
+    "date": "2022-06-04",
+    "time": "13:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/7605"
+  },
+  {
+    "name": "WiR Organizers & Volunteers Get Together",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjkyNT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--7110a33e9dd7f6d5f3eb89854e6300c76f481500\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--96485b3bdd8192b586cb67d9c3f50eed268bef52/beautiful%20women%203.jpeg\" filename=\"beautiful women 3.jpeg\" filesize=\"16535\" width=\"225\" height=\"225\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment>If you're helping Women in Robotics or interested in volunteering then this meeting is for you. <br>Let's create more local chapters and events, more online activities, more stories and inspiring content. Bring your ideas, your enthusiasm and your questions.</div>",
+    "location": "Online Event",
+    "date": "2022-07-02",
+    "time": "13:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/7685"
+  },
+  {
+    "name": "WiR Organizers & Volunteers Get Together",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjkyNT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--7110a33e9dd7f6d5f3eb89854e6300c76f481500\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--96485b3bdd8192b586cb67d9c3f50eed268bef52/beautiful%20women%203.jpeg\" filename=\"beautiful women 3.jpeg\" filesize=\"16535\" width=\"225\" height=\"225\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment>If you're helping Women in Robotics or interested in volunteering then this meeting is for you. <br>Let's create more local chapters and events, more online activities, more stories and inspiring content. Bring your ideas, your enthusiasm and your questions.</div>",
+    "location": "Online Event",
+    "date": "2022-08-06",
+    "time": "13:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/7763"
+  },
+  {
+    "name": "WiR Organizers & Volunteers Get Together",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjkyNT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--7110a33e9dd7f6d5f3eb89854e6300c76f481500\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--96485b3bdd8192b586cb67d9c3f50eed268bef52/beautiful%20women%203.jpeg\" filename=\"beautiful women 3.jpeg\" filesize=\"16535\" width=\"225\" height=\"225\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment>If you're helping Women in Robotics or interested in volunteering then this meeting is for you. <br>Let's create more local chapters and events, more online activities, more stories and inspiring content. Bring your ideas, your enthusiasm and your questions.</div>",
+    "location": "Online Event",
+    "date": "2022-09-03",
+    "time": "13:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/7840"
+  },
+  {
+    "name": "WiR Organizers & Volunteers Get Together",
+    "description": "<div><action-text-attachment sgid=\"BAh7CEkiCGdpZAY6BkVUSSI7Z2lkOi8vbWVldGluZ3BsYWNlL0FjdGl2ZVN0b3JhZ2U6OkJsb2IvMjkyNT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIPYXR0YWNoYWJsZQY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--7110a33e9dd7f6d5f3eb89854e6300c76f481500\" content-type=\"image/jpeg\" url=\"https://meetingplace.io/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--96485b3bdd8192b586cb67d9c3f50eed268bef52/beautiful%20women%203.jpeg\" filename=\"beautiful women 3.jpeg\" filesize=\"16535\" width=\"225\" height=\"225\" previewable=\"true\" presentation=\"gallery\"></action-text-attachment>If you're helping Women in Robotics or interested in volunteering then this meeting is for you. <br>Let's create more local chapters and events, more online activities, more stories and inspiring content. Bring your ideas, your enthusiasm and your questions.</div>",
+    "location": "Online Event",
+    "date": "2022-10-01",
+    "time": "13:00:00",
+    "url": "https://meetingplace.io/womeninrobotics/events/7912"
+  },
+  {
+    "name": "WIR - Melbourne - Kick Off Meeting",
+    "description": "<div>Our initial meeting to kick off the Melbourne chapter of WIR. The agenda will be:<br><br>10 minutes - Welcome and introductions - Nicci and Poornima<br>10 minutes - Discussion about women in STEM and Robotics - Nicci<br>15 minutes - Andra -  Her career path, Silicon Valley Robotics and how WIR came to be<br>15 minutes - Sue - Her progression, why we need more women in STEM and how Robotics inspires her as a scientist<br>10 minutes - Open to discussion</div>",
+    "location": "Online Event",
+    "date": "2020-10-09",
+    "time": "10:30:00",
+    "url": "https://meetingplace.io/womeninroboticsmelbourne/events/4054"
+  },
+  {
+    "name": "WIR - Melbourne - Jan 2021 Meeting",
+    "description": "<div>Hello, hello!! Hope everyone had a nice break over the holidays! <br><br>We're looking forward to meeting you all for our January session of WIR. This time we have the pleasure of meeting up with Nicola, Engineering Consultant at Mirragin Unmanned Systems to talk about her career, her foray into STEM and her passion to help young people take their first steps into STEM.<br><br>Please find the link to save to your calendars:<br><br>https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MDBhb3RxOHRpaHEzNzJhZWRlc2tzZGhsdTggcG9vcm5pbWFsbkBt&amp;tmsrc=poornimaln%40gmail.com<br><br>The Google MeetUp: meet.google.com/fuy-pxyz-uqi<br><br></div>",
+    "location": "Online Event",
+    "date": "2021-01-28",
+    "time": "17:30:00",
+    "url": "https://meetingplace.io/womeninroboticsmelbourne/events/4841"
+  },
+  {
+    "name": "WIR - Melbourne - March 2021 Meeting",
+    "description": "<div>Hello everyone, hope you're doing well. Things are looking up as we meet Johanna Austin, pilot at PremiAir Helicopters to discuss her experience in the line of her work. Just like all the other women here, she's amazing and passionate about helping people find their way into Robotics. Join us on the 11th of March, 5:30 PM to 6:30 PM, Melbourne time.<br><br>Click here to join the event:<br>meet.google.com/urz-etbt-ohb<br><br>Click to save the event here:<br>https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=N3M3YnRmMGZuZHI0c3ZoOWRtY3FzdGQxZzggcG9vcm5pbWFsbkBt&amp;tmsrc=poornimaln%40gmail.com<br><br></div>",
+    "location": "Online Event",
+    "date": "2021-03-11",
+    "time": "17:30:00",
+    "url": "https://meetingplace.io/womeninroboticsmelbourne/events/5129"
+  },
+  {
+    "name": "WIR - Melbourne - April 2021 Meeting",
+    "description": "<div>Hello again ladies,<br><br>Inviting you all to the April edition of WIRMel. Let me have the honour of introducing Dana Rezazadegan, lecturer of AI and Data Science at Swinburne University of Technology, graduate of QUT, member of Australian Center for Robotic Vision.<br><br>Click on the Google Meet link to launch the meetup.</div>",
+    "location": "Online Event",
+    "date": "2021-04-29",
+    "time": "17:30:00",
+    "url": "https://meetingplace.io/womeninroboticsmelbourne/events/5205"
+  },
+  {
+    "name": "Volunteers and Organizers meetup",
+    "description": "A regular meeting to connect Women in Robotics Volunteers and Organizers",
+    "location": "Online",
+    "date": "2023-07-01",
+    "time": "20:00:00",
+    "url": "https://www.eventbrite.com/e/volunteers-and-organizers-meetup-tickets-534654294387"
+  },
+  {
+    "name": "Volunteers and Organizers meetup",
+    "description": "A regular meeting to connect Women in Robotics Volunteers and Organizers",
+    "location": "Online",
+    "date": "2024-01-06",
+    "time": "21:00:00",
+    "url": "https://www.eventbrite.com/e/volunteers-and-organizers-meetup-tickets-534654354567"
+  },
+  {
+    "name": "Volunteers and Organizers meetup",
+    "description": "A regular meeting to connect Women in Robotics Volunteers and Organizers",
+    "location": "Online",
+    "date": "2023-08-05",
+    "time": "20:00:00",
+    "url": "https://www.eventbrite.com/e/volunteers-and-organizers-meetup-tickets-534654304417"
+  },
+  {
+    "name": "Volunteers and Organizers meetup",
+    "description": "A regular meeting to connect Women in Robotics Volunteers and Organizers",
+    "location": "Online",
+    "date": "2023-12-02",
+    "time": "21:00:00",
+    "url": "https://www.eventbrite.com/e/volunteers-and-organizers-meetup-tickets-534654344537"
+  },
+  {
+    "name": "Volunteers and Organizers meetup",
+    "description": "A regular meeting to connect Women in Robotics Volunteers and Organizers",
+    "location": "Online",
+    "date": "2023-03-04",
+    "time": "21:00:00",
+    "url": "https://www.eventbrite.com/e/volunteers-and-organizers-meetup-tickets-534654254267"
+  },
+  {
+    "name": "Bots&Beer Takeover :)",
+    "description": "In celebration of Women's History Month and IWD, we're colocating this Bot&Beer with a Women in Robotics networking event. Double the fun!",
+    "location": "Bay Area",
+    "date": "2023-03-02",
+    "time": "3:00:00",
+    "url": "https://www.eventbrite.com/e/botsbeer-takeover-tickets-556168844987"
+  },
+  {
+    "name": "Volunteers and Organizers meetup",
+    "description": "A regular meeting to connect Women in Robotics Volunteers and Organizers",
+    "location": "Online",
+    "date": "2023-05-06",
+    "time": "20:00:00",
+    "url": "https://www.eventbrite.com/e/volunteers-and-organizers-meetup-tickets-534654274327"
+  },
+  {
+    "name": "Volunteers and Organizers meetup",
+    "description": "A regular meeting to connect Women in Robotics Volunteers and Organizers",
+    "location": "Online",
+    "date": "2023-06-03",
+    "time": "20:00:00",
+    "url": "https://www.eventbrite.com/e/volunteers-and-organizers-meetup-tickets-534654284357"
+  },
+  {
+    "name": "Volunteers and Organizers meetup",
+    "description": "A regular meeting to connect Women in Robotics Volunteers and Organizers",
+    "location": "Online",
+    "date": "2023-04-01",
+    "time": "20:00:00",
+    "url": "https://www.eventbrite.com/e/volunteers-and-organizers-meetup-tickets-534654264297"
+  },
+  {
+    "name": "Volunteers and Organizers meetup",
+    "description": "A regular meeting to connect Women in Robotics Volunteers and Organizers",
+    "location": "Online",
+    "date": "2023-09-02",
+    "time": "20:00:00",
+    "url": "https://www.eventbrite.com/e/volunteers-and-organizers-meetup-tickets-534654314447"
+  },
+  {
+    "name": "Volunteers and Organizers meetup",
+    "description": "A regular meeting to connect Women in Robotics Volunteers and Organizers",
+    "location": "Online",
+    "date": "2023-11-04",
+    "time": "20:00:00",
+    "url": "https://www.eventbrite.com/e/volunteers-and-organizers-meetup-tickets-534654334507"
+  },
+  {
+    "name": "Volunteers and Organizers meetup",
+    "description": "A regular meeting to connect Women in Robotics Volunteers and Organizers",
+    "location": "Online",
+    "date": "2024-02-03",
+    "time": "21:00:00",
+    "url": "https://www.eventbrite.com/e/volunteers-and-organizers-meetup-tickets-534654364597"
+  },
+  {
+    "name": "Volunteers and Organizers meetup",
+    "description": "A regular meeting to connect Women in Robotics Volunteers and Organizers",
+    "location": "Online",
+    "date": "2023-10-07",
+    "time": "20:00:00",
+    "url": "https://www.eventbrite.com/e/volunteers-and-organizers-meetup-tickets-534654324477"
+  },
+  {
+    "name": "Off the Clock with Women in Robotics and InOrbit",
+    "description": "Calling all trailblazing women in the world of robotics! Join us for an exciting and empowering gathering, where we break barriers and celebrate the accomplishments of women in this dynamic field.\nOff the Clock with Women in Robotics and InOrbit is a networking event aiming to foster collaboration, share knowledge, and strengthen the community of women working or interested in the field. Whether you are a student, a researcher, or a professional in the industry, this event is an excellent opportunity to meet like-minded individuals and expand your network. \nJoin us and be a part of the community of women who are shaping the future of robotics!",
+    "location": "Bay Area",
+    "date": "2023-08-02",
+    "time": "17:30:00",
+    "url": "https://www.eventbrite.com/e/off-the-clock-with-women-in-robotics-and-inorbit-tickets-679144879617"
+  },
+  {
+    "name": "Building the Future with Women in Robotics",
+    "description": "International Women in Robotics Day CelebrationJoin us in celebrating the inauguration of Women in Robotics Day! \nhttps://www.womeninrobotics.org/wir-day-2023\nThis day aims to establish a platform for knowledge exchange and networking, foster an environment of inclusivity, and empower women and non-binary people in robotics. The theme Building the Future hopes to ignite a spirited conversation about the women shaping robotics and inspiring the next generation of leaders.\nThrough this event, we want to celebrate the achievements of all trailblazing women in robotics. And following the theme by acknowledging the contributions that drive progress in the field. W﻿omen in Robotics Bay Area is dedicating an evening full of spotlight talks, engaging activities, and plain robotics.  Location: TBD (Bay Area). \nTogether we can contribute to making this day a true global milestone!",
+    "location": "Bay Area",
+    "date": "2023-10-05",
+    "time": "17:30:00",
+    "url": "https://www.eventbrite.com/e/building-the-future-with-women-in-robotics-tickets-720201481017"
+  },
+  {
+    "name": "Launching Women in Robotics Southern California",
+    "description": "Join us for the exciting launch of Women in Robotics Southern California on October 4th, 2023, to celebrate and empower women in robotics!",
+    "location": "Southern California",
+    "date": "2023-10-04",
+    "time": "17:00:00",
+    "url": "https://www.eventbrite.com/e/launching-women-in-robotics-southern-california-tickets-728345580237"
+  },
+  {
+    "name": "Women in Robotics Casual Networking Dinner",
+    "description": "Join us for a delightful opportunity to meet and greet some of your fellow women and non-binary  people in robotics in SE Michigan.",
+    "location": "Michigan",
+    "date": "2024-02-18",
+    "time": "17:30:00",
+    "url": "https://www.eventbrite.com/e/women-in-robotics-casual-networking-dinner-tickets-812669314797"
+  },
+  {
+    "name": "Empoderando Futuros: Foro de Mujeres en las Ciencias",
+    "description": "Espacio de encuentro y aprendizaje donde mujeres líderes y expertas comparten experiencias y consejos.",
+    "location": "Querétaro",
+    "date": "2024-02-16",
+    "time": "8:00:00",
+    "url": "https://www.eventbrite.com/e/empoderando-futuros-foro-de-mujeres-en-las-ciencias-tickets-819232926737"
+  }
+]
