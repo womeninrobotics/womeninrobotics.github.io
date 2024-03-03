@@ -1,74 +1,74 @@
 [
-    {
-        "name": "Diversity Cocktail Hour",
-        "date": "2023-10-03",
-        "time": "7:00:00 PM",
-        "region": "Americas",
-        "location": "Firebird Tavern, 419 Monroe St Detroit MI 48226",
-        "url": "https://www.ieee-ras.org/women-in-engineering/wie-events/event/2285-ras-wie-diversity-cocktail-hour",
-        "datetime": null
-    },
-    {
-        "name": "Women Shaping the Future of Robotics",
-        "date": "2023-10-02",
-        "time": "12:30:00 PM",
-        "region": "Americas",
-        "location": "Huntington Place Detroit MI",
-        "url": "https://www.ieee-ras.org/women-in-engineering/wie-events/event/2282-wie-luncheon-and-networking-women-shaping-the-future-of-robotics",
-        "datetime": null
-    },
-    {
-        "name": "Building the Future with Women in Robotics",
-        "date": "2023-10-04",
-        "time": "5:30:00 PM",
-        "region": "Americas",
-        "location": "Hacker Dojo Mountain View CA USA",
-        "url": "https://www.eventbrite.com/e/building-the-future-with-women-in-robotics-tickets-720201481017?aff=oddtdtcreator",
-        "datetime": null
-    },
-    {
-        "name": "Day in Robotics- Girl Scouts",
-        "date": "2023-10-07",
-        "time": "2:00:00 PM",
-        "region": "Americas",
-        "location": "Memorial Union Building, 1400 Townsend Dr, Houghton, MI 49931",
-        "url": "https://docs.google.com/forms/d/e/1FAIpQLSeg-9P_Q2T8GdQ1zbVE7393hd2OKvHJ3cDjPg76hSXuYUDagg/viewform",
-        "datetime": null
-    },
-    {
-        "name": "Women in Robotics, Southern California Chapter Launch",
-        "date": "2023-10-04",
-        "time": "10:00:00 AM",
-        "region": "Americas",
-        "location": "United Robotics Group, 20850 Leapwood Ave, STE J Carson, CA 90746",
-        "url": "https://www.eventbrite.com/e/launching-women-in-robotics-southern-california-tickets-728345580237?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl",
-        "datetime": null
-    },
-    {
-        "name": "Women in Robotics virtual Lean In Circle meeting",
-        "date": "2023-10-23",
-        "time": "1:00:00 PM",
-        "region": "Americas",
-        "location": "Online, 1pm EST / 5pm GMT / 10am PST",
-        "url": null,
-        "datetime": null
-    },
-    {
-        "name": "Tech Together: Bridging Communities",
-        "date": "2023-10-26",
-        "time": "6:00:00 PM",
-        "region": "Americas",
-        "location": "The InOrbit Robot Space, 293 Castro St., Mountain View, California",
-        "url": "https://www.inorbit.ai/robotspace/techtogether-bridgingcommunities",
-        "datetime": null
-    },
-    {
-        "name": "Fantastic careers and how to find them",
-        "date": "2023-10-19",
-        "time": "6:00:00 PM",
-        "region": "Europe",
-        "location": "Engine Shed, Bristol, UK",
-        "url": "https://www.meetup.com/meetup-group-yjutnnie/events/296532456/",
-        "datetime": null
-    }
+  {
+    "name": "Diversity Cocktail Hour",
+    "date": "2023-10-03",
+    "time": "7:00:00 PM",
+    "region": "Americas",
+    "location": "Firebird Tavern, 419 Monroe St Detroit MI 48226",
+    "url": "https://www.ieee-ras.org/women-in-engineering/wie-events/event/2285-ras-wie-diversity-cocktail-hour",
+    "datetime": null
+  },
+  {
+    "name": "Women Shaping the Future of Robotics",
+    "date": "2023-10-02",
+    "time": "12:30:00 PM",
+    "region": "Americas",
+    "location": "Huntington Place Detroit MI",
+    "url": "https://www.ieee-ras.org/women-in-engineering/wie-events/event/2282-wie-luncheon-and-networking-women-shaping-the-future-of-robotics",
+    "datetime": null
+  },
+  {
+    "name": "Building the Future with Women in Robotics",
+    "date": "2023-10-04",
+    "time": "5:30:00 PM",
+    "region": "Americas",
+    "location": "Hacker Dojo Mountain View CA USA",
+    "url": "https://www.eventbrite.com/e/building-the-future-with-women-in-robotics-tickets-720201481017?aff=oddtdtcreator",
+    "datetime": null
+  },
+  {
+    "name": "Day in Robotics- Girl Scouts",
+    "date": "2023-10-07",
+    "time": "2:00:00 PM",
+    "region": "Americas",
+    "location": "Memorial Union Building, 1400 Townsend Dr, Houghton, MI 49931",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSeg-9P_Q2T8GdQ1zbVE7393hd2OKvHJ3cDjPg76hSXuYUDagg/viewform",
+    "datetime": null
+  },
+  {
+    "name": "Women in Robotics, Southern California Chapter Launch",
+    "date": "2023-10-04",
+    "time": "10:00:00 AM",
+    "region": "Americas",
+    "location": "United Robotics Group, 20850 Leapwood Ave, STE J Carson, CA 90746",
+    "url": "https://www.eventbrite.com/e/launching-women-in-robotics-southern-california-tickets-728345580237?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl",
+    "datetime": null
+  },
+  {
+    "name": "Women in Robotics virtual Lean In Circle meeting",
+    "date": "2023-10-23",
+    "time": "1:00:00 PM",
+    "region": "Americas",
+    "location": "Online, 1pm EST / 5pm GMT / 10am PST",
+    "url": null,
+    "datetime": null
+  },
+  {
+    "name": "Tech Together: Bridging Communities",
+    "date": "2023-10-26",
+    "time": "6:00:00 PM",
+    "region": "Americas",
+    "location": "The InOrbit Robot Space, 293 Castro St., Mountain View, California",
+    "url": "https://www.inorbit.ai/robotspace/techtogether-bridgingcommunities",
+    "datetime": null
+  },
+  {
+    "name": "Fantastic careers and how to find them",
+    "date": "2023-10-19",
+    "time": "6:00:00 PM",
+    "region": "Europe",
+    "location": "Engine Shed, Bristol, UK",
+    "url": "https://www.meetup.com/meetup-group-yjutnnie/events/296532456/",
+    "datetime": null
+  }
 ]
