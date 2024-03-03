@@ -1,50 +1,50 @@
 [
-    {
-        "title": "Translation of robotics resources",
-        "description": "Help Women in Robotics translate robotics-related content to other languages.",
-        "location": "online",
-        "contact": "translation@womeninrobotics.org"
-    },
-    {
-        "title": "Content Creation",
-        "description": "Create content for the Women in Robotics newsletter and socials.",
-        "location": "online",
-        "contact": "content@womeninrobotics.org"
-    },
-    {
-        "title": "Wikipedia Edit-a-thon event Co-Organizers",
-        "description": "Help Women in Robotics plan our first Wiki Edit-a-thon event to help increase the representation of women in robotics on Wikipedia.",
-        "location": "online",
-        "contact": "wiki@womeninrobotics.org"
-    },
-    {
-        "title": "Wikipedia Edit-a-thon event Participants",
-        "description": "Join Women in Robotics during our first Wiki Edit-a-thon event to help increase the representation of women in robotics on Wikipedia.",
-        "location": "online",
-        "contact": "wiki@womeninrobotics.org"
-    },
-    {
-        "title": "Local Events Volunteers",
-        "description": "Help Women in Robotics plan local events.",
-        "location": "everywhere",
-        "contact": "volunteer@womeninrobotics.org"
-    },
-    {
-        "title": "Online Community AMA Organizers",
-        "description": "Find Women in Robotics speakers for online AMAs, promote and provide questions",
-        "location": "online",
-        "contact": "community@womeninrobotics.org"
-    },
-    {
-        "title": "Online Interest Group Moderators",
-        "description": "Start conversations online about your favorite topics (research, books, robotics events, etc.)",
-        "location": "online",
-        "contact": "community@womeninrobotics.org"
-    },
-    {
-        "title": "Mentoring Project Co-Organizers",
-        "description": "2024 onwards - help to coordinate next Mentoring Program",
-        "location": "online",
-        "contact": "mentoring-committee@womeninrobotics.org"
-    }
+  {
+    "title": "Translation of robotics resources",
+    "description": "Help Women in Robotics translate robotics-related content to other languages.",
+    "location": "online",
+    "contact": "translation@womeninrobotics.org"
+  },
+  {
+    "title": "Content Creation",
+    "description": "Create content for the Women in Robotics newsletter and socials.",
+    "location": "online",
+    "contact": "content@womeninrobotics.org"
+  },
+  {
+    "title": "Wikipedia Edit-a-thon event Co-Organizers",
+    "description": "Help Women in Robotics plan our first Wiki Edit-a-thon event to help increase the representation of women in robotics on Wikipedia.",
+    "location": "online",
+    "contact": "wiki@womeninrobotics.org"
+  },
+  {
+    "title": "Wikipedia Edit-a-thon event Participants",
+    "description": "Join Women in Robotics during our first Wiki Edit-a-thon event to help increase the representation of women in robotics on Wikipedia.",
+    "location": "online",
+    "contact": "wiki@womeninrobotics.org"
+  },
+  {
+    "title": "Local Events Volunteers",
+    "description": "Help Women in Robotics plan local events.",
+    "location": "everywhere",
+    "contact": "volunteer@womeninrobotics.org"
+  },
+  {
+    "title": "Online Community AMA Organizers",
+    "description": "Find Women in Robotics speakers for online AMAs, promote and provide questions",
+    "location": "online",
+    "contact": "community@womeninrobotics.org"
+  },
+  {
+    "title": "Online Interest Group Moderators",
+    "description": "Start conversations online about your favorite topics (research, books, robotics events, etc.)",
+    "location": "online",
+    "contact": "community@womeninrobotics.org"
+  },
+  {
+    "title": "Mentoring Project Co-Organizers",
+    "description": "2024 onwards - help to coordinate next Mentoring Program",
+    "location": "online",
+    "contact": "mentoring-committee@womeninrobotics.org"
+  }
 ]
