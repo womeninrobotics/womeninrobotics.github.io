@@ -1,4 +1,4 @@
-name: meetingplace
+name: meetingplace [inactive]
 
 on:
   workflow_dispatch:

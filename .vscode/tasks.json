@@ -68,6 +68,66 @@
             "problemMatcher": []
         },
         {
+            "label": "Get events",
+            "type": "shell",
+            "command": ".github/actions/get-google-sheets-json/get_json.sh",
+            "options": {
+                "env": {
+                    "OUTPUT_FILE": "_data/events.json",
+                    "SHEET_URL": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-Y1pT_wkRDrTkoZ0Qbj-fID09asj0zCBEh60OdigyVgGrc87gdhOKB2iW0omGEy3WZOEEYmeHA7S5/pub?gid=1611040454&single=true&output=csv",
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Get past events",
+            "type": "shell",
+            "command": ".github/actions/get-google-sheets-json/get_json.sh",
+            "options": {
+                "env": {
+                    "OUTPUT_FILE": "_data/past_events.json",
+                    "SHEET_URL": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-Y1pT_wkRDrTkoZ0Qbj-fID09asj0zCBEh60OdigyVgGrc87gdhOKB2iW0omGEy3WZOEEYmeHA7S5/pub?gid=176663679&single=true&output=csv",
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Get opportunities",
+            "type": "shell",
+            "command": ".github/actions/get-google-sheets-json/get_json.sh",
+            "options": {
+                "env": {
+                    "OUTPUT_FILE": "_data/opportunities.json",
+                    "SHEET_URL": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRGCMtpWA7gtC3RAaF8uljsN3QLCtoPXeVmNUUn4PtkJ4dpJJyouRFNV-Uoiz6SFlBamfppL0lCWYpJ/pub?gid=0&single=true&output=csv",
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Get photo challenge",
+            "type": "shell",
+            "command": ".github/actions/get-google-sheets-json/get_json.sh",
+            "options": {
+                "env": {
+                    "OUTPUT_FILE": "_data/photo_challenge.json",
+                    "SHEET_URL": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTwL9OONwxvO5zGruIliv0TDh_d5ss-55N0tv8IDiQWzk_VQ1Mne0IhQImp_FX8qNJfdMcLBP9YppiZ/pub?gid=376278346&single=true&output=csv",
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Get wir day events",
+            "type": "shell",
+            "command": ".github/actions/get-google-sheets-json/get_json.sh",
+            "options": {
+                "env": {
+                    "OUTPUT_FILE": "_data/wir_day_events.json",
+                    "SHEET_URL": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTMYWr-9rNI300A9YQeYK8hbiCa0cJNGhqtZ9yn7QsYKvyTJcM_9DQcGFheDJzXoS1aonhkCR9Y0fRb/pub?gid=97431176&single=true&output=csv",
+                }
+            },
+            "problemMatcher": []
+        },
+        {
             "label": "Get json",
             "type": "shell",
             "command": ".github/actions/get-google-sheets-json/get_json.sh",
