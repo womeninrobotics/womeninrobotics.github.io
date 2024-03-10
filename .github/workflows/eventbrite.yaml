@@ -1,4 +1,4 @@
-name: eventbrite
+name: eventbrite [inactive]
 
 on:
   # schedule:
