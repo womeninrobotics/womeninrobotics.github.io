@@ -148,3 +148,12 @@ collections:
               - { label: Name, name: name, widget: string }
               - { label: Logo, name: logo, widget: image }
               - { label: Link, name: link, widget: string }
+      - label: "Shop"
+        name: "shop"
+        file: "_data/shop.yaml"
+        fields:
+          - label: "Merchandise"
+            name: "merchandise"
+            widget: "list"
+            fields:
+              - { label: Image, name: image, widget: image }
