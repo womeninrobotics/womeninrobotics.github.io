@@ -185,17 +185,18 @@ js: main.js
                 <div class="col-xs-12 col-sm-6">
                     <div id="storeCarousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
-                            {%- assign num = site.data.shop.size %}
+                            {%- assign num = site.data.shop.merchandise.size %}
                             {%- assign range = (1..num) %}
-                            {%- for i in (1..site.data.shop.size) %}
+                            {%- for i in (1..site.data.shop.merchandise.size) %}
                             <button type="button" data-bs-target="#storeCarousel" data-bs-slide-to="{{i | minus: 1}}"
                                 aria-label="Slide {{i}}" {% if i==1 %}class="active" aria-current="true" {%endif
                                 %}></button>
                             {%- endfor %}
                         </div>
                         <div class="carousel-inner">
-                            {%- for item in site.data.shop %}
-                            <div class="carousel-item {% if item == site.data.shop.first %} active {% endif %}">
+                            {%- for item in site.data.shop.merchandise %}
+                            <div
+                                class="carousel-item {% if item == site.data.shop.merchandise.first %} active {% endif %}">
                                 <img src=" {{ item.image }}" alt="item" class="d-block w-100">
                             </div>
                             {%- endfor %}
