@@ -13,7 +13,9 @@
 		// Jekyll server
 		4000,
 		// Live reload server
-		35729
+		35729,
+		// CMS
+		8081
 	],
 	// Local aliases settings as mounts
 	"mounts": [
