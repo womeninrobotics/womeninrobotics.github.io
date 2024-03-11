@@ -114,7 +114,7 @@ js: main.js
         </div>
         <div class="pb-5">
             {%- if site.data.events %}
-            {% assign sorted_events = site.data.events | sort:"start_time" | compact%}
+            {% assign sorted_events = site.data.events | sort:"date" | compact%}
             {%- endif %}
             {%- for event in sorted_events limit: 2 %}
             {%- if event.name %}

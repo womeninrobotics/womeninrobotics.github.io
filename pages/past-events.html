@@ -5,7 +5,7 @@ permalink: /past-events/
 ---
 <div class="container pb-5">
     <div>
-        {% assign reverse_sorted_events = site.data.past_events | sort:"start_time" | reverse %}
+        {% assign reverse_sorted_events = site.data.past_events | sort:"date" | reverse %}
         {% for event in reverse_sorted_events limit: 5%}
         {% include event-card.html event=event %}
         {% endfor %}
