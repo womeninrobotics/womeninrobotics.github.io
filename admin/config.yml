@@ -124,4 +124,16 @@ collections:
                       { label: Url, name: url, widget: string },
                     ],
                 }
-
+      - label: "Stats"
+        name: "stats"
+        file: "_data/stats.yaml"
+        fields:
+          - label: "Total Members"
+            name: "members"
+            widget: "number"
+          - label: "Total Subscribers"
+            name: "subscribers"
+            widget: "number"
+          - label: "Total Chapters"
+            name: "chapters"
+            widget: "number"
