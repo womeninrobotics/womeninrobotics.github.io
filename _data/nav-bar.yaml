@@ -1,6 +1,4 @@
 pages:
-  - title: Women in Robotics Day 2023
-    url: /wir-day-2023
   - title: About
     url: /
     subpages:
@@ -23,6 +21,8 @@ pages:
         url: /events/
       - title: Past Events
         url: /past-events/
+      - url: /wir-day-2023
+        title: Women in Robotics Day 2023
   - title: Chapters
     url: /
     subpages:
