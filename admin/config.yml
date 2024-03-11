@@ -137,3 +137,14 @@ collections:
           - label: "Total Chapters"
             name: "chapters"
             widget: "number"
+      - label: "Sponsors"
+        name: "sponsors"
+        file: "_data/sponsors.yaml"
+        fields:
+          - label: "Sponsors"
+            name: "companies"
+            widget: "list"
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Logo, name: logo, widget: image }
+              - { label: Link, name: link, widget: string }

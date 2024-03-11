@@ -1,12 +1,13 @@
-- name: Silicon Valley Robotics
-  logo: /assets/images/svrobo-logo.png
-  link: https://svrobo.org
-- name: Robohub
-  logo: /assets/images/robohublogo.png
-  link: https://robohub.org
-- name: CITRIS CPAR
-  logo: /assets/images/citris-cpar-logo.svg
-  link: https://citris-uc.org/research/people-and-robots/
-- name: Robust.ai
-  logo: /assets/images/RobustLogo_RBG_lightBG.png
-  link: https://www.robust.ai/
+companies:
+  - name: Silicon Valley Robotics
+    logo: /assets/images/svrobo-logo.png
+    link: https://svrobo.org
+  - name: Robohub
+    logo: /assets/images/robohublogo.png
+    link: https://robohub.org
+  - name: CITRIS CPAR
+    logo: /assets/images/citris-cpar-logo.svg
+    link: https://citris-uc.org/research/people-and-robots/
+  - name: Robust.ai
+    logo: /assets/images/RobustLogo_RBG_lightBG.png
+    link: https://www.robust.ai/

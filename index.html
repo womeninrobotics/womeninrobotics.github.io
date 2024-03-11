@@ -246,7 +246,7 @@ js: main.js
         <div class="container pb-5">
             <div id="sponsors">
                 <div class="row">
-                    {%- for sponsor in site.data.sponsors %}
+                    {%- for sponsor in site.data.sponsors.companies %}
                     <div class="col text-center mb-2">
                         <a href="{{ sponsor.link }}"><img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}"></a>
                     </div>
