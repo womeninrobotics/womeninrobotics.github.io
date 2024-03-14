@@ -13,6 +13,8 @@ chapter is a record:
 "name":
 "eventbrite": (optional)
 "meetup": (optional)
+"linkedin": (optional)
+"instagram": (optional)
 "email":
 "description":
 ```
@@ -37,6 +39,14 @@ chapter is a record:
             {%- if chapter.meetup %}
             <a href="{{ chapter.meetup }}"><img src="/assets/images/meetup-icon.png" width="36" height="36"
                     alt="meetup" /></a>
+            {%- endif %}
+            {%- if chapter.linkedin %}
+            <a href="{{ chapter.linkedin }}"><img src="/assets/images/linkedin-icon.png" width="36" height="36"
+                    alt="linkedin" /></a>
+            {%- endif %}
+            {%- if chapter.instagram %}
+            <a href="{{ chapter.instagram }}"><img src="/assets/images/instagram-icon.png" width="36" height="36"
+                    alt="instagram" /></a>
             {%- endif %}
         </div>
     </div>
