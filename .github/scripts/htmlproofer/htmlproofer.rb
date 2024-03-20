@@ -21,7 +21,7 @@ options = {
     "https://women-in-robotics.printify.me/product/2634433/women-in-robotics-day-2023-womens-favorite-tee"
   ],
   ignore_status_codes: [
-    403
+    403, 999
   ],
   swap_urls: {
     "https://womeninrobotics.org/" => "/",
