@@ -140,12 +140,15 @@ js: main.js
             {% include event-card.html event=event %}
             {%- endif %}
             {%- endfor %}
-            {%- if sorted_events.size > 1 %}
+            {%- if sorted_events.size >= 1 %}
             <div class="offset-md-4 col-md-6 mb-5">
                 <a href="/events/">All events <i class="fa fa-arrow-right"></i></a>
             </div>
             {%- else %}
             <div class="text-center">
+                <p>Stay tuned for exciting updates and events! Our calendar is always buzzing with new
+                    meetups, workshops, and events.</p>
+                <p>Explore past events to discover the variety of engaging activities we offer!</p>
                 <a href="/past-events/" class="btn btn-lg btn-common">Past events <i class="fa fa-arrow-right"></i></a>
             </div>
             {%- endif %}
