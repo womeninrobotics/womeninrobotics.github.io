@@ -76,8 +76,27 @@ js: main.js
     <div class="text-center">
         <h5 class="text-white">We provide a weekly newsletter keeping you up to date with the latest news in the
             industry and Women in Robotics.</h5>
-        <a class="page-scroll btn btn-lg btn-info-filled animated fadeInUp" href="/newsletter/">Subscribe</a>
-        <a class="page-scroll btn btn-lg btn-info animated fadeInUp" href="/news/">Read more</a>
+        <div id="custom-substack-embed"></div>
+
+
+        <script>
+            window.CustomSubstackWidget = {
+                substackUrl: "womeninrobotics.substack.com",
+                placeholder: "example@gmail.com",
+                buttonText: "Subscribe",
+                theme: "custom",
+                colors: {
+                    primary: "#EB155B",
+                    input: "#FFFFFF",
+                    email: "#eeeee",
+                    text: "#FFFFFF",
+                },
+
+                // Go to substackapi.com to unlock custom redirect
+
+            };
+        </script>
+        <script src="https://substackapi.com/widget.js" async></script>
     </div>
 </section>
 <!-- End portfolio section 4col -->
