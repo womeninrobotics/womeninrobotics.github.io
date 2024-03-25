@@ -1,4 +1,5 @@
 ---
+name: volunteer-welcome
 title: Thank you for volunteering for Women in Robotics!
 ---
 

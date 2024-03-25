@@ -1,4 +1,5 @@
 ---
+name: signup-women-found
 title: Thank you for signing up for Women in Robotics!
 ---
 

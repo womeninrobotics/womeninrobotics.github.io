@@ -1,4 +1,5 @@
 ---
+name: newsletter-thankyou
 title: Women in Robotics Newsletter
 ---
 
