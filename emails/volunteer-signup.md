@@ -1,4 +1,5 @@
 ---
+name: volunteer-signup
 title: Thank you for your interest in Women in Robotics!
 ---
 

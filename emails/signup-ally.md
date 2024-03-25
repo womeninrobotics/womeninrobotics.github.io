@@ -1,4 +1,5 @@
 ---
+name: signup-ally
 title: Thank you for your interest in Women in Robotics!
 ---
 Thank you for expressing your commitment to supporting gender diversity and inclusion in robotics by signing up to become an ally of Women in Robotics. Your dedication to this cause is truly commendable, and we're excited to have you as part of our community.

@@ -28,7 +28,7 @@ collections:
         }
       - { label: "Body", name: "body", widget: "markdown", required: false }
   - name: "forms" # Used in routes, e.g., /admin/collections/blog
-    label: "Forms" # Used in the UI
+    label: "Form" # Used in the UI
     folder: "pages/forms" # The path to the folder where the documents are stored
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     preview_path: "{{permalink}}"
@@ -39,7 +39,7 @@ collections:
       - { label: "Form", name: "iframe", widget: "string" }
       - { label: "Height", name: "height", widget: "number" }
   - name: "redirects" # Used in routes, e.g., /admin/collections/blog
-    label: "Redirects" # Used in the UI
+    label: "Redirect" # Used in the UI
     folder: "pages/redirects" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     editor:
@@ -50,7 +50,7 @@ collections:
       - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Redirect To", name: "redirect_to", widget: "string" }
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
-    label: "Pages" # Used in the UI
+    label: "Page" # Used in the UI
     folder: "pages/posts" # The path to the folder where the documents are stored
     preview_path: "{{permalink}}"
     create: true # Allow users to create new documents in this collection
@@ -99,6 +99,16 @@ collections:
           options: ["list"],
           default: "list",
         }
+  - name: "emails" # Used in routes, e.g., /admin/collections/blog
+    label: "Email" # Used in the UI
+    folder: "emails" # The path to the folder where the documents are stored
+    identifier_field: name
+    preview_path: "/emails/{{name}}"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "config" # Used in routes, e.g., /admin/collections/blog
     label: "Config" # Used in the UI
     editor:

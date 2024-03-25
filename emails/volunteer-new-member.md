@@ -1,4 +1,5 @@
 ---
+name: volunteer-new-member
 title: New Volunteer Signup
 ---
 
