@@ -54,6 +54,10 @@ permalink: /volunteer/
                             <input name="contact-field" type="text" id="contact_field" name="contact">
                         </div>
                         <div class="d-none">
+                            <label for="group_field">group:</label>
+                            <input name="group-field" type="text" id="group_field" name="group">
+                        </div>
+                        <div class="d-none">
                             <label for="member_field">Member filter:</label>
                             <input name="member-field" type="text" id="member_field" name="member_field">
                         </div>
@@ -88,6 +92,7 @@ permalink: /volunteer/
         // Extract info from data-bs-* attributes
         var recipient = button.getAttribute('data-bs-opportunity')
         var contact = button.getAttribute('data-bs-contact')
+        var group = button.getAttribute('data-bs-group')
         // If necessary, you could initiate an AJAX request here
         // and then do the updating in a callback.
         //
@@ -95,10 +100,12 @@ permalink: /volunteer/
         var modalTitle = volunteerModal.querySelector('.modal-title')
         var modalBodyInput = volunteerModal.querySelector('.modal-body input')
         var modalContactInput = volunteerModal.querySelector('#contact_field')
+        var modalGroupInput = volunteerModal.querySelector('#group_field')
 
         modalTitle.textContent = 'Volunteer for ' + recipient
         modalBodyInput.value = recipient
         modalContactInput.value = contact
+        modalGroupInput.value = group
     })
 
     var form = document.getElementById('volunteerForm');
