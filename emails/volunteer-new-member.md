@@ -33,4 +33,4 @@ Let's act quickly and get {name} settled in. Remember, updating the group member
 
 Thanks for your cooperation, and let's make {name}'s introduction a smooth and welcoming experience.
 
--Women in Robotics
+Women in Robotics
