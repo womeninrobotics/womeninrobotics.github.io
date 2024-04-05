@@ -9,4 +9,4 @@ Please check your inbox regularly, as we will be sending you periodic updates an
 
 Once again, thank you for your support and we look forward to staying connected with you.
 
--Women in Robotics
+Women in Robotics

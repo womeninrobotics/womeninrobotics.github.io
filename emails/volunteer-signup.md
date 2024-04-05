@@ -11,4 +11,4 @@ Before we get started, we'd like to ask you to join our community by signing up 
 
 Looking forward to having you!
 
-- Women in Robotics
+Women in Robotics
