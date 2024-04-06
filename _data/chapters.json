@@ -264,5 +264,19 @@
     "email": "sweden@womeninrobotics.org",
     "time_offset": null,
     "description": "Jennifer David"
+  },
+  {
+    "name": "Colombia",
+    "long_name": "Bogotá, Colombia",
+    "region": "Americas",
+    "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-colombia-82131905853",
+    "meetup": null,
+    "linkedin": null,
+    "instagram": null,
+    "webpage": null,
+    "slack": "local_colombia",
+    "email": "colombia@womeninrobotics.org",
+    "time_offset": null,
+    "description": null
   }
 ]
