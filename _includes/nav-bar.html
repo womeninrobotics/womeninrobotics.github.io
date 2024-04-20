@@ -34,19 +34,4 @@
         {% assign social = site.social_media %}
         {% include social.html fa_size="fa-lg" %}
     </div>
-    <div id="donate-button-container" class="d-none d-lg-block px-3">
-        <div id="donate-button"></div>
-        <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
-        <script>
-            PayPal.Donation.Button({
-                env: 'production',
-                hosted_button_id: 'CK7KTNPSEYSC4',
-                image: {
-                    src: 'https://pics.paypal.com/00/s/NTZkZTQ1YjgtOWI0MC00N2U3LTg3ZGQtYmM1NDdhMjAyOWFi/file.PNG',
-                    alt: 'Donate with PayPal button',
-                    title: 'PayPal - The safer, easier way to pay online!',
-                }
-            }).render('#donate-button');
-        </script>
-    </div>
 </nav>
