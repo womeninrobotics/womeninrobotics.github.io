@@ -31,7 +31,7 @@ jobs:
           published_sheet_url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRGCMtpWA7gtC3RAaF8uljsN3QLCtoPXeVmNUUn4PtkJ4dpJJyouRFNV-Uoiz6SFlBamfppL0lCWYpJ/pub?gid=0&single=true&output=csv"
           output_file: "_data/opportunities.json"
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v6.0.4
+        uses: peter-evans/create-pull-request@v6.0.5
         with:
           committer: WIR Website Bot <website@womeninrobotics.org>
           base: main
