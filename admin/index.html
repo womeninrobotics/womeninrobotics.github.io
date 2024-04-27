@@ -18,6 +18,7 @@
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   <script>
+    CMS.registerPreviewStyle("/assets/css/bootstrap.min.css");
     CMS.registerPreviewStyle("/assets/css/main.css");
   </script>
 
@@ -45,12 +46,14 @@
         var title = entry.getIn(['data', 'title']);
         var bg = this.props.getAsset(image);
         var link = entry.getIn(['data', 'link']);
-        return h('div', {},
-          h('div', { "className": "blog-item-wrapper h-100" },
-            h('img', { "className": "blog-item-img", src: bg.toString() }),
-            h('div', { "className": "blog-item-text" },
-              h('h3', {}, title),
-              h('a', { "className": "btn btn-common btn-rm", href: link }, "Read More")
+        return h('div', { "className": "mt-3" },
+          h('div', { "className": "col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item mb-5" },
+            h('div', { "className": "blog-item-wrapper h-100" },
+              h('img', { "className": "blog-item-img", src: bg.toString() }),
+              h('div', { "className": "blog-item-text" },
+                h('h3', {}, title),
+                h('a', { "className": "btn btn-common btn-rm", href: link }, "Read More")
+              ),
             ),
           ),
           h('div', {},
