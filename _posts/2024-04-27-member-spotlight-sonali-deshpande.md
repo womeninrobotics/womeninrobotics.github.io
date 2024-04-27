@@ -1,6 +1,6 @@
 ---
 title: "Member Spotlight: Sonali Deshpande"
-image: /assets/images/pxl_20220524_224419927.mp-sonali-deshpande.jpg
+image: /assets/images/member-spotlight-sonali-deshpande.png
 ---
 *Join us as we explore the remarkable career of Sonali Deshpande, a seasoned robotics professional, from her formative years in Electrical Engineering to her current role at Relay Robotics. Discover her insights into navigating the complexities of service robots and advocating for greater gender diversity in the field.*
 
