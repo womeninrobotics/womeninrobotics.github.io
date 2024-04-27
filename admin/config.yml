@@ -111,6 +111,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "config" # Used in routes, e.g., /admin/collections/blog
     label: "Config" # Used in the UI
+    show_preview_links: true
     editor:
       preview: false
     files:
