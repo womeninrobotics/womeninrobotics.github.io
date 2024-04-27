@@ -46,6 +46,19 @@
         var title = entry.getIn(['data', 'title']);
         var bg = this.props.getAsset(image);
         var link = entry.getIn(['data', 'link']);
+        var bodyWidget = this.props.widgetFor('body');
+
+        // Conditionally render main content based on whether link is empty or not
+        var mainContent = !link ?
+          // If link is empty, include the full JSX
+          h('div', {},
+            h('h1', { "className": "page-header-title" }, entry.getIn(['data', 'title'])),
+            h('img', { "className": "post-image", src: bg.toString() }),
+            h('div', { "className": "text" }, bodyWidget)
+          ) :
+          // If link exists, include only null
+          null;
+
         return h('div', { "className": "mt-3" },
           h('div', { "className": "col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item mb-5" },
             h('div', { "className": "blog-item-wrapper h-100" },
@@ -56,11 +69,8 @@
               ),
             ),
           ),
-          h('div', {},
-            h('h1', { "className": "page-header-title" }, entry.getIn(['data', 'title'])),
-            h('img', { "className": "post-image", src: bg.toString() }),
-            h('div', { "className": "text" }, this.props.widgetFor('body'))
-          )
+          // Render the main content conditionally
+          mainContent
         );
       }
     });
