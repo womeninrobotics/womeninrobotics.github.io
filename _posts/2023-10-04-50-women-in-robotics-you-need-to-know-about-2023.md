@@ -1,6 +1,7 @@
 ---
 title: 50 women in robotics you need to know about 2023
 image: /assets/images/wir-2023-draft.png
+link: /wir-list/2023
 ---
 OAKLAND CA OCTOBER 4 — In celebration of the launch of International Women in Robotics Day, the Women in Robotics organization is proud to release another “50 women in robotics you need to know about” collection of stories. With a growing robotics industry there are many opportunities for everyone to get involved. This is why we showcase the wide range of roles that women play in robotics today. 
 
