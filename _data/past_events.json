@@ -702,5 +702,13 @@
     "date": "2024-04-10",
     "time": "18:00:00",
     "url": "https://www.eventbrite.com/e/ui-can-handle-it-building-robots-for-people-tickets-874145782567"
+  },
+  {
+    "name": "Robotic Food Manipulation in the Wild",
+    "description": "Join us to see what it takes to build robots for food autonomy!",
+    "location": "Bay Area",
+    "date": "2024-05-02",
+    "time": "18:00:00",
+    "url": "https://www.eventbrite.com/e/robotic-food-manipulation-in-the-wild-tickets-877706282117"
   }
 ]
