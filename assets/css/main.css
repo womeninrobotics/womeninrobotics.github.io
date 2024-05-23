@@ -406,6 +406,11 @@ blockquote:before {
     background-color: #2e3192;
 }
 
+.alert-info h1 {
+    color: #fff;
+    background-color: #2e3192;
+}
+
 .carousel-indicators [data-bs-target] {
     background-color:#eb155b;
 }
@@ -447,14 +452,6 @@ blockquote:before {
 .bg-secondary {
     background: #2e3192 !important;
     color: white !important;
-}
-
-#newsletter {
-    background: #2e3192;
-    color: white;
-}
-#newsletter h1 {
-    color: white;
 }
 
 #support {
