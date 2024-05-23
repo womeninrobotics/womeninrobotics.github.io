@@ -74,7 +74,7 @@ js: main.js
         </ul>
     </div>
     <div class="text-center">
-        <h5 class="text-white">We provide a weekly newsletter keeping you up to date with the latest news in the
+        <h5 class="text-white">We provide a quarterly newsletter keeping you up to date with the latest news in the
             industry and Women in Robotics.</h5>
         <div id="custom-substack-embed"></div>
 
@@ -157,35 +157,24 @@ js: main.js
 </section>
 <!-- End event highlight section -->
 
-<!-- Begin newsletter section -->
-<section id="newsletter">
+<!-- Begin community section -->
+<section id="signup" class="alert-info">
     <div class="container p-5">
         <div class="row">
             <div class="col-xs-12 col-sm-6">
-                <h1>Subscribe to our newsletter</h1>
-                <p>New events, new chapters, you name it! There’s a lot happening for women in our online community and
-                    in the rest of the world. Subscribe to always be up-to-date on the latest from Women in Robotics!
+                <h1>Join our community</h1>
+                <p>Join our community to engage in discussions, share resources, and connect with peers. Our community
+                    is a space for collaboration and support among robotics enthusiasts and professionals.
                 </p>
             </div>
             <div class="col-xs-12 col-sm-6">
                 <div style="margin-top:2.5em;">
-                    <form name="newsletter" method="post" data-netlify="true" netlify-honeypot="member-field"
-                        data-netlify-recaptcha="true" action="/success/">
-                        <div class=" form-group">
-                            <label for="member_email">Email address</label>
-                            <input class="form-control" placeholder="Your email address..." type="email"
-                                name="member[email]" id="member_email" required>
-                        </div>
-                        <div data-netlify-recaptcha="true" class="form-group mb-4"></div>
-                        <div class="d-none">
-                            <label for="member_field">Member filter:</label>
-                            <input name="member-field" type="text" id="member-field">
-                        </div>
-                        <div class="form-actions">
-                            <input class="btn btn-lg btn-default-filled mb-1" type="submit" value="Subscribe"
-                                name="member[subscribe]" id="member_submit">
-                        </div>
-                    </form>
+                    <div class="p-2">
+                        <a href="{{ site.join_url }}"
+                            class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">
+                            Join us
+                        </a>
+                    </div>
 
                 </div>
             </div>
