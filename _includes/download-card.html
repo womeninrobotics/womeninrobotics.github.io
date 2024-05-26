@@ -1,0 +1,25 @@
+{% comment %}
+This file adds a download card from a google file
+
+Example:
+```
+{% for fileID in site.data.photos %}
+{% include download-card.html preview=500 %}
+{% endfor %}
+```
+photo is the google file ID
+
+For example, in the following share link:
+https://drive.google.com/file/d/1txvr737M6AyNO8oOU0kIjlL3UZwGfBT9/view?usp=drive_link
+
+1txvr737M6AyNO8oOU0kIjlL3UZwGfBT9 is the file ID
+
+{% endcomment %}
+{% assign preview = include.preview | default: 500 %}
+{% assign alt = include.alt | default: "drive file" %}
+
+<div>
+    <a href="https://drive.google.com/uc?export=download&id={{fileID}}">
+        <img src="https://lh3.googleusercontent.com/d/{{fileID}}=w{{preview}}" alt="{{alt}}" class="w-100">
+    </a>
+</div>

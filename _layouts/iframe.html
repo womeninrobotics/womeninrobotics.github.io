@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+{% assign web_height=page.height | default: 1500 %}
+{% assign mobile_height=page.mobile_height | default: web_height %}
 
 <div class="header-caption">
     <div class="row">
@@ -14,7 +16,31 @@ layout: default
 
 <div class="row">
     <div class="col-md-12 header-content text-center">
-        <iframe src="{{ page.iframe }}" width="100%" height="{{ page.height }}" frameborder="0" marginheight="0"
-            marginwidth="0">Loading…</iframe>
+        <iframe id="myIframe" src="{{ page.iframe }}" width="100%" height="{{ page.height }}" frameborder="0"
+            marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
 </div>
+
+<script>
+    function setIframeHeight() {
+        var iframe = document.getElementById('myIframe');
+        var windowWidth = window.innerWidth;
+        // Log the window width for debugging
+        console.log('Window width:', windowWidth);
+
+
+        if (windowWidth <= 768) { // Mobile view
+            iframe.style.height = '{{ mobile_height }}px';
+            console.log('mobile height:', iframe.style.height);
+        } else { // Desktop view
+            iframe.style.height = '{{ web_height }}px';
+            console.log('web height:', iframe.style.height);
+        }
+    }
+
+    // Initial setting of the iframe height
+    setIframeHeight();
+
+    // Adjust iframe height on window resize
+    window.onresize = setIframeHeight;
+</script>

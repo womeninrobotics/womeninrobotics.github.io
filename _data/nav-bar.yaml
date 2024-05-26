@@ -1,4 +1,6 @@
 pages:
+  - title: International Women in Robotics Day
+    url: /wir-day/
   - title: About
     url: /
     subpages:
