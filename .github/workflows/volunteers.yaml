@@ -37,6 +37,7 @@ jobs:
         with:
           committer: WIR Website Bot <website@womeninrobotics.org>
           base: main
+          commit-message: "Update volunteer json"
           title: "Update volunteer json"
           body: "Updates volunteers from airtable form."
           branch: ${{ env.BRANCH_NAME }}
