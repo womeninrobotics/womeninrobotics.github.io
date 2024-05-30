@@ -3,6 +3,20 @@ layout: post
 title: Project Connect
 image: /assets/images/project-connect.jpg
 permalink: /project-connect/
+
+infos:
+  - title: "Local chapters"
+    url: "/chapters/"
+    image: "/assets/images/local-chapters-2.png"
+    description: "We thrive through our vibrant local chapters. These groups convene regularly, offering a supportive space for women to network, exchange knowledge, and bolster each other's careers. Joining a local chapter allows women to form meaningful connections within their region, benefiting from peer support and collaborative guidance."
+  - title: "Virtual Events and Workshops"
+    url: "/events/"
+    image: "/assets/images/virtual-events.png"
+    description: "We host a variety of virtual events and workshops. These include webinars, skill-building sessions, and online networking opportunities, enabling women to expand their knowledge, share insights, and connect with peers worldwide from the convenience of their homes."
+  - title: "Global Online Community"
+    url: "/signup/"
+    image: "/assets/images/global-community.png"
+    description: "Our global online community is a cornerstone of Women in Robotics. This community allows women from around the globe to interact, share their journeys, and access a rich repository of resources and information. Whether seeking advice, mentorship, or professional development, our online community provides invaluable support to women in robotics."
 ---
 
 ## What is it
@@ -11,20 +25,8 @@ Project Connect is our initiative to connect women who are working on robotics o
 
 All Women in Robotics activities are conducted under a strict [Code of Conduct](/code-of-conduct/) to ensure the safety and security of attendees.
 
-## Connect with us
-
-The easiest way to get started is to join the community!  You'll be connected with {{site.data.stats.members}} other members.
-
-[Join now](/signup/){: .btn .btn-lg .btn-default-filled .my-2}
-
-### Local chapters
-
-Women in Robotics chapters are volunteer-run communities that allow you to connect to other women in robotics, develop your professional skills, and give back to your local area.
-
-[Find a local chapter](/chapters/){: .btn .btn-lg .btn-info-filled .my-2}
-
-### Virtual events
-
-Learn more about other women in robotics, robotic technology, and career development at one of our events.
-
-[Upcoming events](/events/){: .btn .btn-lg .btn-info-filled .my-2}
+<div class="row">
+{% for info in page.infos %}
+{% include info-card.html info=info %}
+{% endfor %}
+</div>
