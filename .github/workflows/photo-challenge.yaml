@@ -35,6 +35,7 @@ jobs:
         with:
           committer: WIR Website Bot <website@womeninrobotics.org>
           base: main
+          commit-message: "Update photo challenge json"
           title: "Update photo challenge json"
           body: "Updates photo challenge submissions from google sheet."
           branch: update-photo-challenge
