@@ -16,7 +16,7 @@ layout: post
 * Black in Robotics - ​​<https://blackinrobotics.org/>
 * Black in AI - <https://blackinai.github.io/>
 * Black ComputeHer - <https://blackcomputeher.org/>
-* Women in Machine Learning - [https://wimlworkshop.org/](https://wimlworkshop.org/faq/)
+* Women in Machine Learning - [https://www.wiml.org/](https://www.wiml.org/)
 * Women in Machine Learning & Data Science - <https://wimlds.org/>
 * Women in AI - <https://www.womeninai.co/>
 * Women Who Code - [https://www.womenwhocode.com/](https://www.womenwhocode.com/about)

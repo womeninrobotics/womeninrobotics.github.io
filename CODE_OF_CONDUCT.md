@@ -40,11 +40,11 @@ If you have concerns related to your participation or interaction at a WiR activ
 * During an event:
   * In-person to organizers and volunteers.
 
-Local organizers will immediately take appropriate action which will always be contacting the local authorities if there is a threat to health and safety. In situations where there is not a need to contact local authorities local organizers will be empowered to make the best decision based on the circumstances. The WiR Board does ask that if local authorities must be contacted or in the event of needing to ban or remove a person from all events that a Board member be contacted. 
+Local organizers will immediately take appropriate action which will always be contacting the local authorities if there is a threat to health and safety. In situations where there is not a need to contact local authorities local organizers will be empowered to make the best decision based on the circumstances. The WiR Board does ask that if local authorities must be contacted or in the event of needing to ban or remove a person from all events that a Board member be contacted.
 
 ## Enforcement
 
-Any participant asked by any member of the community to stop an unacceptable behavior (see above) is expected to comply immediately. Behavior can be harassing without an intent to offend. 
+Any participant asked by any member of the community to stop an unacceptable behavior (see above) is expected to comply immediately. Behavior can be harassing without an intent to offend.
 If a participant engages in behaviour that violates this CoC, WiR retains the right to take any action deemed appropriate, including but not limited to:
 
 * Formal or informal warnings
@@ -64,4 +64,4 @@ The WiR Board of Directors welcomes feedback from the community on this CoC poli
 
 ## Acknowledgements
 
-This CoC policy was written by adapting the wording and structure from other CoC policies and procedures by [WiML](https://wimlworkshop.org/conduct/), [Geek Feminism Wiki](https://geekfeminism.wikia.org/wiki/Conference_anti-harassment/Policy) (created by the Ada Initiative), [NeurIPS](https://nips.cc/public/CodeOfConduct), [ACM](https://www.acm.org/about-acm/policy-against-harassment), [Montreal AI Symposium](https://montrealaisymposium.wordpress.com/code-of-conduct/), and [Deep Learning Indaba](https://deeplearningindaba.com/mentorship/code-of-ethics-and-conduct/).
+This CoC policy was written by adapting the wording and structure from other CoC policies and procedures by [WiML](https://www.wiml.org/conduct), [Geek Feminism Wiki](https://geekfeminism.wikia.org/wiki/Conference_anti-harassment/Policy) (created by the Ada Initiative), [NeurIPS](https://nips.cc/public/CodeOfConduct), [ACM](https://www.acm.org/about-acm/policy-against-harassment), [Montreal AI Symposium](https://montrealaisymposium.wordpress.com/code-of-conduct/), and [Deep Learning Indaba](https://deeplearningindaba.com/mentorship/code-of-ethics-and-conduct/).
