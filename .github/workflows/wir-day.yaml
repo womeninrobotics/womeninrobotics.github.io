@@ -35,6 +35,7 @@ jobs:
         with:
           committer: WIR Website Bot <website@womeninrobotics.org>
           base: main
+          commit-message: "Update wir day events json"
           title: "Update wir day events json"
           body: "Updates wir day events from google sheet."
           branch: wir-day-events

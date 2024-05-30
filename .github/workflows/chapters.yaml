@@ -35,6 +35,7 @@ jobs:
         with:
           committer: WIR Website Bot <website@womeninrobotics.org>
           base: main
+          commit-message: "Update chapters json"
           title: "Update chapters json"
           body: "Updates chapters from google sheet."
           branch: update-chapter
