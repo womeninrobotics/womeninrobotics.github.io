@@ -35,6 +35,7 @@ jobs:
         with:
           committer: WIR Website Bot <website@womeninrobotics.org>
           base: main
+          commit-message: "Update opportunities json"
           title: "Update opportunities json"
           body: "Updates volunteer opportunities from google sheet."
           branch: update-opportunities
