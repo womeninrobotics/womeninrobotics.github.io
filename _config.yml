@@ -87,6 +87,13 @@ defaults:
       type: "pages"
     values:
       layout: "post"
+      related_limit: 0
+  - scope:
+      path: "pages/wir-day"
+      type: "pages"
+    values:
+      layout: "post"
+      related_limit: 0
   - scope:
       path: "pages/forms"
       type: "pages"
