@@ -1,0 +1,25 @@
+<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item mb-5">
+    <!-- Blog Item Starts -->
+    <div class="blog-item-wrapper h-100">
+        <div class="blog-item-img">
+            <img src="{{ post.image }}" alt="{{ post.title }}">
+        </div>
+        <div class="blog-item-text">
+            <h3>
+                {{ post.title }}
+            </h3>
+            <div class="meta-tags">
+                <span class="date"><i class="lnr lnr-calendar-full"></i>{{ post.date | date: "%B %d, %Y" }}</span>
+                <!-- <span class="comments"><a href="#"><i class="lnr lnr-bubble"></i> 24 Comments</a></span> -->
+            </div>
+            <p>{{ post.tagline }}
+            </p>
+            {% if post.link and post.link != empty %}
+            <a href="{{ post.link | strip}}" target="_blank" class="btn btn-common btn-rm">Read More</a>
+            {% else %}
+            <a href="{{ post.url }}" class="btn btn-common btn-rm">Read More</a>
+            {% endif %}
+        </div>
+    </div>
+    <!-- Blog Item Wrapper Ends-->
+</div>
