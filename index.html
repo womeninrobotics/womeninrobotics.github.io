@@ -57,8 +57,8 @@ js: main.js
                 <figure>
                     <div class="hovereffect">
                         <img src="{{ post.image }}" alt="{{ post.title }}">
-                        <a
-                            href="{% if post.link and post.link != empty %}{{ post.link | strip}}{% else %}{{ post.url }}{% endif %}">
+                        {% assign link = post.link | default: post.url %}
+                        <a href="{{ link | strip }}">
                             <div class="overlay">
                                 <figcaption>
                                     <h5
