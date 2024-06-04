@@ -3,7 +3,7 @@ layout: post
 title: Share
 image: /assets/images/wir-day-2024-share.png
 permalink: /wir-day/2024/share/
-share_title: "Celebrate International Women in Robotics Day, Oct 2 2024! #IntWirDay #shinealight #womeninrobotics"
+share_title: "Celebrate International Women in Robotics Day, Oct 2 2024! #IntWirDay #ShineALight #WomenInRobotics"
 share_url: "http://womeninrobotics.org/wir-day/2024"
 files:
     logo:
@@ -52,10 +52,10 @@ We invite you to share photos of your celebrations of women in robotics with us!
 
 Join the global celebration "building the future" of robotics by sharing your support for International Women in Robotics day on social media! Use hashtags **#IntWirDay**, **#ShineALight**, and **#WomenInRobotics** to spread the word and amplify the voices of incredible women making their mark in the world of robotics. Let's inspire and encourage the next generation of trailblazing roboticists together!
 
-{:.row .mb-5}
-[](https://www.facebook.com/sharer/sharer.php?u={{ page.share_url | url_encode }};t={{ page.share_title | url_encode }}){:target="_blank" .social-icon .fa .fa-facebook .fa-2x .col-md-1}
-[](https://x.com/share?text={{ page.share_title | url_encode }}&url={{ page.share_url | url_encode }}){:target="_blank" .social-icon .fa .fa-twitter .fa-2x .col-md-1}
-[](https://www.linkedin.com/shareArticle?url={{ page.share_url | url_encode }}%2F&title={{ page.share_title | url_encode }}){:target="_blank" .social-icon .fa .fa-linkedin .fa-2x .col-md-1}
+{:.text-center .my-5}
+[](https://www.facebook.com/sharer/sharer.php?u={{ page.share_url | url_encode }};t={{ page.share_title | url_encode }}){:target="_blank" .social-icon .fa .fa-facebook .fa-2x}
+[](https://x.com/share?text={{ page.share_title | url_encode }}&url={{ page.share_url | url_encode }}){:target="_blank" .social-icon .fa .fa-twitter .fa-2x}
+[](https://www.linkedin.com/shareArticle?url={{ page.share_url | url_encode }}%2F&title={{ page.share_title | url_encode }}){:target="_blank" .social-icon .fa .fa-linkedin .fa-2x}
 
 ## Create your own post
 
