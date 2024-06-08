@@ -284,12 +284,12 @@
     "long_name": "Zurich, Switzerland",
     "region": "Europe",
     "email": "switzerland@womeninrobotics.org",
-    "eventbrite": null,
+    "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-switzerland-86380640253",
     "meetup": null,
     "linkedin": null,
     "instagram": null,
     "webpage": null,
-    "slack": null,
+    "slack": "local_switzerland",
     "time_offset": null,
     "description": "Nadja Niemann \nJosie Hughes"
   }
