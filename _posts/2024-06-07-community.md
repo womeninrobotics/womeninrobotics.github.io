@@ -1,5 +1,5 @@
 ---
-title: "Women in Robotics Community Insights"
+title: Women in Robotics Community Insights
 image: /assets/images/wir-wordcloud.png"
 ---
 
@@ -30,7 +30,7 @@ The insights gleaned from our survey reaffirm the importance of prioritizing net
 For those interested in getting involved, we encourage you to explore our existing programs and initiatives or check out our [volunteer opportunities](/volunteer):
 
 - **Project Advance** Our mentorship program connects aspiring professionals with experienced mentors in robotics. [Learn more](/project-advance)
-- **Local Chapters** Join a Women in Robotics chapter in your area to connect with like-minded individuals and participate in local events. [Find your chapter](/chpaters)
+- **Local Chapters** Join a Women in Robotics chapter in your area to connect with like-minded individuals and participate in local events. [Find your chapter](/chapters)
 - **Events** Stay updated on upcoming workshops, webinars, and networking events hosted by Women in Robotics. [View events calendar](/events)
 - **Photo Challenge** Participate in our photo challenge to showcase your work and celebrate women in robotics. [Learn more](/photo-challenge)
 - **International Women in Robotics Day** Join us in celebrating the achievements of women in robotics on this special day. [Learn more](/wir-day/)
