@@ -19,7 +19,6 @@ layout: post
 * Women in Machine Learning - [https://www.wiml.org/](https://www.wiml.org/)
 * Women in Machine Learning & Data Science - <https://wimlds.org/>
 * Women in AI - <https://www.womeninai.co/>
-* Women Who Code - [https://www.womenwhocode.com/](https://www.womenwhocode.com/about)
 * IEEE Women in Engineering - [https://www.ieee.org/membership/women/](https://www.ieee.org/membership/women/index.html)
 * ACM-W or Women in Association for Computing Machinery - <https://women.acm.org/>{: data-proofer-ignore=''}
 * Society of Women Engineers - <https://swe.org/>
