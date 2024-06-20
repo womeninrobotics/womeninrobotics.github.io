@@ -12,7 +12,7 @@ At Women in Robotics, we aim to share stories of inspiring women pushing the bou
 
 Nominate someone you admire for their achievements and leadership in robotics.  To nominate someone, please fill out the nomination form.
 
-[Nominate here](/wir-list-nominee){.btn .btn-lg}
+[Nominate here](/wir-list-nominee){:.btn .btn-lg}
 
 ## Submission Guidelines
 
