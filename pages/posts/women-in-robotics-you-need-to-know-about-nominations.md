@@ -1,5 +1,6 @@
 ---
 title: Women in Robotics You Need to Know About Nominations
+image: /assets/images/nominate-outstanding-women-in-robotics-.png
 permalink: /annual-list-nominations
 layout: post
 ---
