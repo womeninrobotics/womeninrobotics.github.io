@@ -1,0 +1,28 @@
+---
+title: Women in Robotics You Need to Know About Nominations
+permalink: /annual-list-nominations
+layout: post
+---
+## Celebrating Women in Robotics
+
+At Women in Robotics, we aim to share stories of inspiring women pushing the boundaries in Robotics.  Help us **shine a light** on these exceptional individuals by nominating someone who has made a significant impact on you, robotics research, industry innovation, community leadership, or education.
+
+## How to Nominate
+
+Nominate someone you admire for their achievements and leadership in robotics.  To nominate someone, please fill out the nomination form.
+
+[Nominate here](/wir-list-nominee){.btn .btn-lg}
+
+## Submission Guidelines
+
+- Nominations must be submitted by **August 15, 2024**.
+- Self-nominations are welcome.
+- Multiple nominations are permitted.
+- All nominations will be reviewed by our panel.
+
+## Next Steps
+
+Once nominations are closed, our panel will review all submissions and select the women to be featured in our annual "[Women in Robotics You Need to Know About](/annual-list)" list.  The selected individuals will be celebrated on our website and social media platforms
+
+Join us in celebrating and honoring the inspiring women who are making significant contributions to the field of robotics!
+
