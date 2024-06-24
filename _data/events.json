@@ -38,5 +38,13 @@
     "date": "2024-11-16",
     "time": "2:00:00 PM",
     "url": "https://www.eventbrite.com/e/women-in-robotics-coffee-by-the-bridge-tickets-923829939217"
+  },
+  {
+    "name": "Robotics over Coffee with Women in Robotics Bay Area",
+    "description": "Join us for a casual coffee chat with awesome women in robotics in the Bay Area on June 27, 2024!",
+    "location": "Bay Area",
+    "date": "2024-06-27",
+    "time": "6:00:00 PM",
+    "url": "https://www.eventbrite.com/e/robotics-over-coffee-with-women-in-robotics-bay-area-tickets-928774067237"
   }
 ]
