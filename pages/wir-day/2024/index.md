@@ -22,7 +22,7 @@ share_title: "Celebrate International Women in Robotics Day, Oct 2 2024! #IntWir
 share_url: "http://womeninrobotics.org/wir-day/2024"
 ---
 
-## October 2th
+## October 2nd
 
 On Women in Robotics Day 2024, we shine a light on the often overlooked innovators and pioneers whose visionary ideas and contributions have been instrumental in propelling the field of robotics forward. These unsung women in robotics have defied stereotypes, blazed trails, and solved complex challenges - yet their stories have gone largely untold.
 
