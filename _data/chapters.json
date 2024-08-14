@@ -292,5 +292,19 @@
     "slack": "local_switzerland",
     "time_offset": null,
     "description": "Nadja Niemann \nKateryna Portmann"
+  },
+  {
+    "name": "Denmark",
+    "long_name": "Aalborg, Denmark",
+    "region": null,
+    "email": "denmark@womeninrobotics.org",
+    "eventbrite": null,
+    "meetup": null,
+    "linkedin": null,
+    "instagram": null,
+    "webpage": null,
+    "slack": null,
+    "time_offset": null,
+    "description": null
   }
 ]
