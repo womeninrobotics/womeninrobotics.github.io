@@ -296,15 +296,15 @@
   {
     "name": "Denmark",
     "long_name": "Aalborg, Denmark",
-    "region": null,
+    "region": "Europe",
     "email": "denmark@womeninrobotics.org",
-    "eventbrite": null,
+    "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-denmark-90638951223",
     "meetup": null,
     "linkedin": null,
     "instagram": null,
     "webpage": null,
-    "slack": null,
+    "slack": "local_denmark",
     "time_offset": null,
-    "description": null
+    "description": "Antonia Krummheuer\nKristina Tornbjerg Eriksen "
   }
 ]
