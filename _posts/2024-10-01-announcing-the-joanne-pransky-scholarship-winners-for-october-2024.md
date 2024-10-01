@@ -50,9 +50,13 @@ I am a proud member of SAG/AFTRA since 2005, working primarily in film, televisi
 
 
 
+## About the judging:
 
+The judging panel is comprised of Dr Robin Murphy, Brenda Cooper (science fiction author), Kathryn Myronuk, Mary Jesse, Dana Whalls, Allison Thackston and Andra Keay. Applicants are asked to write a short science fiction story, or essay, about the role of robotics in society, and we particularly commend the stories from Kayla Carlson and Susie Diaz Ferrera. You can read them on on their profiles on Bold.org.
 
-\
+The judges found it hard to pick five winners from 12 wonderful finalists and we really hope that all the finalists will reapply for the next round of scholarships.
+
+## \
 **The Next Round of Scholarship Applications Is Now Open!**
 
 Applications are now open for the next round of scholarships and the deadline is **February 1st, 2025**. We encourage eligible WiR members to apply and take advantage of this valuable opportunity to support their education and career in robotics.
