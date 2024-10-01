@@ -20,31 +20,31 @@ The **[Joanne Pransky Scholarship](https://bold.org/scholarships/joanne-pransky-
 
 ![](/assets/images/screenshot-2024-10-01-at-3.15.45 pm.png "#### Amadie Gajanaike, Yale University")
 
-### Amadie Gajanaike, Yale University
+### [Amadie Gajanaike, Yale University](https://app.bold.org/students/amadie-gajanaike-1/)
 
-Amadie is no stranger to winning prizes for excellence but the judges were particularly impressed by her passion for advocacy and philanthropy.
+[](https://app.bold.org/students/amadie-gajanaike-1/)Amadie is no stranger to winning prizes for excellence but the judges were particularly impressed by her passion for advocacy and philanthropy.
 
 ![](/assets/images/screenshot-2024-10-01-at-3.15.21 pm.png "#### Wisena Joseph, Northeastern University")
 
-#### Wisena Joseph, Northeastern University
+#### [Wisena Joseph, Northeastern University](https://app.bold.org/students/wisena-joseph/)
 
-I am determined to continue my pursuit of higher education in the field of engineering, specifically in robotics. I want to understand the different aspects of constructing a technology such as its manufacturing, circuitry, and programming; thus, robotics. My goal is to be able to solve societal issues such as aid for the elderly by providing engineering solutions such as domestic robotics. As a low-income student, I plan to use the scholarships here to be a foundational step in my career.
+[](https://app.bold.org/students/wisena-joseph/)I am determined to continue my pursuit of higher education in the field of engineering, specifically in robotics. I want to understand the different aspects of constructing a technology such as its manufacturing, circuitry, and programming; thus, robotics. My goal is to be able to solve societal issues such as aid for the elderly by providing engineering solutions such as domestic robotics. As a low-income student, I plan to use the scholarships here to be a foundational step in my career.
 
 ![](/assets/images/screenshot-2024-10-01-at-3.15.32 pm.png "#### Susie Diaz Ferrera, Stevens Institute of Technology")
 
-#### Susie Diaz Ferrera, Stevens Institute of Technology
+#### [Susie Diaz Ferrera, Stevens Institute of Technology](https://app.bold.org/students/susie-diaz-ferrera/)
 
-I am a first-generation immigrant from Honduras, on the path to becoming a robotics engineer. This fall, I will begin my Master of Engineering in Robotics at Stevens Institute of Technology. Despite earning a partial scholarship, I still have to take out loans to cover the remaining costs. Since arriving in the U.S. as an international student in 2014, I have earned degrees in Mechanical Engineering and Project Management. I am deeply passionate about promoting STEM education, particularly within the Latino/Hispanic community and among women, where representation is critically low, especially in robotics engineering. 
+[](https://app.bold.org/students/susie-diaz-ferrera/)I am a first-generation immigrant from Honduras, on the path to becoming a robotics engineer. This fall, I will begin my Master of Engineering in Robotics at Stevens Institute of Technology. Despite earning a partial scholarship, I still have to take out loans to cover the remaining costs. Since arriving in the U.S. as an international student in 2014, I have earned degrees in Mechanical Engineering and Project Management. I am deeply passionate about promoting STEM education, particularly within the Latino/Hispanic community and among women, where representation is critically low, especially in robotics engineering. 
 
 ![](/assets/images/screenshot-2024-10-01-at-3.16.07 pm.png "#### Chelsea Wiredu, Osbourn Park Senior HS")
 
-#### Chelsea Wiredu, Osbourn Park Senior HS
+#### [Chelsea Wiredu, Osbourn Park Senior HS](https://app.bold.org/students/chelsea-wiredu/)
 
-I was born on November 6, 2006. On that day, NASA took a picture of "The Ghostly Tail of Comet SWAN". When I see that picture, I think of a beautiful comet soaring through endless and infinite space, shining and glistening so brightly and elegantly. It's seen as ghostly because of its ion tail, which is made of ionized gas, energized by ultraviolet light from the Sun, and pushed outward by the solar wind. My goal in life is to be like the ghostly tail of comet SWAN because it absorbs so much light from the Sun, and I would like to absorb education, happiness, and love throughout my life. I've always wanted to work at NASA because I have always been interested in space, stars, and technology, and that is what NASA is all about!
+[](https://app.bold.org/students/chelsea-wiredu/)I was born on November 6, 2006. On that day, NASA took a picture of "The Ghostly Tail of Comet SWAN". When I see that picture, I think of a beautiful comet soaring through endless and infinite space, shining and glistening so brightly and elegantly. It's seen as ghostly because of its ion tail, which is made of ionized gas, energized by ultraviolet light from the Sun, and pushed outward by the solar wind. My goal in life is to be like the ghostly tail of comet SWAN because it absorbs so much light from the Sun, and I would like to absorb education, happiness, and love throughout my life. I've always wanted to work at NASA because I have always been interested in space, stars, and technology, and that is what NASA is all about!
 
 ![](/assets/images/screenshot-2024-10-01-at-3.16.26 pm.png "#### Kayla Carlson, University of Advancing Technology")
 
-#### Kayla Carlson, University of Advancing Technology
+#### [Kayla Carlson, University of Advancing Technology](https://app.bold.org/students/kayla-carlson-99/)
 
 I am a proud member of SAG/AFTRA since 2005, working primarily in film, television, commercials, and modeling. While I love the entertainment industry, work is challenging, requiring two full-time jobs on the side to support myself. It's always been a dream of mine to work in the entertainment industry whilst pursuing a career in science and technology. For this, I look to Hedy Lamarr. Hedy Lamarr crusaded against gender stereotypes of the 1930’s and 1940’s, opening doors for women around the world in her careers as an actress and later, inventor. She patented "Spread Spectrum Technology" which we now know today as Wifi, Bluetooth, and GPS, proving that women can be both creative and intellectual. While Hedy Lamarr’s impact as a Hollywood icon was evident, but she, unbeknownst to many, served a greater lasting impact in the fields of science and technology with her invention of Frequency Hopping Spread Spectrum technology, opening doors for women in science and challenging gender norms of World War II. It is my dream to follow this path and continue my journey in the field of entertainment while also returning to school to complete my Bachelor's in "Robotics and Embedded Systems."
 
