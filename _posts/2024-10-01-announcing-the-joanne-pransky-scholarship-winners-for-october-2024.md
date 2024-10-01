@@ -56,7 +56,7 @@ The judging panel is comprised of Dr Robin Murphy, Brenda Cooper (science fictio
 
 The judges found it hard to pick five winners from 12 wonderful finalists and we really hope that all the finalists will reapply for the next round of scholarships.
 
-## \
+\
 **The Next Round of Scholarship Applications Is Now Open!**
 
 Applications are now open for the next round of scholarships and the deadline is **February 1st, 2025**. We encourage eligible WiR members to apply and take advantage of this valuable opportunity to support their education and career in robotics.
