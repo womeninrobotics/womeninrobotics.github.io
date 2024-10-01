@@ -18,9 +18,36 @@ The **[Joanne Pransky Scholarship](https://bold.org/scholarships/joanne-pransky-
 
 > I am absolutely overjoyed and deeply humbled to be selected as this year’s winner. As a Sri Lankan undergraduate student at Yale studying electrical engineering, this recognition feels particularly meaningful. It has been a journey shaped by curiosity and passion for robotics, and being acknowledged in this way is a profound honor. I am incredibly grateful for this opportunity and the platform you provide to celebrate the achievements of women in robotics. This award strengthens my commitment to contribute meaningfully to the field, especially as someone from a background that is often underrepresented in STEM. Thank you for inspiring and supporting women like me, and for the work you do to elevate diversity in robotics.
 
-#### Amadie Gajanaike
+![](/assets/images/screenshot-2024-10-01-at-3.15.45 pm.png "#### Amadie Gajanaike, Yale University")
 
-## **The Next Round of Scholarship Applications Is Now Open!**
+### Amadie Gajanaike, Yale University
+
+Amadie is no stranger to winning prizes for excellence but the judges were particularly impressed by her passion for advocacy and philanthropy.
+
+#### Wisena Joseph, Northeastern University
+
+I am determined to continue my pursuit of higher education in the field of engineering, specifically in robotics. I want to understand the different aspects of constructing a technology such as its manufacturing, circuitry, and programming; thus, robotics. My goal is to be able to solve societal issues such as aid for the elderly by providing engineering solutions such as domestic robotics. As a low-income student, I plan to use the scholarships here to be a foundational step in my career.
+
+#### Amadie Gajanaike, Yale University
+
+
+
+#### Amadie Gajanaike, Yale University
+
+
+
+#### Amadie Gajanaike, Yale University
+
+
+
+
+
+
+
+
+
+\
+**The Next Round of Scholarship Applications Is Now Open!**
 
 Applications are now open for the next round of scholarships and the deadline is **February 1st, 2025**. We encourage eligible WiR members to apply and take advantage of this valuable opportunity to support their education and career in robotics.
 
