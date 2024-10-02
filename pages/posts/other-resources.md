@@ -14,7 +14,7 @@ layout: post
 ## ORGANIZATIONS
 
 * Black in Robotics - ​​<https://blackinrobotics.org/>
-* Black in AI - <https://blackinai.github.io/>
+* Black in AI - <https://blackinai.github.io/>{: data-proofer-ignore=''}
 * Black ComputeHer - <https://blackcomputeher.org/>
 * Women in Machine Learning - [https://www.wiml.org/](https://www.wiml.org/)
 * Women in Machine Learning & Data Science - <https://wimlds.org/>
