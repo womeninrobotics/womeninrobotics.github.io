@@ -3,14 +3,6 @@
     "name": "Women in Robotics Coffee by the Bridge",
     "description": "Come have a casual coffee and chat with members of Women in Robotics on a gorgeous day in SF by the ocean!",
     "location": "Bay Area",
-    "date": "2024-09-21",
-    "time": "2:00:00 PM",
-    "url": "https://www.eventbrite.com/e/women-in-robotics-coffee-by-the-bridge-tickets-923829919157"
-  },
-  {
-    "name": "Women in Robotics Coffee by the Bridge",
-    "description": "Come have a casual coffee and chat with members of Women in Robotics on a gorgeous day in SF by the ocean!",
-    "location": "Bay Area",
     "date": "2024-10-19",
     "time": "2:00:00 PM",
     "url": "https://www.eventbrite.com/e/women-in-robotics-coffee-by-the-bridge-tickets-923829929187"
@@ -26,9 +18,17 @@
   {
     "name": "International 'Women in Robotics' Day - Switzerland",
     "description": "Let's celebrate Women in Robotics together!",
-    "location": null,
+    "location": "Switzerland",
     "date": "2024-10-02",
     "time": "6:00:00 PM",
     "url": "https://www.eventbrite.com/e/international-women-in-robotics-day-switzerland-tickets-995898086987"
+  },
+  {
+    "name": "Women in Robotics Switzerland x ABB",
+    "description": "Save the Date!  -  Join us for a collaborative event celebrating women in robotics in Switzerland, in partnership with ABB.",
+    "location": "Switzerland",
+    "date": "2024-11-28",
+    "time": "5:00:00 PM",
+    "url": "https://www.eventbrite.com/e/women-in-robotics-switzerland-x-abb-tickets-1026885792047"
   }
 ]
