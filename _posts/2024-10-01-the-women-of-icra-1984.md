@@ -32,7 +32,15 @@ Sadly we couldn't find any information about Diane E. Britton or Eleanore G. Wel
 
 
 
+![Linda Shapiro](/assets/images/linda-shapiro.jpg "Linda Shapiro")
 
+[Linda Shapiro](https://homes.cs.washington.edu/~shapiro/biography.html), Professor of Computer Science and Engineering, Professor of Electrical and Computer Engineering, and Adjunct Professor of Biomedical and Informatics and Medical Education, earned a bachelor's degree in mathematics from the University of Illinois in 1970 and master's and Ph.D degrees in computer science from the University of Iowa in 1972 and 1974, respectively. She was a faculty member in Computer Science at Kansas State University from 1974 to 1978 and at Virginia Polytechnic Institute and State University from 1979 to 1984. She then spent two years as Director of Intelligent Systems at Machine Vision International in Ann Arbor, Michigan. She joined the University of Washington Electrical Engineering (now ECE) Department Department in 1986 and the Computer Science and Engineering Department in 1990. 
+
+Professor Shapiro's research is in computer vision with related interests in image and multimedia database systems, artificial intelligence (search, reasoning, knowledge representation, learning), and applications in medicine and robotics. She has worked heavily in knowledge-based 3D object recognition and has contributed to both the theory of object matching and to the development of experimental machine vision systems. 
+
+Her current work includes robot vision, cancer biopsy analysis, brain image analysis, and semantic segmentation. Professor Shapiro was the editor-in-chief of Computer Vision, Graphics, and Image Processing for 10 years. She was the 1993-95 chair of the IEEE Computer Society Technical Committee on Pattern Analysis and Machine Intelligence, conference chair of the 1986 IEEE Conference on Computer Vision and Pattern Recognition, co-program chairman of the 1994 conference, and co-chair of the 2008 conference. She was also the co-chair of the Biomedical and Multimedia Applications Track of the International Conference on Pattern Recognition in 2002. She has co-authored a textbook on data structures, a two-volume graduate text on computer and robot vision, and an undergraduate computer vision text. She is a Fellow of the IEEE and of the IAPR.
+
+<https://youtu.be/ovEVHV2vGNY?si=BisHhiYZ4lUEwrJm>
 
 
 
@@ -46,4 +54,24 @@ As the founding Dean of the Bourns College of Engineering at UC Riverside, she f
 
 [https://youtu.be/qv_BKB6tL84?si=AmECLOWz1_jRum_S](<https://youtu.be/qv_BKB6tL84?si=AmECLOWz1_jRum_S>)
 
-[](<https://youtu.be/qv_BKB6tL84?si=AmECLOWz1_jRum_S>)
+
+
+![Ruzena Bajscy](/assets/images/ruzena_bajcsy.jpg "Ruzena Bajscy")
+
+Throughout her long and influential career, Ruzena Bajcsy has been a pioneer in machine perception, robotics, and artificial intelligence, introducing entire fields that today are taken for granted as important research areas. She is particularly well known for two concepts. The first, known as "active perception," revolutionized robotic vision and sensing. Until 1988, the paradigm in robotic vision was to interpret what one was perceiving based on the composition and computer analysis of a few images taken from static cameras and sensors. Bajcsy suggested that the more effective method of moving the sensors would help the machine gather more information and the sensors, in turn, could help streamline movement. This paradigm of vision as an active process has become the leading theory in understanding human vision as well—emphasizing the surprising cross-disciplinary nature of much of Bajcsy's work.
+
+The second contribution for which Bajcsy is well-known, elastic matching, has transformed medical imaging. This work matches up defined points on anatomical structures and organs to automatically align, measure, and analyze the uniquely-shaped body parts of any individual. By elastically massaging such "deformed" images to match idealized medical images, a computer can identify body parts and help spot anomalies or problems. This has particularly influenced non-invasive measurements of brain structure and function.
+
+Bajcsy's awards include: the Allen Newell Award, the Computing Research Associates Distinguished Service Award, the IEEE Innovation in Healthcare Technology Medal, and the ACM Distinguished Service Award. She is a member of the National Academy of Engineering and the National Academy of Science Institute of Medicine. In 2009, she became a Franklin Medal Laureate   [](<https://youtu.be/qv_BKB6tL84?si=AmECLOWz1_jRum_S>) and in 2011
+
+> “Many people think of robotics as mechanical things, but robotics is also perception – and communication between machines.” – Ruzena Bajcsy
+
+At a time when robotic science concretely divided research subjects between planning, sensing, and control, Ruzena Bajcsy insisted on bringing the disciplines together. Bajcsy realized that in order for robots to perceive their surroundings effectively they needed to act more like humans. Instead of thinking of sensing as a passive process where images and sensor measurements were acquired by static sensors, she developed robots that improved their perception of the world by actively moving their cameras and sensors and by reaching and touching. (Computer vision could not be improved, for example, by mere analysis of a static image--—instead sensors needed to move around, change their focal length or change the lighting to gather as much data from as many perspectives as possible). It seems self-evident now, but in the 1980s when Bajcsy first suggested the concept of "active perception," it revolutionized the robotics field. Later, she drew upon similar cross-disciplinary research—including computer science and biomechanics -- to overturn the way software analyzed and manipulated medical images.
+
+Ruzena Bajcsy received her master's and Ph.D. degrees in electrical engineering from Slovak Technical University in Bratislava in 1957 and 1967, respectively. During this time she also taught math and computer science there. Bajcsy went on to Stanford where she earned a Ph.D. in computer science in 1972. She became an assistant professor at the University of Pennsylvania in 1977, and was chair of the computer and information science department 13 years later—the first woman in that position. In 1979 she founded the General Robotics, Automation, Sensing and Perception (GRASP) Lab at Penn, which remains a major lab in the field even after her "retirement" in 2001. Subsequently, Bajcsy spent two years working for the NSF before founding UC Berkeley's Center for Information Technology Research in the Interest of Society \[CITRIS], where she is now director emeritus. 
+
+[IEEE Robotics History Project](<“Many people think of robotics as mechanical things, but robotics is also perception – and communication between machines.” – Ruzena Bajcsy>)
+
+
+
+<https://www.youtube.com/watch?v=r0fQR4ECigw>
