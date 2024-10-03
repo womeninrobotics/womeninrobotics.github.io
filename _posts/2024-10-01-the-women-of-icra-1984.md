@@ -62,6 +62,6 @@ Ruzena Bajcsy received her master's and Ph.D. degrees in electrical engineering 
 
 <https://www.youtube.com/watch?v=r0fQR4ECigw>
 
-The women we feature show that glass ceilings are made to be broken, but the women who we can't find or feature show that a career in robotics is still very far from easy. Our latest research dug deep into statistics about women in robotics across all of the STEM fields and found that it's still not a great career choice for women. **Women that are still in robotics after 15 years are exceptional exceptions!**
+The women we feature show that glass ceilings are made to be broken, but those women who we can't find or feature show that a career in robotics is still very far from easy. Our latest research dug deep into statistics about women in robotics across all of the STEM fields and found that it's still not a great career choice for women. **Women that are still in robotics after 15 years are exceptional exceptions!**
 
 ![Why women leave STEM jobs - chart](/assets/images/why-women-leave-stem-jobs-600x600.png "Why women leave STEM jobs - Women in Robotics research 2024")
