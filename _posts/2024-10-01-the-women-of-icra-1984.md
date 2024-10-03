@@ -33,3 +33,11 @@ Sadly we couldn't find any information about Diane E. Britton or Eleanore G. Wel
 
 
 ![Susan Hackwood](/assets/images/susan-hackwood.jpeg "Susan Hackwood")
+
+Professor Emeritus Susan Hackwood is a Senior Policy Fellow at the School of Public Policy and Director of the Science to Policy (S2P) program at the University of California, Riverside. Prior to her current role she served as Executive Director of the California Council on Science and Technology (CCST) for over two decades, advising the state on various aspects of science and technology, including biotechnology, nanotechnology, climate change, disaster prevention, technical workforce development and education.
+
+Hackwood gained her Ph.D. in Solid State Ionics from DeMontfort University, UK and has held various positions in industry and academia. She was the Department Head of Device Robotics Technology Research at AT&T Bell Labs, where she invented and named the electrowetting effect. Later she joined the University of California, Santa Barbara, where she founded the National Science Foundation Engineering Research Center for Robotics Systems in Microelectronics.
+
+As the founding Dean of the Bourns College of Engineering at UC Riverside, she founded the Center for Environmental Research Technology and pioneered research in swarm intelligence technologies. She is a Fellow of the IEEE and the AAAS, and she works closely in partnership with industry, academia and government to address policy issues of societal importance.
+
+https://youtu.be/qv_BKB6tL84?si=AmECLOWz1_jRum_S
