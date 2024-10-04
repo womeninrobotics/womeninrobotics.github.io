@@ -24,7 +24,7 @@ Both Alicia Casals and Ruzena Bajscy were featured in our ["2014 Women in Roboti
 
 ![Diane E. Britton and Eleanore G. Wells](/assets/images/unknown-woman-icon-purple.png "Diane E. Britton and Eleanore G. Wells")
 
-Sadly we couldn't find any information about Diane E. Britton or Eleanore G. Wells, except for their affiliation with RCA Laboratories. They are two of the authors of the ICRA 1984 paper on Coordination Software for Robotic Workcells. [ICRA 1984](https://dblp.org/db/conf/icra/icra1984.html#BairdWB84): 354-360: [Henry S. Baird](https://dblp.org/pid/90/365.html), [Eleanore G. Wells](https://dblp.org/pid/191/1137.html), [Dianne E. Britton](https://dblp.org/pid/55/894.html).  Please let us know if you have more details.
+Sadly we couldn't find any information about Diane E. Britton or Eleanore G. Wells, except for their affiliation with RCA Laboratories. They are two of the authors of the ICRA 1984 paper on Coordination Software for Robotic Workcells. [ICRA 1984](https://dblp.org/rec/conf/icra/BairdWB84): 354-360: [Henry S. Baird](https://dblp.org/pid/90/365.html), [Eleanore G. Wells](https://dblp.org/pid/191/1137.html), [Dianne E. Britton](https://dblp.org/pid/55/894.html).  Please let us know if you have more details.
 
 ![Linda Shapiro](/assets/images/linda-shapiro.jpg "Linda Shapiro")
 
