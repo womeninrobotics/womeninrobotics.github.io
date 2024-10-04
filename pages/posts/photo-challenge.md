@@ -17,8 +17,8 @@ If you’ve ever searched for images of **women building robots**{:.text-primary
 
 Let’s make women working in robotics **more visible**{:.text-primary}.  Let’s help make it **more desirable**{:.text-primary} for women to work in robotics and for companies/labs to showcase women (and nonbinary and underrepresented people!) and let’s **inspire, connect and advance the women that are working in robotics and the women who’d like to work in robotics**{:.text-primary}.
 
-{% assign photos = site.data.photo_challenge %}
-<div class="row row-cols-1 row-cols-md-3 g-4 my-5">
+{% assign photos = site.data.photo_challenge | sort: "Timestamp" | reverse %}
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-5" data-masonry='{"percentPosition": true }' id="masonry">
 {% for photo in photos limit: 3 %}
   {% include photo-card.html photo=photo %}
 {% endfor %}
