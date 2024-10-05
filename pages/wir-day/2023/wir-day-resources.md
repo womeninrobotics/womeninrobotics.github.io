@@ -2,7 +2,9 @@
 title: Women in Robotics Day 2023 Resources
 image: /assets/images/WiRDay-Instagram-6.png
 layout: post
-permalink: /wir-day-2023/resources/
+permalink: /wir-day/2023/resources/
+redirect_from:
+  - /wir-day-2023/resources/
 ---
 
 ## Resource Pack

@@ -2,7 +2,9 @@
 layout: post
 title: Women in Robotics Day 2023 Photos
 image: /assets/images/wir-day-2023-share.png
-permalink: /wir-day-2023/photos/
+permalink: /wir-day/2023/photos/
+redirect_from:
+  - /wir-day-2023/photos/
 photos:
 - File URL: "https://upload.wikimedia.org/wikipedia/commons/b/b4/Building_an_Andino_robot.jpg"
   Attribution: "Florencia Grosso, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"

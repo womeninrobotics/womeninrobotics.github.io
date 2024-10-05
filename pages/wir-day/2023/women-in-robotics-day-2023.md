@@ -1,8 +1,10 @@
 ---
 title: Women in Robotics Day 2023
 image: /assets/images/wir-day-bubblesv3-clear.png
-permalink: /wir-day-2023/
+permalink: /wir-day/2023/
 layout: post
+redirect_from:
+  - /wir-day-2023/
 
 infos:
   - title: "Celebrate"
