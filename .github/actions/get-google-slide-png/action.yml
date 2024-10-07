@@ -1,0 +1,25 @@
+name: Update png from Google Slide
+author: Allison Thackston
+description: "Get a Google Slide as a PNG file and create a PR"
+
+inputs:
+  presentation_id:
+    description: "The id of the published Google Slide deck"
+    required: true
+  slide_id:
+    description: "The id of the slide to save as PNG"
+    required: true
+  output_file:
+    description: "URI of the output image"
+    required: true
+
+runs:
+  using: "composite"
+  steps:
+    - name: Get slide as PNG
+      shell: bash
+      run: .github/actions/get-google-slide-png/get_png.sh
+      env:
+        PRESENTATION_ID: ${{ inputs.presentation_id }}
+        SLIDE_ID: ${{ inputs.slide_id }}
+        OUTPUT_FILE: ${{ inputs.output_file }}

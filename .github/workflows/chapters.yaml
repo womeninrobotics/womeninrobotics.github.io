@@ -40,3 +40,27 @@ jobs:
           body: "Updates chapters from google sheet."
           branch: update-chapter
           token: ${{ secrets.ACTION_TOKEN }}
+  chapter-map:
+    runs-on: ubuntu-latest
+    name: Update chapter map
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.ACTION_TOKEN }}
+      - name: Update chapters
+        uses: ./.github/actions/get-google-slide-png/
+        with:
+          presentation_id: "1YgB2SLzsxL9IWPza7Jp3KjRhErniwpyUrMwCDDkQC60"
+          slide_id: "g1174c2540ab_0_108"
+          output_file: "assets/images/wir-map.png"
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v7.0.5
+        with:
+          committer: WIR Website Bot <website@womeninrobotics.org>
+          base: main
+          commit-message: "Update chapter map"
+          title: "Update chapter map"
+          body: "Updates chapter map from google slide."
+          branch: update-chapter-map
+          token: ${{ secrets.ACTION_TOKEN }}
