@@ -168,20 +168,6 @@
     "description": "Nevedhaa Ayyappan\nKatie Allison\nMia Thomas"
   },
   {
-    "name": "Paris",
-    "long_name": "Paris, France",
-    "region": "Europe",
-    "email": "france@womeninrobotics.org",
-    "eventbrite": null,
-    "meetup": null,
-    "linkedin": null,
-    "instagram": null,
-    "webpage": null,
-    "slack": "local_france",
-    "time_offset": null,
-    "description": "Sarah Najmark"
-  },
-  {
     "name": "Vancouver",
     "long_name": "Vancouver, Canada",
     "region": "Americas",
