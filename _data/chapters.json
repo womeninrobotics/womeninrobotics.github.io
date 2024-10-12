@@ -95,7 +95,7 @@
     "webpage": null,
     "slack": "local_new_york",
     "time_offset": 12,
-    "description": "Caroline Willer-Burchardi\nCharlotte Willer-Burchardi"
+    "description": "Caroline Willer-Burchardi\nCharlotte Willer-Burchardi\nNatalie Friedman"
   },
   {
     "name": "Melbourne",
@@ -166,20 +166,6 @@
     "slack": "local_ontario",
     "time_offset": 13,
     "description": "Nevedhaa Ayyappan\nKatie Allison\nMia Thomas"
-  },
-  {
-    "name": "Paris",
-    "long_name": "Paris, France",
-    "region": "Europe",
-    "email": "france@womeninrobotics.org",
-    "eventbrite": null,
-    "meetup": null,
-    "linkedin": null,
-    "instagram": null,
-    "webpage": null,
-    "slack": "local_france",
-    "time_offset": null,
-    "description": "Sarah Najmark"
   },
   {
     "name": "Vancouver",
