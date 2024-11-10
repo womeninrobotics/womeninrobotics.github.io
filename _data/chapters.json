@@ -292,5 +292,19 @@
     "slack": "local_denmark",
     "time_offset": null,
     "description": "Antonia Krummheuer\nKristina Tornbjerg Eriksen "
+  },
+  {
+    "name": "Egypt",
+    "long_name": "Cairo, Egypt",
+    "region": "Africa",
+    "email": "egypt@womeninrobotics.org",
+    "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-egypt-102457711451",
+    "meetup": null,
+    "linkedin": null,
+    "instagram": null,
+    "webpage": null,
+    "slack": "local_egypt",
+    "time_offset": null,
+    "description": "Mona Srour\nNourhan Elkhedr"
   }
 ]
