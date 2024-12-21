@@ -10,7 +10,7 @@
     "instagram": null,
     "webpage": null,
     "slack": "events",
-    "time_offset": 15,
+    "time_offset": 15.0,
     "description": "Andra Keay\nLaura Stelzner"
   },
   {
@@ -24,7 +24,7 @@
     "instagram": null,
     "webpage": null,
     "slack": "local_boston",
-    "time_offset": 12,
+    "time_offset": 12.0,
     "description": "Colleen Anderson"
   },
   {
@@ -38,7 +38,7 @@
     "instagram": null,
     "webpage": null,
     "slack": "local_sf_bay_area",
-    "time_offset": 15,
+    "time_offset": 15.0,
     "description": "Andra Keay\nLaura Stelzner\nAllison Thackston\nRevati Naik\nPaelle Powell"
   },
   {
@@ -52,7 +52,7 @@
     "instagram": null,
     "webpage": null,
     "slack": "local_boulder_denver",
-    "time_offset": 14,
+    "time_offset": 14.0,
     "description": "Laurie Linz"
   },
   {
@@ -66,7 +66,7 @@
     "instagram": "https://www.instagram.com/womeninroboticsuk/",
     "webpage": "https://linktr.ee/womeninroboticsuk",
     "slack": "local_uk",
-    "time_offset": 8,
+    "time_offset": 8.0,
     "description": "Edith-Clare Hall\nElla Maule\nYael Zekaria\nIsabelle Ormerod"
   },
   {
@@ -80,7 +80,7 @@
     "instagram": null,
     "webpage": null,
     "slack": "local_india",
-    "time_offset": 2,
+    "time_offset": 2.0,
     "description": "Momita Pal\nKanchan Prasad"
   },
   {
@@ -94,7 +94,7 @@
     "instagram": null,
     "webpage": null,
     "slack": "local_new_york",
-    "time_offset": 12,
+    "time_offset": 12.0,
     "description": "Caroline Willer-Burchardi\nCharlotte Willer-Burchardi\nNatalie Friedman"
   },
   {
@@ -108,7 +108,7 @@
     "instagram": null,
     "webpage": null,
     "slack": "local_australia",
-    "time_offset": 21,
+    "time_offset": 21.0,
     "description": "Poornima L Nathan\nNicci Rossouw/Exaptec"
   },
   {
@@ -122,7 +122,7 @@
     "instagram": null,
     "webpage": null,
     "slack": "local_australia",
-    "time_offset": 21,
+    "time_offset": 21.0,
     "description": "Sue Keay"
   },
   {
@@ -136,7 +136,7 @@
     "instagram": null,
     "webpage": null,
     "slack": "local_texas",
-    "time_offset": 13,
+    "time_offset": 13.0,
     "description": "Stephanie Garcia"
   },
   {
@@ -150,7 +150,7 @@
     "instagram": null,
     "webpage": null,
     "slack": "local_pittsburgh",
-    "time_offset": 13,
+    "time_offset": 13.0,
     "description": "Jenn Apicella"
   },
   {
@@ -164,7 +164,7 @@
     "instagram": null,
     "webpage": null,
     "slack": "local_ontario",
-    "time_offset": 13,
+    "time_offset": 13.0,
     "description": "Nevedhaa Ayyappan\nKatie Allison\nMia Thomas"
   },
   {
@@ -178,7 +178,7 @@
     "instagram": null,
     "webpage": null,
     "slack": "local_vancouver",
-    "time_offset": 15,
+    "time_offset": 15.0,
     "description": "Flora Huo\nKritika Joshi"
   },
   {
@@ -292,5 +292,19 @@
     "slack": "local_denmark",
     "time_offset": null,
     "description": "Antonia Krummheuer\nKristina Tornbjerg Eriksen "
+  },
+  {
+    "name": "Egypt",
+    "long_name": "Cairo, Egypt",
+    "region": "Africa",
+    "email": "egypt@womeninrobotics.org",
+    "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-egypt-102457711451",
+    "meetup": null,
+    "linkedin": null,
+    "instagram": null,
+    "webpage": null,
+    "slack": "local_egypt",
+    "time_offset": null,
+    "description": "Mona Srour\nNourhan Elkhedr"
   }
 ]
