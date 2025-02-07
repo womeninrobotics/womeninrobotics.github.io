@@ -1,10 +1,26 @@
 [
   {
+    "name": "Natalie Friedman",
+    "description": "Networking and paper circuit workshop at MakeLab in NYC.",
+    "location": "New York",
+    "date": "2025-02-19",
+    "time": "6:30:00 PM",
+    "url": "https://lu.ma/r7nngw1f"
+  },
+  {
     "name": "Women in Robotics x ETH",
     "description": "Women in Robotics going academia.",
     "location": "Switzerland",
     "date": "2025-03-12",
     "time": "5:00:00 PM",
     "url": "https://www.eventbrite.com/e/women-in-robotics-x-eth-tickets-1076475951549"
+  },
+  {
+    "name": "Robotics Summer Party @ IPZ",
+    "description": "Women in Robotics Switzerland & Zurich Hardware Meetup are being hosted by the Innovation Park Zurich for a lovely summer party!",
+    "location": "Switzerland",
+    "date": "2025-06-19",
+    "time": "5:00:00 PM",
+    "url": "https://www.eventbrite.com/e/robotics-summer-party-ipz-tickets-1242459211949"
   }
 ]
