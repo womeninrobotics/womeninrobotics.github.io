@@ -822,5 +822,21 @@
     "date": "2025-03-16",
     "time": "10:00:00",
     "url": "https://www.eventbrite.com/e/women-in-robotics-mi-casual-meet-tickets-1257597400679"
+  },
+  {
+    "name": "Women in Robotics MI - Hike in the Park",
+    "description": "Let's hit the trails with Women in Robotics - Hike, a fun event where we combine our love for robotics with the great outdoors!",
+    "location": "Michigan",
+    "date": "2025-05-04",
+    "time": "10:00:00",
+    "url": "https://www.eventbrite.com/e/women-in-robotics-mi-hike-in-the-park-tickets-1323064654999"
+  },
+  {
+    "name": "Hello, Robot #2 - Ascento",
+    "description": "Women in Robotics visiting Ascento in Zurich",
+    "location": "Switzerland",
+    "date": "2025-05-22",
+    "time": "18:00:00",
+    "url": "https://www.eventbrite.com/e/hello-robot-2-ascento-tickets-1333879873609"
   }
 ]
