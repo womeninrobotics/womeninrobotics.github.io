@@ -90,12 +90,12 @@
     "email": "newyork@womeninrobotics.org",
     "eventbrite": null,
     "meetup": null,
-    "linkedin": null,
-    "instagram": null,
+    "linkedin": "https://www.linkedin.com/showcase/women-tgx-in-robotics-nyc",
+    "instagram": "https://www.instagram.com/womentgxinroboticsnyc/",
     "webpage": null,
     "slack": "local_new_york",
     "time_offset": 12.0,
-    "description": "Caroline Willer-Burchardi\nCharlotte Willer-Burchardi\nNatalie Friedman"
+    "description": "Mandy Meindersma\nJasmine Lawrence Campbell"
   },
   {
     "name": "Melbourne",
