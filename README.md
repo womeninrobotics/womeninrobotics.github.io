@@ -12,15 +12,15 @@ See our [Contributing guide](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_COND
 
 ## Site organization
 
-* `_data`: General information for the site
-* `_includes`: HTML snippets used in layouts
-* `_layouts`: Layout templates used for the site
-* `_posts`: Dated content used for news snippets
-* `.devcontainer`: VSCode docker environment
-* `.github`: Github action workflows and settings
-* `.vscode`: VSCode IDE settings
-* `assets`: Website assets that should be deployed
-* `pages`: Subpages of the website
+- `_data`: General information for the site
+- `_includes`: HTML snippets used in layouts
+- `_layouts`: Layout templates used for the site
+- `_posts`: Dated content used for news snippets
+- `.devcontainer`: VSCode docker environment
+- `.github`: Github action workflows and settings
+- `.vscode`: VSCode IDE settings
+- `assets`: Website assets that should be deployed
+- `pages`: Subpages of the website
 
 ## How to add a chapter
 
@@ -49,10 +49,9 @@ These values are updated from the [`Current Chapter Organizers`](https://docs.go
 
 Updating this file will
 
-1. Update the chapter list on the website [chapaters](https://www.womeninrobotics.org/chapters/)
+1. Update the chapter list on the website [chapters](https://www.womeninrobotics.org/chapters/)
 2. Update the meetingplace.io scrapper
-3. Update the [meetingplace slackbot](https://github.com/womeninrobotics/meetingplace-slack-bot) on [heroku](https://dashboard.heroku.com/apps/meetingplace-slack-bot
-)
+3. Update the [meetingplace slackbot](https://github.com/womeninrobotics/meetingplace-slack-bot) on [heroku](https://dashboard.heroku.com/apps/meetingplace-slack-bot)
 
 ## How to change shop items
 
@@ -66,7 +65,7 @@ Format:
 
 ## How to add a news article
 
-Add a news article by adding a new file in `_posts`.   The filename should be formatted as `YYYY-mm-dd-title.md`.  The content of the file should have the following frontmatter:
+Add a news article by adding a new file in `_posts`. The filename should be formatted as `YYYY-mm-dd-title.md`. The content of the file should have the following frontmatter:
 
 ```yaml
 ---
@@ -92,7 +91,7 @@ image: # thumbnail image
 
 # Your article title
 
-Some content!  All articles are written in [markdown](https://www.markdownguide.org/)
+Some content! All articles are written in [markdown](https://www.markdownguide.org/)
 ```
 
 ## Running CMS locally
@@ -101,11 +100,11 @@ To run CMS locally:
 
 1. Set the port number in your .env file
 
-    ```txt
-    PORT=8081
-    ```
+   ```txt
+   PORT=8081
+   ```
 
-    > Note: it appears to need to be 8081 to function properly
+   > Note: it appears to need to be 8081 to function properly
 
 2. Start a local proxy server
 
