@@ -12,15 +12,15 @@ See our [Contributing guide](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_COND
 
 ## Site organization
 
-* `_data`: General information for the site
-* `_includes`: HTML snippets used in layouts
-* `_layouts`: Layout templates used for the site
-* `_posts`: Dated content used for news snippets
-* `.devcontainer`: VSCode docker environment
-* `.github`: Github action workflows and settings
-* `.vscode`: VSCode IDE settings
-* `assets`: Website assets that should be deployed
-* `pages`: Subpages of the website
+- `_data`: General information for the site
+- `_includes`: HTML snippets used in layouts
+- `_layouts`: Layout templates used for the site
+- `_posts`: Dated content used for news snippets
+- `.devcontainer`: VSCode docker environment
+- `.github`: Github action workflows and settings
+- `.vscode`: VSCode IDE settings
+- `assets`: Website assets that should be deployed
+- `pages`: Subpages of the website
 
 ## How to add a chapter
 
@@ -36,7 +36,6 @@ Format:
     "name": "Online", // Short name of the chapter
     "long_name": "Online", // Long name of the chapter, include region, state, or country if applicable
     "region": "Global", // Region to place the chapter in for the index
-    "meetingplace": "womeninrobotics", // meetingplace id
     "slack": "events", // Name of the corresponding slack channel for the chapter, often local_<chapter name>
     "email": "online@womeninrobotics.org", // email address for the chapter
     "time": 15, // time offset for checking for new events
@@ -47,12 +46,7 @@ Format:
 
 These values are updated from the [`Current Chapter Organizers`](https://docs.google.com/spreadsheets/d/1Z9iAIqHjX-nGQ3G9jNqXhYdm38QD7I1HmJVSlmf_d-E/edit?usp=sharing) file on the shared drive.
 
-Updating this file will
-
-1. Update the chapter list on the website [chapaters](https://www.womeninrobotics.org/chapters/)
-2. Update the meetingplace.io scrapper
-3. Update the [meetingplace slackbot](https://github.com/womeninrobotics/meetingplace-slack-bot) on [heroku](https://dashboard.heroku.com/apps/meetingplace-slack-bot
-)
+Updating this file will update the chapter list on the website [chapters](https://www.womeninrobotics.org/chapters/)
 
 ## How to change shop items
 
@@ -66,7 +60,7 @@ Format:
 
 ## How to add a news article
 
-Add a news article by adding a new file in `_posts`.   The filename should be formatted as `YYYY-mm-dd-title.md`.  The content of the file should have the following frontmatter:
+Add a news article by adding a new file in `_posts`. The filename should be formatted as `YYYY-mm-dd-title.md`. The content of the file should have the following frontmatter:
 
 ```yaml
 ---
@@ -92,7 +86,7 @@ image: # thumbnail image
 
 # Your article title
 
-Some content!  All articles are written in [markdown](https://www.markdownguide.org/)
+Some content! All articles are written in [markdown](https://www.markdownguide.org/)
 ```
 
 ## Running CMS locally
@@ -101,11 +95,11 @@ To run CMS locally:
 
 1. Set the port number in your .env file
 
-    ```txt
-    PORT=8081
-    ```
+   ```txt
+   PORT=8081
+   ```
 
-    > Note: it appears to need to be 8081 to function properly
+   > Note: it appears to need to be 8081 to function properly
 
 2. Start a local proxy server
 
