@@ -36,7 +36,6 @@ Format:
     "name": "Online", // Short name of the chapter
     "long_name": "Online", // Long name of the chapter, include region, state, or country if applicable
     "region": "Global", // Region to place the chapter in for the index
-    "meetingplace": "womeninrobotics", // meetingplace id
     "slack": "events", // Name of the corresponding slack channel for the chapter, often local_<chapter name>
     "email": "online@womeninrobotics.org", // email address for the chapter
     "time": 15, // time offset for checking for new events
@@ -47,11 +46,7 @@ Format:
 
 These values are updated from the [`Current Chapter Organizers`](https://docs.google.com/spreadsheets/d/1Z9iAIqHjX-nGQ3G9jNqXhYdm38QD7I1HmJVSlmf_d-E/edit?usp=sharing) file on the shared drive.
 
-Updating this file will
-
-1. Update the chapter list on the website [chapters](https://www.womeninrobotics.org/chapters/)
-2. Update the meetingplace.io scrapper
-3. Update the [meetingplace slackbot](https://github.com/womeninrobotics/meetingplace-slack-bot) on [heroku](https://dashboard.heroku.com/apps/meetingplace-slack-bot)
+Updating this file will update the chapter list on the website [chapters](https://www.womeninrobotics.org/chapters/)
 
 ## How to change shop items
 
