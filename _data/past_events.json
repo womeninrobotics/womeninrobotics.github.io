@@ -838,5 +838,21 @@
     "date": "2025-05-22",
     "time": "18:00:00",
     "url": "https://www.eventbrite.com/e/hello-robot-2-ascento-tickets-1333879873609"
+  },
+  {
+    "name": "Robotics Summer Party @ IPZ",
+    "description": "Women in Robotics Switzerland & Zurich Hardware Meetup are being hosted by the Innovation Park Zurich for a lovely summer party!",
+    "location": "Switzerland",
+    "date": "2025-06-19",
+    "time": "17:00:00",
+    "url": "https://www.eventbrite.com/e/robotics-summer-party-ipz-tickets-1242459211949"
+  },
+  {
+    "name": "Robotics over Coffee with Women in Robotics Bay Area",
+    "description": "Connect, Celebrate & Share",
+    "location": "Bay Area",
+    "date": "2025-06-21",
+    "time": "16:00:00",
+    "url": "https://www.eventbrite.com/e/robotics-over-coffee-with-women-in-robotics-bay-area-tickets-1400282365249"
   }
 ]
