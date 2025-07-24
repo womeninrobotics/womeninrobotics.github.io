@@ -306,5 +306,33 @@
     "slack": "local_egypt",
     "time_offset": null,
     "description": "Mona Srour\nNourhan Elkhedr"
+  },
+  {
+    "name": "Argentina",
+    "long_name": "Buenos Aires, Argentina",
+    "region": "Europe",
+    "email": "argentina@womeninrobotics.org",
+    "eventbrite": null,
+    "meetup": null,
+    "linkedin": null,
+    "instagram": null,
+    "webpage": null,
+    "slack": "local_argentina",
+    "time_offset": null,
+    "description": "Belén Torres\nFlorencia Grosso"
+  },
+  {
+    "name": "France",
+    "long_name": "Paris, France",
+    "region": "Europe",
+    "email": "france@womeninrobotics.org",
+    "eventbrite": null,
+    "meetup": null,
+    "linkedin": null,
+    "instagram": null,
+    "webpage": null,
+    "slack": "local_france",
+    "time_offset": null,
+    "description": "Tahar Mylene\nMichelle Valente\nTahar Mylene\nMichelle Valente"
   }
 ]
