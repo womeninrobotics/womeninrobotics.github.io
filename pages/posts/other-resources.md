@@ -6,11 +6,9 @@ layout: post
 <!-- markdownlint-disable blanks-around-headings -->
 
 {:.sub-title}
-
 #### A list of links to other useful organizations or resources for Women in Robotics
 
 {:.mt-5}
-
 ## ORGANIZATIONS
 
 * Black in Robotics - ​​<https://blackinrobotics.org/>
@@ -19,7 +17,7 @@ layout: post
 * Women in Machine Learning - [https://www.wiml.org/](https://www.wiml.org/)
 * Women in Machine Learning & Data Science - <https://wimlds.org/>
 * Women in AI - <https://www.womeninai.co/>
-* IEEE Women in Engineering - [https://www.ieee.org/membership/women/](https://www.ieee.org/membership/women/index.html)
+* IEEE Women in Engineering - [https://wie.ieee.org/](https://wie.ieee.org/)
 * ACM-W or Women in Association for Computing Machinery - <https://women.acm.org/>{: data-proofer-ignore=''}
 * Society of Women Engineers - <https://swe.org/>
 * Anita Borg Org - <https://anitab.org/>
@@ -28,14 +26,12 @@ layout: post
 * Association for Women in Science - [https://www.awis.org](https://www.awis.org/about-awis)
 
 {:.mt-5}
-
 ## DIRECTORIES/LISTS
 
 * Women in US Academic Robotics Research (list) - <https://us-women-in-robotics-research.github.io/>
 * Women in Academic Research in Robotics in Canada (list) - <https://canada-robotics-research-lists.github.io/canada-women-in-robotics-research/>
 
 {:.mt-5}
-
 ## REFERENCES/RESOURCES
 
 * Terminology for 21st Century Technologists - <https://robohub.org/its-time-to-update-19th-century-terms-for-21st-century-technology/>
