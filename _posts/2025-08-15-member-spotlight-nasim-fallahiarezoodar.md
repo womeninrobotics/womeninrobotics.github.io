@@ -2,6 +2,12 @@
 title: "Member spotlight: Nasim Fallahiarezoodar"
 image: /assets/images/member-spotlight-nasim-fallahiarezoodar.png
 ---
+Meet Nasim Fallahiarezoodar, a space roboticist whose journey began in aerospace engineering and led to a PhD at the frontier of on-orbit servicing. Originally from Iran, she designs cooperative control for dual-arm space manipulators—melding reinforcement learning with classical control to tackle debris removal and in-space assembly on microgravity testbeds.
+
+Read her full interview below to explore how autonomous systems will shape sustainable space operations, the innovations that excite her most, and her vision for a global, supportive community to lift up the next generation of women in robotics.
+
+## Interview with Nasim Fallahiarezoodar
+
 **What is your background?**
 
 I am originally from the Iran, and my path into aerospace engineering began almost by chance when I started my undergraduate studies. What began as an unexpected choice quickly became a passion, and I continued to build my expertise through research and advanced studies. Over time, my interests evolved toward robotics in space applications, which led me to pursue my PhD, focusing on cooperative control of dual-arm space manipulators for tasks like space debris removal and on-orbit assembly.
