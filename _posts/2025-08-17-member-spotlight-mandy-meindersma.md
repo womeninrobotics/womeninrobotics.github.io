@@ -2,6 +2,12 @@
 title: Member Spotlight - Mandy Meindersma
 image: /assets/images/member-spotlight-mandy-meindersma.png
 ---
+Meet Mandy Meindersma, a “software by day, hardware by night” maker whose path to robotics started in an unlikely place: a rural high school shop class where a welding teacher taught soldering instead of code. Canadian-born and University of Alberta–trained, she’s now a New York–based web developer with a robotics streak, happiest when Java, Python, and a breadboard are all within reach.
+
+In this interview, she shares the joy of side projects—from wiring a rotary phone to place calls on a smartphone to crafting infrared-controlled LED bracelets inspired by the Eras Tour—and her plan to step fully into robotics. You’ll also hear how she’s paying it forward, including her upcoming “Making our young roboticists” session at Tech Bash, where kids will build paper circuits and their first “robots.” Dive in for a candid, hands-on perspective on bridging software and hardware while lighting the way for the next generation.
+
+## Interview with Mandy Meindersma
+
 **What is your background?**\
 I like to say I am software by day and hardware by night :P I currently work as a web dev and I have worked a lot of software jobs but all my side projects are either hardware or robotics. My university courses were all about robotics. I eventually want to transition into the robotics world! I am Canadian, I got my degree from University of Alberta and now I am working in New York! I love it! Java and Python are my fave. 
 
