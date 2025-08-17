@@ -24,7 +24,7 @@ jobs:
       BRANCH_NAME: volunteer-update
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Get volunteers from airtable
         shell: bash
         run: |

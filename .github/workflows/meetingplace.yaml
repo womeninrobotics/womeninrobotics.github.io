@@ -9,7 +9,7 @@ jobs:
     name: Update events from meetinplace.io
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           token: ${{ secrets.ACTION_TOKEN}}
       - name: Get chapter events from meetingplace
