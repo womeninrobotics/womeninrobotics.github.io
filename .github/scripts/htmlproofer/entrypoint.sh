@@ -12,7 +12,7 @@ while [ "$TRIES" -ge 1 ]; do
     break
   fi
   if [ "$TRIES" -ge 1 ]; then
-    sleep 5
+    sleep 120
   fi
 done
 

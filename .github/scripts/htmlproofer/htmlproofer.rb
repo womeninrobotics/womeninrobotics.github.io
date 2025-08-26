@@ -18,7 +18,8 @@ options = {
     /meetingplace.io/,
     /twitter.com/,
     "https://women-in-robotics.printify.me/product/2634428/women-in-robotics-day-2023-unisex-jersey-short-sleeve-tee",
-    "https://women-in-robotics.printify.me/product/2634433/women-in-robotics-day-2023-womens-favorite-tee"
+    "https://women-in-robotics.printify.me/product/2634433/women-in-robotics-day-2023-womens-favorite-tee",
+    /svrobo.org/
   ],
   ignore_status_codes: [
     403, 999, 429
@@ -26,7 +27,8 @@ options = {
   swap_urls: {
     "https://womeninrobotics.org/" => "/",
     "https://www.womeninrobotics.org/" => "/",
-  }
+  },
+  cache: { timeframe: { external: "2w", internal: "1w" } }
 }
 
 HTMLProofer.check_directory('./_site', options).run
