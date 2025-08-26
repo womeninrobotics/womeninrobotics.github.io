@@ -31,7 +31,7 @@ person is a record:
         {%- if person.image and person.image != "" %}
         <img src="{{person.image}}" alt="{{ person.name}}" class="card-img-top">
         {%- else %}
-        <img src="/assets/images/RosieUpdated.jpeg" alt="{{person.name}}" class="card-img-top">
+        <img src="/assets/images/default-profile.png" alt="{{person.name}}" class="card-img-top">
         {%- endif %}
         <div class="card-body">
             <h3 class="card-title">{{ person.name }}</h3>

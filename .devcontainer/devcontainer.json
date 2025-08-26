@@ -17,11 +17,6 @@
 		// CMS
 		8081
 	],
-	// Local aliases settings as mounts
-	"mounts": [
-		"source=/${env:HOME}/.bash_aliases,target=/home/vscode/.bash_aliases,type=bind,consistency=cached",
-		"source=/${env:HOME}/.aliases,target=/home/vscode/.aliases,type=bind,consistency=cached"
-	],
 	// Uncomment the next line to run commands after the container is created.
 	"postCreateCommand": "sh .devcontainer/post-create.sh",
 	// Configure tool-specific properties.

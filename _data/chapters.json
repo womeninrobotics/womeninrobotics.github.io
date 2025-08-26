@@ -88,7 +88,7 @@
     "long_name": "New York, USA",
     "region": "Americas",
     "email": "newyork@womeninrobotics.org",
-    "eventbrite": null,
+    "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-new-york-112275145781",
     "meetup": null,
     "linkedin": "https://www.linkedin.com/showcase/women-tgx-in-robotics-nyc",
     "instagram": "https://www.instagram.com/womentgxinroboticsnyc/",
@@ -310,29 +310,29 @@
   {
     "name": "Argentina",
     "long_name": "Buenos Aires, Argentina",
-    "region": "Europe",
+    "region": "Americas",
     "email": "argentina@womeninrobotics.org",
-    "eventbrite": null,
+    "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-argentina-112735596531",
     "meetup": null,
     "linkedin": null,
     "instagram": null,
     "webpage": null,
     "slack": "local_argentina",
     "time_offset": null,
-    "description": "Belén Torres\nFlorencia Grosso"
+    "description": "Florencia Grosso\nBelén Torres"
   },
   {
     "name": "France",
     "long_name": "Paris, France",
     "region": "Europe",
     "email": "france@womeninrobotics.org",
-    "eventbrite": null,
+    "eventbrite": "https://www.eventbrite.com/o/women-in-robotics-france-114951167721",
     "meetup": null,
     "linkedin": null,
     "instagram": null,
     "webpage": null,
     "slack": "local_france",
     "time_offset": null,
-    "description": "Tahar Mylene\nMichelle Valente\nTahar Mylene\nMichelle Valente"
+    "description": "Tahar Mylene\nMichelle Valente"
   }
 ]
