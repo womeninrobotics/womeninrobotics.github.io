@@ -6,7 +6,7 @@ layout: post
 ---
 ## Celebrating Women in Robotics
 
-At Women in Robotics, we aim to share stories of inspiring women pushing the boundaries in Robotics.  Help us **shine a light** on these exceptional individuals by nominating someone who has made a significant impact on you, robotics research, industry innovation, community leadership, or education.
+At Women in Robotics, we aim to share stories of inspiring women pushing the boundaries in Robotics.  Help us **INSPIRE** women in robotics by nominating someone who has made a significant impact on you, robotics research, industry innovation, community leadership, or education.
 
 ## How to Nominate
 
