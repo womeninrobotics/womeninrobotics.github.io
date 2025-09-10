@@ -40,5 +40,26 @@
     "location": "online",
     "contact": "mentoring-committee@womeninrobotics.org",
     "group": "mentoring-committee"
+  },
+  {
+    "title": "Content scout",
+    "description": "Spot member wins, events, and resources, and drop them into our content bank.  Time commitment: 15 min/week",
+    "location": "online",
+    "contact": "content@womeninrobotics.org",
+    "group": "content"
+  },
+  {
+    "title": "Content captioner",
+    "description": "Turn stories into short, supportive posts with hashtags and calls to action. Time commitment: 15 min/week",
+    "location": "online",
+    "contact": "content@womeninrobotics.org",
+    "group": "content"
+  },
+  {
+    "title": "Amplifier",
+    "description": "Boost our reach by engaging with comments, thanking tags, and inviting new members. Time commitment: 5 min/week",
+    "location": "online",
+    "contact": "content@womeninrobotics.org",
+    "group": "content"
   }
 ]
