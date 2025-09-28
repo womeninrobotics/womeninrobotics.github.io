@@ -142,5 +142,14 @@
     "location": "Authentikka Indian Cuisine, 49809 Grand River Ave, Wixom, MI 48393",
     "url": null,
     "datetime": null
+  },
+  {
+    "name": "International Women in Robotics Day - Finland",
+    "date": "2025-10-02",
+    "time": "9:00:00 AM",
+    "region": "Europe",
+    "location": "Häme University of Applied Sciences HAMK,Kaartokatu 2, 11100 Riihimäki, Finland",
+    "url": "https://www.hamk.fi/en/events/women-in-robotics-day-2025/",
+    "datetime": null
   }
 ]
