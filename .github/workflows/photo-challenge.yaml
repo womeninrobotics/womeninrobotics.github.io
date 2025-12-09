@@ -31,7 +31,7 @@ jobs:
           published_sheet_url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTwL9OONwxvO5zGruIliv0TDh_d5ss-55N0tv8IDiQWzk_VQ1Mne0IhQImp_FX8qNJfdMcLBP9YppiZ/pub?gid=376278346&single=true&output=csv"
           output_file: "_data/photo_challenge.json"
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v7.0.8
+        uses: peter-evans/create-pull-request@v7.0.11
         with:
           committer: WIR Website Bot <website@womeninrobotics.org>
           base: main
