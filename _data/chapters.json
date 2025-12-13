@@ -334,5 +334,19 @@
     "slack": "local_france",
     "time_offset": null,
     "description": "Mylene Tahar\nMichelle Valente"
+  },
+  {
+    "name": "Greece",
+    "long_name": "Greece",
+    "region": "Europe",
+    "email": "greece@womeninrobotics.org",
+    "eventbrite": null,
+    "meetup": null,
+    "linkedin": null,
+    "instagram": null,
+    "webpage": null,
+    "slack": null,
+    "time_offset": null,
+    "description": null
   }
 ]
