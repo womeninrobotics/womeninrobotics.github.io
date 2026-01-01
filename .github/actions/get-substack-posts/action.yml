@@ -1,0 +1,21 @@
+name: Update posts from Substack RSS feed
+author: Mandy Meindersma
+description: "Get posts from Substack RSS feed and create Jekyll posts"
+
+inputs:
+  rss_url:
+    description: "The URL of the Substack RSS feed"
+    required: true
+  posts_dir:
+    description: "Directory where posts should be created"
+    required: true
+
+runs:
+  using: "composite"
+  steps:
+    - name: Get posts from RSS feed
+      shell: bash
+      run: .github/actions/get-substack-posts/get_posts.sh
+      env:
+        RSS_URL: ${{ inputs.rss_url }}
+        POSTS_DIR: ${{ inputs.posts_dir }}
