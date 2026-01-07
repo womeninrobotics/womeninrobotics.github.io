@@ -1,0 +1,34 @@
+name: Substack Posts
+
+on:
+  schedule:
+    # Run every other day at 2 AM UTC
+    # cron: "0 2 */2 * *" runs every 2 days
+    - cron: "0 2 */2 * *"
+  workflow_dispatch:
+  pull_request:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    name: Update posts from Substack
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.ACTION_TOKEN }}
+      - name: Update posts from Substack
+        uses: ./.github/actions/get-substack-posts/
+        with:
+          rss_url: "https://womeninrobotics.substack.com/feed"
+          posts_dir: "_posts"
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v7.0.11
+        with:
+          committer: WIR Website Bot <website@womeninrobotics.org>
+          base: main
+          commit-message: "Add new posts from Substack RSS feed"
+          title: "Add new posts from Substack"
+          body: "Adds new posts from the Women in Robotics Substack RSS feed."
+          branch: update-substack-posts
+          token: ${{ secrets.ACTION_TOKEN }}
