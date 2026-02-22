@@ -942,5 +942,21 @@
     "date": "2025-12-20",
     "time": "16:00:00",
     "url": "https://www.eventbrite.com/e/robotics-over-coffee-with-women-in-robotics-bay-area-tickets-1400293458429"
+  },
+  {
+    "name": "Women in Robotics CH x Hexagon",
+    "description": "WiR quarterly event with a company tour, inspiring stories, panel discussion, & networking. Open to all genders, organized by women.",
+    "location": "Switzerland",
+    "date": "2026-02-10",
+    "time": "17:30:00",
+    "url": "https://www.eventbrite.com/e/women-in-robotics-ch-x-hexagon-tickets-1981021752389"
+  },
+  {
+    "name": "Robotics over Coffee with Women in Robotics Bay Area",
+    "description": "Connect, Celebrate & Share",
+    "location": "Bay Area",
+    "date": "2026-02-21",
+    "time": "16:00:00",
+    "url": "https://www.eventbrite.com/e/robotics-over-coffee-with-women-in-robotics-bay-area-tickets-1400293468459"
   }
 ]
