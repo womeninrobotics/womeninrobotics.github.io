@@ -3,14 +3,6 @@
     "name": "Robotics over Coffee with Women in Robotics Bay Area",
     "description": "Connect, Celebrate & Share",
     "location": "Bay Area",
-    "date": "2026-02-21",
-    "time": "4:00:00 PM",
-    "url": "https://www.eventbrite.com/e/robotics-over-coffee-with-women-in-robotics-bay-area-tickets-1400293468459"
-  },
-  {
-    "name": "Robotics over Coffee with Women in Robotics Bay Area",
-    "description": "Connect, Celebrate & Share",
-    "location": "Bay Area",
     "date": "2026-04-18",
     "time": "4:00:00 PM",
     "url": "https://www.eventbrite.com/e/robotics-over-coffee-with-women-in-robotics-bay-area-tickets-1400293478489"
@@ -40,11 +32,11 @@
     "url": "https://www.eventbrite.com/e/robotics-over-coffee-with-women-in-robotics-bay-area-tickets-1400293508579"
   },
   {
-    "name": "Women in Robotics CH x Hexagon",
-    "description": "WiR quarterly event with a company tour, inspiring stories, panel discussion, & networking. Open to all genders, organized by women.",
-    "location": "Switzerland",
-    "date": "2026-02-10",
+    "name": "AI & Autonomy: From Research to Robots",
+    "description": "Join us for a talk on Vision-Language Models in embodied AI, followed by a live quadruped robot autonomy demo.",
+    "location": "Bay Area",
+    "date": "2026-02-27",
     "time": "5:30:00 PM",
-    "url": "https://www.eventbrite.com/e/women-in-robotics-ch-x-hexagon-tickets-1981021752389"
+    "url": "https://www.eventbrite.com/e/ai-autonomy-from-research-to-robots-tickets-1983383389108"
   }
 ]
