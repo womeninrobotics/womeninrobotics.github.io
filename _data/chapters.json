@@ -165,7 +165,7 @@
     "webpage": null,
     "slack": "local_ontario",
     "time_offset": 13.0,
-    "description": "Nevedhaa Ayyappan\nKatie Allison\nMia Thomas"
+    "description": "Katie Allison\nMia Thomas\nKarime Pereida"
   },
   {
     "name": "Vancouver",
@@ -348,5 +348,19 @@
     "slack": "local_greece",
     "time_offset": null,
     "description": "Ioanna Karatzoglou "
+  },
+  {
+    "name": "Peru",
+    "long_name": "Lima, Lima, Peru",
+    "region": null,
+    "email": "peru@womeninrobotics.org",
+    "eventbrite": null,
+    "meetup": null,
+    "linkedin": null,
+    "instagram": null,
+    "webpage": null,
+    "slack": null,
+    "time_offset": null,
+    "description": null
   }
 ]
