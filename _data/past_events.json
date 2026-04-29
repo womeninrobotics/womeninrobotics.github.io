@@ -958,5 +958,29 @@
     "date": "2026-02-21",
     "time": "16:00:00",
     "url": "https://www.eventbrite.com/e/robotics-over-coffee-with-women-in-robotics-bay-area-tickets-1400293468459"
+  },
+  {
+    "name": "AI & Autonomy: From Research to Robots",
+    "description": "Join us for a talk on Vision-Language Models in embodied AI, followed by a live quadruped robot autonomy demo.",
+    "location": "Bay Area",
+    "date": "2026-02-27",
+    "time": "17:30:00",
+    "url": "https://www.eventbrite.com/e/ai-autonomy-from-research-to-robots-tickets-1983383389108"
+  },
+  {
+    "name": "International Women's Day Coffee Chat",
+    "description": "Join Women in Robotics Ontario for a casual coffee chat meetup on International Women's Day!",
+    "location": "Ontario",
+    "date": "2026-03-08",
+    "time": "10:30:00",
+    "url": "https://www.eventbrite.com/e/international-womens-day-coffee-chat-tickets-1983982703674"
+  },
+  {
+    "name": "Robotics over Coffee with Women in Robotics Bay Area",
+    "description": "Connect, Celebrate & Share",
+    "location": "Bay Area",
+    "date": "2026-04-18",
+    "time": "16:00:00",
+    "url": "https://www.eventbrite.com/e/robotics-over-coffee-with-women-in-robotics-bay-area-tickets-1400293478489"
   }
 ]
