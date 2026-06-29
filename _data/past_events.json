@@ -982,5 +982,37 @@
     "date": "2026-04-18",
     "time": "16:00:00",
     "url": "https://www.eventbrite.com/e/robotics-over-coffee-with-women-in-robotics-bay-area-tickets-1400293478489"
+  },
+  {
+    "name": "Women in Robotics MI - Hike in the Park",
+    "description": "Join us for a morning hike and bird watching with some women rocking the robotics world!",
+    "location": "Michigan",
+    "date": "2026-06-14",
+    "time": "10:00:00",
+    "url": "https://www.eventbrite.com/e/women-in-robotics-mi-hike-in-the-park-tickets-1990330386765"
+  },
+  {
+    "name": "Robotics over Coffee with Women in Robotics Bay Area",
+    "description": "Connect, Celebrate & Share",
+    "location": "Bay Area",
+    "date": "2026-06-20",
+    "time": "16:00:00",
+    "url": "https://www.eventbrite.com/e/robotics-over-coffee-with-women-in-robotics-bay-area-tickets-1400293488519"
+  },
+  {
+    "name": "Robots & Quantum for kids",
+    "description": "Join us for a unique live experience where you can meet and interact with Anymal, the famous four-legged robot dog from ANYbotics.",
+    "location": "Switzerland",
+    "date": "2026-06-20",
+    "time": "10:30:00",
+    "url": "https://www.eventbrite.com/e/robots-quantum-for-kids-tickets-1991041664215"
+  },
+  {
+    "name": "Robotics Summer Party @ IPZ 2026",
+    "description": "After the great success last year, Women in Robotics invites you again to the Innovation Park Zurich!",
+    "location": "Switzerland",
+    "date": "2026-06-25",
+    "time": "17:00:00",
+    "url": "https://www.eventbrite.com/e/robotics-summer-party-ipz-2026-tickets-1989320720827"
   }
 ]
