@@ -1,6 +1,8 @@
 ---
 title: Member Spotlight - Mandy Meindersma
 image: /assets/images/member-spotlight-mandy-meindersma.png
+tags:
+    - spotlight
 ---
 Meet Mandy Meindersma, a “software by day, hardware by night” maker whose path to robotics started in an unlikely place: a rural high school shop class where a welding teacher taught soldering instead of code. Canadian-born and University of Alberta–trained, she’s now a New York–based web developer with a robotics streak, happiest when Java, Python, and a breadboard are all within reach.
 

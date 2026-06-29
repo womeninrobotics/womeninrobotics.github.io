@@ -1,6 +1,8 @@
 ---
 title: Women Writing About Robots
 image: /assets/images/women-writing-about-robots-169.png
+tags:
+    - annual-list
 ---
 The Women in Robotics ’50 women in robotics you need to know about’ list always features someone who is creative with robots, an artist, author or creator and this year not only do we have an award winning poet and author, but half a dozen other women who expand our knowledge of robots and robotics through the power of the word.
 

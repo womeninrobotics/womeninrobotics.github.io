@@ -1,6 +1,8 @@
 ---
 title: Announcing the Joanne Pransky Scholarship Winners for October 2024
 image: /assets/images/joanne-pransky-scholarship-winners-2024-q3.png
+tags:
+    - scholarship
 ---
 The **[Joanne Pransky Scholarship](https://bold.org/funds/women-in-robotics-scholarship-fund/)** was established to honor the legacy of **[Joanne Pransky](https://en.wikipedia.org/wiki/Joanne_Pransky)**, a pioneer and advocate for women in robotics. This scholarship supports young women pursuing careers in robotics and aims to foster inclusivity and diversity in the field.
 
