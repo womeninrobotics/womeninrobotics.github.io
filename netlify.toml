@@ -1,0 +1,7 @@
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/api/substack-feed"
+  to = "/.netlify/functions/substack-feed"
+  status = 200
