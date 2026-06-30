@@ -16,4 +16,4 @@ Garcia's accomplishments have earned her widespread recognition, including being
 
 Women in Robotics is a global community supporting women who work in robotics and women who are interested in working in robotics, as entrepreneurs, industry and academia. Our activities include local networking events, outreach, education, mentoring and the promotion of positive role models in robotics, both in research, industry, entrepreneurship and just plain fun.
 
-For more information about Women in Robotics and its mission, please visit [https://womeninrobotics.org/](https://womeninrobotics.org/).
+For more information about Women in Robotics and its mission, please visit [https://www.womeninrobotics.org/](https://www.womeninrobotics.org/).

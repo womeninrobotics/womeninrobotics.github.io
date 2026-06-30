@@ -15,4 +15,4 @@ Other members of the board include Laura Stelzner, Chair of Community Management
 
 Women in Robotics is committed to championing the women within the robotics community through local networking events, outreach, education, mentoring, and the promotion of positive role models in robotics. The organization is currently focusing on three projects to help women both newly in the field and career veterans: Project Inspire, Project Connect, and Project Advance.
 
-For more information about Women in Robotics and its mission, please visit [https://womeninrobotics.org/](https://womeninrobotics.org/).
+For more information about Women in Robotics and its mission, please visit [https://www.womeninrobotics.org/](https://www.womeninrobotics.org/).
