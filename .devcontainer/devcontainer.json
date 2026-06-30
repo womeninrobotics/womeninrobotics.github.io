@@ -3,11 +3,8 @@
 {
 	"name": "Women In Robotics Website",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/ruby:0-3-bullseye",
-	"features": {
-		"ghcr.io/devcontainers/features/node:1": {},
-		"ghcr.io/devcontainers/features/python:1": {}
-	},
+	"image": "mcr.microsoft.com/devcontainers/ruby:3.3",
+	"features": {},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
 		// Jekyll server
@@ -38,7 +35,12 @@
 				// editing
 				"streetsidesoftware.code-spell-checker",
 				"ms-vscode.wordcount"
-			]
+			],
+			"settings": {
+				"rubyLsp.rubyVersionManager": {
+					"identifier": "rvm"
+				}
+			}
 		}
 	}
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
