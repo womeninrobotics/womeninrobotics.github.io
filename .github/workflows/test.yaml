@@ -22,5 +22,35 @@ jobs:
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build
+      - name: Cache HTMLProofer
+        uses: actions/cache@v5
+        with:
+          path: tmp/.htmlproofer
+          key: ${{ runner.os }}-htmlproofer
       - name: Test with htmlproofer
-        run: .github/scripts/htmlproofer/entrypoint.sh
+        uses: athackst/htmlproofer-action@v2.0.1
+        with:
+          directory: ./_site
+          cache: '{ "timeframe": { "external": "2w", "internal": "1w" } }'
+          max_concurrency: 3
+          retries: 3
+          timeout: 30
+          connect_timeout: 10
+          ssl_verifypeer: false
+          ssl_verifyhost: 0
+          enforce_https: false
+          ignore_status_codes: |
+            403
+            999
+            429
+          ignore_urls: |
+            https://bootcamp.berkeley.edu/blog/free-stem-resources-for-girls-and-women-in-data-science-machine-learning-and-ai/
+            https://bootcamp.pe.gatech.edu/blog/how-to-empower-girls-in-stem/
+            /meetingplace.io/
+            /twitter.com/
+            https://women-in-robotics.printify.me/product/2634428/women-in-robotics-day-2023-unisex-jersey-short-sleeve-tee
+            https://women-in-robotics.printify.me/product/2634433/women-in-robotics-day-2023-womens-favorite-tee
+            /svrobo.org/
+          swap_urls: |
+            ^https?\://womeninrobotics[.]org/:/
+            ^https?\://www[.]womeninrobotics[.]org/:/
