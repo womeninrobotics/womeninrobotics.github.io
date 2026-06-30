@@ -39,8 +39,6 @@ layout: post
 * Picture a Scientist - <https://rocofilms.com/films/picture-a-scientist/>
 * Coded Bias - <https://www.codedbias.com/>
 * Women in STEM - <https://online.maryville.edu/blog/women-in-stem/>
-* Breaking the Glass Ceiling Early On: How to Empower Girls in STEM - <https://bootcamp.pe.gatech.edu/blog/how-to-empower-girls-in-stem/>
-* Free STEM Resources for Girls and Women Who Want to Work in Data Science, Machine Learning and AI - [https://bootcamp.berkeley.edu/blog/free-stem-resources-for-girls-and-women-in-data-science-machine-learning-and-ai](https://bootcamp.berkeley.edu/blog/free-stem-resources-for-girls-and-women-in-data-science-machine-learning-and-ai/)
 * [Women in Robotics Submission to National Robotics Strategy](/assets/WiR%20submission%20to%20Australia%20National%20Robotics%20Strategy.pdf)
 * [Undergraduate Robotics Pathways and Careers Speaker Series](https://robotics.umich.edu/academics/undergraduate/robotics-pathways-speaker-series/)
 
