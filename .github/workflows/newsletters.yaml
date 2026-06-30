@@ -1,0 +1,31 @@
+name: newsletters
+
+on:
+  schedule:
+    # Generate from https://crontab.guru/
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    name: Update newsletter posts
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          token: ${{ secrets.ACTION_TOKEN }}
+      - name: Import newsletters
+        env:
+          NEWSLETTER_FEED_URL: ${{ vars.NEWSLETTER_FEED_URL || 'https://www.womeninrobotics.org/api/substack-feed' }}
+        run: python3 .github/scripts/get-newsletters/newsletters.py
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v8.1.1
+        with:
+          committer: WIR Website Bot <website@womeninrobotics.org>
+          base: main
+          commit-message: "Update newsletter posts"
+          title: "Update newsletter posts"
+          body: "Adds new newsletter posts from the Women in Robotics Substack RSS feed."
+          branch: update-newsletters
+          token: ${{ secrets.ACTION_TOKEN }}
