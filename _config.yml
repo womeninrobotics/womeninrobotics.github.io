@@ -24,7 +24,7 @@ markdown: kramdown
 # SEO Data
 title: Women in Robotics
 description: Community for women working in robotics, and women who want to work in robotics.
-url: https://womeninrobotics.org
+url: https://www.womeninrobotics.org
 twitter:
   username: womeninroboticz
   card: summary_large_image
