@@ -21,6 +21,6 @@ There have always been women doing great things in robotics! And we’re pleased
 
 
 
-You can also join in the Women in Robotics celebrations today and throughout October, with events listed on the women in robotics site, like Diversity Cocktails at the IROS conference in Detroit, or the launch of the Los Angeles women in robotics chapter. Women in Robotics is a global community organization for women and non-binary people working in robotics and those who’d like to work in robotics. Learn more at <https://womeninrobotics.org>
+You can also join in the Women in Robotics celebrations today and throughout October, with events listed on the women in robotics site, like Diversity Cocktails at the IROS conference in Detroit, or the launch of the Los Angeles women in robotics chapter. Women in Robotics is a global community organization for women and non-binary people working in robotics and those who’d like to work in robotics. Learn more at <https://www.womeninrobotics.org>
 
 Join our events, host your own events, share our celebration on social media!
