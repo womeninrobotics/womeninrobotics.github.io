@@ -1,6 +1,8 @@
 ---
 title: Women in Robotics Scholarship in Celebration of Joanne Pransky
 image: /assets/images/screenshot-2023-07-23-at-1.56.47-pm.png
+tags:
+    - scholarship
 ---
 In celebration of the wonderful **Joanne Pransky, World’s First RoboPsychiatrist**, someone with an effervescent personality, curiosity, compassion and a commitment to supporting both social robots and seeing more women in robotics. Joanne spent her life working in comparatively industrial robotics areas and was usually the only woman in the room. But she went out of her way to make everyone feel welcome.
 

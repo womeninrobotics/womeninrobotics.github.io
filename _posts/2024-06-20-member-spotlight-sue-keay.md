@@ -1,6 +1,8 @@
 ---
 title: "Member Spotlight: Sue Keay"
 image: /assets/images/member-spotlight-sue-keay.png
+tags:
+    - spotlight
 ---
 In our latest Women in Robotics spotlight, we had the privilege of interviewing Sue Keay, a pioneering figure in Australia's robotics industry. She even recently won the **“[50 remarkable and inspirational women in Australian science](https://cosmosmagazine.com/people/society/50-remarkable-and-inspirational-women-in-australian-science/)”** list from Cosmos Magazine**.** From her beginnings as a research scientist in isotope geochemistry to becoming a driving force in robotics research management and commercialization, Sue shares her journey and insights on navigating the intersection of technology, industry, and sustainability. 
 
