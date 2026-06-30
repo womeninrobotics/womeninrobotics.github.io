@@ -19,7 +19,9 @@ event is a record:
 ```
 
 {% endcomment %}
-<div class="row mb-5">
+{%- assign event_date_key = event.date | date: '%Y%m%d' | plus: 0 -%}
+{%- assign today_key = 'now' | date: '%Y%m%d' | plus: 0 -%}
+<div class="row mb-5"{% if event_date_key < today_key %} data-proofer-ignore{% endif %}>
     <div class="col-md-4">
         <div class="card-block text-end">
             <h5>{{ event.date | date: '%A' }}</h5>
