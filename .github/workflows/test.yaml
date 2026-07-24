@@ -26,13 +26,14 @@ jobs:
         uses: actions/cache@v6
         with:
           path: tmp/.htmlproofer
-          key: ${{ runner.os }}-htmlproofer
+          key: ${{ runner.os }}-htmlproofer-${{ github.run_id }}
+          restore-keys: |
+            ${{ runner.os }}-htmlproofer-
       - name: Test with htmlproofer
         uses: athackst/htmlproofer-action@v2.1.0
         with:
           directory: ./_site
-          cache: '{ "timeframe": { "external": "2w", "internal": "1w" } }'
-          max_concurrency: 25
+          max_concurrency: 2
           retries: 3
           timeout: 30
           connect_timeout: 10
