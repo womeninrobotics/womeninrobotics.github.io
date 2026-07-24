@@ -33,14 +33,15 @@ jobs:
         uses: athackst/htmlproofer-action@v2.1.0
         with:
           directory: ./_site
-          enforce_https: false
-          host: https://www.womeninrobotics.org
           max_concurrency: 2
           retries: 3
           timeout: 30
           connect_timeout: 10
           ssl_verifypeer: false
           ssl_verifyhost: 0
+          enforce_https: false
+          host: https://www.womeninrobotics.org
+          base_path: ""
           ignore_status_codes: |
             403
             999
