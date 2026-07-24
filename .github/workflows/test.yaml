@@ -26,13 +26,19 @@ jobs:
         uses: actions/cache@v6
         with:
           path: tmp/.htmlproofer
-          key: ${{ runner.os }}-htmlproofer
+          key: ${{ runner.os }}-htmlproofer-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Test with htmlproofer
         uses: athackst/htmlproofer-action@v2.1.0
         with:
           directory: ./_site
           enforce_https: false
           host: https://www.womeninrobotics.org
+          max_concurrency: 2
+          retries: 6
+          timeout: 30
+          connect_timeout: 10
+          ssl_verifypeer: false
+          ssl_verifyhost: 0
           ignore_status_codes: |
             403
             999
@@ -40,3 +46,9 @@ jobs:
             /meetingplace.io/
             /twitter.com/
             /svrobo.org/
+      - name: Save cache
+        if: always()
+        uses: actions/cache/save@v6.1.0
+        with:
+          key: ${{ runner.os }}-htmlproofer-${{ github.run_id }}-${{ github.run_attempt }}
+          path: tmp/.htmlproofer
