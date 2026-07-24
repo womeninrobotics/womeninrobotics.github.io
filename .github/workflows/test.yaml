@@ -26,7 +26,7 @@ jobs:
         uses: actions/cache@v6
         with:
           path: tmp/.htmlproofer
-          key: ${{ runner.os }}-htmlproofer-${{ github.run_id }}
+          key: ${{ runner.os }}-htmlproofer-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
             ${{ runner.os }}-htmlproofer-
       - name: Test with htmlproofer
@@ -49,3 +49,9 @@ jobs:
             /meetingplace.io/
             /twitter.com/
             /svrobo.org/
+      - name: Save HTMLProofer cache
+        if: always()
+        uses: actions/cache/save@v6
+        with:
+          path: tmp/.htmlproofer
+          key: ${{ runner.os }}-htmlproofer-${{ github.run_id }}-${{ github.run_attempt }}
