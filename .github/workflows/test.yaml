@@ -30,7 +30,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-htmlproofer-
       - name: Test with htmlproofer
-        uses: athackst/htmlproofer-action@v2.1.0
+        uses: athackst/htmlproofer-action@v2.2.0
         with:
           directory: ./_site
           max_concurrency: 2
