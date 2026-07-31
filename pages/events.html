@@ -4,10 +4,12 @@ title: Events
 permalink: /events/
 ---
 <div class="container">
+    {% if site.data.events %}
     {% assign sorted_events = site.data.events | sort:"date" %}
     {% for event in sorted_events %}
     {% include event-card.html event=event %}
     {% endfor %}
+    {% endif %}
     <div class="col-md-8 offset-md-4 mb-5">
         <a href="/past-events/">Past events <i class="fa fa-arrow-right"></i></a>
     </div>
