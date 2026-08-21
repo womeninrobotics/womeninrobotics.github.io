@@ -4,22 +4,22 @@ image: /assets/images/wir-day-2026.png
 permalink: /wir-day/2026
 layout: post
 
-# infos:
-#   - title: "Celebrate"
-#     url: "/wir-day/2025/events"
-#     image: "/assets/images/wir-day-2025-celebrate.png"
-#     description: "Check for events on our calendar or add your own so we can celebrate with you!"
-#   - title: "Follow"
-#     url: "/wir-day/2025/follow"
-#     image: "/assets/images/wir-day-2025-news.png"
-#     description: "Sign up for our newsletter and follow us on LinkedIn to get all of our news."
-#   - title: "Share"
-#     url: "/wir-day/2025/share"
-#     image: "/assets/images/wir-day-2025-share.png"
-#     description: "Share a picture or story about a woman in robotics on social media and tag it with #IntWirDay #WomenInRobotics"
+infos:
+  - title: "Celebrate"
+    url: "/wir-day/2026/events"
+    image: "/assets/images/wir-day-2026-celebrate.png"
+    description: "Check for events on our calendar or add your own so we can celebrate with you!"
+  - title: "Follow"
+    url: "/wir-day/2026/follow"
+    image: "/assets/images/wir-day-2026-follow.png"
+    description: "Sign up for our newsletter and follow us on LinkedIn to get all of our news."
+  - title: "Share"
+    url: "/wir-day/2026/share"
+    image: "/assets/images/wir-day-2026-share.png"
+    description: "Share a picture or story about a woman in robotics on social media and tag it with #IntWirDay #WomenInRobotics."
 
 share_title: "Celebrate International Women in Robotics Day, Oct 7 2026! #IntWirDay #WomenInRobotics"
-share_url: "http://womeninrobotics.org/wir-day/2026"
+share_url: "https://womeninrobotics.org/wir-day/2026"
 ---
 
 ## October 7th
@@ -38,10 +38,10 @@ Women in Robotics champions this visibility year-round through our projects [Ins
 [](https://x.com/share?text={{ page.share_title | url_encode }}&url={{ page.share_url | url_encode }}){:target="_blank" .social-icon .fa .fa-twitter .fa-2x}
 [](https://www.linkedin.com/shareArticle?url={{ page.share_url | url_encode }}%2F&title={{ page.share_title | url_encode }}){:target="_blank" .social-icon .fa .fa-linkedin .fa-2x}
 
-<!-- {: .text-primary}
+{: .text-primary}
 ## Inspire. Connect. Advance.
 
-This year's theme for International Women in Robotics Day is **"Inspire. Connect. Advance."** It is the soul of who we are as an organization.  [Project Inspire](/project-inspire) tells the stories -- our [newsletter](/newsletter), our [annual list](/annual-list) and our [photo challenge](/photo-challenge) showcase the women at work in robotics.  [Project Connect](/project-connect) includes our global online community and local chapters, where relationships and opportunities take root.  [Project Advance](/project-advance) is our mentorship program, pairing women to help accelerate careers. -->
+This year's theme for International Women in Robotics Day is **"Inspire. Connect. Advance."** It is the soul of who we are as an organization.  [Project Inspire](/project-inspire) tells the stories -- our [newsletter](/newsletter), our [annual list](/annual-list) and our [photo challenge](/photo-challenge) showcase the women at work in robotics.  [Project Connect](/project-connect) includes our global online community and local chapters, where relationships and opportunities take root.  [Project Advance](/project-advance) is our mentorship program, pairing women to help accelerate careers.
 
 <div class="row">
 {% for info in page.infos %}
@@ -51,7 +51,7 @@ This year's theme for International Women in Robotics Day is **"Inspire. Connect
 
 ## Host an event
 
-Rally your team, lab, classroom, or community for Women in Robotics Day.  Events can be big or small: a coffee chat, a panel or lightnig talks, a lab tour, or a demo day, or a watch party for robotics talks.  Pick a format that fits your context, invite allies, and come together to celebrate womens voices in robotics.  When you're ready, register your event to be featured.
+Rally your team, lab, classroom, or community for Women in Robotics Day. Events can be big or small: a coffee chat, a panel or lightning talks, a lab tour, a demo day, or a watch party for robotics talks. Pick a format that fits your context, invite allies, and come together to celebrate women's voices in robotics. When you're ready, register your event to be featured.
 
 [Register an event](/wir-day-event-registration){:.btn .btn-lg .btn-default-filled .mb-5}
 

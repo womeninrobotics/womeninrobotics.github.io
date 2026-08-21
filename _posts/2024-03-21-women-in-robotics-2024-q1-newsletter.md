@@ -10,5 +10,5 @@ In this issue, you'll find highlights of 2023, a spotlight on Women in Robotics 
 [Read it here](https://womeninrobotics.substack.com/p/march-newsletter){: .btn .btn-lg .btn-default-filled .my-5}
 
 <div class="text-center">
-<iframe src="https://womeninrobotics.substack.com/embed" width="100%" height="320" style="background:white;" frameborder="0" scrolling="no"></iframe>
+{% include newsletter-embed.html height=320 %}
 </div>

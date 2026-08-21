@@ -8,5 +8,5 @@ tagline: "Women in Robotics Updates"
 [Read it on Substack](https://womeninrobotics.substack.com/p/women-in-robotics-newsletter-july){: .btn .btn-lg .btn-default-filled .my-5}
 
 <div class="text-center">
-<iframe src="https://womeninrobotics.substack.com/embed" width="100%" height="320" style="background:white;" frameborder="0" scrolling="no"></iframe>
+{% include newsletter-embed.html height=320 %}
 </div>
