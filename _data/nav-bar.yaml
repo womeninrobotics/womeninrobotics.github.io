@@ -34,16 +34,15 @@ pages:
     subpages:
       - title: Join the community
         url: /signup/
-      - title: Get the newsletter
+      - title: Subscribe
         url: /newsletter/
-      - title: Volunteer
-        url: /volunteer/
   - title: Support Us
     url: /
     subpages:
-      - title: Store
-        url: /store/
-      - title: Donate
-        url: /donate/
+      # Store and Donate are temporarily hidden.
+      # - title: Store
+      #   url: /store/
+      # - title: Donate
+      #   url: /donate/
       - title: Scholarship Fund
         url: /scholar/
