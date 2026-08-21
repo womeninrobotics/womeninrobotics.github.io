@@ -45,20 +45,8 @@ Network with professionals, find opportunities, and engage with thought leaders.
 
 [Follow us on LinkedIn]({{ site.social_media.linkedin }}){:target="_blank"}
 
-### Facebook
+### Substack
 
-Stay connected with our community, join discussions, and get the latest updates.
+Read our latest news, stories, and updates.
 
-[Follow us on Facebook]({{ site.social_media.facebook }}){:target="_blank"}
-
-### X / Twitter
-
-Join the conversation and share your thoughts using our hashtag #ShineALight.
-
-[Follow us on Twitter]({{ site.social_media.twitter }}){:target="_blank"}
-
-### Instagram
-
-Explore inspiring stories, event highlights, and behind-the-scenes content.
-
-[Follow us on Instagram]({{ site.social_media.instagram }}){:target="_blank"}
+[Follow us on Substack]({{ site.social_media.substack }}){:target="_blank"}

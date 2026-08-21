@@ -25,9 +25,10 @@ markdown: kramdown
 title: Women in Robotics
 description: Community for women working in robotics, and women who want to work in robotics.
 url: https://www.womeninrobotics.org
-twitter:
-  username: womeninroboticz
-  card: summary_large_image
+# Former Twitter/X metadata, retained in case the account is restored later.
+# twitter:
+#   username: womeninroboticz
+#   card: summary_large_image
 logo: /assets/images/logo/WiRLogo-200x200t.png
 
 # Site settings
@@ -39,12 +40,14 @@ join_url: /signup/
 
 # Social media info
 social_media:
-  facebook: https://www.facebook.com/womeninrobotics
-  twitter: https://twitter.com/womeninroboticz/
-  instagram: https://www.instagram.com/womeninroboticz/
-  pinterest: https://www.pinterest.com/womeninrobotics
   linkedin: https://www.linkedin.com/company/womeninrobotics/
-  email: info@womeninrobotics.org
+  substack: https://womeninrobotics.substack.com/
+  # Previously used social accounts, retained in case they are restored later.
+  # facebook: https://www.facebook.com/womeninrobotics
+  # twitter: https://twitter.com/womeninroboticz/
+  # instagram: https://www.instagram.com/womeninroboticz/
+  # pinterest: https://www.pinterest.com/womeninrobotics
+  # email: info@womeninrobotics.org
 
 # TODO (athackst) rss and atom feeds
 # atom_path: TODO

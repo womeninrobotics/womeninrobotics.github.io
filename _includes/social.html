@@ -25,6 +25,11 @@ Where fa_size is: [fa-2x, fa-lg,'']
     <i class="fa fa-linkedin {{ include.fa_size }}"></i>
 </a>
 {%- endif %}
+{%- if social.substack %}
+<a class="social-icon" href="{{ social.substack }}" data-proofer-ignore aria-label="Substack">
+    <i class="fa fa-newspaper-o {{ include.fa_size }}"></i>
+</a>
+{%- endif %}
 {%- if social.instagram %}
 <a class="social-icon" href="{{ social.instagram }}" data-proofer-ignore>
     <i class="fa fa-instagram {{ include.fa_size }}"></i>
