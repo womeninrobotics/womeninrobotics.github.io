@@ -8,5 +8,5 @@ tagline: "Making robots collaborative, inclusive, and accessible."
 [Read it on Substack](https://womeninrobotics.substack.com/p/women-in-robotics-human-centered){: .btn .btn-lg .btn-default-filled .my-5}
 
 <div class="text-center">
-<iframe src="https://womeninrobotics.substack.com/embed" width="100%" height="320" style="background:white;" frameborder="0" scrolling="no"></iframe>
+{% include newsletter-embed.html height=320 %}
 </div>

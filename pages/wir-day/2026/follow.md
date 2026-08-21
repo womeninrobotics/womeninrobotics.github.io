@@ -17,25 +17,7 @@ Join our community to engage in discussions, share resources, and connect with p
 
 Don't miss out on important updates and exclusive content! Subscribe to our monthly newsletter for insights, event highlights, and stories from women making a difference in robotics.
 
-<div id="custom-substack-embed" class="mb-5"></div>
-<script>
-    window.CustomSubstackWidget = {
-        substackUrl: "womeninrobotics.substack.com",
-        placeholder: "example@gmail.com",
-        buttonText: "Subscribe",
-        theme: "custom",
-        colors: {
-            primary: "#EB155B",
-            input: "#FFFFFF",
-            email: "#eeeeee",
-            text: "#FFFFFF",
-        },
-
-        // Go to substackapi.com to unlock custom redirect
-
-    };
-</script>
-<script src="https://substackapi.com/widget.js" async></script>
+{% include newsletter-embed.html %}
 
 ## Social Media
 
