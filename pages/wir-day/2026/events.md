@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Women in Robotics Day 2026 Events
-image: /assets/images/wir-day-2026.png
+image: /assets/images/wir-day-2026-celebrate.png
 permalink: /wir-day/2026/events/
 ---
 
@@ -12,6 +12,7 @@ Find an event local to you or [create your own](/wir-day-event-registration)!
 <div class="container pb-5">
     <div class="pb-5">
         {% assign events_by_year = site.data.wir_day_events | where_exp: "item", "item['date'] contains '2026'" %}
+        {% if events_by_year.size > 0 %}
         {% assign events_by_region = events_by_year | group_by:"region" %}
         {% for region in events_by_region %}
         <div>
@@ -21,6 +22,14 @@ Find an event local to you or [create your own](/wir-day-event-registration)!
             {% endfor %}
         </div>
         {% endfor %}
+        {% else %}
+        <div class="text-center">
+            <img class="img-fluid mb-4" src="/assets/images/wir-day-2026-placeholder.png"
+                alt="Women in Robotics Day, October 7, 2026">
+            <h2>Events coming soon</h2>
+            <p>Be the first to add a Women in Robotics Day event in your community.</p>
+        </div>
+        {% endif %}
     </div>
     <div class="massage-box alert-info">
         <strong>

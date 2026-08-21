@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Follow us
-image: /assets/images/wir-day-2026.png
+image: /assets/images/wir-day-2026-follow.png
 permalink: /wir-day/2026/follow/
 ---
 
@@ -27,7 +27,7 @@ Don't miss out on important updates and exclusive content! Subscribe to our mont
         colors: {
             primary: "#EB155B",
             input: "#FFFFFF",
-            email: "#eeeee",
+            email: "#eeeeee",
             text: "#FFFFFF",
         },
 
