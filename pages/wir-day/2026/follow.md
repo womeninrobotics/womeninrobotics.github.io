@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Follow us
-image: /assets/images/wir-day-2026-follow.png
+image: /assets/images/wir-day-2026-follow-square.png
 permalink: /wir-day/2026/follow/
 ---
 

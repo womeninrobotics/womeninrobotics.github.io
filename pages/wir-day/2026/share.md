@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Share
-image: /assets/images/wir-day-2026-share.png
+image: /assets/images/wir-day-2026-share-square.png
 permalink: /wir-day/2026/share/
 share_title: "Celebrate International Women in Robotics Day, Oct 7 2026! #IntWirDay #WomenInRobotics"
 share_url: "https://womeninrobotics.org/wir-day/2026"

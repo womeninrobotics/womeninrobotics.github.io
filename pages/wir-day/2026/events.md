@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Women in Robotics Day 2026 Events
-image: /assets/images/wir-day-2026-celebrate.png
+image: /assets/images/wir-day-2026-celebrate-square.png
 permalink: /wir-day/2026/events/
 ---
 

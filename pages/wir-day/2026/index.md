@@ -7,15 +7,15 @@ layout: post
 infos:
   - title: "Celebrate"
     url: "/wir-day/2026/events"
-    image: "/assets/images/wir-day-2026-celebrate.png"
+    image: "/assets/images/wir-day-2026-celebrate-square.png"
     description: "Check for events on our calendar or add your own so we can celebrate with you!"
   - title: "Follow"
     url: "/wir-day/2026/follow"
-    image: "/assets/images/wir-day-2026-follow.png"
+    image: "/assets/images/wir-day-2026-follow-square.png"
     description: "Sign up for our newsletter and follow us on LinkedIn to get all of our news."
   - title: "Share"
     url: "/wir-day/2026/share"
-    image: "/assets/images/wir-day-2026-share.png"
+    image: "/assets/images/wir-day-2026-share-square.png"
     description: "Share a picture or story about a woman in robotics on social media and tag it with #IntWirDay #WomenInRobotics."
 
 share_title: "Celebrate International Women in Robotics Day, Oct 7 2026! #IntWirDay #WomenInRobotics"
@@ -41,7 +41,9 @@ Women in Robotics champions this visibility year-round through our projects [Ins
 {: .text-primary}
 ## Inspire. Connect. Advance.
 
-This year's theme for International Women in Robotics Day is **"Inspire. Connect. Advance."** It is the soul of who we are as an organization.  [Project Inspire](/project-inspire) tells the stories -- our [newsletter](/newsletter), our [annual list](/annual-list) and our [photo challenge](/photo-challenge) showcase the women at work in robotics.  [Project Connect](/project-connect) includes our global online community and local chapters, where relationships and opportunities take root.  [Project Advance](/project-advance) is our mentorship program, pairing women to help accelerate careers.
+Women in Robotics is a global community for women working in robotics and those who aspire to. Our work is organized around three goals: **inspire, connect, and advance.**
+
+[Project Inspire](/project-inspire) tells the stories -- our [newsletter](/newsletter), our [annual list](/annual-list) and our [photo challenge](/photo-challenge) showcase the women at work in robotics.  [Project Connect](/project-connect) includes our global online community and local chapters, where relationships and opportunities take root.  [Project Advance](/project-advance) is our mentorship program, pairing women to help accelerate careers.
 
 <div class="row">
 {% for info in page.infos %}
