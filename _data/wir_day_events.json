@@ -187,5 +187,23 @@
     "location": null,
     "url": "https://www.eventbrite.com/e/international-women-in-robotics-day-tickets-1998364639431",
     "datetime": null
+  },
+  {
+    "name": "International WIR Day Panel Discussion",
+    "date": "2026-10-07",
+    "time": "12:00:00 PM",
+    "region": "Oceania",
+    "location": "Online",
+    "url": "https://airesearchers.helloclub.com/public/event/6aa7577586e2fe88fe7ae230/celebrating-international-women-in-robotics-day",
+    "datetime": null
+  },
+  {
+    "name": "Women in Robotics and tooling- Halo Industries",
+    "date": "2026-10-07",
+    "time": "6:00:00 PM",
+    "region": "Americas",
+    "location": "Santa Clara California",
+    "url": "https://www.eventbrite.com/e/women-in-robotics-and-tooling-halo-industries-tickets-2001630389377",
+    "datetime": null
   }
 ]
