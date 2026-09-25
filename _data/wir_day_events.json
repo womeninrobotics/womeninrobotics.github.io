@@ -223,5 +223,32 @@
     "location": "Online",
     "url": "https://events.teams.microsoft.com/event/f906dfb4-ca80-4359-9048-182f650014a6@ead05a39-44da-4a8a-8036-5a30272d0632?",
     "datetime": null
+  },
+  {
+    "name": "Women in Robotics and Tooling- Halo Industries",
+    "date": "2026-10-07",
+    "time": "6:00:00 PM",
+    "region": "Americas",
+    "location": "Santa Clara CA, exact location will be shared after RSVP",
+    "url": "https://www.eventbrite.com/e/women-in-robotics-and-tooling-halo-industries-tickets-2001630389377",
+    "datetime": null
+  },
+  {
+    "name": "Bots, Bevs and International Women in Robotics Day",
+    "date": "2026-10-07",
+    "time": "6:00:00 PM",
+    "region": "Americas",
+    "location": "599 Fairchild Dr Mountain View CA USA",
+    "url": "https://luma.com/rotwje1d",
+    "datetime": null
+  },
+  {
+    "name": "Olga",
+    "date": "2026-10-07",
+    "time": null,
+    "region": "Americas",
+    "location": null,
+    "url": null,
+    "datetime": null
   }
 ]
