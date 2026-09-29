@@ -95,7 +95,7 @@
     "webpage": null,
     "slack": "local_new_york",
     "time_offset": 12.0,
-    "description": "Mandy Meindersma\nJasmine Lawrence Campbell"
+    "description": "Jasmine Lawrence Campbell"
   },
   {
     "name": "Melbourne",
@@ -109,7 +109,7 @@
     "webpage": null,
     "slack": "local_australia",
     "time_offset": 21.0,
-    "description": "Poornima L Nathan\nNicci Rossouw/Exaptec"
+    "description": "Poornima L Nathan"
   },
   {
     "name": "Brisbane",
@@ -123,7 +123,7 @@
     "webpage": null,
     "slack": "local_australia",
     "time_offset": 21.0,
-    "description": "Sue Keay"
+    "description": "#N/A"
   },
   {
     "name": "San Antonio",
@@ -151,7 +151,7 @@
     "webpage": null,
     "slack": "local_pittsburgh",
     "time_offset": 13.0,
-    "description": "Jenn Apicella"
+    "description": "#N/A"
   },
   {
     "name": "Ontario",
@@ -179,7 +179,7 @@
     "webpage": null,
     "slack": "local_vancouver",
     "time_offset": 15.0,
-    "description": "Flora Huo\nKritika Joshi"
+    "description": "#N/A"
   },
   {
     "name": "Michigan",
@@ -249,7 +249,7 @@
     "webpage": null,
     "slack": "local_sweden",
     "time_offset": null,
-    "description": "Jennifer David"
+    "description": "#N/A"
   },
   {
     "name": "Colombia",
@@ -352,15 +352,15 @@
   {
     "name": "Peru",
     "long_name": "Lima, Lima, Peru",
-    "region": null,
+    "region": "Americas",
     "email": "peru@womeninrobotics.org",
     "eventbrite": null,
     "meetup": null,
     "linkedin": null,
     "instagram": null,
     "webpage": null,
-    "slack": null,
+    "slack": "local_peru",
     "time_offset": null,
-    "description": null
+    "description": "Jayden Oyola Risco\nYohanna Villanueva Veramendi"
   }
 ]
