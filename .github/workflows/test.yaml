@@ -45,6 +45,7 @@ jobs:
           ignore_status_codes: |
             403
             418
+            429
             999
           ignore_urls: |
             /meetingplace.io/
