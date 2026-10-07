@@ -27,12 +27,6 @@ board:
     joined: 2024
     image: /assets/images/board/Stephanie-Garcia.jpg
     linkedin: stephanie-garcia-61a101160
-  - name: Sanjuksha Nirgude
-    office: Board Member
-    joined: 2022
-    image: /assets/images/board/Sanjuksha-Nirgude.jpg
-    linkedin: sanjuksha
-    website: https://sanjuksha.github.io/
   - name: Lisa Winter
     office: Chair of Artwork/Swag
     location: Oakland, CA USA
@@ -41,6 +35,13 @@ board:
     twitter: lisawinterx
     instagram: lisawinterx
     linkedin: lisawinterx
+  - name: Sanjuksha Nirgude
+    office: Board Member
+    location: Fremont, CA USA
+    joined: 2022
+    image: /assets/images/board/Sanjuksha-Nirgude.jpg
+    linkedin: sanjuksha
+    website: https://sanjuksha.github.io/
   - name: Laura Stelzner
     office: Chair of Community Management
     location: Redwood City, CA USA
@@ -49,11 +50,13 @@ board:
     linkedin: lstelzner
   - name: Dharini Dutia
     office: Chair of Chapter Management
+    location: Los Angeles, CA USA
     joined: 2022
     image: /assets/images/board/Dharini-Dutia.jpeg
     linkedin: dharinidutia
   - name: Revati Naik
     office: Chapter Management Committee
+    location: San Jose, CA USA
     joined: 2026
     image: /assets/images/board/Revati-Naik.jpeg
     linkedin: revati-naik
