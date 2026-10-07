@@ -16,6 +16,124 @@ board:
     linkedin: allisonthackston
     website: https://www.allisonthackston.com
   - name: Laurie Linz
+    office: Board Member
+    location: Arvada, CO USA
+    joined: 2019
+    image: /assets/images/board/Laurie-Linz-LI.jpeg
+    linkedin: lauralinz
+  - name: Stephanie Garcia
+    office: Board Member
+    location: San Antonio, TX
+    joined: 2024
+    image: /assets/images/board/Stephanie-Garcia.jpg
+    linkedin: stephanie-garcia-61a101160
+  - name: Sanjuksha Nirgude
+    office: Board Member
+    joined: 2022
+    image: /assets/images/board/Sanjuksha-Nirgude.jpg
+    linkedin: sanjuksha
+    website: https://sanjuksha.github.io/
+  - name: Lisa Winter
+    office: Program lead Artwork/Swag
+    location: Oakland, CA USA
+    joined: 2019
+    image: /assets/images/board/Lisa-Winter-LI.jpeg
+    twitter: lisawinterx
+    instagram: lisawinterx
+    linkedin: lisawinterx
+  - name: Laura Stelzner
+    office: Chair of Community Management
+    location: Redwood City, CA USA
+    joined: 2021
+    image: /assets/images/board/Laura-Stelzner-LI.jpeg
+    linkedin: lstelzner
+  - name: Dharini Dutia
+    office: Chair of Chapter Formation
+    joined: 2022
+    image: /assets/images/board/Dharini-Dutia.jpeg
+    linkedin: dharinidutia
+  - name: Revati Naik
+    office: Chapter Management Committee
+    joined: 2026
+    image: /assets/images/board/Revati-Naik.jpeg
+    linkedin: revati-naik
+  
+advisors:
+  - name: Sue Keay
+    office:
+    location: Brisbane, QLD AUS
+    joined: 2019
+    image: /assets/images/board/Sue-Keay-LI.jpeg
+    linkedin: sue-keay-b9a8933
+  - name: Cynthia Yeung
+    office:
+    location: Austin, TX USA
+    joined: 2019
+    image: /assets/images/board/Cynthia-Yeung-LI.jpeg
+    linkedin: cynthiayeung
+  - name: Sarah Osentoski
+    office:
+    location: Sunnyvale, CA USA
+    joined: 2021
+    image: /assets/images/board/Sarah-Osentoski-LI.jpeg
+    linkedin: sarah-osentoski-42b8767
+  - name: Sabine Hauert
+    office:
+    location: Bristol, UK
+    joined: 2021
+    image: /assets/images/board/Saubine-Hauert-LI.jpeg
+    linkedin: sabinehauert
+  - name: Hallie Siegel
+    office:
+    location: Toronto, CANADA
+    joined: 2019
+    image: /assets/images/board/Hallie-Siegel-LI.jpeg
+    linkedin: halliesiegel
+  - name: Ariel Anders
+    office:
+    location: Bakersfield, CA USA
+    joined: 2021
+    image: /assets/images/board/Ariel-Anders-LI.jpeg
+    linkedin: ariel-anders
+  - name: Andrea Jurado
+    office:
+    joined: 2022
+    image: /assets/images/board/Andrea-Jurado.jpeg
+    linkedin: andreajurado14
+  - name: Antonia Tzemanaki
+    office:
+    joined: 2022
+    image: /assets/images/board/Antonia-Tzemanaki.jpeg
+    linkedin: antonia-tzemanaki-64660031
+  - name: Jeana diNatale
+    office:
+    joined: 2022
+    image: /assets/images/board/jeana-dinatale.png
+    linkedin: jeanadinatale
+  - name: Sonia Roberts
+    office:
+    joined: 2022
+    image: /assets/images/board/Sonia-Roberts.jpeg
+    linkedin: sonia-roberts-1bba7aa
+
+board-2025:
+  - name: Andra Keay
+    office: President, All Subcommittees
+    location: Oakland, CA USA
+    joined: 2019
+    image: /assets/images/board/Andra-Keay-LI.jpeg
+    twitter: robotopias
+    instagram: robotopias
+    linkedin: andra-keay
+  - name: Allison Thackston
+    office: Vice President, Chair of Technical Operations
+    location: San Jose, CA USA
+    joined: 2021
+    image: /assets/images/board/Allison-Thackston.jpeg
+    twitter: althack
+    linkedin: allisonthackston
+    website: https://www.allisonthackston.com
+  - name: Laurie Linz
     office: Treasurer
     location: Arvada, CO USA
     joined: 2019
@@ -78,6 +196,7 @@ board:
     joined: 2022
     image: /assets/images/board/Andrea-Jurado.jpeg
     linkedin: andreajurado14
+
 board-2023:
   - name: Andra Keay
     office: President, All Subcommittees
@@ -152,32 +271,6 @@ board-2023:
     joined: 2022
     image: /assets/images/board/Andrea-Jurado.jpeg
     linkedin: andreajurado14
-
-advisors:
-  - name: Sarah Osentoski
-    office: CoChair of Advisory Board SubCommittee
-    location: Sunnyvale, CA USA
-    joined: 2021
-    image: /assets/images/board/Sarah-Osentoski-LI.jpeg
-    linkedin: sarah-osentoski-42b8767
-  - name: Sabine Hauert
-    office: CoChair of Advisory Board SubCommittee
-    location: Bristol, UK
-    joined: 2021
-    image: /assets/images/board/Saubine-Hauert-LI.jpeg
-    linkedin: sabinehauert
-  - name: Hallie Siegel
-    office:
-    location: Toronto, CANADA
-    joined: 2019
-    image: /assets/images/board/Hallie-Siegel-LI.jpeg
-    linkedin: halliesiegel
-  - name: Ariel Anders
-    office:
-    location: Bakersfield, CA USA
-    joined: 2021
-    image: /assets/images/board/Ariel-Anders-LI.jpeg
-    linkedin: ariel-anders
 
 board-2022:
   - name: Andra Keay
