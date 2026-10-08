@@ -265,8 +265,17 @@
     "date": "2026-10-07",
     "time": "12:00:00 PM",
     "region": "Oceania",
-    "location": "ONline",
+    "location": "Online",
     "url": "https://events.teams.microsoft.com/event/907e316f-cc2d-477d-976a-6343b331ae43@ead05a39-44da-4a8a-8036-5a30272d0632?",
+    "datetime": null
+  },
+  {
+    "name": "Torc women connect ",
+    "date": "2026-10-07",
+    "time": null,
+    "region": null,
+    "location": null,
+    "url": null,
     "datetime": null
   }
 ]
