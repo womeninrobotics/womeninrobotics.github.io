@@ -52,7 +52,9 @@ permalink: /chapters/
                 <h2 class="text-primary">{{ region.name }}</h2>
                 <ul>
                     {%- for chapter in region.items %}
+                    {% if chapter.active == true %}
                     {% include chapter-card.html chapter=chapter %}
+                    {% endif %}
                     {%- endfor %}
                 </ul>
             </div>
