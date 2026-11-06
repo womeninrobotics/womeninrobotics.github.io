@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "name": "Hello Robot! @ZHAW",
+    "description": "The Factory of the Future, Running Tonight",
+    "location": "Switzerland",
+    "date": "2026-12-03",
+    "time": "6:00:00 PM",
+    "url": "https://www.eventbrite.com/e/hello-robot-zhaw-tickets-2004329571704"
+  }
+]
