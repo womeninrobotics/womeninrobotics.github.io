@@ -20,7 +20,7 @@ jobs:
           NEWSLETTER_FEED_URL: ${{ vars.NEWSLETTER_FEED_URL || 'https://www.womeninrobotics.org/api/substack-feed' }}
         run: python3 .github/scripts/get-newsletters/newsletters.py
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v8.1.1
+        uses: peter-evans/create-pull-request@v8.1.2
         with:
           committer: WIR Website Bot <website@womeninrobotics.org>
           base: main
