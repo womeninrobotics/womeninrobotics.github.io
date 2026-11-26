@@ -1046,5 +1046,21 @@
     "date": "2026-10-14",
     "time": "16:00:00",
     "url": "https://www.eventbrite.com/e/robotics-beyond-your-expectations-talks-lab-visits-at-epfl-tickets-2000411729332"
+  },
+  {
+    "name": "Women in Robotics Lakeside Social",
+    "description": "Chill with fellow robotics enthusiasts and share cool ideas by the water at this fun women-led meetup.",
+    "location": "Southern California",
+    "date": "2026-11-21",
+    "time": "10:00:00",
+    "url": "https://www.eventbrite.com/e/women-in-robotics-lakeside-social-tickets-2004870552793"
+  },
+  {
+    "name": "Movie night at DARE - Brilliant Minds: Robotics in the Greater Zurich Area",
+    "description": "Movie night at DARE is an in-person screening of Brilliant Minds: Robotics in the Greater Zurich Area. Join Women in Robotics Switzerland!",
+    "location": "Switzerland",
+    "date": "2026-11-25",
+    "time": "17:30:00",
+    "url": "https://www.eventbrite.com/e/movie-night-at-dare-brilliant-minds-robotics-in-the-greater-zurich-area-tickets-2004950863003"
   }
 ]
